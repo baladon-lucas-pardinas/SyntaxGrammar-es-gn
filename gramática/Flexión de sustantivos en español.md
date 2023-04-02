@@ -1,4 +1,4 @@
-ChatGPT answer
+ChatGPT answer - NONE OF THESE ACTUALLY WORK
 Yes, there are several Python libraries that can be used to determine the gender and number of a Spanish noun. Here are a few options:
 
 1.  Pattern: This is a Python library for data mining, natural language processing, and machine learning. It includes a module for inflecting Spanish nouns, which can be used to determine their gender and number. You can install it using `pip install pattern`.
@@ -13,7 +13,6 @@ Yes, there are several Python libraries that can be used to determine the gender
 
 2.  PyInflect: This is a library for inflection of words in various languages, including Spanish. You can install it using `pip install pyinflect`.
 
-python
 
 ```python
 import pyinflect
