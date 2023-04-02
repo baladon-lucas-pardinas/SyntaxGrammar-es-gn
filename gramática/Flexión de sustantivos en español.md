@@ -1,4 +1,36 @@
-ChatGPT answer - NONE OF THESE ACTUALLY WORK
+## Crawler para Wiktionary
+Podríamos hacerlo con un crawler de esta forma, incluso tomando el género y número para cada forma (a partir del valor de su fila o columna en la tabla), y construyendo los sustantivos con features de ese modo. 
+```python
+import requests
+from bs4 import BeautifulSoup
+
+# Define the URL for the Wiktionary page for "perro"
+url = "https://es.wiktionary.org/wiki/perro"
+
+# Send a request to the URL and get the HTML response
+response = requests.get(url)
+html = response.content
+
+# Use BeautifulSoup to parse the HTML and extract the inflected forms
+soup = BeautifulSoup(html, 'html.parser')
+
+inflection_table = soup.find('table', {'class': 'inflection-table'})
+rows = inflection_table.find_all('tr')[1:]  # skip the first row
+
+variations = []
+for row in rows:
+    cells = row.find_all('td')
+    for cell in cells:
+        variation = cell.text.strip()
+        if variation:
+            variations.append(variation)
+
+print(variations)
+# prints ['perro', 'perros', 'perra', 'perras']
+```
+
+
+## ChatGPT answer - NONE OF THESE ACTUALLY WORK
 Yes, there are several Python libraries that can be used to determine the gender and number of a Spanish noun. Here are a few options:
 
 1.  Pattern: This is a Python library for data mining, natural language processing, and machine learning. It includes a module for inflecting Spanish nouns, which can be used to determine their gender and number. You can install it using `pip install pattern`.
