@@ -1,0 +1,5 @@
+- [[Jopara]]: [[Loan words]] y [[Neologismos]]
+- Más palabras en español que en guaraní [[chiruzzo-dev-guarani-parallel-corpus.pdf]]
+- The sentence splitter was noisy for both Guarani and Spanish sentences alike [[chiruzzo-dev-guarani-parallel-corpus.pdf]]
+- Abreviaciones (Cnel -> Coronel) [[chiruzzo-dev-guarani-parallel-corpus.pdf]]
+- Orden de palabras distinto en alineaciones [[chiruzzo-dev-guarani-parallel-corpus.pdf]]
