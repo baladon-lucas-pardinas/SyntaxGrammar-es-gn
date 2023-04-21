@@ -1,3 +1,0 @@
-## Alfabeto
-
-![[Alfabeto.png]]
