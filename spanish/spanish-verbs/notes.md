@@ -11,4 +11,4 @@ Algunos verbos irregulares hay que controlarlos, quedaron medio raros: venir que
 El verbo ser no está sin conjugar en el diccionario de Corrientes. What I personally did was add it to the dicc_dc.txt, and rename it to dicc_custom.txt
 
 ## Verbos auxiliares
-Faltaban los verbos auxiliares del español, que están en otro archivo (vaux). Lo que hice yo fue unir ambos archivos y quedó pronto.
+Faltaban los verbos auxiliares del español, que están en otro archivo (vaux). Lo que hice yo fue unir ambos archivos (all.verbs.csv) y quedó pronto.
