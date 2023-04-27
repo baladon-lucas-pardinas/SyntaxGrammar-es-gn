@@ -24,7 +24,7 @@ def nasal(verb):
     return nasal
 
 def write_to_csv(filepath, rows):
-    with open(filepath, 'w', newline='', encoding="utf8") as file:
+    with open(filepath, 'w', newline='') as file:
         writer = csv.writer(file)
         for row in rows:
             writer.writerow(row)
