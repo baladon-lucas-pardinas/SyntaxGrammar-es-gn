@@ -1,5 +1,6 @@
 import csv
 
+# No hay irregulares en matched_nouns
 def irregular(verb):
     irregulares = ["'a", "'u", "y'u", "'yta", "'yguy"]
     return (verb in irregulares)
@@ -24,7 +25,7 @@ def nasal(verb):
     return nasal
 
 def write_to_csv(filepath, rows):
-    with open(filepath, 'w', encoding='utf-8', newline='') as file:
+    with open(filepath, 'w',newline='') as file:
         writer = csv.writer(file)
         for row in rows:
             writer.writerow(row)
@@ -71,7 +72,7 @@ def presente(line):
                         number = "S"
                     case "P":
                         if nasal(line[0]):
-                            verb = "ñai"+line[0]
+                            verb = "ñai" + line[0]
                         else:
                             verb = "jai"+line[0]
                         number = "P"
@@ -93,7 +94,7 @@ def presente(line):
                         number = "S"
                     case "P":
                         if nasal(line[0]):
-                            verb = 'ña'+line[0]
+                            verb = 'ña' + line[0]
                         else:
                             verb = "ja"+line[0]
                         number = "P"
