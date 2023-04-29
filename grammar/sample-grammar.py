@@ -6,9 +6,9 @@
 from nltk.grammar import FeatStructNonterminal, FeatureGrammar
 from nltk import grammar, parse
 from nltk.parse import ChartParser
-import random
+from nltk.parse.generate import generate
 
-grammar = '''
+feat_grammar = '''
 
 % start S
 
@@ -46,9 +46,13 @@ N[AGR=[GEN=m, NUM=sg, PER=ter], COMPS=[]] -> 'niño' | 'barrio' | 'vecino'
 N[AGR=[GEN=m, NUM=sg, PER=ter], COMPS=[pp]] -> 'guiso'
 N[AGR=[GEN=f, NUM=sg, PER=ter], COMPS=[]] -> 'casa' | 'manzana' | 'escuela' | 'tarde'
 N[AGR=[GEN=f, NUM=pl, PER=ter], COMPS=[]] -> 'lentejas'
+N[AGR=[GEN=m, NUM=pl, PER=ter], COMPS=[]] -> 'niños'
 
-V[AGR=[NUM=sg, PER=ter], COMPS=[pp, pp]] -> 'vuelve'
+V[AGR=[NUM=pl, PER=ter], COMPS=[pp, pp]] -> 'vuelven'
 V[AGR=[NUM=sg, PER=ter], COMPS=[np]] -> 'come' | 'es'
+
+V[AGR=[NUM=pl, PER=ter], COMPS=[]] -> 'son'
+V[AGR=[NUM=sg, PER=ter], COMPS=[]] -> 'vive'
 
 P[COMPS=[np]] -> 'de' | 'para'
 
@@ -56,25 +60,58 @@ RP[COMPS=[vp]] -> 'que'
 
 '''
 
-gram = FeatureGrammar.fromstring(grammar) 
+cfg_grammar = '''
 
-# parser = parse.FeatureEarleyChartParser(gram)
+% start S
 
-# trees = list(parser.parse(['el', 'niño', 'come', 'una', 'manzana']))
+#####################
+# Grammar Rules
+
+S -> NP V
+
+NP -> D N
+
+
+# ###################
+# Lexical Rules
+
+D  -> 'el'
+D  -> 'los'
+D  -> 'la'
+D  -> 'las'
+
+N -> 'niños'
+N -> 'barrio'
+N -> 'casa'
+N -> 'lentejas'
+
+V -> 'son'
+V -> 'vive'
+
+
+'''
+
+feat_gram = FeatureGrammar.fromstring(feat_grammar) 
+
+cfg_gram = grammar.CFG.fromstring(cfg_grammar)
+
+
+# parser = ChartParser(feat_gram)
+
+sentences = set()
+
+parser = parse.FeatureEarleyChartParser(feat_gram)
+
 
 # for tree in trees:
 #     print(tree)
 
-parser = ChartParser(gram)
+trees = list(parser.parse(['el', 'niño', 'come', 'una', 'manzana']))
 
-sentences = set()
+# print('\n'.join(sentences))
 
-# generate up to 10 sentences
-while len(sentences) < 3:
-    sentence = ' '.join(random.choice(['niño', 'guiso', 'lentejas']) + ' ' + random.choice(['vuelve', 'come', 'es']) for _ in range(random.randint(1, 5)))
-    trees = list(parser.parse(sentence.split()))
-    if trees:
-        words = [leaf[0] for tree in trees for leaf in tree.leaves()]
-        sentences.add(' '.join(words))
+for sentence in generate(cfg_gram):
+    if parser.parse_one(sentence):
+        sentences.add(' '.join(sentence))
 
 print('\n'.join(sentences))
