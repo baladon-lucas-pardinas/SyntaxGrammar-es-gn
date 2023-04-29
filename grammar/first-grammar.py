@@ -39,7 +39,7 @@ with open(noun_lexicon, newline='', encoding='utf-8') as csvfile:
         word = row[1]
         gender = row[5]
         number = row[6]
-        grammar_file.write(f"\nN[AGR=[GEN={gender.upper()}, NUM={number.upper()}]] -> '{word}'")
+        grammar_file.write(f"\nN[AGR=[GEN={gender.upper()}, NUM={number.upper()}, PER={'3'}]] -> '{word}'")
 
 grammar_file.close()
 #gram = FeatureGrammar.fromstring(grammar)
