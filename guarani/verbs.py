@@ -34,7 +34,7 @@ def write_verbs(verbs):
     matched = []
     unmatched = []
     for line in verbs:
-        match line[5]:
+        match line[7]:
             case "I":
                 possible, line = inflect_time(line)
                 if possible:
@@ -47,7 +47,7 @@ def write_verbs(verbs):
 
 def inflect_time(line):
     possible = True
-    match line[6]:
+    match line[8]:
         case "P":
             line = presente(line)
         case "I":
@@ -55,7 +55,7 @@ def inflect_time(line):
         case "F":
             line = futuro(line)
         case "S":
-            line = preterito_perfecto(line)
+            line = preterito_simple(line)
         case "C":
             possible = False
         
@@ -63,49 +63,64 @@ def inflect_time(line):
 
 def presente(line):
     if aireal(line[0]):
-        match line[7]:
+        match line[9]:
             case "1":
                 person = "1"
-                match line[8]:
+                match line[10]:
                     case "S":
-                        verb = "ai"+line[0]
+                        verb = "ai" + line[0]
                         number = "S"
                     case "P":
                         if nasal(line[0]):
-                            verb = "ñai" + line[0]
+                            if line[1] == 'I':
+                                verb = "ñai" + line[0]
+                            else:
+                                verb = 'roi' + line[0]
                         else:
-                            verb = "jai"+line[0]
+                            if line[1] == 'I':
+                                verb = "jai" + line[0]
+                            else:
+                                verb = 'roi' + line[0]
                         number = "P"
             case "2":
                 person = "2"
-                verb = "pei"+line[0]
+                verb = "pei" + line[0]
                 number = line[8]
             case "3":
                 person = "3"
-                verb = "oi"+line[0]
+                if line[2] == 'B':
+                    verb = "oi" + line[0]
+                else:
+                    verb = "roi" + line[0]
                 number = line[8]
     else:
-        match line[7]:
+        match line[9]:
             case "1":
                 person = "1"
-                match line[8]:
+                match line[10]:
                     case "S":
-                        verb = "a"+line[0]
+                        verb = "a" + line[0]
                         number = "S"
                     case "P":
                         if nasal(line[0]):
-                            verb = 'ña' + line[0]
+                            if line[1] == 'I':
+                                verb = 'ña' + line[0]
+                            else:
+                                verb = 'ro' + line[0]
                         else:
-                            verb = "ja"+line[0]
+                            if line[1] == 'I':
+                                verb = "ja" + line[0]
+                            else:
+                                verb = 'ro' + line[0]
                         number = "P"
             case "2":
                 person = "2"
-                verb = "pe"+line[0]
-                number = line[8]
+                verb = "pe" + line[0]
+                number = line[10]
             case "3":
                 person = "3"
                 verb = "o"+line[0]
-                number = line[8]
+                number = line[10]
     line = [verb, line[0],'V','I','P',person,number]+line[1:]
     return line
        
@@ -121,15 +136,43 @@ def futuro(line):
     line = [verb, line[1], 'V','I','F']+line[5:]
     return line
        
-def preterito_perfecto(line):
+def preterito_simple(line):
     line = presente(line)
-    verb = line[0]+'akue'
+    verb = line[0]+'kuri'
     line = [verb, line[1], 'V','I','F']+line[5:]
     return line
 
+def duplicate_plurals(verbs):
+    finished = []
+    for line in verbs:
+        match line[8]:
+            case 'S':
+                line = [line[0],'0','B'] + line[1:]
+                finished.append(line)
+            case'P':
+                match line[7]:
+                    case '1':
+                        line2 = line
+                        line = [line[0],'I','B'] + line[1:]
+                        finished.append(line)
+                        line2 = [line2[0],'E','B'] + line2[1:]
+                        finished.append(line2)
+                    case '2': 
+                        line = [line[0],'0','B'] + line[1:]
+                        finished.append(line)
+                    case '3': 
+                        line2 = line
+                        line = [line[0],'0','B'] + line[1:]
+                        finished.append(line)
+                        line2 =  [line2[0],'0','P'] + line2[1:]
+                        finished.append(line2)
+    return finished
+
 def main():
     verbs = read_csv("matched-verbs.csv")
-    matched, unmatched = write_verbs(verbs)
+    verbs2 = duplicate_plurals(verbs)
+    matched, unmatched = write_verbs(verbs2)
+    write_to_csv("matched-verbs-guarani2.csv", verbs2)
     write_to_csv("matched-verbs-guarani.csv", matched)
     write_to_csv("unmatched-verbs-guarani.csv", unmatched)
 

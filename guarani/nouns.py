@@ -34,7 +34,7 @@ def write_nouns(nouns):
         else:
             noun = line[0]
             number = 'S'
-        final.append([noun, line[0],'N','C',number]+line[1:])
+        final.append([noun, line[0],'N','C','0',number]+line[1:])
     return final
 
 
