@@ -2,7 +2,7 @@ import csv
 
 # No hay irregulares en matched_nouns
 def irregular(verb):
-    irregulares = ["'a", "'u", "y'u", "'yta", "'yguy"]
+    irregulares = ["‘a", "‘u", "y‘u", "‘yta", "‘yguy"]
     return (verb in irregulares)
 
 def aireal(verb):
@@ -41,6 +41,9 @@ def write_verbs(verbs):
                     matched.append(line)
                 else:
                     unmatched.append(line)
+            case "N":
+                line = [line[0],line[0],'V','M','N','0','0','0','0'] + line[1:]
+                matched.append(line)
             case _:
                 unmatched.append(line)
     return (matched,unmatched)
