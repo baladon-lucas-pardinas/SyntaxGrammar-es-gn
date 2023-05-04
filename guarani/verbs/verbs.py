@@ -1,6 +1,5 @@
 import csv
 
-# No hay irregulares en matched_nouns
 def irregular(verb):
     irregulares = ["‘a","‘u","yguy","yta","‘e","ha"]
     return (verb in irregulares)
@@ -372,6 +371,9 @@ def duplicate_plurals(verbs):
                         finished.append(line)
                         line2 =  [line2[0],'0','P'] + line2[1:]
                         finished.append(line2)
+            case _: #Son otros modos, no tienen persona ni numero
+                line = [line[0],'0','0'] + line[1:]
+                finished.append(line)
     return finished
 
 def main():
