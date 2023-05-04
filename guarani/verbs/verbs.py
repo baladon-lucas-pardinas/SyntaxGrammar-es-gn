@@ -170,9 +170,8 @@ def duplicate_plurals(verbs):
 
 def main():
     verbs = read_csv("matched-verbs.csv")
-    verbs2 = duplicate_plurals(verbs)
-    matched, unmatched = write_verbs(verbs2)
-    write_to_csv("matched-verbs-guarani2.csv", verbs2)
+    verbs = duplicate_plurals(verbs)
+    matched, unmatched = write_verbs(verbs)
     write_to_csv("matched-verbs-guarani.csv", matched)
     write_to_csv("unmatched-verbs-guarani.csv", unmatched)
 
