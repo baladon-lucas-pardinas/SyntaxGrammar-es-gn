@@ -171,8 +171,21 @@ def duplicate_plurals(verbs):
                         finished.append(line2)
     return finished
 
+def separar_verbos(verbs):
+    final = []
+    for v in verbs:
+        vlist = v[0].split("_")
+        #vlist2 = vlist[0].split('\"')
+        for i in vlist:
+            i = i.replace(",","")
+            #j = i.replace('\"','')
+            f = [i,i] + v[2:]
+            final.append(f)
+    return final
+
 def main():
     verbs = read_csv("matched-verbs.csv")
+    verbs = separar_verbos(verbs)
     verbs = duplicate_plurals(verbs)
     matched, unmatched = write_verbs(verbs)
     write_to_csv("matched-verbs-guarani.csv", matched)
