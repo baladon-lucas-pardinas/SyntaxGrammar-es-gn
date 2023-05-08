@@ -12,3 +12,6 @@ El verbo ser no está sin conjugar en el diccionario de Corrientes. What I perso
 
 ## Verbos auxiliares
 Faltaban los verbos auxiliares del español, que están en otro archivo (vaux). Lo que hice yo fue unir ambos archivos (all.verbs.csv) y quedó pronto.
+
+## Cantidad
+Al 8 de mayo, tenemos 1694 verbos distintos en español, es decir, infinitivos únicos.

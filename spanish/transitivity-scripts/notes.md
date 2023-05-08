@@ -1,0 +1,1 @@
+https://help.parsehub.com/hc/en-us/articles/217736068-Enter-a-list-of-keywords-into-a-search-box
