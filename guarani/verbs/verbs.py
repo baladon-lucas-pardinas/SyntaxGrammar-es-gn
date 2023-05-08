@@ -1,8 +1,7 @@
 import csv
 
-# No hay irregulares en matched_nouns
 def irregular(verb):
-    irregulares = ["‘a", "‘u", "y‘u", "‘yta", "‘yguy"]
+    irregulares = ["‘a","‘u","yguy","yta","‘e","ha"]
     return (verb in irregulares)
 
 def aireal(verb):
@@ -52,7 +51,10 @@ def inflect_time(line):
     possible = True
     match line[8]:
         case "P":
-            line = presente(line)
+            if irregular(line[0]):
+                line = inflect_irregular(line)
+            else:
+                line = presente(line)
         case "I":
             line = preterito_imperfecto(line)
         case "F":
@@ -128,21 +130,221 @@ def presente(line):
     return line
        
 def preterito_imperfecto(line):
-    line = presente(line)
+    if irregular(line[0]):
+        line = inflect_irregular(line)
+    else:
+        line = presente(line)
     verb = line[0]+'-mi'
     line = [verb, line[1], 'V','I','I']+line[5:]
     return line
        
 def futuro(line):
-    line = presente(line)
+    if irregular(line[0]):
+        line = inflect_irregular(line)
+    else:
+        line = presente(line)
     verb = line[0]+'t'
     line = [verb, line[1], 'V','I','F']+line[5:]
     return line
        
 def preterito_simple(line):
-    line = presente(line)
+    if irregular(line[0]):
+        line = inflect_irregular(line)
+    else:
+        line = presente(line)
     verb = line[0]+'kuri'
     line = [verb, line[1], 'V','I','F']+line[5:]
+    return line
+
+def inflect_irregular(verb):
+    v = ''
+    match verb[0]:
+        case "‘a":
+            match verb[9]:
+                case '1':
+                    match verb[10]:
+                        case 'S':
+                            v = "ha'a"
+                        case 'P':
+                            if verb[1] == 'I':
+                                v = "ja'a"
+                            else:
+                                v = "ro'a"
+                case '2':
+                    match verb[10]:
+                        case 'S':
+                            v = "re'a"
+                        case 'P':
+                            v = "pe'a"
+                case '3':
+                    match verb[10]:
+                        case 'S':
+                            v = "ho'a"
+                        case 'P':
+                            v = "ho'a"
+        case "‘u":
+            match verb[1]:
+                case "comer":
+                    match verb[9]:
+                        case '1':
+                            match verb[10]:
+                                case 'S':
+                                    v = "ha'u"
+                                case 'P':
+                                    if verb[1] == 'I':
+                                        v = "ja'u"
+                                    else:
+                                        v = "ro'u"
+                        case '2':
+                            match verb[10]:
+                                case 'S':
+                                    v = "re'u"
+                                case 'P':
+                                    v = "pe'u"
+                        case '3':
+                            match verb[10]:
+                                case 'S':
+                                    v = "ho'u"
+                                case 'P':
+                                    v = "ho'u"
+                case "beber":
+                    match verb[9]:
+                        case '1':
+                            match verb[10]:
+                                case 'S':
+                                    v = "hai'u"
+                                case 'P':
+                                    if verb[1] == 'I':
+                                        v = "jai'u"
+                                    else:
+                                        v = "roi'u"
+                        case '2':
+                            match verb[10]:
+                                case 'S':
+                                    v = "rei'u"
+                                case 'P':
+                                    v = "pei'u"
+                        case '3':
+                            match verb[10]:
+                                case 'S':
+                                    v = "hoi'u"
+                                case 'P':
+                                    v = "hoi'u"
+        case "yguy":
+            match verb[9]:
+                case '1':
+                    match verb[10]:
+                        case 'S':
+                            v = "ha'yguy"
+                        case 'P':
+                            if verb[1] == 'I':
+                                v = "ja'yguy"
+                            else:
+                                v = "ro'yguy"
+                case '2':
+                    match verb[10]:
+                        case 'S':
+                            v = "re'yguy"
+                        case 'P':
+                            v = "pe'yguy"
+                case '3':
+                    match verb[10]:
+                        case 'S':
+                            v = "ho'yguy"
+                        case 'P':
+                            v = "ho'yguy"
+        case "yta":
+            match verb[9]:
+                case '1':
+                    match verb[10]:
+                        case 'S':
+                            v = "ha'yta"
+                        case 'P':
+                            if verb[1] == 'I':
+                                v = "ja'yta"
+                            else:
+                                v = "ro'yta"
+                case '2':
+                    match verb[10]:
+                        case 'S':
+                            v = "re'yta"
+                        case 'P':
+                            v = "pe'yta"
+                case '3':
+                    match verb[10]:
+                        case 'S':
+                            v = "ho'yta"
+                        case 'P':
+                            v = "ho'yta"
+        case "‘e":
+            match verb[9]:
+                case '1':
+                    match verb[10]:
+                        case 'S':
+                            v = "ha'e"
+                        case 'P':
+                            if verb[1] == 'I':
+                                v = "ja'e"
+                            else:
+                                v = "ro'e"
+                case '2':
+                    match verb[10]:
+                        case 'S':
+                            v = "ere"
+                        case 'P':
+                            v = "peje"
+                case '3':
+                    match verb[10]:
+                        case 'S':
+                            v = "he'i"
+                        case 'P':
+                            v = "he'i"
+            match verb[9]:
+                case '1':
+                    match verb[10]:
+                        case 'S':
+                            v = "ha'yta"
+                        case 'P':
+                            if verb[1] == 'I':
+                                v = "ja'yta"
+                            else:
+                                v = "ro'yta"
+                case '2':
+                    match verb[10]:
+                        case 'S':
+                            v = "re'yta"
+                        case 'P':
+                            v = "pe'yta"
+                case '3':
+                    match verb[10]:
+                        case 'S':
+                            v = "ho'yta"
+                        case 'P':
+                            v = "ho'yta"
+        case "ha":
+            match verb[9]:
+                case '1':
+                    match verb[10]:
+                        case 'S':
+                            v = "aha"
+                        case 'P':
+                            if verb[1] == 'I':
+                                v = "jaha"
+                            else:
+                                v = "roho"
+                case '2':
+                    match verb[10]:
+                        case 'S':
+                            v = "reho"
+                        case 'P':
+                            v = "peju"
+                case '3':
+                    match verb[10]:
+                        case 'S':
+                            v = "oho"
+                        case 'P':
+                            v = "oho"
+    line = [v,verb[0],'V','I','P',verb[9],verb[10]] + verb[1:]
     return line
 
 def duplicate_plurals(verbs):
@@ -169,6 +371,9 @@ def duplicate_plurals(verbs):
                         finished.append(line)
                         line2 =  [line2[0],'0','P'] + line2[1:]
                         finished.append(line2)
+            case _: #Son otros modos, no tienen persona ni numero
+                line = [line[0],'0','0'] + line[1:]
+                finished.append(line)
     return finished
 
 def separar_verbos(verbs):
