@@ -1,0 +1,13 @@
+S -> NP VP
+VP -> V[intransitivo]			corre
+VP -> V[transitivo] NP			come la cena
+VP -> V[ditransitivo] NP PP[a]		dio un beso a ella
+VP -> V[copulativo] Adj			en guarani es solo: Adj
+NP -> D N[comun]			un hombre
+NP -> Pnb[personal] 			ella
+NP -> N[propio]
+NP -> NP Adj
+NP -> Adj NP
+NP -> NP PP
+
+
