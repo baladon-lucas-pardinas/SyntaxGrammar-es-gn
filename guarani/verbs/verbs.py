@@ -439,7 +439,6 @@ def inflect_defectivo(verb):
                         case 'P':
                             v = "ohua'ĩ"
     line = [v,verb[0],'V','I','P',verb[9],verb[10]] + verb[1:]
-    print(line)
     return line, posible
 
 def duplicate_plurals(verbs):
