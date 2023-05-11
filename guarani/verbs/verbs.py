@@ -1,5 +1,9 @@
 import csv
 
+def defectivos(verb):
+    defectivos = ["ko'i", "je'ói", "hua'ĩ"]
+    return verb in defectivos
+
 def irregular(verb):
     irregulares = ["‘a","‘u","yguy","yta","‘e","ha"]
     return (verb in irregulares)
@@ -53,14 +57,16 @@ def inflect_time(line):
         case "P":
             if irregular(line[0]):
                 line = inflect_irregular(line)
+            elif defectivos(line[0]):
+                line, possible = inflect_defectivo(line)
             else:
                 line = presente(line)
         case "I":
-            line = preterito_imperfecto(line)
+            line, possible = preterito_imperfecto(line)
         case "F":
-            line = futuro(line)
+            line, possible = futuro(line)
         case "S":
-            line = preterito_simple(line)
+            line, possible = preterito_simple(line)
         case "C":
             possible = False
         
@@ -130,31 +136,43 @@ def presente(line):
     return line
        
 def preterito_imperfecto(line):
+    pos = True
     if irregular(line[0]):
         line = inflect_irregular(line)
+    elif defectivos(line[0]):
+        line, pos = inflect_defectivo(line)
     else:
         line = presente(line)
-    verb = line[0]+'-mi'
-    line = [verb, line[1], 'V','I','I']+line[5:]
-    return line
+    if pos:
+        verb = line[0]+'mi'
+        line = [verb, line[1], 'V','I','I']+line[5:]
+    return line, pos
        
 def futuro(line):
+    pos = True
     if irregular(line[0]):
         line = inflect_irregular(line)
+    elif defectivos(line[0]):
+        line, pos = inflect_defectivo(line)
     else:
         line = presente(line)
-    verb = line[0]+'t'
-    line = [verb, line[1], 'V','I','F']+line[5:]
-    return line
+    if pos:
+        verb = line[0]+'t'
+        line = [verb, line[1], 'V','I','F']+line[5:]
+    return line, pos
        
 def preterito_simple(line):
+    pos = True
     if irregular(line[0]):
         line = inflect_irregular(line)
+    elif defectivos(line[0]):
+        line, pos = inflect_defectivo(line)
     else:
         line = presente(line)
-    verb = line[0]+'kuri'
-    line = [verb, line[1], 'V','I','F']+line[5:]
-    return line
+    if pos:
+        verb = line[0]+'kuri'
+        line = [verb, line[1], 'V','I','F']+line[5:]
+    return line, pos
 
 def inflect_irregular(verb):
     v = ''
@@ -347,6 +365,83 @@ def inflect_irregular(verb):
     line = [v,verb[0],'V','I','P',verb[9],verb[10]] + verb[1:]
     return line
 
+def inflect_defectivo(verb):
+    v = ''
+    posible = True
+    match verb[0]:
+        case "ko'i":
+            match verb[9]:
+                case '1':
+                    match verb[10]:
+                        case 'S':
+                            posible = False
+                        case 'P':
+                            if verb[1] == 'I':
+                                v = "jako'i"
+                            else:
+                                v = "roko'i"
+                case '2':
+                    match verb[10]:
+                        case 'S':
+                            posible = False
+                        case 'P':
+                            v = "peko'i"
+                case '3':
+                    match verb[10]:
+                        case 'S':
+                            posible = False
+                        case 'P':
+                            v = "oko'i"
+        case "je'ói":
+            match verb[9]:
+                case '1':
+                    match verb[10]:
+                        case 'S':
+                            posible = False
+                        case 'P':
+                            if verb[1] == 'I':
+                                v = "jaje'ói"
+                            else:
+                                v = "roje'ói"
+                case '2':
+                    match verb[10]:
+                        case 'S':
+                            posible = False
+                        case 'P':
+                            v = "peje'ói"
+                case '3':
+                    match verb[10]:
+                        case 'S':
+                            posible = False
+                        case 'P':
+                            v = "oje'ói"
+        case "hua'ĩ":
+            match verb[9]:
+                case '1':
+                    match verb[10]:
+                        case 'S':
+                            posible = False
+                        case 'P':
+                            if verb[1] == 'I':
+                                v = "ñahua'ĩ"
+                            else:
+                                v = "rohua'ĩ"
+                case '2':
+                    match verb[10]:
+                        case 'S':
+                            posible = False
+                        case 'P':
+                            v = "pehua'ĩ"
+                case '3':
+                    match verb[10]:
+                        case 'S':
+                            posible = False
+                        case 'P':
+                            v = "ohua'ĩ"
+    line = [v,verb[0],'V','I','P',verb[9],verb[10]] + verb[1:]
+    print(line)
+    return line, posible
+
 def duplicate_plurals(verbs):
     finished = []
     for line in verbs:
@@ -384,7 +479,7 @@ def separar_verbos(verbs):
         for i in vlist:
             i = i.replace(",","")
             #j = i.replace('\"','')
-            f = [i,i] + v[2:]
+            f = [i] + v[1:]
             final.append(f)
     return final
 
