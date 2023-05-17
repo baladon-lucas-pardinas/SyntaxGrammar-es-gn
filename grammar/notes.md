@@ -1,0 +1,6 @@
+Léase esto https://eli.thegreenplace.net/2010/01/28/generating-random-sentences-from-a-context-free-grammar/
+Es sobre cómo generar oraciones al azar a partir de una gramática libre de contexto de forma eficiente.
+
+Lo que tengo por ahora en custom-generate-sentences demora 14 segundos en generar 10 oraciones, 22 segundos en generar 100 oraciones, y para 10000 oraciones lo dejé 6 minutos y no había terminado, puede estar interesante probar con 1000 a ver. Igualmente parece poco escalable. Vale la pena aclarar que los primeros 12 segundos son de cargar la gramática de features e inicializar el parser de nltk. En generar 10000 oraciones sin parsearlas demora 0,5 segundos, lo mismo que para 10 oraciones. O sea que el cuello de botella es al parsear.
+
+Descontando entonces el tiempo de cargar la gramática, el parsear las oraciones demora 1,5 segundos para 10 oraciones, 11 segundos para 100 oraciones, y más de seis minutos (probablemente MUCHO más) para 10000 oraciones. Por ese motivo puede estar interesante unificar antes (o tal vez no, no lo sé), o usar otra herramienta capaz que sea más eficiente. Habría que probar con 1000 también a ver.
