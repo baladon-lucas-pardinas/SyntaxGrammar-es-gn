@@ -9,7 +9,7 @@ def parse_arguments():
     parser.add_argument('transitivities', type=str, help='Path to the transitivities file')
     parser.add_argument('-r', '--adverbs', type=str, help='Path to the adverb lexicon')
     parser.add_argument('-a', '--adjectives', type=str, help='Path to the adjective lexicon')
-    parser.add_argument('-d', '--determinants', type=str, help='Path to the determinant lexicon')
+    parser.add_argument('-d', '--determiners', type=str, help='Path to the determiner lexicon')
     parser.add_argument('-p', '--pronouns', type=str, help='Path to the pronoun lexicon')
     parser.add_argument('-s', '--adpositions', type=str, help='Path to the preposition lexicon')
     parser.add_argument('-o', '--output', type=str, default='output.txt', help='Path to the output file')
