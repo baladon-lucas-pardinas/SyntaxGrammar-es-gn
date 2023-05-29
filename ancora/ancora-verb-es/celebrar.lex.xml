@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="celebrar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+celebrar un rito ancestral con la mente en_blanco
+        </example>
+        <example>
+que celebraban la liberación en abril_de_1945
+        </example>
+        <example>
+celebrar por_todo_lo_alto - la vuelta a la vida civil
+        </example>
+        <example>
+que en aquellas fechas celebraban una reunión de hermandad en dicha ciudad
+        </example>
+        <example>
+la reunión que celebrará Aznar con el dirigente de la patronal CEOE
+        </example>
+        <example>
+decidió suspender temporalmente los comicios múltiples ante la imposibilidad " técnica " de celebrarlos el 28_de_mayo
+        </example>
+        <example>
+En_medio_de todo esto , dos millares de prostitutas procedentes de 23 países celebran a_partir_de hoy un congreso de cinco días
+        </example>
+        <example>
+además_de participar en la cumbre , *0* celebrará varias reuniones bilaterales
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+en Francia especialmente se celebraban las primeras carreras
+        </example>
+        <example>
+que se celebrará en Lima el 9 y 10_de_junio
+        </example>
+        <example>
+Un segundo debate se celebró el pasado_26_de_mayo
+        </example>
+        <example>
+que se celebrará el 6 y 7_de_junio en Windor
+        </example>
+        <example>
+que se celebra en Ginebra
+        </example>
+        <example>
+que se celebrarán el mismo día que el fallecido ex primer ministro
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

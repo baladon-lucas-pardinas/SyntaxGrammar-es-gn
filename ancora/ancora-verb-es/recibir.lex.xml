@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="recibir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin"/>
+      <examples>
+        <example>
+recibir los tambores de guerra en el Golfo
+        </example>
+        <example>
+El director de una filial bancaria de Leipzig recibió una proposición de sus superiores
+        </example>
+        <example>
+ahora los mandatos de la conciencia *0* los recibo por teletexto
+        </example>
+        <example>
+que recibe un golpe deportivo
+        </example>
+        <example>
+los accionistas recibirán un pago de capital de 90 francos suizos - 53 dólares - y un dividendo especial de 135 francos suizos - 80 dólares - por cada acción de Algroup
+        </example>
+        <example>
+que recibió las riendas del país del presidente Kamisese_Mara el lunes_pasado
+        </example>
+        <example>
+recibir el Premio_Internacional_Carlomagno
+        </example>
+        <example>
+*0* envíen y *0* reciban contenidos por internet
+        </example>
+        <example>
+la compañía recibió una multa
+        </example>
+        <example>
+*0* recibió de Sánchez_de_Lozada
+        </example>
+        <example>
+recibir la solicitud del primer ministro
+        </example>
+        <example>
+el presidente recibiera cientos de miles de dólares de regalo de amigos , mientras *0* ocupaba cargos públicos
+        </example>
+        <example>
+hace poco más de un mes *0* recibió un anónimo firmado por el grupo Legazpi
+        </example>
+        <example>
+En aquella época los consejeros de los bancos más importantes de España recibieron cartas conminatorias para_que - *0* pagaran a ETA
+        </example>
+        <example>
+el Gobierno_Vasco aún no ha recibido del ministerio la información sobre elcomando " Basurde " de ETA pese_a haberla solicitado
+        </example>
+        <example>
+que la ha recibido
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+donde *0* será recibido con honores militares por el presidente alemán
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <examples>
+        <example>
+Esta filosofía recibió el nombre de fordismo
+        </example>
+        <example>
+recibir culto que merece
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="cc" thematicrole="ins">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="oblique_subject">
+      <argument argument="arg3" function="suj" thematicrole="ins"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Aplausos y gritos recibieron esta noche en Los_Angeles a Joseph_Lieberman
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

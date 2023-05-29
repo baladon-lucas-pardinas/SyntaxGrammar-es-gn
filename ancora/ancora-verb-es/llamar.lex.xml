@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="llamar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+alguno de los venideros descendientes del señor Ruiz_Mateos podría llamarse Atrapado_Con_Leche
+        </example>
+        <example>
+- Que cómo va a llamarse el chiquillo ?
+        </example>
+        <example>
+el próximo nieto de la señora Caballé debería llamarse Chamuscado_Liceo
+        </example>
+        <example>
+desde_luego alguna chiquilla vistosa se tendría que llamar Piedra_Agujereada_En_Chalé_De_Somosaguas_González_y_González
+        </example>
+        <example>
+*0* Se llaman fosfenos
+        </example>
+        <example>
+que se llamaba la voz de la conciencia ?
+        </example>
+        <example>
+La primera de las desgracias del Real_Madrid se llama Ramón_Mendoza
+        </example>
+        <example>
+El tercer mal del Madrid se llama Benito_Floro
+        </example>
+        <example>
+que se llamaría motor de cuatro tiempos , por las cuatro carreras sucesivas del émbolo - aspiración , compresión , explosión y expulsión
+        </example>
+        <example>
+Por qué se llama Cortina el modelo Cortina
+        </example>
+        <example>
+- sin ningún desdoro uno de los grupos ecológicos más activos se llama Greenpeace , tanto en Inglaterra como en Italia , en Brasil o en Gales
+        </example>
+        <example>
+La Cruz_Roja , por_ejemplo , no se llama Red_Cross en todas partes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+que *0* llamamos simpatía
+        </example>
+        <example>
+al que *0* ha llamado Robin
+        </example>
+        <example>
+que ellos llaman la respuesta cerebral de interfase o BRI
+        </example>
+        <example>
+que *0* llamamos equilibrio ecológico
+        </example>
+        <example>
+que algunos llaman memoria genética
+        </example>
+        <example>
+que hoy *0* llamamos cultura
+        </example>
+        <example>
+nadie lo llamaría una perfección
+        </example>
+        <example>
+que *0* llamamos salud
+        </example>
+        <example>
+hoy *0* llamamos " el séptimo arte " ?
+        </example>
+        <example>
+incluso el portavoz del Grupo_Catalán , Miquel_Roca , la había llamado para solidarizarse con ella
+        </example>
+        <example>
+Pues a mí *0* me llamó hace poco para manifestarme su solidaridad -
+        </example>
+        <example>
+*0* me llamara Sofía como la señora de aquella película tan terrible
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+que se llama aprendizaje hebbiano
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+llamar la atención
+        </example>
+        <example>
+llamar la atención sobre la discriminación jurídica de su profesión frente_a otras
+        </example>
+        <example>
+La patronal vasca , Confebask , llamó hoy la atención sobre la existencia en la Comunidad_Autónoma_Vasca de 18.000 puestos de trabajo sin cubrir debido_a la falta de mano de obra adecuada , cuya incorporación al mercado laboral reduciría las previsiones sobre la tasa de paro para el año_2003 en dos puntos
+        </example>
+        <example>
+le llamaban los nazis
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Antonio ni_siquiera había llamado para decirle que *0* no venía
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el entrante primer ministro nombrado por el SDP-HSLS , Ivica_Racan , ha llamado al electorado a que vote por Budisa
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem"/>
+      <examples>
+        <example>
+llamada a desempeñar un papel importante
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argL" function="cc"/>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+una situación delicada para los llamados a filas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+Después de varias horas llamando a la puerta de la vivienda
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="hablar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="tras" type="sp"/>
+        <constituent preposition="durante" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Por su boca suelen hablar de_vez_en_cuando tanto el ministro de Relaciones_Exteriores , José_Vicente_Rangel , verdadero " portavoz " del Gobierno , como el presidente de la Comisión_Legislativa_Nacional - CLN - , o Congresillo , Luis_Miquilena , que es quien aparentemente tiene todos los resortes en el nuevo escenario electoral
+        </example>
+        <example>
+La Iglesia habla del problema del Mal en el mundo
+        </example>
+        <example>
+*0* hablo de los mediados años 70
+        </example>
+        <example>
+Cuando *0* no los vemos sino_que *0* oímos en nuestro interior su sordo zumbido de bacterias inquietas , los médicos hablan de tinnitus y de acufenos
+        </example>
+        <example>
+Tras la triple graduación todos hablaron de - reconstrucción - de Arkansas
+        </example>
+        <example>
+que hablara dentro_de mí
+        </example>
+        <example>
+*0* No hablaríamos ya de la renta per_cápita
+        </example>
+        <example>
+en 1828 el príncipe alemán Hermann_Puckler-Muskau habla de una diligencia que recorre cinco millas en media hora y desprende un insoportable olor a hierro y grasa
+        </example>
+        <example>
+hablar de cuestiones que no tienen nada que ver
+        </example>
+        <example>
+El presidente estadounidense habló por teléfono este miércoles con Arafat , para conocer su punto de vista de la situación
+        </example>
+        <example>
+quien también habló el miércoles por teléfono con Arafat para conocer la versión de las dos partes
+        </example>
+        <example>
+los dos líderes habían hablado sobre la cuestión muy
+        </example>
+        <example>
+Clinton y Schroeder hablaron de la naturaleza de las amenazas que Washington esgrime para justificar su proyecto
+        </example>
+        <example>
+La misión también habló con la secretaria de la Liga_Nacional_para_la_Democracia , Aung_San_Suu_Kyi , quien insistió en " la gravedad persistente del trabajo forzoso , en_particular debido_a su uso por militares y sobre las formas extremas que *0* podía adoptar con el reclutamiento de niños
+        </example>
+        <example>
+hablar de una recuperación definitiva
+        </example>
+        <example>
+no hablar de los conciertos históricos de Unión_Boricua , Los_Pleneros_de_la_21 y Los_Instantáneos_de_la_Bombiplena
+        </example>
+        <example>
+Fuera , Juana , una joven de 27 años con mirada levantisca y militante , hablaba de esta guerra
+        </example>
+        <example>
+Sin_embargo , nadie habla de un pequeño grupo de pioneros , unos 250.000 , que ha cruzado la frontera en dirección contraria , que ha marchado al - salvaje Este - , como se dice medio en_serio medio en_broma
+        </example>
+        <example>
+Tras la triple graduación todos hablaron de - reconstrucción - de Arkansas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A22.transitive-agentive-theme" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+*0* Nos hablaría mucho de nuestra juventud y nuestro presente
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A22.transitive-agentive-theme" type="impersonal">
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+se habla bastante a_menudo de que nuestra defensa , como_mínimo , roza la ilegalidad
+        </example>
+        <example>
+en el que se hablaba de un hombre que era capaz de decapitar una rata con los dientes
+        </example>
+        <example>
+Durante meses , ni se habló de ella
+        </example>
+        <example>
+De ZZNM se habla mucho
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A11.transitive-causative" type="causative">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el Duque_de_Rivas también hace hablar a las espadas en su - Don_Álvaro_o_lafuerza_del_sino -
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+Su marido , un pequeño empresario del sector informático , habla perfectamente el catalán
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

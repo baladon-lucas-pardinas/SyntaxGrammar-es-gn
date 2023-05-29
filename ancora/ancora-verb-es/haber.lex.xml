@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="haber" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="cd" functype="quantitative" thematicrole="tem"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+        <constituent preposition="sin" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="según" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="contra" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="hasta" type="sp"/>
+        <constituent preposition="durante" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Hay quien intenta cumplir y llamar la atención regalando cosas completamente absurdas .
+        </example>
+        <example>
+hay pasta para el Liceo
+        </example>
+        <example>
+no hay disponible un soldador para la Susi ?
+        </example>
+        <example>
+aún hay una tercera opción en el derribo .
+        </example>
+        <example>
+Hay veces que el cuerpo nos engaña por el puro placer de engañarnos .
+        </example>
+        <example>
+tiene que haber algo más .
+        </example>
+        <example>
+un oasis donde sólo hay una duna y los restos de un camello muerto .
+        </example>
+        <example>
+Nada hay más espantoso que ser rico en virtudes .
+        </example>
+        <example>
+hay muchos jugadores en poco espacio .
+        </example>
+        <example>
+no había tal voz
+        </example>
+        <example>
+Hay cosas que este Barcelona no podrá quizá nunca resolver contra un Madrid en buena forma .
+        </example>
+        <example>
+con Norris y Savic había un verdadero juego interior en el conjunto blaugrana
+        </example>
+        <example>
+no hay clasificación oficial al no existir una liga nacional universitaria
+        </example>
+        <example>
+hay suficiente talento en Grant_Hill y en Cherokee_Parks , ese hijo de - hippies - californianos que devuelve a Duke la presencia interior perdida desde que , a su vez , Christian_Laettner diera el salto a la NBA .
+        </example>
+        <example>
+No hay más remedio , a la vista del espectáculo bastante espasmódico de este Michigan-Duke
+        </example>
+        <example>
+Hay quien dice como si *0* fuera un halago que *0* sólo te han metido cinco goles en toda la temporada
+        </example>
+        <example>
+ahora hay gente que te odia
+        </example>
+        <example>
+Hay quien la critica
+        </example>
+        <example>
+pero también hay gente que la defiende
+        </example>
+        <example>
+hay unanimidad en pensar que los mejores equipos de la NBA son mejores que los_nuestros
+        </example>
+        <example>
+afortunadamente hay diversas opiniones al_respecto porque cuando hace unos años casi no había nadie a_favor_de las defensas agresivas era prácticamente imposible mejorar con esa desaprobación general .
+        </example>
+        <example>
+Entre la superioridad y el abuso hay trazada una línea de cortesía que Rominger no traspasó ayer .
+        </example>
+        <example>
+Hay directivos de baloncesto " de toda la vida " y los hay " advenedizos " .
+        </example>
+        <example>
+En la rata hay siempre algo de extraordinario , de extraordinariamente siniestro , que la convierte en un ser irreal , una de esas alimañas que pueblan el territorio de nuestros malos sueños y nos visitan las noches de fiebre .
+        </example>
+        <example>
+Hubo un grupo que formamos unos cuantos corredores de una generación en_vías_de extinción , llamado " sindicato " por algunos directores que nos veían siempre reunidos en los puntos de encuentro previo a la salida de las tres grandes rondas .
+        </example>
+        <example>
+con los " eternos rivales " , con los que , pese_a todo , sólo hay entablados pleitos caseros , riñas de vecindad .
+        </example>
+        <example>
+qué proporción tiene que haber de cada tipo
+        </example>
+        <example>
+Había diez varillas de control hechas de láminas de cadmio es conocido el enorme apetito del cadmio por los neutrones y clavadas a largas tiras de madera .
+        </example>
+        <example>
+Pero hay un inconveniente que repercute en la generosidad del macho .
+        </example>
+        <example>
+para la inmensa mayoría no hay ni salida ni retorno .
+        </example>
+        <example>
+Hay dos razones fundamentales por las que los titíes son lo suficientemente perversos como para elegir la poliandria .
+        </example>
+        <example>
+sólo en Villa_El_Salvador , el suburbio de la Madre_Coraje , hay 300.000 habitantes .
+        </example>
+        <example>
+había bastante gente en las calles , esto_es , en las veredas sin urbanizar que habían quedado abiertas entre las chozas .
+        </example>
+        <example>
+hay un ser capaz de crear sus propias herramientas para cada necesidad
+        </example>
+        <example>
+no pueden admitir que haya seres libres .
+        </example>
+        <example>
+hay un salto de energía hasta la siguiente banda vacía
+        </example>
+        <example>
+Pero hay algo más : ¿ cuáles son los mecanismos que rigen la existencia y la forma de actuar de los virus ? , ¿ por qué un determinado virus , como el del SIDA , no aparece , o *0* no se manifiesta en toda su plenitud sino hasta 1983 , año en que *0* es identificado ? , ¿ no antes , o después ?
+        </example>
+        <example>
+Hubo fuertes resistencias a su introducción , algunas tan pintorescas como la ley británica que exigía que delante de cada auto debía marchar un hombre con una bandera roja , si era de día , o una luz del mismo color , si era de noche .
+        </example>
+        <example>
+no había prohibiciones
+        </example>
+        <example>
+el bombazo : había homosexual .
+        </example>
+        <example>
+la destreza es infame si hay superioridad e inútil si hay igualdad - .
+        </example>
+        <example>
+hasta 1878 hubo Ómnibus de tal clase
+        </example>
+        <example>
+Hay algo en ZZNM que pide ser transcendentalizado , algo que lo emparienta con el mundo religioso .
+        </example>
+        <example>
+Pero hay una diferencia esencial entre la raza de ZZNM o ZZNF y nuestro Caballero_de_la_Triste_Figura .
+        </example>
+        <example>
+Hay desde_luego humor en estas subversiones de la buena fe de un personaje que , en caso contrario , corre el peligro de parecer demasiado excelso dentro de su locura
+        </example>
+        <example>
+no hay peor cosa que cantar en el ansia .
+        </example>
+        <example>
+Hay vida en alguna galaxia ?
+        </example>
+        <example>
+en la Universidad_de_Yale hay quien se ha entretenido coleccionándolas hasta llegar a las mil_seiscientas ...
+        </example>
+        <example>
+Anteriormente y a_lo_largo_de los siglos sólo hubo una política cultural : la de los invasores , la de los conquistadores , la de los imperios .
+        </example>
+        <example>
+hay destrucción de la entidad de unas cosas por la de otras , resta o sustracción del ser por el ser .
+        </example>
+        <example>
+Por eso , porque la misma actividad legisladora del entendimiento resulta del poder de la libertad , que es el de iniciar series de fenómenos , como dice la tesis de la tercera antinomia , no hay ningún producto racional que pueda sobreponerse a la libertad .
+        </example>
+        <example>
+sin autointuición no habría autoconciencia
+        </example>
+        <example>
+incentivar el mercado donde no lo hay .
+        </example>
+        <example>
+en Portugal hay un río llamado Mondego .
+        </example>
+        <example>
+haya división en las filas castrenses
+        </example>
+        <example>
+hay quienes aseguran que Fox sólo podrá vencer a Labastida , si *0* logra una alianza sólida con el PRD .
+        </example>
+        <example>
+Pero antes de eso , habrá otras coincidencias : cuando Clinton , esté llegando esta tarde al Palacio_de_Bellevue , donde *0* será recibido con honores militares por el presidente alemán , Johannes_Rau , a pocos metros de distancia , en la Avenida_17_de_Junio , los corredores de la Vuelta_Ciclista a Alemania darán los últimos golpes de pedal de su entrada triunfal a la capital .
+        </example>
+        <example>
+hay intereses comunes
+        </example>
+        <example>
+elevado grado de corrupción que *0* dice hubo durante la anterior administración .
+        </example>
+        <example>
+Uno de los pocos aspectos en que hay entendimiento
+        </example>
+        <example>
+hay desacuerdo sobre cómo hacerlo .
+        </example>
+        <example>
+por cada estudiante de FP hay tres universitarios , un 45_por_ciento de los cuales cursan carreras con muy pocas salidas laborales .
+        </example>
+        <example>
+Sin_embargo , para estudios de formación de la construcción , sector donde más oferta de empleo existe , sólo hay 172 alumnos matriculados en la CAV .
+        </example>
+        <example>
+*0* discutieron una amplia agenda en la que hubo " coincidencias " , según dijeron ambos al final de su encuentro .
+        </example>
+        <example>
+Hay cosas urgentes , problemas de tanta necesidad que se requiere de la oportunidad para analizarlos en forma conjunta
+        </example>
+        <example>
+No hay ducha
+        </example>
+        <example>
+Ya no hay marcha atrás
+        </example>
+        <example>
+En Erfurt no había ni cien abogados para 200.000 personas .
+        </example>
+        <example>
+También hay un huerto donde crecen tomates , lechugas y - estroberris - - fresas - , y un corral con conejos y gallos .
+        </example>
+        <example>
+Además , hay una cosa que tiene esta casita y que no se puede trasladal : el - fleivor - - el sabor - .
+        </example>
+        <example>
+pueblo famoso , como aquel de Zalamea donde también hubo un alcalde .
+        </example>
+        <example>
+No hay alharacas , ni fantasías , ni histerias ni romanticismos .
+        </example>
+        <example>
+no hay ná
+        </example>
+        <example>
+Las hubo cuando la reforma agraria , cuando el PER , cuando qué sé yo
+        </example>
+        <example>
+ha habido algo gordo
+        </example>
+        <example>
+aquí hay mucho por hacer .
+        </example>
+        <example>
+hay mucho trabajo .
+        </example>
+        <example>
+Como casi todos son jóvenes , no ha habido problema en reciclarlos - .
+        </example>
+        <example>
+no hubiera nunca una guillotina en la Plaza_Mayor
+        </example>
+        <example>
+Aquí ha habido una mentira que se ha fomentado durante años : se ha hecho creer que los catalanes son Miquel_Roca y sus muchachos
+        </example>
+        <example>
+Hay gente que cree que así *0* puede no_sólo aguantar hasta el verano sino cuatro años más .
+        </example>
+        <example>
+No hay ninguna denuncia
+        </example>
+        <example>
+el mejor ministro de Interior que ha habido
+        </example>
+        <example>
+En retirada ha habido algunas decepciones personales
+        </example>
+        <example>
+ahora no hay genios .
+        </example>
+        <example>
+Contra estas tentaciones no hay otra protección que la ley .
+        </example>
+        <example>
+Claro que en su época no había genios , como aquel baturro sordo , que pintó a la otra Cayetana , aquella gran española que andaba con más realeza y mejor porte que la propia reina sodomizada por Godoy .
+        </example>
+        <example>
+en_vez_de un Niño_Jesús , había dos .
+        </example>
+        <example>
+Entre los recuerdos que *0* archivo en mi memoria hay uno que compartirá otra mucha gente .
+        </example>
+        <example>
+Sí , hay muchos equipos de ésos pequeñitos .
+        </example>
+        <example>
+He aquí a_dónde conduce la lectura - .
+        </example>
+        <example>
+He aquí una prueba más del .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr"/>
+      <examples>
+        <example>
+¿Y qué hay de los nuevos cracks del mercado español?
+        </example>
+        <example>
+hay que salir a ganar"######
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <!--NOTA: hay que + infinitivo = ELS del verbo en infinitivo No etiquetar la oración como verbless, sino como una estructura impersonal:-->
+</lexentry>

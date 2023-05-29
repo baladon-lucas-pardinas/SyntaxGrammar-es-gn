@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="tener" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" functype="quantitative" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="según" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Mariano puede , felizmente , tener aún la oportunidad de seguir adelante con su pasión , aprovechando ese caudal de experiencia enormemente enriquecido por esta dura temporada .
+        </example>
+        <example>
+estudian las consecuencias que la retirada israelí del puede tener en Oriente_Medio .
+        </example>
+        <example>
+Muchos no podrán tener este año las 60 peonás necesarias - , sentenciaba Eduardo , mientras las mujeres dejaban a los hombres discutiendo si se vuelve a las tres_y_media o a las cuatro .
+        </example>
+        <example>
+*0* no tiene importancia
+        </example>
+        <example>
+el Madrid de los últimos meses no tiene estilo
+        </example>
+        <example>
+*0* no tiene estética
+        </example>
+        <example>
+*0* no tiene dinero
+        </example>
+        <example>
+*0* no tiene brújula
+        </example>
+        <example>
+por no tener
+        </example>
+        <example>
+*0* no tiene ni césped
+        </example>
+        <example>
+La señora Aguirre , que tiene para la limpieza una mentalidad de bruja menopáusica
+        </example>
+        <example>
+toda la derecha política y económica tiene de la limpieza un concepto penitencial y detergente , revanchista y represivo .
+        </example>
+        <example>
+*0* no tiene la menor intención de ponerme en ascuas
+        </example>
+        <example>
+pobladores no andaluces , que tuvieron no poca importancia
+        </example>
+        <example>
+Los neonatos tienen que tener la oportunidad de convertirse , gracias_a sus nombres , en mémoris ambulantes de los avatares de la Historia .
+        </example>
+        <example>
+algunas tardes a los mancos les duele el brazo que *0* no tienen
+        </example>
+        <example>
+actor de mayor o menor enjundia - *0* tiene muy buenos logros en su haber -
+        </example>
+        <example>
+Felipe_González - que a_lo_que_parece no ha perdido del_todo el carisma aquel que *0* tuvo
+        </example>
+        <example>
+la vida no tiene más_que una lectura apresurada , breve y caprichosa
+        </example>
+        <example>
+por qué *0* tienen entonces nuevo presidente
+        </example>
+        <example>
+Los técnicos negros han tenido proporcionalmente muchas menos oportunidades en la NCAA que en la NBA
+        </example>
+        <example>
+*0* tengo buenos amigos en Madrid y del Real_Madrid
+        </example>
+        <example>
+el Barcelona tenía mucho más margen para mejorar .
+        </example>
+        <example>
+quien tiene el base y el pívot tiene el éxito asegurado .
+        </example>
+        <example>
+*0* Tenías los lujos de los intocables
+        </example>
+        <example>
+Pese_a_que *0* es rentable publicitariamente , como *0* estamos viendo en todos los medios de comunicación estos días , el ciclismo español tiene un gran problema de base .
+        </example>
+        <example>
+Tampoco los equipos profesionales , a_excepción_de Banesto , tiene un equipo cantera donde observar el desarrollo de los jóvenes y proyectarles hacia la élite .
+        </example>
+        <example>
+Hoy *0* tenemos al mejor ciclista mundial , Miguel_Indurain
+        </example>
+        <example>
+La etapa tuvo cincuenta metros de más
+        </example>
+        <example>
+al_final *0* creas un grupo de amigos que sólo tiene una publicidad : la amistad .
+        </example>
+        <example>
+Las criaturas tienen un ADN digital
+        </example>
+        <example>
+Los mbitis , al_igual_que otras criaturas diseñadas de esta forma , no tienen ni carne ni cutícula
+        </example>
+        <example>
+a_partir_de_ahí cada fila alterna tenía pseudoesferas de uranio .
+        </example>
+        <example>
+Algunos ladrillos tenían ranuras para insertar y retirar las varillas de control .
+        </example>
+        <example>
+Así , a temperatura ambiente , el TCNQ-TTF tiene un valor de 500 - el correspondiente valor para el cobre es 6.105 - .
+        </example>
+        <example>
+*0* tenía veintiséis años
+        </example>
+        <example>
+*0* tenía cinco años
+        </example>
+        <example>
+Anthoney_Mngani tenía 29 años .
+        </example>
+        <example>
+*0* tenía 14 años .
+        </example>
+        <example>
+- Yo voy a democratizar el automóvil - decía Ford - y cuando *0* lo haga todo el mundo podrá comprar uno y casi todo el mundo tendrá uno .
+        </example>
+        <example>
+viejos conocidos que tuvieron un origen común .
+        </example>
+        <example>
+- Qué moles tendrán *0* ?
+        </example>
+        <example>
+También la comunicación puede tener su vehículo en la piel de los animales .
+        </example>
+        <example>
+Tuvo todo el partido de anoche algo de revuelta de desahuciados , de algarada de convictos , de levantamiento zapatista por parte del Real_Madrid .
+        </example>
+        <example>
+Pero anoche , sobre el césped rojiblanco , la burraca maleada y retorcida en que se ha convertido el Madrid tuvo el coraje y la vergüenza necesaria para alzarse contra su decrepitud , su desnorte y su mal fario con las armas de los desheredados : muchas glándulas , mucho nervio , mucha embestida y el arsenal de músculos , fulgores y tosquedades que la desgracia y la desesperación pone en mano de los combatientes campesinos .
+        </example>
+        <example>
+*0* no se pueden ver , que *0* se tienen manía
+        </example>
+        <example>
+Y aunque estas malquerencias nos toquen a todos en_privado - *0* tenemos tirrias - en política no es bueno que prive ese rotundo y tan abrumador factor humano .
+        </example>
+        <example>
+realmente *0* no tuvo fuerzas para atacar desde más lejos , como en Sierra_Nevada .
+        </example>
+        <example>
+Debido_a ella , *0* tienen , además , la facultad de aprender y reaccionar ante nuevas situaciones .
+        </example>
+        <example>
+fotones que tienen un alto poder de penetración , aunque no pueden traspasar el plomo .
+        </example>
+        <example>
+La fiebre armamentista alimentada por la llamada guerra fría desorbitó los arsenales nucleares de las grandes potencias - Estados_Unidos y la desaparecida Unión_Soviética - , que llegaron a tener capacidad para destruir varias veces la propia Tierra .
+        </example>
+        <example>
+se acabaron los tiempos en que la Historia tenía mucha categoría , mucho poderío , mucho futuro , mucha grandeza .
+        </example>
+        <example>
+las múltiples adaptaciones que tenía que hacer Aíto tenían más miga que el retoque defensivo madridista - que , por_otra_parte , funcionó bien - .
+        </example>
+        <example>
+El Madrid , al encontrarle o descubrirle , ha tenido fortuna deportiva y sentimental .
+        </example>
+        <example>
+Tuvieron suerte los blancos .
+        </example>
+        <example>
+Jon_Unzaga , el mejor corredor ayer junto_al ganador , tuvo fuerzas hasta los kilómetros finales para absorber a los " banesto " .
+        </example>
+        <example>
+Aunque las investigaciones que se llevaran_a_cabo tuvieran un fin pacifico
+        </example>
+        <example>
+Los cuarenta muertos y más de doscientos hospitalizados tuvieron el dudoso privilegio de bautizar la enfermedad como el mal del legionario .
+        </example>
+        <example>
+el conflicto representado por el obstinado que a nadie atiende tiene alcance público y objetivo
+        </example>
+        <example>
+Después_del lance *0* tenían la obligación de redactar un protocolo escrito , esencial sobre_todo en el caso en que uno de los duelistas cayera herido mortalmente , ya_que sobre el otro recaería la responsabilidad penal .
+        </example>
+        <example>
+ambos tuvieran las mismas oportunidades de abandonar el terreno siendo el vencedor .
+        </example>
+        <example>
+las grandes obras literarias de humor tienen siempre algo de desconcertante , de equívoco , que propicia su desvirtuamiento en uno u otro sentido .
+        </example>
+        <example>
+sus palizas tienen algo de onírico , como las de los dibujos animados
+        </example>
+        <example>
+La cultura llega a ser el mundo propio del hombre aunque éste tenga por marco la Naturaleza
+        </example>
+        <example>
+el lenguaje en_tanto_que ámbito semántico , es_decir , que tiene un sentido : el conjunto de las representaciones que pueden ser sugeridas por el enunciado de una palabra , un concepto o un símbolo
+        </example>
+        <example>
+la autonomía , que es - el fundamento de la dignidad del ser racional , la tenemos los hombres en_cuanto seres nouménicos
+        </example>
+        <example>
+*0* tenemos capacidad autolegisladora en_cuanto impenetrables al autoconocimiento
+        </example>
+        <example>
+Los otros nombres de modelos tenían un significado claro .
+        </example>
+        <example>
+y que tan buenos resultados " ha tenido para el empleo y la Seguridad_Social .
+        </example>
+        <example>
+la reforma laboral de 1997 , fruto de los acuerdos alcanzados con los agentes sociales , tuvo efectos " extraordinarios " sobre el empleo
+        </example>
+        <example>
+El Komercni_Banka tenía una plantilla de 13.487 empleados a_fines_de 1999
+        </example>
+        <example>
+*0* siguen teniendo un_poco_menos_de 50.000 empleados .
+        </example>
+        <example>
+el autoproclamado Gobierno que formó Speight el 20_de_mayo tiene " el mandato del pueblo "
+        </example>
+        <example>
+Luis_Miquilena , que es quien aparentemente tiene todos los resortes en el nuevo escenario electoral .
+        </example>
+        <example>
+los nuevos miembros del CNE deben tener xperiencia para " dirigir procesos complejos "
+        </example>
+        <example>
+De los seis candidatos que buscan la presidencia de México , solamente el oficialista Francisco_Labastida , y el conservador Vicente_Fox , de la Alianza_por_el_Cambio , tienen mayores posibilidades de ganar las elecciones , según la mayoría de los sondeos de opinión difundidos en los últimos dos meses .
+        </example>
+        <example>
+*0* acusó al líder del PRD de tener nexos con Labastida .
+        </example>
+        <example>
+Además , estas dos naciones tienen una larga historia de relaciones , desde que , hace 150 años , se produjera la primera migración china al Perú .
+        </example>
+        <example>
+las perspectivas que sobre esta tiene el responsable de este departamento ministerial .
+        </example>
+        <example>
+el máximo instrumento que la OEA tiene para preservar la democracia representativa en el continente .
+        </example>
+        <example>
+la amnistía tiene por objetivo " pacificar al país " , y devolver la tranquilidad que la nación necesita para atender otros problemas urgentes como la crisis económica , la pobreza .
+        </example>
+        <example>
+las profesiones relacionadas con las altas tecnologías , los oficios tradicionales y los empleos de poca cualificación son los que más escasez de trabajadores tienen
+        </example>
+        <example>
+*0* tiene dos hijos
+        </example>
+        <example>
+Familiares de López_de_Coca tienen participación en la empresa Colisur_2000 , ubicada Picón - Ciudad_Real - , una planta transformadora a la que la Consejería le retiró la autorización para emitir certificados de transformación para el cobro de las ayudas comunitarias que existen para esta actividad .
+        </example>
+        <example>
+En opinión de Fidalgo , " ni ste Gobierno ni los anteriores han tenido el valor suficiente para atajar ese incremento del gasto farmacéutico , que está parasitando el gasto sanitario y evitando que se liberen recursos para aumentar el número de camas , las dotaciones y ampliar los servicios de atención a los pacientes " .
+        </example>
+        <example>
+la caja de ahorros en cuestión tiene su sede en el mismísimo centro de Barcelona
+        </example>
+        <example>
+en el mismo mes de 1999 el desempleo tuvo una reducción de 58.880 personas , mientras_que en los últimos doce meses *0* bajó en 117.951 personas , un 7,15_por_ciento .
+        </example>
+        <example>
+El hermano mayor tiene la mirada extraviada , perdida .
+        </example>
+        <example>
+es lo único que *0* tengo !
+        </example>
+        <example>
+- La gente aquí tiene los mismos problemas que en el Oeste y en todas partes .
+        </example>
+        <example>
+Cada marcha tiene su propia razón de ser , dice la señora Greenberg .
+        </example>
+        <example>
+*0* no tengo ni un centavo - .
+        </example>
+        <example>
+hay una cosa que tiene esta casita
+        </example>
+        <example>
+un paraíso donde ni la inflación tiene presencia .
+        </example>
+        <example>
+la fuente de colores que *0* no tienen en El_Rubio , el pueblo de al_lado .
+        </example>
+        <example>
+Ahora *0* tengo a dos chicos que trabajan para mí .
+        </example>
+        <example>
+Los estetas del partido ya tenían experiencia en ello porque lo mismo *0* habían hecho antes con Angel_Colom , que pasó de los vaqueros y barba desaliñada a su cuidado aspecto actual .
+        </example>
+        <example>
+*0* tiene en su casa trece gatos y dos perros - .
+        </example>
+        <example>
+la organización terrorista tenía un amplio fichero en el que constaban datos de personalidades esenciales en el entramado financiero y empresarial de España .
+        </example>
+        <example>
+las oficinas centrales que el antiguo Banco_de_Vizcaya , ahora BBV , tenía en la Gran_Vía bilbaína
+        </example>
+        <example>
+la actual oleada de cartas , remitidas a comienzos del pasado mes_de_mayo y firmadas por ETA , tienen un objetivo psicológico más_que económico : - Se trataría de amedrentar y sembrar el terror en la capital del Estado y desviar la atención hacia otro centro económico para evitar las críticas fundadas que achacan a ETA la responsabilidad de la crisis económica en el País_Vasco - .
+        </example>
+        <example>
+la irrupción de_cara_al verano de los comandos de jóvenes de KAS , denominados Y y especializados en sabotajes , tendrán una justificación para llevar_a_cabo sus fechorías .
+        </example>
+        <example>
+hay que tener un poco de calma
+        </example>
+        <example>
+*0* tenemos indicios de que ETA haya logrado reconstruir un aparato de cobro como los desarticulados en enero_del_92 y en agosto del año pasado - .
+        </example>
+        <example>
+como consecuencia de las leyes , *0* tengo derecho a seguir cobrando una remuneración , pues ...
+        </example>
+        <example>
+Respecto_a su decisión de quedarse en Madrid en_vez_de regresar a Altos_Hornos en Vizcaya , donde *0* trabajó como electricista hasta 1976 en que *0* fue liberado por UGT , el ex_ministro no tiene dudas : - Me es imposible volver a Vizcaya . Mi casa y mis hijas están en Madrid . Sería muy difícil que *0* volviera a Bilbao - .
+        </example>
+        <example>
+la duquesa , que de tonta sólo tiene la voz
+        </example>
+        <example>
+el final que ha tenido su carrera política
+        </example>
+        <example>
+Corcuera tiene motivos para estar deprimido
+        </example>
+        <example>
+*0* Tiene más casta de lo que indica su tensión baja y su conversación irónica
+        </example>
+        <example>
+*0* Tenía carisma .
+        </example>
+        <example>
+Los hombres de poder tienen la tentación de abusar de su fuerza especialmente cuando *0* están acorralados .
+        </example>
+        <example>
+*0* no tenemos corazón para premiar a uno y castigar al otro .
+        </example>
+        <example>
+la idea de feria que todo el relato tiene
+        </example>
+        <example>
+las que más éxito tenían eran las norteamericanas .
+        </example>
+        <example>
+*0* no tenían tantos prejuicios como las de Cáceres , Ávila o La_Coruña .
+        </example>
+        <example>
+que en este campo del intercambio de relaciones las chicas de entonces apenas_si teníamos oportunidades , y si *0* las teníamos era porque las otras les habían dado calabazas .
+        </example>
+        <example>
+Los científicos americanos , necesitados para su carrera de un currículum en constante crecimiento , tienen una regla no escrita publish_or_perish , publica_o_perece .
+        </example>
+        <example>
+El empuje de ambos tuvo en Zülle la misma referencia .
+        </example>
+        <example>
+toda la derecha amalgamada que nos tiene cercados
+        </example>
+        <example>
+él tiene desde hace siglos el Teatro_de_Mérida hecho una ruina - sic - , sin techo ni nada
+        </example>
+        <example>
+las figuras que la hoja de papel tenía impresas .
+        </example>
+        <example>
+Es_decir , las moléculas han de tener la banda de valencia fraccionalmente ocupada
+        </example>
+        <example>
+pese_a sus variadas formas , todos estos animales tienen su piel conformada por escamas .
+        </example>
+        <example>
+Hoy_día todas las armas de fuego reglamentarias , salvo las escopetas de caza , tienen sus cañones rayados .
+        </example>
+        <example>
+*0* tiene planeado reducirlo a 14.000 antes del fin del año .
+        </example>
+        <example>
+donde *0* tiene retenidas a unas treinta personas
+        </example>
+        <example>
+Hasta el momento tienen prevista su asistencia siete jefes de Estado , nueve primeros ministros , cuatro presidentes de cámaras Legislativas , cinco viceprimer ministros y once ministros de diferentes países , la mayoría del Pacífico asiático .
+        </example>
+        <example>
+A sus 52 años , el actual sistema regulador del seguro de desempleo en Francia tiene los días contados .
+        </example>
+        <example>
+el resto del mundo tenía los ojos puestos en el país vecino .
+        </example>
+        <example>
+el sistema inmunológico humano tiene a su disposición aproximadamente un_millón de tipos de anticuerpos diferentes , un gigantesco arsenal de armas , cada una de específicamente adecuada para un invasor diferente .
+        </example>
+        <example>
+*0* tenían frío
+        </example>
+        <example>
+*0* no tenemos miedo .
+        </example>
+        <example>
+Naturalmente , otras hembras tendrán la misma idea .
+        </example>
+        <example>
+*0* No lo tengo sencillo .
+        </example>
+        <example>
+*0* No lo tienen fácil
+        </example>
+        <example>
+Los milicianos que viven en ciudades lo tienen más claro , porque *0* seguirán haciendo lo mismo , manteniendo el orden en las calles pero de forma legal , con una cooperativa
+        </example>
+        <example>
+*0* lo tengo más sencillo que ayer , aunque ojalá menos sencillo que mañana .
+        </example>
+        <example>
+se comenta en ciertos sectores el poco aprecio que le tiene Roca
+        </example>
+        <example>
+Lo que se entiende como tal no tiene nada de artificio .
+        </example>
+        <example>
+*0* no tenemos nada que decir
+        </example>
+        <example>
+Casada con un andaluz de Jaén , Joan_Andreu , *0* tiene una hija de 13 años y un primo guardia_civil .
+        </example>
+        <example>
+en IU *0* tienen la decisión tomada de exigir el 13_de_junio que se inicie una negociación inmediata que no dure más de quince o veinte días y que el Parlamento proceda a poner punto final a la situación de provisionalidad que se está dando en instituciones del Estado tan importantes como el Consejo_General_del_Poder_Judicial , el Defensor_del_Pueblo , el Tribunal_de_Cuentas , etcétera .
+        </example>
+        <example>
+Cuando la ofensa había sido grave , el ofendido tenía derecho a utilizar su propia arma , que antes podía manipularse rayando el cañón hasta la mitad sin que *0* se percibiese a simple vista .
+        </example>
+        <example>
+el transporte de vivos y bienes , del que *0* tenía ejemplo en las naves que movía el viento por aguas y mares con estimable eficiencia .
+        </example>
+        <example>
+Al correr de los siglos se había manifestado un enfrentamiento entre dos mundos , de los que tenían conciencia explícita pensadores e incluso la gente común
+        </example>
+        <example>
+éstas son cosas de las que *0* nos hemos enterado mucho después y de las que sólo unos pocos privilegiados tuvieron realmente conocimiento en su momento
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C21.state-attributive" type="impersonal">
+      <argument argument="arg2" function="cd" functype="quantitative" thematicrole="atr"/>
+      <examples>
+        <example>
+la precaria información que se tiene sobre los daños reales
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="según" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+ya sé que Banesto , según su nuevo presidente impuesto tan serio , tan triste , tan con cara de cabreo permanente tiene arreglo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+un mes después de haberse disputado , prácticamente nadie va a tener ganas de pensar en la Vuelta a España .
+        </example>
+        <example>
+*0* Tengo ganas de volver a casa y llevar una vida más tranquila
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argL" function="cpred"/>
+      <argument argument="arg2" function="creg" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Últimamente , las nodrizas jurásicas la tenían tomada con la televisión a la que *0* culpaban de todos los males que antiguamente *0* atribuían a la imprenta : bebés que secuestran a sus vecinitas de incubadora porque *0* lo han visto en la tele , niños que roban furgones blindados porque *0* lo han visto en la tele , adolescentes que torturan a sus tutores porque *0* lo han visto en la tele , seminaristas que asesinan a sus obispos porque *0* lo han visto en la tele , ancianas que se prostituyen porque *0* lo han visto en la tele , generales que hacen la guerra porque *0* lo han visto en la tele y banqueros que arruinan a sus accionistas porque *0* lo han visto en la tele .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+Benet y Regás , mucho tiempo juntos , tenían un aire decididamente raro , nuevo , un_poco Bloomsbury .
+        </example>
+        <example>
+El interior del Rincón_Criollo tiene un aire entre rancio y - kitch - , a medio camino entre una comuna hippy y el casino del pueblo .
+        </example>
+        <example>
+el conjunto tiene un aire de feria
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="cc" thematicrole="atr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+La ONCE bastante tuvo con mantener a Alex_Zülle en cabeza .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el problema del nombre de ese hijo que *0* acaba de tener , digamos , por poderes .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+a la que ha tenido acceso efe
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+lo que le tenía muy contento
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+*0* no tienen cabida en la élite , por la que *0* sueñan
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="11">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" functype="quantitative" thematicrole="atr"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+no las tiene todas consigo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="12">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="que" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+el Estado es el que más tiene que perder por los impuestos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

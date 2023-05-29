@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="encontrar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+pero las mujeres - y algunos hombres - le suelen encontrar altamente atractivo
+        </example>
+        <example>
+*0* Encuentro un sorprendente parecido con Medardo_Fraile
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+encontrar otras soluciones
+        </example>
+        <example>
+Estas interesantes y peculiares propiedades electrónicas del TCNQ-TTF encuentran su explicación en una situación electrónica
+        </example>
+        <example>
+que encontraron compuestos polimétricos conductores
+        </example>
+        <example>
+más fácil de encontrar
+        </example>
+        <example>
+para volver a encontrar un trabajo
+        </example>
+        <example>
+*0* no encontraba plaza para estudiar Periodismo
+        </example>
+        <example>
+encontrar una razón para vivir
+        </example>
+        <example>
+*0* no encuentren a Roldán
+        </example>
+        <example>
+Algunos de los metalomacrociclos anteriormente descritos han encontrado ya aplicaciones prácticas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+en los compuestos orgánicos conductores conocidos en los que ha sido evaluado el grado de transferencia de carga - - , se ha encontrado que ésta es menor de la unidad
+        </example>
+        <example>
+Allí se han encontrado anticuerpos del SIDA , de unos quince de antigüedad , en conservas de sangre ultracongeladas
+        </example>
+        <example>
+en cuyas alcantarillas inhabitables y sin glamour nunca se encuentra unas tristes mondas de naranja que llevarse a la boca
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="atr" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="entre" type="sp"/>
+        <constituent preposition="durante" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="sin" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+yo me encuentre dado a mí mismo como objeto de intuición empírica
+        </example>
+        <example>
+encuentra conmovido por la suerte
+        </example>
+        <example>
+todas ellas se encontrarán compitiendo por una oferta
+        </example>
+        <example>
+lo que el laboratorio se encontrará en caída libre , aunque de momento *0* siga su trayectoria ascendente
+        </example>
+        <example>
+el laboratorio se encuentra inmóvil respecto_al emisor , aunque *0* sea por un momento
+        </example>
+        <example>
+los aviones a reacción se encuentran a gran altura durante la mayor parte de su vuelo
+        </example>
+        <example>
+*0* se encuentran bastante deformadas
+        </example>
+        <example>
+*0* se encuentran situadas en la parte inferior y exterior
+        </example>
+        <example>
+como en el caso de Alejandro_Pushkin , se encontraba en juego el honor de la persona
+        </example>
+        <example>
+La granja se encuentra en un estado desastroso
+        </example>
+        <example>
+El suelo se encuentra tan contaminado
+        </example>
+        <example>
+por perdido que *0* se encuentre
+        </example>
+        <example>
+Muy entero *0* debe de encontrarse para verter sobre el asfalto unas energías
+        </example>
+        <example>
+Cuanto más próximas se encuentren las moléculas en el apilamiento
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Entre el 5 y el 6_de_junio se encontrarán en Bremen cerca_de 200 expertos
+        </example>
+        <example>
+que , junto_con otras veinte especies más de titíes , se encuentra entre los monos más pequeños del mundo , con un peso de apenas medio kilo
+        </example>
+        <example>
+el mayor peligro para la vida humana y las propiedades se encuentra , sin_duda , en los Alpes , donde toda la región está densamente poblada , sin excluir , por_supuesto , los vulnerables valles
+        </example>
+        <example>
+Entre las pocas medidas efectivas que pueden adoptarse para evitarlas , se encuentran los modernos sistemas de viso
+        </example>
+        <example>
+no encontrarse el reloj a una altura suficiente
+        </example>
+        <example>
+el continente americano se encontraba al alcance de algunos de sus medios tecnológicos
+        </example>
+        <example>
+Además , la tecnología de los misiles balísticos ya se encuentra al alcance de países en_vías_de desarrollo , como no hace tanto han demostrado iraníes e iraquíes
+        </example>
+        <example>
+la información necesaria para su fabricación se encuentra de_antemano
+        </example>
+        <example>
+que se encuentra en Lisboa desde el martes_pasado
+        </example>
+        <example>
+entre los que se encuentran cinco mujeres
+        </example>
+        <example>
+En muchas tan_sólo se encuentra un saco con ropa
+        </example>
+        <example>
+desde hace unos meses *0* se encuentra en la ciudad sajona
+        </example>
+        <example>
+entre los que se encontraban representantes diplomáticos
+        </example>
+        <example>
+que se encontraban en la zona económica exclusiva argentina
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El Madrid se encontró con un adversario acalambrado y descoyuntado
+        </example>
+        <example>
+Pero *0* se encontraron con muchos problemas
+        </example>
+        <example>
+*0* nos encontrábamos con que los amigos del presidente estaban siempre en todas las operaciones
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+al encontrarle o descubrirle
+        </example>
+        <example>
+Las tropas agresoras encontrarían un país indefenso
+        </example>
+        <example>
+*0* no se encuentran porque sus programas teóricos queden lejos
+        </example>
+        <example>
+se encontraron , en la Copa , en un punto intermedio del recorrido
+        </example>
+        <example>
+que encuentran en la novela de ZZNM poco más que un discutible pretexto
+        </example>
+        <example>
+las noticias que llegaban del exterior apenas_si encontraban eco en los periódicos
+        </example>
+        <example>
+*0* me la encuentro dada
+        </example>
+        <example>
+en cuyas alcantarillas inhabitables y sin glamour nunca se encuentra unas tristes mondas de naranja que llevarse a la boca
+        </example>
+        <example>
+encontrárnoslas en_mitad_de la calle a plena luz del día
+        </example>
+        <example>
+aquel hombre que *0* habían encontrado en los hielos de los Alpes hace año y medio
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+se encontró que no era así
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+Me encuentro perfectamente
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

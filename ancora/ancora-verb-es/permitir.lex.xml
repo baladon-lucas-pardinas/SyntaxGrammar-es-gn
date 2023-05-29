@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="permitir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+al ser primates de doble mama *0* no pueden permitirse camadas más grandes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="tras" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+        <constituent preposition="según" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+permitir nombres así
+        </example>
+        <example>
+que le permite doblegar a casi todo el mundo
+        </example>
+        <example>
+que permiten al ordenador analizar un sinfín
+        </example>
+        <example>
+que permite a los inválidos amantes de la música componer y tocar sus propias conciones
+        </example>
+        <example>
+sus deficientes estructuras sanitarias no permitirían ni la prontta identificación del agente agresor
+        </example>
+        <example>
+El invento permite a personas totalmente impedidas llevar_a_cabo infinidad de tareas con tan_sólo mirar fijamente a la pantalla
+        </example>
+        <example>
+nada en su entorno se lo permitiese
+        </example>
+        <example>
+Su carácter quasi-unidimensional les permite conducir electrones
+        </example>
+        <example>
+La pequeña distancia interplanar entre moléculas adyacentes - 3,17 angstroms para TNCQ y 3,47 angstroms para TTF - permite una gran interacción
+        </example>
+        <example>
+La presencia en la molécula , de un sistema heterocíclico n-deficiente o excedente permitirá así modular el carácter aceptor de la molécula
+        </example>
+        <example>
+que permite obtener películas de polímeros de aspecto
+        </example>
+        <example>
+Tales láminas , con espesores controlables desde 1 a varios mm , permiten lograr fácilmente el - dopado - del polímero
+        </example>
+        <example>
+El solapamiento de las orbitales moleculares n permite , tras el proceso de dopado , una deslocalización de los electrones
+        </example>
+        <example>
+que permite la formación de especies poliméricas
+        </example>
+        <example>
+Por_otro_lado el uso de ligandos de distinta naturaleza - tomos o meléculas - permite un perfecto control sobre la distancia interplanar
+        </example>
+        <example>
+Este estudio ha permitido determinar algunos de los requisitos necesarios
+        </example>
+        <example>
+así_pues , la investigación antropológica , tan fecunda en el presente siglo , ha permitido al_mismo_tiempo el análisis del concepto de civilización como totalidad y el establecimiento de comparaciones entre las configuraciones culturales propias de cada sociedad hasta reencontrar una - personalidad de base
+        </example>
+        <example>
+El análisis estructural permite describir al mismo tiempo la dimensión universal y las variaciones
+        </example>
+        <example>
+que ese acto permitiría adquirir
+        </example>
+        <example>
+que - ese acto - permitiría determinarlo
+        </example>
+        <example>
+Esto permitirá al banco sanear su portafolio
+        </example>
+        <example>
+que permita un sistema " ágil y rápido " para insertar a los inmigrantes
+        </example>
+        <example>
+que permitirá a los firmantes conocer a_través_de Alvárez_Cascos cuál será el trazado definitivo de la futura red
+        </example>
+        <example>
+la amnistía permitirá la pacificación de la nación
+        </example>
+        <example>
+Según portavoces de la firma , los semiconductores de Sony permitirán que otros productos que los utilicen lean programas de PlayStation_2
+        </example>
+        <example>
+que permiten mantener un moderado optimismo en_cuanto_al comportamiento del empleo , pues el archipiélago ha conseguido romper en estos meses su tendencia tradicional
+        </example>
+        <example>
+la conversación " granca , abierta y constructiva " permitió trasmitir " ciertos temas que son de vital importancia
+        </example>
+        <example>
+que les permites trabajar en las fincas
+        </example>
+        <example>
+su infraestructura se lo permitía
+        </example>
+        <example>
+*0* le permitan cumplir el precepto cristiano de ayudar al prójimo
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+no se puede permitir el " abuso " empresarial
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

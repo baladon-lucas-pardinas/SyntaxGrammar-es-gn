@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="emitir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+La Fiscalía_General de este país emitió hoy ordenes de detención contra la directiva de Sov_Invest , sociedad que administró el Fondo_Nacional_de_Inversiones , tras comprobarse un agujero de más_de 500.000 dólares de un total de 170 millones de dólares que este fondo privado había atraído de la población
+        </example>
+        <example>
+La Consejería_de_Agricultura emitió esta resolución después_de comprobar en una investigación que ni su plantilla , ni su maquinaria , ni sus consumos de luz eran suficientes para procesar la cantidad de lino que *0* certificaban
+        </example>
+        <example>
+Emitir certificados de transformación para el cobro de las ayudas comunitarias que existen para esta actividad
+        </example>
+        <example>
+Que emitiera un relámpago cada segundo
+        </example>
+        <example>
+Cada tecla emite una señal luminosa propia , que se corresponde con una función o actividad concreta - apagar , encender , hablar , escribir , imprimir
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+emitidos por un isótopo radioactivo
+        </example>
+      </examples>
+    </frame>
+    <frame lss="D11.inergative-agentive" type="intransitive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+así_como la creación del Canal_de_Televisión_Educativa_Iberoamericana ( ICI ) , que comenzó a emitir el 5_de_julio_de_1993 .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

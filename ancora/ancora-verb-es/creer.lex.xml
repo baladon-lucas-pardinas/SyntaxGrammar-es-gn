@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="creer" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* creo que
+        </example>
+        <example>
+si de_verdad *0* lo creyera
+        </example>
+        <example>
+Otros creen que regalando cosas prácticas - - calcetines , esmalte de uñas , un carné de militante del PSOE , un colirio - - *0* quedan bien
+        </example>
+        <example>
+Pero como *0* he visto a estudiantes , chicos y chicas , destrozar papeleras y hacer fuego , *0* creo que tiene que haber algo más
+        </example>
+        <example>
+yo creo que ahora los mandatos de la conciencia *0* los recibo por teletexto o por fax
+        </example>
+        <example>
+Yo creo que no
+        </example>
+        <example>
+Pero *0* sí creo que la vida de Moyano , su entereza hasta el final y su coraje , forma_parte del legado de los humanos
+        </example>
+        <example>
+El presidente de la Generalitat , Jordi_Pujol , cree necesario que el Gobierno agilice los permisos de residencia a los inmigrantes para poder responder a la falta de mano de obra en Cataluña que , según cálculos del Departamento_de_Trabajo , impide cubrir unos 23.000 empleos en diversos sectores
+        </example>
+        <example>
+creen que lo peor para la divisa europea ya ha pasado
+        </example>
+        <example>
+*0* Creo que el título más apropiado para una colección de artículos de crítica cinematográfica es el que Guiliermo_Cabrera_Infante escogió para su libro " Un_oficio_del_siglo_XX"
+        </example>
+        <example>
+Tampoco *0* lo creía de forma radical , aunque algunas de sus actuaciones pudieran darlo a entender
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+se creyó más fácil de controlar
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A11.transitive-causative" type="causative">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+    </frame>
+    <frame lss="A11.transitive-causative" type="impersonal">
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <examples>
+        <example>
+se ha hecho creer que los catalanes son Miquel_Roca y sus muchachos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+en el que ya nadie cree
+        </example>
+        <example>
+que , secularmente desheredados , ya no creen en la modificación del sistema , aunque , en su desesperación , *0* se vean obligados a combatirlo con las armas
+        </example>
+        <example>
+creer en la existencia de una realidad extramental
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

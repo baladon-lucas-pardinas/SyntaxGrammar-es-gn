@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="llegar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="tras" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="según" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Después del Duke imperial de la pareja Laettner-Hurley llegó el North_Carolina_de_Montross-Phelps
+        </example>
+        <example>
+El colmo llega con los detractores que sin hacer una defensa agresiva acusan de hacer muchas faltas a los que las practican diciendo que *0* usan mucho las manos para parar las acciones ofensivas
+        </example>
+        <example>
+Algunos de los protagonistas no quieren que el progreso llegue
+        </example>
+        <example>
+Lo mejor de la jornada radicó en la posibilidad a última hora de que llegara una inesperada , explosiva victoria española
+        </example>
+        <example>
+Al llegar el destete , los gemelos pesan entre ambos casi la mitad que su madre
+        </example>
+        <example>
+hasta que llega el momento propicio para desencadenar el ataque
+        </example>
+        <example>
+Tras la orgía de consumo llega el crujir de dientes
+        </example>
+        <example>
+*0* Tampoco recordamos por qué *0* llegaron
+        </example>
+        <example>
+Después llegaron los ministerios de Asuntos_Exteriores , las Naciones_Unidas y , finalmente , las ONGs , que no son las últimas criaturas espaciales inventadas por Spielberg , sino las Organizaciones_No_Gubernamentales
+        </example>
+        <example>
+*0* Llegaste hace un par de años con tu humilde paleta de artista bajo el brazo
+        </example>
+        <example>
+Concretamente en la nuca , en el área del cerebro donde se procesan las señales visuales que llegan de los ojos
+        </example>
+        <example>
+La Policía_Militar , que llegó al lugar para controlar a los manifestantes
+        </example>
+        <example>
+un buen día llegó José_Soto
+        </example>
+        <example>
+Llegalán los bulldozers pa tilal la - casita - , y nosotros delante , gritando *0* no nos movelán
+        </example>
+        <example>
+*0* Son los niños del barrio , que llegan en vespertinas manadas porque ha corrido el rumor de que en el belén de mi piso la Virgen dio_a_luz gemelos
+        </example>
+        <example>
+llegado este momento de la Historia
+        </example>
+        <example>
+Clinton será el primero en llegar
+        </example>
+        <example>
+las noticias que llegaban del exterior
+        </example>
+        <example>
+la reactivación esperada por el gobierno de Uruguay tras la crisis de Brasil no ha llegado
+        </example>
+        <example>
+Hasta allí llegaban jóvenes de todas las facultades y escuelas universitarias
+        </example>
+        <example>
+*0* Llegamos al_fin a la casa de la hermana : un tenderete de latas y cartones de apenas tres metros por tres metros , con un infernillo de gas , una silla de enea , un plástico y una manta en un rincón del suelo , sobre la sucia arena
+        </example>
+        <example>
+exportaciones brasileñas de contrabando que llegan a Uruguay
+        </example>
+        <example>
+A los que llegaban a Birkenau no merecía la pena identificarles
+        </example>
+        <example>
+*0* llegó a Flandes
+        </example>
+        <example>
+Clinton , esté llegando esta tarde al Palacio_de_Bellevue , donde *0* será recibido con honores militares por el presidente alemán , Johannes_Rau
+        </example>
+        <example>
+Pero Claves llega a la opinión pública española en circunstancias evocadoras de las que arroparon el nacimiento de Cuadernos
+        </example>
+        <example>
+*0* llegaron hasta los - Sweet_16 - del torneo de la NCAA
+        </example>
+        <example>
+*0* Progresó , *0* pasó de una bota a otra anunciando con susurros sus intenciones y *0* llegó hasta las de Caminero
+        </example>
+        <example>
+Miguel_Indurain , por_ejemplo , necesita correr el Giro_de_Italia para llegar a la prestigiosa ronda gala en plenitud de condiciones
+        </example>
+        <example>
+*0* No pudo más y *0* llegó a casi un minuto
+        </example>
+        <example>
+*0* por caso que *0* hemos arreglado el experimento de_tal_manera_que el laboratorio llegue al punto más alto de su vuelo , a su apogeo , justo cuando el emisor de la torre lanza hacia abajo el paquete de ondas lumínicas
+        </example>
+        <example>
+finalmente el paquete lumínico llega al receptor que se precipita hacia el observador
+        </example>
+        <example>
+la luz que llega a Urano
+        </example>
+        <example>
+La consola PlayStation_2 , que ha vendido cerca_de un 1,8_millones de unidades desde su lanzamiento el 4_de_marzo , llegará a los mercados de Norteamérica y Europa el próximo_mes_de_octubre , según Sony
+        </example>
+        <example>
+*0* llegó al Congreso_de_los_Diputados tras las últimas legislativas
+        </example>
+        <example>
+sólo así evita el primate que el agua de la lluvia llegue hasta sus manos
+        </example>
+        <example>
+Los momentos más crueles llegan casi hasta la traición del protagonista , sobre_todo en la segunda parte de la historia , cuando ZZNM comienza a trampear con sus visiones o con el ejercicio de su valor , como si de_vez_en_cuando *0* fingiese su papel
+        </example>
+        <example>
+del círculo salían rayos igualmente rojos que llegaban hasta el borde , ensanchándose a_medida_que *0* se alejaban del círculo
+        </example>
+        <example>
+no se sabe dónde *0* puede llegar
+        </example>
+        <example>
+en el instante en que la luz hubiera llegado al receptor
+        </example>
+        <example>
+hasta nuestro siglo ha llegado el denominado lance de honor a espada , sable o pistola , ante testigos y sujeto a ciertas reglas establecidas en los códigos de honor
+        </example>
+        <example>
+esta falta de mano de obra , tanto cualificada como no , comenzó en las comarcas de Lérida pero *0* ya ha llegado a todas las provincias catalanas
+        </example>
+        <example>
+0* imponen sanciones disciplinarias que podrían llegar hasta la separación de los rebeldes de las filas castrenses
+        </example>
+        <example>
+ninguna queja ha llegado al conocimiento de los órganos de aplicación de la ley
+        </example>
+        <example>
+La corrupción es como los pasos de la procesión , aún no ha llegado a la plaza un paso cuando sale el otro dando traspiés
+        </example>
+        <example>
+la ola racista acababa de llegar hasta los belenes
+        </example>
+        <example>
+*0* No le llegas al moño a tu abuela Cayetana
+        </example>
+        <example>
+El gobernante , con ganada fama desde que *0* llegó hace 16 meses al poder
+        </example>
+        <example>
+Cada día nos llegan de 80 a 85 peticiones
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A11.transitive-causative" type="causative">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+manos amigas y absolutamente confiables " que la hicieron llegar a Cuba " en las últimas horas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B11.unaccusative-motion" type="impersonal">
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+se podría llegar " a una convulsión mayor
+        </example>
+        <example>
+hay que llegar a elecciones cuanto_antes
+        </example>
+        <example>
+Se llega así a la formación de compuestos metalomacrocíclicos unidos por ligandos puente en los que es posible variar la naturaleza tanto del sistema macrocíclico - aunque ftalocianinas y tetrabenzoporfirinas han sido las más estudiadas - como del tomo metálico central
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="ante" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* no llega a un acuerdo sobre si Jesús_de_Nazaret es - man - o - human
+        </example>
+        <example>
+Alemania y Estados_Unidos no llegaron a ningún consenso sobre el proyecto de Washington de instaurar un sistema nacional de defensa antimisiles - NMD
+        </example>
+        <example>
+los sindicatos y empresarios lleguen pronto a acuerdos concretos
+        </example>
+        <example>
+para llegar a un acuerdo con los socialistas
+        </example>
+        <example>
+Ante estas dificultades , las aves costeras han llegado a un acuerdo
+        </example>
+        <example>
+La empresa canadiense Alcan_Aluminium anunció el jueves que *0* ha llegado a un acuerdo de principio para su fusión con la suiza Algroup que establece el cambio de 17.1 acciones de Alcan por cada una de la empresa helvética
+        </example>
+        <example>
+*0* Ni_siquiera ha llegado a sietemesino
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A22.transitive-agentive-theme" type="impersonal">
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Finalmente , a la vista de la variedad de enfoques y de la intensidad del interés despertado por la cultura en nuestro siglo , se podría llegar con Morin a la conclusión de que aquello que diferencia entre sí a las diversas ideas de cultura es - la amplitud del sistema , la extensión del saber , el campo de la experiencia existencial y las normas y modelos de ellos extraídos por el punto de vista antropológico . etnográfico , sociológico o culturalista
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Con la reducción de equipos profesionales *0* vemos que este año la Vuelta la están corriendo 58 corredores españoles , 39 italianos , 20 portugueses y el resto , en menor medida , suizos , belgas , holandeses , colombianos , hasta llegar a los 169 que salieron en Valladolid
+        </example>
+        <example>
+Por_lo_tanto , el 34_% son corredores españoles frente_al 84_% del año_1987 , una proporción que se ha mantenido desde 1988 a 1991 , para llegar a 54 españoles en 1992 y 1993
+        </example>
+        <example>
+en la Universidad_de_Yale hay quien se ha entretenido coleccionándolas hasta llegar a las mil_seiscientas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B21.unaccusative-state" type="impersonal">
+      <argument argument="arg2" function="creg" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+llegándose a valores de 200
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Ahora que *0* podemos decir , ya que él es el directivo blanco que se enfrenta a la prueba suprema de una grave enfermedad , nos llegan también las primeras noticias de esperanza desde Nueva_York
+        </example>
+        <example>
+la secuencia evolutiva de la piel de los animales pasa claramente de los peces a los reptiles y *0* llega posteriormente a las aves
+        </example>
+        <example>
+*0* No le llegas al moño a tu abuela Cayetana
+        </example>
+        <example>
+No hay ninguna denuncia , ni_siquiera nos ha llegado un rumor o una noticia indirecta
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+La barandilla le llega por la cintura
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

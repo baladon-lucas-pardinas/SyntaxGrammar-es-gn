@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="correr" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="hacia" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="ext"/>
+      <examples>
+        <example>
+Ese hombre corre mucho y rápido
+        </example>
+        <example>
+el de arriba corre más deprisa que el de abajo
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A23.transitive-agentive-extension" type="object_extension">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" functype="quantitative" thematicrole="ext"/>
+      <examples>
+        <example>
+Corrió los cuatro kilómetros
+        </example>
+        <example>
+Corre la Vuelta
+        </example>
+        <example>
+la Vuelta la están corriendo 58 corredores españoles
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="dentro" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Dentro de la propia novela los personajes suelen correrse grandes juergas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Por el país comenzaba a correr el rumor
+        </example>
+        <example>
+Una noche se corrió la voz de que iban a atacar
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+nunca corren auténtico peligro de muerte
+        </example>
+        <example>
+en caso contrario , corre el peligro de parecer demasiado excelso dentro de su locura
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+corrieron la misma suerte
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+de seguir esa tendencia, corre el riesgo de ser cada vez más perjudicial
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="atr"/>
+      <examples>
+        <example>
+la dirección corre a_cargo_de Jordi_Frades
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+Los historiadores corren un tupido velo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <examples>
+        <example>
+Corren tiempos conservadores
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="suponer" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+suponer que ese vacío intelectual se ha vuelto a abrir , y que *0* es de dimensiones mucho más graves y preocupantes
+        </example>
+        <example>
+Y así - desde los recuerdos , desde el aroma de las tradiciones literarias y de los caminos andados y bebidos - *0* me supongo que el Nadal ha acertado premiando a una escritora nueva , que ha vivido mil años como mujer de libros y entre libros
+        </example>
+        <example>
+Ahora *0* supongo que en los países más pudientes la proporción debe estar por ahí , en_torno_a la rata y media o las dos ratas por cabeza
+        </example>
+        <example>
+que *0* supone
+        </example>
+        <example>
+Supongamos *0* que usted ha leído en la Prensa y visto en la televisión la tragedia de ese país que alguna vez fue Yugoslavia , y se encuentra conmovido por la suerte que espera en este invierno a los refugiados bosnios
+        </example>
+        <example>
+Supongamos *0* , además , que usted es una persona poseída por el divino don de la caridad y *0* quiere ayudar a sus semejantes , aunque los bosnios le parezcan menos semejantes que , pongamos *0* por caso , los extremeños
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+que se supone
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+la piel supone para los animales el principal medio para aislarse del exterior
+        </example>
+        <example>
+Fuentes de origen igual de incierto que en el caso del SIDA suponían a esta bacteria producto de los laboratorios estadounidenses dedicados a la investigación militar en el terreno biológico
+        </example>
+        <example>
+el movimiento electrónico entre moléculas a_lo_largo_del apilamiento supondría la formación de especies doblemente cargadas en el dador o el aceptor
+        </example>
+        <example>
+Supone esto una conclusión importante en el sentido de que , a_pesar_de la ventaja electroquímica que *0* supone , la fusión de sus anillos aromáticos una excesiva distorsión de la planaridad molecular
+        </example>
+        <example>
+Supone el procedimiento de Shirakawa la polimerización del acetileno con catalizador de Ziegler-Natta
+        </example>
+        <example>
+que supone un notable avance , si_bien estos tipos de polímeros son térmicamente sensibles , no porque *0* se degraden , sino porque se pierde el - dopado - a temperaturas elevadas
+        </example>
+        <example>
+*0* no supone peligro alguno para la comunidad establecida
+        </example>
+        <example>
+que supusieron la aniquilación , a manos de los vencedores , de culturas o civilizaciones seculares
+        </example>
+        <example>
+que supusieron pérdidas al banco de unos 200 millones de dólares el año_pasado
+        </example>
+        <example>
+El acuerdo también supone que los accionistas recibirán un pago de capital de 90 francos suizos - 53 dólares - y un dividendo especial de 135 francos suizos - unos 80 dólares - por cada acción de Algroup
+        </example>
+        <example>
+los beneficios económicos inmediatos supondrán al_menos un ahorro de 150 millones de dólares
+        </example>
+        <example>
+stas supondrán " una ventaja para gestores , inversores y operadores "
+        </example>
+        <example>
+que supone una subida del 20,47_por_ciento
+        </example>
+        <example>
+que suponen un 30_por_ciento , en_tanto_que las destinadas a América_del_Sur representaron un 20 , con un importante alza de las exportaciones a Brasil , que aumentaron un 180_por_ciento
+        </example>
+        <example>
+que supone un incremento de 93.980 sobre el mismo mes del año anterior
+        </example>
+        <example>
+el proyecto elaborado por el Medef supone " un retroceso social importante " ya_que *0* trata a los desempleados como a " delincuentes " y " *0* no da respuesta " , entre otras cuestiones , al problema de los parados sin cobertura social - cuatro_de_cada_diez -
+        </example>
+        <example>
+que ha supuesto el 91,2_por_ciento de todos los contratos
+        </example>
+        <example>
+que supone un crecimiento del 30,4_por_ciento respecto_al ejercicio anterior
+        </example>
+        <example>
+que supone un incremento de 93.980 sobre el mismo mes del año anterior
+        </example>
+        <example>
+Su independentismo no le ha supuesto un problema personal
+        </example>
+        <example>
+que debería suponer una - industrialización de la economía - , así_como la - generación de una concepción nacional de la industria instalada en España , aunque *0* no sea de propiedad española - , algo que no debe estar reñido con las reglas del libre mercado y de la libre competencia
+        </example>
+        <example>
+que supone para los propios terroristas hacer efectivas sus exigencias
+        </example>
+        <example>
+Suponen los primeros - a - el empleo de polímeros derivados de acetileno o heterociclos a los que se somete a - dopado -
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

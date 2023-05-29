@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="cumplir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+cumplir todo tipo de normas y deberes
+        </example>
+        <example>
+cumplir los objetivos marcados
+        </example>
+        <example>
+que cumple la piel en numerosas especies de animales
+        </example>
+        <example>
+dichas obligaciones estaban por cumplir
+        </example>
+        <example>
+cumplir las amenazas que *0* incluyen en sus cartas
+        </example>
+        <example>
+cumplir el reto del pleno empleo
+        </example>
+        <example>
+cumplir la ley " de prevención de riesgos en el trabajo
+        </example>
+        <example>
+Yo cumpliré la ley
+        </example>
+        <example>
+que cumple los necesarios requisitos
+        </example>
+        <example>
+las armas biológicas hubiesen cumplido su misión
+        </example>
+        <example>
+cumple este papel en el TNQ y análogos
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+se cumple la Constitución
+        </example>
+        <example>
+los pronósticos de Corcuera se cumplen
+        </example>
+        <example>
+al_final , acabará cumpliéndose la profecía del premio Nobel de física estadounidense
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C31.state-scalar" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="ext"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+que el fallecido ex primer ministro Keizo_Obuchi cumpliría 63 años
+        </example>
+        <example>
+que cumpliría el ex primer ministro Keizo_Obuchi , fallecido el 14_de_mayo
+        </example>
+        <example>
+que el próximo_mes_de_agosto cumplirá 77 años
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <examples>
+        <example>
+se cumplirán 50 años de la liberación del campo por el Ejército_Rojo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+cumplir con medidas sobre descontaminación
+        </example>
+        <example>
+*0* cumplan con la normativa laboral en_materia_de prevención de la siniestralidad
+        </example>
+        <example>
+Hay quien intenta cumplir y llamar la atención
+        </example>
+        <example>
+La Marcha_de_los_Supervivientes cumple desde hace ocho años con su cita en Auschwitz puntualmente
+        </example>
+        <example>
+no haber cumplido con su misión en la carrera
+        </example>
+        <example>
+El Gobierno ha cumplido con un pacto no escrito de ceder uno de los dos puestos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El guardameta del Atlético_de_MAdrid Antonio_Jiménez "Toni"cumplió ayer, miércoles, uno de sus sueños previsto para esta temporarda al vencer, por primera vez en su carrera deportiva, al Barcelona
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

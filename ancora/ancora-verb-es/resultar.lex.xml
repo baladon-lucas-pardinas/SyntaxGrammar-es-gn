@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="resultar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+otro hombre - un escolta que sabe pasar , defender y rebotear como Michael_Jordan , o un alero creativo como Larry_Bud o Bill_Bradley - puede resultar decisivo .
+        </example>
+        <example>
+un chiste del país vecino o de hace diez años puede resultarnos impenetrable .
+        </example>
+        <example>
+Este último partido , entre dos equipos que una vez más están entre los mejores clasificados de las votaciones semanales de entrenadores y periodistas especializados - no hay clasificación oficial al no existir una liga nacional universitaria - resultó ser de los que mueven a la reflexión .
+        </example>
+        <example>
+El empate resultó correcto geográficamente , pero futbolísticamente *0* ofreció sólo una apariencia de justicia .
+        </example>
+        <example>
+Andorra , siendo más dura , resultó menos cruenta que Sierra_Nevada porque Rominger lo quiso
+        </example>
+        <example>
+la imposibilidad ya " inmemorial " de colocar un balón allí donde alcanzarlo resulta imposible .
+        </example>
+        <example>
+Su atractiva imagen , pese_a resultar casi insultante de cerca , se convierte en prácticamente invisible de lejos .
+        </example>
+        <example>
+copular cuando la hembra no es fértil resulta un enorme derroche de tiempo y energía para el animal .
+        </example>
+        <example>
+la miseria resulta inacabable , inabarcable .
+        </example>
+        <example>
+Por_fin , en el punto más alto de la trayectoria balística del cohete , cuando la velocidad quedó igualada a cero , la frecuencia de oscilación del reloj volante resultó ser más alta que la del reloj situado en tierra .
+        </example>
+        <example>
+Sin_embargo , en la práctica *0* resultó no ser tan sencillo .
+        </example>
+        <example>
+resulta imposible prever y organizar la defensa , ni_siquiera de forma pasiva .
+        </example>
+        <example>
+La débil barrera moral que se evidencia durante las guerras resultaba fácil de saltar en una época en la que el miedo dominaba por_encima_de cualquier otro sentimiento .
+        </example>
+        <example>
+No resultaba , pues , muy difícil imaginar que lo_mismo *0* podrían utilizarse como portadores de mortíferas plagas .
+        </example>
+        <example>
+A_fin_de_cuentas siempre resulta más fácil y barato cultivar bacterias y virus que fabricar una bomba atómica .
+        </example>
+        <example>
+Es_decir , aun_cuando un virus o cualquier otro invasor se introduzca por primera vez en nuestro organismo , a éste *0* no le resultará del_todo desconocido .
+        </example>
+        <example>
+resulta razonable que las Bolsas europeas unifiquen sus normas de contratación " , ya_que stas supondrán " una ventaja para gestores , inversores y operadores
+        </example>
+        <example>
+Hoy la reubicación del ex_ministro no resulta fácil .
+        </example>
+        <example>
+*0* Resultaban demasiado baratos para ser buenos .
+        </example>
+        <example>
+el resultado es que ahora resulta dificilísimo hacer caridad .
+        </example>
+        <example>
+el compromiso común con la democracia y esa dignidad en el comportamiento público de que *0* hacéis_gala y que cada día resulta más escasa entre nosotros .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <examples>
+        <example>
+Con monjes budistas o en tejanos recios , huyendo de su fama o buscándola , actor de mayor o menor enjundia - *0* tiene muy buenos logros en su haber - Richard_Gere está resultando un modelo paradigmático de la masculinidad de nuestro tiempo .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+El_rey_y_el_país_con_granos " es un puro esperpento , pero no porque el héroe se haya enfrentado a un espejo deformante , sino porque el escritor va haciendo guiar un berilo clarísimo sobre una página de la historia y lo que resulta es una infinita sarta de coherentes absurdos
+        </example>
+        <example>
+*0* Es un juego pacifista que resulta de refinadísimos algoritmos genéticos
+        </example>
+        <example>
+Este tipo de nuevos compuestos conductores resultan , por_tanto , de la oxidación parcial producida por el reactivo inorgánico sobre el dador orgánico .
+        </example>
+        <example>
+Resulta esto del descubrimiento por Heeger , McDiarmid y Nigrey , que encontraron compuestos poliméricos conductores .
+        </example>
+        <example>
+de esta confusión resulta el dogmatismo , que es el final de la animación de la razón
+        </example>
+        <example>
+la misma actividad legisladora del entendimiento resulta del poder de la libertad , que es el de iniciar series de fenómenos , como dice la tesis de la tercera antinomia
+        </example>
+        <example>
+una planta de tratamiento de las aguas residuales que resultan de sus procesos industriales de fabricación de materias primas que se derivan del petróleo .
+        </example>
+        <example>
+Resulta entonces que *0* no practica las historias del espejo , del tomavistas o de todos esos inventos que tan poca ilusión nos producen ya .
+        </example>
+        <example>
+Y la más previsible por todos , esa zona 2-3 para ahogar a los grandes , resultó de patio de colegio .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

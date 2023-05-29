@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="añadir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+*0* Añadió que el interés de Aznar por entrevistarse con los máximos representantes empresariales y sindicales es una muestra de su talante
+        </example>
+        <example>
+*0* Añadió que desconoce la procedencia de los rumores
+        </example>
+        <example>
+el pago diferido de aranceles también es estudiada por el Gobierno, añadió el titular de Agricultura
+        </example>
+        <example>
+que añadieron que el presidente Clinton presentó un cuadro matizado de la situación
+        </example>
+        <example>
+Alonso añadió que " preferiríamos que el caso del lino pasara a la historia
+        </example>
+        <example>
+*0* Añadió que el Gobierno entiende que éste es un problema social
+        </example>
+        <example>
+*0* añadió que también es amigo del presidente de Brasil
+        </example>
+        <example>
+*0* ha añadido que eso demuestra que desde hace mucho ésa es la auténtica bandera nacional
+        </example>
+        <example>
+que añade:- Es absurdo que los policías gasten tiempo y dinero
+        </example>
+        <example>
+*0* Podríamos añadir Ramón_y_Cajal
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* Añadió que esta situación permitirá a España abrir la competencia
+        </example>
+        <example>
+añadirles lo de recycled_ecological_paper
+        </example>
+        <example>
+probablemente habría que añadir a ese endémico mal el sarpullido llamado Chencho_Arias
+        </example>
+        <example>
+Marx y sus seguidores, poderosamente influidos por la idea germánica de Kultur, añadieron a ésta, de_acuerdo_con los principios del materialismo histórico, la relación causal
+        </example>
+        <example>
+La precaria situación económica de la organización terrorista y del entramado ideológico en el que se sustenta añaden ciertas dosis de credibilidad a las misivas enviadas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+a los que hace poco se ha añadido el Mondeo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+a lo que *0* añadió que la Comisión_Europa deberá examinarla si la nueva entidad logra una proyección europea
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+A la propuesta española del pasado julio para organizar específicamente cooperaciones reforzadas en materia de política exterior y de seguridad, se añadió hoy otra de Alemania e Italia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

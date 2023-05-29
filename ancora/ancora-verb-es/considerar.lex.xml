@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="considerar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="según" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Beatriz se consideraba escritora
+        </example>
+        <example>
+Las dos que sin_embargo se consideraban - y *0* considerábamos - esencialmente editoras , se han convertido del_todo a la propia escritura .
+        </example>
+        <example>
+Los mbitis , al_igual_que otras criaturas diseñadas de esta forma , no tienen ni carne ni cutícula , tampoco huesos y , sin_embargo , muchos los consideran seres vivos artificiales .
+        </example>
+        <example>
+una novela después en 1991 , Memoria_de_Almator , que *0* quizá considere su verdadera primera obra .
+        </example>
+        <example>
+*0* considera estos cambios lógicos , pues " resulta razonable que las Bolsas europeas unifiquen sus normas de contratación " , ya_que stas supondrán " una ventaja para gestores , inversores y operadores " .
+        </example>
+        <example>
+Fujimori se consideró el pasado_lunes , en un mensaje a la nación , presidente reelegido dispuesto a asumir cinco años más la presidencia , al contar con el 51,22_por_ciento de los votos totales , al 99,78_por_ciento de las mesas escrutadas .
+        </example>
+        <example>
+La Reunión del Consejo_Permanente_de_la_OEA había generado expectativa en la oposición de Perú ante la posibilidad de que se iniciara un proceso para sancionar a esta nación al considerar " ilegítima " la reelección de Fujimori y " nulos " los comicios .
+        </example>
+        <example>
+pues , según las encuestas , la mayoría considera positivo el_que *0* hayan apoyado a los movimientos sociales que exigían la salida de Mahuad , acusado de haber ahondado la crisis económica que afecta al país .
+        </example>
+        <example>
+la mayoría de japoneses consideran esa bandera como la nacional
+        </example>
+        <example>
+para lo que *0* considera imprescindible que los sindicatos y empresarios lleguen pronto a acuerdos concretos .
+        </example>
+        <example>
+al considerar anticonstitucional los comentarios de Mori sobre el emperador y la presunta divinidad de Japón .
+        </example>
+        <example>
+*0* pidió la dimisión de Mori con la moción de censura , al considerarle incapacitado para gobernar el país .
+        </example>
+        <example>
+*0* consideraron el acto de Covas como una provocación , según algunos líderes de la protesta .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="arg0" function="cag" thematicrole="agt">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+las elecciones celebradas en Perú el domingo puedan ser consideradas " inválidas o nulas " .
+        </example>
+        <example>
+A nivel técnico , se considera importante que el euro no vuelva a caer por_debajo_de los 0,92_dólares , donde *0* ha consolidado un buen tope de resistencia .
+        </example>
+        <example>
+*0* dice - a ser considerada la musa ideológica del pujolismo por excelencia .
+        </example>
+        <example>
+En medios de la lucha contraterrorista se considera poco_menos_que imposible que los mafiosos estén en condiciones de llevar_a_cabo sus amenazas y mucho menos de cobrar el impuesto revolucionario
+        </example>
+        <example>
+En_todo_caso , se considera prácticamente imposible que , aun procediendo de ETA la extorsión , la banda esté en condiciones de materializar sus amenazas
+        </example>
+        <example>
+En aquel chaval de regate prodigioso se reflejado Emilio , con algunas peculiaridades actuales que podrían considerarse mejoras .
+        </example>
+        <example>
+Pero dado_que el laboratorio se encuentra inmóvil respecto_al emisor , aunque *0* sea por un momento , la frecuencia medida puede considerarse el valor estándar del aparato emisor , ya_que *0* no está influida por la ralentización que la Teoría_Especial prevé para los relojes en movimiento .
+        </example>
+        <example>
+Un nombre semejante se considera perjudicial para la criatura .
+        </example>
+        <example>
+Pero la opinión de Vargas_Llosa fue considerada como una intromisión en los asuntos políticos internos de México por un sector radical del PRI , que incluso solicitó su expulsión del país , cuando el escritor ya había viajado a Costa_Rica en su gira para presentar su más reciente libro , " La_fiesta_del_chivo_" .
+        </example>
+        <example>
+Esta puntualización fue considerada como un " avance " por los sindicatos Confederación_Francesa_del_Trabajo - CFDT - , Fuerza_Obrera - FO - , Confederación_Francesa_de_Trabajadores_Cristianos - CFTC - y Confederación_Francesa_de_Directivos_de_Empresas - CFE-CGC - .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+El hombre , en_tanto , se asumisa y *0* se mide en poses que *0* no consideró nunca
+        </example>
+        <example>
+Todo el mundo parece estar de_acuerdo en considerar que fue Edward_B._Tylor el primero que formuló una definición abierta las concepciones con los antropólogos mismos , de los sociólogos ? , de los filósofos o de los hombres de pensamiento en_general .
+        </example>
+        <example>
+El letrado John_Warden considera que la propuesta del Gobierno convertiría a Microsoft en " la única compañía del mundo que no ganará , *0* no podrá ganar , la próxima ronda de competencia " en la industria de los programas informáticos .
+        </example>
+        <example>
+Asimismo , Microsoft considera que la separación de la firma es un castigo demasiado duro para las infracciones de las cuales se le acusa .
+        </example>
+        <example>
+Elías_Jaua , miembro del Congresillo , considera que los nuevos miembros del CNE deben tener xperiencia para " dirigir procesos complejos " , y *0* deben ser personas con independencia y equilibrio , respetabilidad y reconocida solvencia moral , algo que fue puesto en_entredicho con la anterior directiva .
+        </example>
+        <example>
+*0* consideró que a Uruguay *0* lo va a afectar porque ese país entrará en un período recesivo .
+        </example>
+        <example>
+Noboa , que fue vicepresidente en el gobierno de Mahuad y le sucedió en el cargo tras su caída , considera que la amnistía permitirá la pacificación de la nación y la creación de un ambiente propicio para el diálogo y la concertación .
+        </example>
+        <example>
+Por_el_contrario , la Confederación_General_del_Trabajo - CGT - consideró que el proyecto elaborado por el Medef supone " un retroceso social importante " ya_que *0* trata a los desempleados como a " delincuentes " y " *0* no da respuesta " , entre otras cuestiones , al problema de los parados sin cobertura social - cuatro_de_cada_diez - .
+        </example>
+        <example>
+*0* También consideró que es preciso mejorar la calidad del empleo , aumentar la cobertura por desempleo , perfeccionar la protección social y frenar la siniestralidad laboral
+        </example>
+        <example>
+Los analistas consideran que la inversión de la depreciación del euro parece cada vez más evidente , pero *0* no se atreven a hablar de una recuperación definitiva mientras no se traspase la importante resistencia existente entre 0,9515 y los 0,9554_dólares .
+        </example>
+        <example>
+El consejero de Empleo y Asuntos_Sociales del Gobierno_de_Canarias , Marcial_Morales , considera que el incremento del número de desempleados en Canarias durante el pasado_mes_de_mayo se debe al crecimiento de la población activa y al fin de la zafra agrícola
+        </example>
+        <example>
+Ahora , al final de la crisis económica o al principio de la recuperación , los responsables de la economía española consideran que tal_vez sería oportuno poner_en_marcha una política industrial - más activa - .
+        </example>
+        <example>
+Juan_Manuel_Eguiagaray considera que hay que hacer hincapié en - la calidad - .
+        </example>
+        <example>
+Cualquiera que lo hiciese con más jugadores relevándolos habitualmente era considerado como un loco , o poco menos .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Así por_ejemplo , podría considerarse un tipo de arma para incapacitar temporalmente al enemigo , destruirle por_completo o doblegarle mediante el ataque a sus recursos naturales
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

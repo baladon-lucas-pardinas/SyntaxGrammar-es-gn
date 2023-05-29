@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="informar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="tras" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Sony venderá el próximo año componentes y programas de su consola de videojuegos PlayStation_2 a otros fabricantes de electrónica en Japón y el resto del mundo , informó hoy la empresa
+        </example>
+        <example>
+informaron fuentes sanitarias y sindicales
+        </example>
+        <example>
+Paralelamente , el Ministerio_del_Interior informó a Juan_María_Atutxa
+        </example>
+        <example>
+Ya en 1906 la North_American_Review informaba que los muertos en accidentes de auto superaban a los de la guerra de Cuba
+        </example>
+        <example>
+Ayllón ha presentado un escrito con esta petición , firmado por él mismo y otros senadores del PSOE que pertenecen a las circunscripciones por las que discurrirá el trazado del futuro AVE , informó hoy en una nota de prensa el Grupo_Socialista en el Senado
+        </example>
+        <example>
+Las exportaciones de vinos chilenos registraron un aumento del 23,3_por_ciento en abril_pasado en comparación con el mismo mes de 1999 , hasta los 164,4_millones_de_dólares , informaron hoy fuentes del sector
+        </example>
+        <example>
+Alemania y Estados_Unidos no llegaron a ningún consenso sobre el proyecto de Washington de instaurar un sistema nacional de defensa antimisiles - NMD - , informaron fuentes del Gobierno alemán tras la cumbre
+        </example>
+        <example>
+El primer ministro japonés Yoshiro_Mori , decidió disolver hoy la Cámara_de_Diputados para convocar las elecciones generales previstas para el próximo_25_de_junio , informaron fuentes oficiales
+        </example>
+        <example>
+La presidenta del Senado , Esperanza_Aguirre , representará a España en los funerales por el ex primer ministro japonés Keizo_Obuchi , que falleció el 14_de_mayo víctima de un derrame cerebral , informó hoy la embajada española en Tokio
+        </example>
+        <example>
+que *0* informe sobre el proyecto de línea de AVE_Madrid-Levante
+        </example>
+        <example>
+Stein informó hoy al Consejo_Permanente de que el proceso electoral en Perú fue " irregular
+        </example>
+        <example>
+El " Yediot_Ajronot " informa hoy de que la campaña de Peres - que el próximo_mes_de_agosto cumplirá 77 años - se en su personalidad
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A34.ditransitive-patient-theme" type="oblique_subject">
+      <argument argument="arg3" function="suj" thematicrole="loc"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Las reservas de oro y divisas de Rusia subieron 800_millones_de_dólares y el 26_de_mayo *0* equivalían a 19.100_millones_de_dólares , informó hoy un comunicado del Banco_Central
+        </example>
+        <example>
+El primer presidente de la Bulgaria postcomunista , Pétar_Mladénov , falleció anoche a los 64 años , informó hoy , jueves , la Radio_Nacional búlgara
+        </example>
+        <example>
+La nota informó de que el programa de la estancia de Putin
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El Gobierno chino evitó en las últimas horas que Pekín se convirtiera en escenario de protestas estudiantiles por la victoria del independentista Chen_Shui-bian en las elecciones presidenciales celebradas en Taiwán el sábado , se informó hoy en la capital china
+        </example>
+        <example>
+que turistas y locales planifiquen y se informen de los acontecimientos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

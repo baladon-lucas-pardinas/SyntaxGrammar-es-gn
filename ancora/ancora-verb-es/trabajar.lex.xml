@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="trabajar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="ext"/>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr">
+        <constituent preposition="como" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Expertos en computación , físicos , microbiólogos , genetistas , matemáticos , biólogos y otros especialistas trabajan mano_a_mano en la creación de todo tipo de células , animales , plantas y , a_menudo , comunidades enteras de las más variopintas formas vivientes
+        </example>
+        <example>
+*0* Trabajaban en turnos de 12 horas
+        </example>
+        <example>
+donde trabaja Sutter
+        </example>
+        <example>
+alguien estuviera trabajando en un sistema de aniquilación masiva tan monstruoso
+        </example>
+        <example>
+En ello trabaja nuestro grupo de investigación
+        </example>
+        <example>
+trabajar con su ayudante Denis_Papin
+        </example>
+        <example>
+La nueva dirección del banco está trabajando en recuperar el prestigio de la institución debido_al escándalo por la violación de los límites de crédito en sus negocios con las empresas austriacas C.L._Tradung y otras , que supusieron pérdidas al banco de unos 200 millones de dólares el año_pasado
+        </example>
+        <example>
+haber trabajado cuatro meses
+        </example>
+        <example>
+el hombre , identificado como M.L.R. y vecino de Alcoy , estaba trabajando con otro obrero en el inmueble
+        </example>
+        <example>
+*0* Trabajamos en colaboración con la FTU , la comunidad fiyiana en Nueva_Zelanda y con otras organizaciones sindicales internacionales
+        </example>
+        <example>
+que trabajan para mí
+        </example>
+        <example>
+trabajar en el Este
+        </example>
+        <example>
+que *0* trabajasen
+        </example>
+        <example>
+en la que *0* comenzó a trabajar como aprendiz cuando *0* tenía 14 años
+        </example>
+        <example>
+Según fuentes empresariales , el ex_ministro trabajará en la delegación de la compañía en la calle Castellana , en Madrid , probablemente en el departamento comercial , en el que *0* ya estuvo destinado en su última etapa en la empresa y donde ahora *0* intentarán aprovechar sus conocimientos del sector y sus contactos sindicales y convertirle , pese_a lo que él dice , en un ejecutivo
+        </example>
+        <example>
+*0* trabajo
+        </example>
+        <example>
+donde *0* trabajó como electricista hasta 1976 en que *0* fue liberado por UGT
+        </example>
+        <example>
+en la que *0* trabajo
+        </example>
+        <example>
+trabajar por la igualdad social
+        </example>
+        <example>
+coincidieron en Nueva York trabajando como carpinteros
+        </example>
+      </examples>
+    </frame>
+    <frame lss="D11.inergative-agentive" type="impersonal">
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+el que se puede trabajar
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+que trabajó cinco entradas y dos tercios
+        </example>
+        <example>
+saber lo que estamos trabajando cada día
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

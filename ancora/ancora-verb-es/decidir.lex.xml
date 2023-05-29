@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="decidir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Entonces *0* decidió cambiar de perspectiva
+        </example>
+        <example>
+La señora Aguirre , que tiene para la limpieza una mentalidad de bruja menopáusica , ha decidido multar a los sindicatos con 5.000_pesetas por cada octavilla tirada en las calles semivacías y semiapacibles del Madrid en huelga
+        </example>
+        <example>
+*0* decidió conservar su ventaja
+        </example>
+        <example>
+Once años después , en otoño de 1971 los científicos J._C._Hafele , de la Universidad_Washington_de_St.Louis , y Richard_Keating , del Observatorio_de_la_Marina_de_EE.UU. , decidieron comprobar el efecto del corrimiento gravitacional al rojo con ayuda de relojes
+        </example>
+        <example>
+Como hacía buen tiempo *0* decidió salir
+        </example>
+        <example>
+Ford decidió hacer otro tanto
+        </example>
+        <example>
+*0* decidió ensayar los métodos de organización del trabajo
+        </example>
+        <example>
+decidir la victoria entre dos pueblos en discordia
+        </example>
+        <example>
+decidir la fecha , el terreno , el tipo de arma y la distancia que mediaría entre los adversarios
+        </example>
+        <example>
+el momento en el que el Tribunal_Supremo_de_Justicia - TSJ - decidió suspender temporalmente los comicios múltiples ante la imposibilidad " técnica " de celebrarlos el 28_de_mayo
+        </example>
+        <example>
+A finales de marzo , un tribunal japonés ha decidido que esa bandera es la nacional japonesa
+        </example>
+        <example>
+Cuando Chibana lo descubrió , 40 años después de que *0* hubiese sucedido , *0* decidió quemar la bandera de cuando todo eso
+        </example>
+        <example>
+finalmente *0* ha decidido que la mayoría de japoneses consideran esa bandera como la nacional y eso hace que quemarla sea condenable
+        </example>
+        <example>
+*0* decidieron esperar su salida para agredirlo porque *0* consideraron el acto de Covas como una provocación , según algunos líderes de la protesta
+        </example>
+        <example>
+El Consejo_de_Ministros decidió hoy el nombramiento de María_Antonia_Lucena_Varea como directora general del Instituto_Social_de_la_Marina , dependiente del Ministerio_de_Trabajo y Asuntos_Sociales
+        </example>
+        <example>
+El primer ministro japonés Yoshiro_Mori , decidió disolver hoy la Cámara_de_Diputados
+        </example>
+        <example>
+en el transcurso del día el gabinete de Mori decida formalmente el 25_de_junio como la fecha para los comicios
+        </example>
+        <example>
+La central neozelandesa de trabajadores - CTU - , con 200.000 afiliados y que agrupa a los sindicatos de este país , ha decidido hoy iniciar un boicot comercial y turístico contra Fiyi
+        </example>
+        <example>
+la organización haya decidido que este año vengan también chicos y chicas de otras creencias
+        </example>
+        <example>
+en que un grupo guerrillero decidía entregar sus armas para convertirse en organización política e integrarse en la vida civil
+        </example>
+        <example>
+Entusiasmado por la irrupción de las nuevas cadenas de televisión y absorto ante el despliegue de la oferta visual , *0* había decidido cambiar su hábitat tradicional y trasladarse , en_cuerpo_y_alma , al cuarto_de_estar
+        </example>
+        <example>
+Allí , rodeado de páginas de programación , provisto de alimentos suficientes para una larga travesía , armado con el mando_a_distancia del televisor , el mando_a_distancia del vídeo VHS y mando_a_distancia del Beta , *0* decidió construir su particular trinchera
+        </example>
+        <example>
+tanto Rahola como Anasagasti decidieron hacer las paces en pasillos del mismo Congreso
+        </example>
+        <example>
+luego *0* decidió cambiar a una cosa más concreta
+        </example>
+        <example>
+Mientras pasa la tormenta , Corcuera ha decidido volver al tajo , aunque los que fueron sus compañeros saben que el_suyo no va a ser como el retorno de Gerardo_Iglesias al fondo de la mina
+        </example>
+        <example>
+quien decida cuál es el Niño_Dios que va al belén y cuál es el que va a la basura
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+La Liga se decidirá en el envite final
+        </example>
+        <example>
+También se ha decidido eliminar a Fiyi como objetivo turístico
+        </example>
+        <example>
+se decidió después_de que el actual jefe de Estado , el también laborista Ezer_Weizman , anunciara el pasado fin de semana que *0* dimitirá a_más_tardar el próximo_10_de_julio
+        </example>
+        <example>
+en el que no_obstante se decidía cerrar el expediente por falta de pruebas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Luego *0* se deciden a afeitárselo
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C21.state-attributive" type="resultative">
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+decidio a seguir luchando
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+decidir sobre los tipos de interés
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

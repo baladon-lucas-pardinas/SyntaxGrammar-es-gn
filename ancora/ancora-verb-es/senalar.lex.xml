@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="señalar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A31.ditransitive-patient-locative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* señala que " El_Ibex cierra otro mal mes
+        </example>
+        <example>
+En el editorial *0* señala los cambios de la bolsas española hacia modelos más europeos
+        </example>
+        <example>
+el portavoz del PP señaló que dicha reforma introdujo el sistema de ayudas
+        </example>
+        <example>
+el presidente de Alcan , Jacques_Bougie , señaló que " *0* estoy seguro que esta fusión proporcionará un significante valor
+        </example>
+        <example>
+En este contexto, el volumen de las exportaciones que Uruguay vende a Argentina se verá disminuido, *0* señaló
+        </example>
+        <example>
+al señalar que el proceso " estaba lejos de ser libre y justo
+        </example>
+        <example>
+Señala que, por_el_contrario, el Gobierno " ha sido sumamente dialogante
+        </example>
+        <example>
+*0* Tienen interés en una Rusia fuerte, pero también en una Rusia democrática ", señalaron las fuentes
+        </example>
+        <example>
+La central ugetista señaló que las cifras del desempleo en el mes_de_mayo muestran una reducción del paro
+        </example>
+        <example>
+La secretaria de Trabajo de Izquierda_Unida, Susana_López, señaló que es preciso reorientar las políticas de empleo
+        </example>
+        <example>
+Toledo señaló que el Gobierno de Alberto_Fujimori tuvo " miedo " de participar en elecciones limpias
+        </example>
+        <example>
+según *0* señala
+        </example>
+        <example>
+Toledo señaló que el gobierno " quería llevarnos a una trampa
+        </example>
+        <example>
+que señalaban con malicia el domingo que tocaba estar contigo
+        </example>
+        <example>
+precisamente porque la aniquilación del protagonista señala el inicio de una nueva armonía
+        </example>
+        <example>
+Y *0* escogió ERC ", señala Vicenç_Villatoro, escritor, actual director del diario Avui y amigo de la diputada
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A31.ditransitive-patient-locative" type="oblique_subject">
+      <argument argument="arg2" function="suj" thematicrole="loc"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arm" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+LA_GACETA_DE_LOS_NEGOCIOS señala en portada " Las gasolineras protestan
+        </example>
+        <example>
+El texto señala que la operación refuerza su liderazgo
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A31.ditransitive-patient-locative" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Gilberto_Jesús_Mendoza, Director_Ejecutivo de la AMB, señaló hoy a EFE que están ya confirmados los combates de los títulos mundiales
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+con diversas compañías , como las ya señaladas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+La fiscalía señala a Menem (...) como jefe de la banda delictiva
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+en los 17 partidos de la Liga_ACB *0* nos han señalado 396 faltas personales , mientras_que a nuestros rivales- en los partidos que *0* han jugado contra nosotros- *0* les han señalado 437, a_pesar_de_que se habla bastante a_menudo de que nuestra defensa
+        </example>
+        <example>
+señalándole molinos donde l ve gigantes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="recordar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+El partido tumultuoso y enrabietado , bastante cochambrosete , que hizo anoche el Madrid me recordó con frecuencia los arrebatos cinematográficos del Ejército de Pancho_Villa , esa ética populachera y emocionante de todas las revoluciones nobles y desarrapadas
+        </example>
+        <example>
+a mí *0* me recordaba un_algo a Vanessa_Redgrave
+        </example>
+        <example>
+Alfonso recuerda demasiado a Butragueño como para no ser contemplado como un signo de continuidad más_que de ruptura
+        </example>
+        <example>
+eso nos recuerda a los miserables mercaderes
+        </example>
+        <example>
+Su actuación ayer recordó viejos esplendores
+        </example>
+        <example>
+*0* la recuerdo siempre atenta y callada , con cierto aire británico estilizado y casi pelirrojo - a mí *0* me recordaba un_algo a Vanessa_Redgrave - en muchos copetines literarios y en las ocasiones en que *0* caí - entonces por_casualidad - en casa de Juan_Benet , en el chalet de la calle Pisuerga
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* Recuerdo un relato de Borges
+        </example>
+        <example>
+Pedro_Delgado recordará su ataque
+        </example>
+        <example>
+*0* recuerdo aquel almuerzo conmovedor , aquel poblado espeluznante
+        </example>
+        <example>
+Recuerden *0* , si no , los múltiples duelos que tienen_lugar en la película Barry_Lindon
+        </example>
+        <example>
+volver a recordar otra vez los incendios y el lino que se quedaba en la carretera tirado
+        </example>
+        <example>
+Tampoco recordamos por qué *0* llegaron -
+        </example>
+        <example>
+Juan_Antonio_Berastegui , miembro del comité de empresa por CCOO , recuerda a Corcuera especialmente en la huelga del 69
+        </example>
+        <example>
+Pero , - cómo no recordar que , sin bases dominadores , el Madrid y el Barcelona han fracasado una vez tras otra en Europa
+        </example>
+        <example>
+En este sentido , los senadores socialistas recuerdan que ya hace un mes que terminaron los plazos de alegaciones públicas de los distintos trazados del futuro AVE
+        </example>
+        <example>
+recordó que la tasa de gasto sanitario en España está todavía por_debajo_de la media europea
+        </example>
+        <example>
+Además , *0* recordó que el Gobierno mexicano ha establecido un programa de apoyo para los trabajadores agrícolas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+éste le recordó que mientras en su mandato él se encargó de reducir el tamaño de la Administraci
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+la mayor alegría que se recuerda en mucho tiempo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

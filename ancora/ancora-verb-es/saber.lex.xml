@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="saber" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+cualquiera que me conozca un_poco sabe que yo solita , pintura incluida , soy un teatro lírico
+        </example>
+        <example>
+*0* ya sé que , con esos nombres , todos nuestros niños parecerán medio comanches
+        </example>
+        <example>
+Ahora *0* ya sé que Mario_Conde es un masón dormido
+        </example>
+        <example>
+*0* Ya sé que a Nicolás_Redondo *0* lo quieren ante los tribunales mejor antes del 27_E que después y *0* sé que mientras católicos y protestantes se matan en Irlanda_del_Norte , el Vaticano , siempre sensible a los problemas , discute la traducción del aún reciente Catecismo al inglés y *0* no llega a un acuerdo sobre si Jesús_de_Nazaret es - man - o - human -
+        </example>
+        <example>
+*0* también sé que un soldadito español ha sido herido
+        </example>
+        <example>
+que *0* sabemos propios del monigote
+        </example>
+        <example>
+La alcaldesa de Málaga y cabeza de lista del PP al Congreso por esta provincia , Celia_Villalobos , pidió hoy a los militantes de esta formación que *0* sepan " administrar la victoria " , porque " no vale la revancha , el insulto o el ataque , eso es para ellos " .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Ya se sabe lo que North_Carolina acabaría logrando ...
+        </example>
+        <example>
+ya se sabe cómo le van estos ultimatums al Barcelona
+        </example>
+        <example>
+Por la Cancillería se sabe que la gira presidencial prevista entre el 16 y el 25_de_junio por varios países de la Organización_de_Países_Exportadores_de_Petróleo - OPEP - , con el fin de afinar detalles de_cara_a la II_Cumbre de ese cartel petrolero en Caracas , está en el alero hasta que se fijen los comicios
+        </example>
+        <example>
+Se sabrá entonces si hay o no huelga de hambre , otra vez , en Marinaleda
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Aíto_García_Reneses y Clifford_Luyk sabían de esos cambios de un día a otro
+        </example>
+        <example>
+los bigotudos saben de la trascendencia de su opción
+        </example>
+        <example>
+*0* nada sepamos de la sociedad
+        </example>
+        <example>
+La Consejería_de_Interior supo a primeros de mayo de la existencia de una oleada de cartas firmadas por ETA y enviadas a altas personalidades de la banca , las finanzas y directivos de algunas de las empresas más importantes de España
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Romario , tan soprendente en la vida como en la área adversaria ( la vida es un rea adversaria ) , hizo saber que *0* se quedaba
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+*0* se saben condenados a formar_parte del club vitalicio de los ex : ex_bigotudos , ex_ministros , ex_futbolistas , obstinadas secuelas de su propio pasado , largos epílogos de sí mismos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+A la balear quizá le haya sabido a poco el bronce
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="atr" thematicrole="atr"/>
+      <examples>
+        <example>
+el empate supo mejor de lo que cabría esperar
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="sufrir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="según" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="desde" type="sp"/>
+        <constituent preposition="durante" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Este , a sus cuarenta años de edad , sufre una terrible e imparable 
+        </example>
+        <example>
+el lector no sufrirá nunca ni la misma gripe ni el mismo catarro
+        </example>
+        <example>
+que desde hacía tiempo sufría problemas cardíacos
+        </example>
+        <example>
+sufrir mutaciones , evitando de esta forma el ataque directo
+        </example>
+        <example>
+que sufren en un ejercicio de sufrimiento constante intentando rozar la 
+        </example>
+        <example>
+Todos ellos , según los médicos , sufren porque la jefatura del Estado 
+        </example>
+        <example>
+A_pesar_de su precocidad , los pájaros de costa sufren terribles 
+        </example>
+        <example>
+que sufrieron accidentes durante el traslado
+        </example>
+        <example>
+Pese_al aumento del total de contratos , los de carácter fijo han 
+        </example>
+        <example>
+haber sufrido éste una embolia cerebral a comienzos del 
+        </example>
+        <example>
+por qué algunas enfermedades de origen vírico , como los catarros o la 
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt"/>
+      <examples>
+        <example>
+el desprestigio sufrido por lo Formación_Profesional
+        </example>
+        <example>
+un golpe leve sufrido en la cabeza
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        
+      </argument>
+      <examples>
+        <example>
+sufrir de cáncer de mama
+        </example>
+        <example>
+sufren para sacar el balón
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C31.state-scalar" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="ext"/>
+      <examples>
+        <example>
+que ya sufría tres horas y media de retraso
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

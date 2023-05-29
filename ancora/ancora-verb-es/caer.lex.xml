@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="caer" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="hacia" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="durante" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="ext"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* cae al suelo
+        </example>
+        <example>
+en que *0* caí - entonces por_casualidad - en casa de Juan_Benet , en el chalet de la calle Pisuerga
+        </example>
+        <example>
+sobre el amor cae una mancha roja
+        </example>
+        <example>
+que está cayendo
+        </example>
+        <example>
+caer en la megalomanía
+        </example>
+        <example>
+Los invasores de Marte , a_punto ya de domeñar la Tierra gracias_a su superioridad tecnológica , caían fulminados por un enemigo invisible , aliado inesperado del hombre : los microorganismos causantes de la putrefacción y las enfermedades
+        </example>
+        <example>
+Al mismo tiempo , el laboratorio también comienza a caer
+        </example>
+        <example>
+cientos de globos autómatas , sin otra carga que folletos de propaganda o pequeñas bombas incendiarias , llegaron a caer sobre la costa oeste de Estados_Unidos
+        </example>
+        <example>
+cuanto caía en sus manos sobre invenciones mecánicas
+        </example>
+        <example>
+en que uno de los duelistas cayera herido mortalmente
+        </example>
+        <example>
+La_Bolsa cae el 6,8_% en mayo
+        </example>
+        <example>
+El Producto_Interior_Bruto - PIB - de Uruguay cayó un 3,4_por_ciento durante el año_pasado
+        </example>
+        <example>
+el euro no vuelva a caer por_debajo_de los 0,92_dólares , donde *0* ha consolidado un buen tope de resistencia .
+        </example>
+        <example>
+ya popularidad ha caído en_picado en sus escasos dos primeros meses en el cargo
+        </example>
+        <example>
+las paredes se caen
+        </example>
+        <example>
+caer el muro
+        </example>
+        <example>
+Cayeron uno_a_uno los delfines
+        </example>
+        <example>
+Pero en pocos días se ha caído todo
+        </example>
+        <example>
+se caiga el edificio democrático
+        </example>
+        <example>
+que está cayendo
+        </example>
+        <example>
+la formidable responsabilidad , lo que *0* llaman el peso del hogar , caía de_súbito sobre mis hombros con la ingencia de una de las piedras que levanta Perurena cuando *0* no está alzando bueyes o limpiándose los dientes con un tronco de abeto
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="ext">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="hacia" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="cc" thematicrole="ein">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="durante" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="ext"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+las ventas externas de café brasileño cayeron de 1.851.110 sacas de 60 kilos cada una en febrero_de_1999 a 1.324.000 sacas en el mismo mes de este año
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C42.state-experiencer" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="exp"/>
+      <examples>
+        <example>
+Habrán gustado las canciones por sí mismas, no porque yo les haya caído simpática
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc"/>
+      <argument argument="arg3" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+Simplemente me cayó encima, nos cayó encima a todos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Para evitar que caigan en la tentación
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

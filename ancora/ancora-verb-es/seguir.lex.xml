@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="seguir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Si el suicida thailandés se hubiera arrojado al vacío con un televisor en los brazos las cosas seguirían igual
+        </example>
+        <example>
+El Atleti , en su viaje a ninguna parte , sigue inmerso en su eterno retorno
+        </example>
+        <example>
+estos dos , pívot y base , siguen juntos esta temporada
+        </example>
+        <example>
+en_realidad el aparato siga fijo en tierra
+        </example>
+        <example>
+la isla seguía contaminada
+        </example>
+        <example>
+Mientras , Roldán sigue huido
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="sin" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* sigue sin meter mucho más del 40_% de sus tiros
+        </example>
+        <example>
+seguir ahí
+        </example>
+        <example>
+*0* Seguirás arriba
+        </example>
+        <example>
+*0* sigue a lo_suyo como si *0* nada hubiera oído
+        </example>
+        <example>
+seguir en Moncloa
+        </example>
+        <example>
+esta tendencia sigue
+        </example>
+        <example>
+lo que *0* sostendremos en lo que sigue es que la distancia entre este fin ideal y el existencial no es susceptible de acortamiento
+        </example>
+        <example>
+El Athletic sigue cuesta abajo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+El observador sigue a_continuación la trayectoria del paquete de luz en su viaje descendente , apreciando que , para él , su frecuencia permanece siempre uniforme
+        </example>
+        <example>
+Aunque de momento *0* siga su trayectoria ascendente
+        </example>
+        <example>
+Yo llegué cuando el equipo estaba en un Mal momento, y entonces es difícil rendir bien así al cien_por_cien, siguió el atlético
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+seguir la pista evolutiva a la capa protectora de los animales
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se puede seguir la evolución y la trayectoria de cantidades prácticamente insignificantes de un radionucleido , a_través_de un medio como , por_ejemplo , el cuerpo humano
+        </example>
+        <example>
+" La censura se encargaba de acallar cualquier voz altisonante que pudiera dañar el régimen de Franco y sus instituciones , salvo Radio_Pirenaica , que era seguida con gran atención por los más concienciados políticamente"
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+EL "Memphis" y el "Toledo", de Estados_Unidos, y el "Splendid" del Reino_Unido, seguían a distancia las maniobras navales y no pudieron colisionar con el "Kursk"
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt">
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+La quiebra del Fondo_Nacional_de_Inversores , mayor fondo mutuo privado , que desencadenó el pánico la semana pasada a 300.000 personas , fue seguida por intentos desestabilizadores en el Banco_Comercial_Rumano - BCR - , el mayor del Estado , y en el CEC , entidad en la que seis millones de rumanos colocaron sus ahorros
+        </example>
+        <example>
+el fútbol continúa siendo la principal , seguida de la natación y el ciclismo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+*0* sigue el criterio europeo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+seguir con el proceso del diálogo social
+        </example>
+        <example>
+seguir adelante con su pasión
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

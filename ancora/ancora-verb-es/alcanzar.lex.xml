@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="alcanzar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Como máximo , el poliacetileno de alta cristalinidad puede una conductividad de
+        </example>
+        <example>
+ésta todavía no ha alcanzado su ecuador
+        </example>
+        <example>
+alcanzar la meta de Buyo
+        </example>
+        <example>
+*0* habría alcanzado a Camargo
+        </example>
+        <example>
+alcanzarlo
+        </example>
+        <example>
+alcanzar la victoria
+        </example>
+        <example>
+que está alcanzando en esta Vuelta mucho más de lo que nadie , excepto quizá él , podía presumir
+        </example>
+        <example>
+El no va más lo alcanzan aquellos animales que cambian de color al_momento o incluso mudan sus pieles o plumas para adecuarse a los tonos cromáticos del entorno , tal_como hacen la liebre variable y la perdiz nival , pardas en verano y totalmente blancas en invierno
+        </example>
+        <example>
+que han alcanzado gran éxito
+        </example>
+        <example>
+en ese caso la diferencia de presión entre el cristal de hielo y el vapor de agua alcanza su máxima efectividad
+        </example>
+        <example>
+alcanza el sistema nervioso , con terribles efectos para la víctima : visión doble o borrosa por dilatación de las pupilas , calambres musculares y parálisis progresiva de los músculos
+        </example>
+        <example>
+El porcentaje de fallecimientos entre las personas atacadas por el botulismo alcanza entre el 20 y el 70_por_ciento .
+        </example>
+        <example>
+De este modo , el trans-poliacetileno puro , que es a_lo_sumo semiconductor - 9 - , alcanza una conductividad metálica
+        </example>
+        <example>
+*0* alcanza una conductividad de 1
+        </example>
+        <example>
+Resultados similares se alcanzaron más recientemente con el politiofeno
+        </example>
+        <example>
+finalmente , alcanzar en 1982 el continente europeo
+        </example>
+        <example>
+de ese total , los indefinidos alcanzaron la cifra de 107.256 , el 8,77_por_ciento de todos los suscritos por_medio_del INEM
+        </example>
+        <example>
+ésta todavía no ha alcanzado su ecuador
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="según" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+Más allá de esa frontera quizá se alcance un grado de impopularidad en el pelotón que el líder del Mapei-Clas no desea arrostrar por razones de convivencia
+        </example>
+        <example>
+no se alcanzan los niveles deseados
+        </example>
+        <example>
+Según proyecciones de Chilevid , comparando el comportamiento de los últimos cuatro años en el año_2000 se debería alcanzar los 600_millones_de_dólares de exportación
+        </example>
+        <example>
+que se han alcanzado hasta ahora
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

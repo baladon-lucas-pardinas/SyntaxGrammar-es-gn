@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="hacer" lng="es" type="verb">
+  <!--hacer + infinitiu -> +ALTERNACIA CAUSATIVA = A.1###-->
+  <sense id="1">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="cd" functype="quantitative" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+hacía buen tiempo
+        </example>
+        <example>
+hace frío
+        </example>
+        <example>
+hace sol
+        </example>
+        <example>
+A la una de la tarde , hacía calor en este pueblo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="tras" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="porque" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+Realmente hacen más faltas los que defienden
+        </example>
+        <example>
+También hacen más faltas los que sin saber defender intentan ser más agresivos
+        </example>
+        <example>
+hacer muchas faltas
+        </example>
+        <example>
+nosotros no hagamos faltas personales
+        </example>
+        <example>
+hacer regalos despampanantes
+        </example>
+        <example>
+hacer preguntas certeras
+        </example>
+        <example>
+(la llamada) fue hecha desde un teléfono de la filial local
+        </example>
+        <example>
+alguien hacía este comentario socarrón mientras algunos de los ex_combatientes de la Corriente_de_Renovación_Socialista entregaban sus armas
+        </example>
+        <example>
+algún sacrificio hay que hacer
+        </example>
+        <example>
+(la pregunta) que se hace el país
+        </example>
+        <example>
+el Madrid de los buenos tiempos , aquel Madrid al que *0* quisimos tanto , habría hecho virguerías
+        </example>
+        <example>
+*0* hacemos una analogía
+        </example>
+        <example>
+El sábado , sin_embargo , *0* hizo un impecable ejercicio de precisión
+        </example>
+        <example>
+hacer un reportaje
+        </example>
+        <example>
+Por_otra_parte Malinowski hace una interesante aportación
+        </example>
+        <example>
+Tras fijar el concepto de tribu - utilizando vulgarmente en un sentido acientífico y de modo ambiguo y confuso Malinowski hace dos observaciones
+        </example>
+        <example>
+(los esfuerzos) que han hecho en los últimos veinticinco años algunas organizaciones internacionales
+        </example>
+        <example>
+*0* no hará ninguna alianza con Fox
+        </example>
+        <example>
+*0* Hizo un buen trabajo con La_lista_de_Schindler
+        </example>
+        <example>
+hasel - street_art - - arte callejero
+        </example>
+        <example>
+Pilar hace ruido
+        </example>
+        <example>
+Cristina_Almeida vuelve a hacer campaña en_favor_de las mujeres
+        </example>
+        <example>
+haciendo lindezas
+        </example>
+        <example>
+hacer el ridículo
+        </example>
+        <example>
+Además la madre no puede hacer mucho en_cuanto_al transporte , pues *0* tiene que comer el doble de lo normal
+        </example>
+        <example>
+(el partido) que hizo anoche el Madrid
+        </example>
+        <example>
+las múltiples adaptaciones que tenía que hacer Aíto
+        </example>
+        <example>
+lo que debe hacer un gregario para su líder
+        </example>
+        <example>
+nadie hiciera nada
+        </example>
+        <example>
+el restante 50,5_por_ciento *0* lo haga a_través_de una ampliación de su capital del 16_por_ciento
+        </example>
+        <example>
+*0* no hizo nada
+        </example>
+        <example>
+*0* no hacemos otra
+        </example>
+        <example>
+A ver , qué vamos a hacer *0* aquí
+        </example>
+        <example>
+Cuando se derrumbó el régimen de Honecker muchos lo hicieron
+        </example>
+        <example>
+Qué hago yo ahora
+        </example>
+        <example>
+que hizo a_pulso el OAR_Ferrol
+        </example>
+        <example>
+que este señor o sus asesores hayan decidido hacer
+        </example>
+        <example>
+qué hago yo ahora si *0* no tengo ni un centavo
+        </example>
+        <example>
+aquí hay mucho por hacer
+        </example>
+        <example>
+que *0* hicieran
+        </example>
+        <example>
+que *0* hace
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Pero Felipe nos está haciendo todas las putadas del mundo
+        </example>
+        <example>
+quien ya le7)  José_Ramón_Guimaraens ha negado que *0* prestase a Jesús_Gil 1.300 millones de pesetas en junio_de_1992 para que el club rojiblanco pudiese transformarse en sociedad anónima . ha hecho nuevas ofertas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+el fortalecimiento de la democracia y la consolidación de las instituciones internas se debe hacer dentro_de un marco de respeto
+        </example>
+        <example>
+ahí se hará la reafirmación de la necesidad de la unidad de la Comunidad_Andina
+        </example>
+        <example>
+(invocaciones usuales) que se le hacen
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="impersonal">
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+en España , a_partir_de 1975 , había que hacer tres operaciones históricas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A12.ditransitive-causative-state" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="ein">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="durante" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el uso que los energúmenos de la paz y el orden puedan hacer de la notícia
+        </example>
+        <example>
+haciendo del Banesto el gran revoltoso - y beneficiado - del día
+        </example>
+        <example>
+durante algún tiempo *0* hizo de su fundador el dolor de los obreros
+        </example>
+        <example>
+Su disposición constante a hacer el bien , su pajolero empeño en cumplir todo tipo de normas y deberes , su respeto a la ley mora , su integridad de ánimo y recto proceder , hacen del virtuoso un lobo para el hombre
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+*0* no lo hizo (ganar y golear)
+        </example>
+        <example>
+*0* lo hubieran hecho (ver)
+        </example>
+        <example>
+(impresionar) sólo lo hacen las visiones de las pesadillas
+        </example>
+        <example>
+(tirar) el Barcelona lo hacía a ráfagas de ametralladora , barriendo lo que se le ponía por delante
+        </example>
+        <example>
+(disparar) cuando lo hace la primera
+        </example>
+        <example>
+(manipular órganos) como hacía el doctor Frankenstein
+        </example>
+        <example>
+(democratizar) cuando *0* lo haga
+        </example>
+        <example>
+otro lo hace por él (responder)
+        </example>
+        <example>
+cómo hacerlo (hacer frente)
+        </example>
+        <example>
+ese estrépido de aeropuertos y cristales rotos no hace sino suplir el vacio existente
+        </example>
+        <example>
+adecuarse a los tonos cromáticos del entorno , tal_como hacen la liebre variable y la perdiz nival
+        </example>
+        <example>
+(cambiar de aspeco) lo mismo *0* habían hecho antes con Angel_Colom
+        </example>
+        <example>
+que lo hiciese (jugar) con más jugadores relevándolos habitualmente
+        </example>
+        <example>
+(trabajar) hacerlo sólo para buscar un fallo en el tiro
+        </example>
+        <example>
+(jugar) *0* aún no lo hacemos todo lo bien que me gustaría
+        </example>
+        <example>
+(correr) *0* Es lo que *0* ha hecho hasta ahora
+        </example>
+        <example>
+lo que hay que hacer es detener
+        </example>
+        <example>
+(construir) Como hizo María_Elena
+        </example>
+        <example>
+*0* seguirán haciendo lo mismo , manteniendo el orden en las calles
+        </example>
+        <example>
+no hacerlo (montar el nacimiento)
+        </example>
+        <example>
+hazlo tú (decidir)
+        </example>
+        <example>
+que había hecho *0* con el indefenso muñeco
+        </example>
+        <example>
+que hay que hacer (reciclar)
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="mediante" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+que hacen posible la de las células epiteliales o de los cabellos
+        </example>
+        <example>
+Considerada como el mayor y más extenso órgano del cuerpo humano , hace posible la adaptación inmediata al frío o al calor
+        </example>
+        <example>
+que hacían precisa una tarea de reflexión política
+        </example>
+        <example>
+Tomar en_serio la heterogeneidad entre la fuente del conocimiento sensible y la del intelectual hacía indispensable no relegar lo empírico
+        </example>
+        <example>
+El narrador hace que las situaciones no sean otra_cosa_que ridículas consideraciones o trivialidades
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+la falta de recubrimiento en los anfibios - lo cual , por otra parte , les hace muy resbaladizos para sus depredadores , faceta de gran utilidad su supervivencia - , y las pieles cubiertas de pelo , lana o cerdas de los mamíferos , muy especializadas y perfeccionadas y n claros precursores en la carrera evolutiva , hacen la comparación más problemática
+        </example>
+        <example>
+La combinación de técnica militar y ciencia hace fácil aplicar ambas para destruir al ser humano , ya_que en_realidad no se trata de una estructura biológica muy fuerte
+        </example>
+        <example>
+hacer la existencia más fácil a gente parcial o totalmente impedida
+        </example>
+        <example>
+lo cual , por otra parte , les hace muy resbaladizos para sus depredadores
+        </example>
+        <example>
+Ser el mono más pequeño les hace vulnerables a todo un ejército de depredadores
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+ayer se hizo pública la lista de los muertos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+La posibilidad de que la agencia de calificación de riesgo Moody's_Investors rebaje la deuda japonesa , citando problemas estructurales de esta economía , hace difícil la compra del yen
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B21.unaccusative-state" type="anticausative">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* se hizo famoso por su cinismo fácil y divertido
+        </example>
+        <example>
+hacerse independientes y autónomos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="mientras" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+A primera hora de la mañana *0* hacía gimnasia con Lali_Ruiz en el monitor de la derecha
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+La planaridad de las moléculas hace que *0* puedan aproximarse mucho en la dirección perpendicular a su plano
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="atr"/>
+      <examples>
+        <example>
+sus genes están hechos a_base_de ristras de bits
+        </example>
+        <example>
+una militancia clónica, hecha a imagen y semejanza del líder
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <examples>
+        <example>
+que hace que el explorador desorientado descubra
+        </example>
+        <example>
+Esto ha hecho que las investigaciones se centren en los llamados gupos de alto riesgo
+        </example>
+        <example>
+eso hace que quemarla sea condenable
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="11">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+las elecciones - generales del año_2000 - se hagan con absoluta trasparencia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="12">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+hacer el bien
+        </example>
+        <example>
+Hacen bien
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="13">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+qué le haría ilusión como regalo de reyes
+        </example>
+        <example>
+No me hace ninguna ilusión que los EEUU asuman el papel
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="14">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+La compañía hizo uso del recurso de apelación
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="15">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+un diablillo enredador hiciera mofa de todos los principios solemnes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="16">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+hacer fuego
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="17">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+En su último - comentario - , mi amigo - y él sabe que *0* lo es - José_María_Carrascal , hacía cruces porque , llegado este momento de la Historia , se pudiera añorar la vieja Guerra_Fría
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="18">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+hacer una defensa agresiva
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="19">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+haznos *0* caso
+        </example>
+        <example>
+la Cataluña de Pujol no le haría el menor caso
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="20">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+hacer derroches que le puedan costar caro
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="21">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+(la hembra es la) que hace la corte
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="22">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+No en_vano los japoneses ya habían hecho sus pinitos con bombas bacteriológicas en la guerra contra China
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="23">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+*0* hizo alardes de antisionismo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="24">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+que hará maravillas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="25">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Los refugiados de Verulam hacen cola para recoger su comida
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="26">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Con la misma resolución , pero con un riesgo ciertamente menor el abogado Spirk hizo las maletas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="27">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+haciendo crochet
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="28">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+hacer fortuna
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="29">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="cc" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+en los que la mejor - - la única ? - arma barcelonista bajo el aro , que es el rebote ofensivo , pueda hacer estragos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="30">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+que hacen la guerra porque *0* lo han visto en la tele
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="31">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+el hambre se va a hacer puñetas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="32">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+la angustia y el miedo hiciera presa en ellos
+        </example>
+        <example>
+quien ya le ha hecho nuevas ofertas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="33">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+parecía estar haciendo novillos de ese pamplinoso nirvana
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="34">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+Detrás , Laudelino_Cubino hacís de gregario
+        </example>
+        <example>
+Basayev hizo de líder de la oposición
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="35">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+La Tierra se hace vieja
+        </example>
+        <example>
+Estoy hecho polvo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="36">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+hacerse con una cuota importante del mercado mundial de subastas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="37">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Felipe Pérez Roque, que hizo escala en España dentro de su gira por diversos paises
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="38">
+    <frame default="yes" lss="C42.state-experiencer" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="exp"/>
+      <examples>
+        <example>
+me hizo mucha gracia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="39">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+Un peluquero haría su agosto
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="40">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+que no les hagan tilín referentes sociales de la categoría de Chenoa y Bisbal
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="41">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el único que se hizo eco del nombramiento del comisario
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="42">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+hizo oídos sordos a los insultos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

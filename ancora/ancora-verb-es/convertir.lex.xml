@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="convertir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A12.ditransitive-causative-state" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="efi">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+*0* desprestigió a la heroína devolviéndola a su hogar y *0* la convirtió en una mujer común , salvo en su soberana belleza .
+        </example>
+        <example>
+El empate a dos convierte el partido de vuelta en una amenaza
+        </example>
+        <example>
+En la rata hay siempre algo de extraordinario , de extraordinariamente siniestro , que la convierte en un ser irreal , una de esas alimañas que pueblan el territorio de nuestros malos sueños y nos visitan las noches de fiebre .
+        </example>
+        <example>
+Para los expertos en biotecnología ya no constituye ningún problema modificar los genes de microorganismos absolutamente inofensivos y convertirlos en agentes tóxicos .
+        </example>
+        <example>
+Este estudio ha permitido determinar algunos de los requisitos necesarios para convertir una colección de moléculas desorganizadas en una disposición eléctricamente conductora .
+        </example>
+        <example>
+La grandeza trágica estriba en que los espectadores advierten las razones que asisten al héroe y *0* vislumbran que *0* pudiera haber triunfado , en otro mundo o convirtiendo al mundo en otro
+        </example>
+        <example>
+la propuesta del Gobierno convertiría a Microsoft en " la única compañía del mundo que no ganará , *0* no podrá ganar , la próxima ronda de competencia " en la industria de los programas informáticos .
+        </example>
+        <example>
+Y si sentencia del juez no es suficiente para convertir la de los rayos en oficial
+        </example>
+        <example>
+El texto señala que la operación refuerza su liderazgo en el mercado cárnico español y *0* convierte a Campofrío en el operador de este sector en Europa .
+        </example>
+        <example>
+es inversión pública que nosotros convertimos en vivienda , en cooperativas
+        </example>
+        <example>
+Ni sus diez palacios , ni sus mil fincas , ni su condición de emperatriz del latifundio , la convierten en la representante del feudalismo .
+        </example>
+        <example>
+ahora *0* intentarán aprovechar sus conocimientos del sector y sus contactos sindicales y convertirle , pese_a lo que él dice , en un ejecutivo .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B21.unaccusative-state" type="anticausative">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="efi">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+Lo que en los años cuarenta y cincuenta parecía una simple pesadilla , puede en un futuro inmediato convertirse en una terrible realidad .
+        </example>
+        <example>
+En Altos_Hornos las condiciones para jubilarse son tan buenas que a los 52 *0* me puedo convertir en un jubilado con un sueldo muy digno - .
+        </example>
+        <example>
+Pero anoche , sobre el césped rojiblanco , la burraca maleada y retorcida en que se ha convertido el Madrid tuvo el coraje y la vergüenza necesaria para alzarse contra su decrepitud
+        </example>
+        <example>
+La señora Aguirre es una portera amargada y revenida que pone sus ordenanzas municipales y sus limpiasuelos abrasivos al servicio de esta especie de Tercer_Reich antisindical en el que lleva_camino de convertirse , no sólo en Madrid , la Operación_Limpieza .
+        </example>
+        <example>
+Los neonatos tienen que tener la oportunidad de convertirse , gracias_a sus nombres , en mémoris ambulantes de los avatares de la Historia .
+        </example>
+        <example>
+De cazador *0* se convierte casi - algunos hombres - en presa .
+        </example>
+        <example>
+El bigote es una tilde en la ortografía de la cara y al bigotudo le ocurre también lo que a la letra eñe : que si *0* le quitas la tilde *0* no se convierte en una ene
+        </example>
+        <example>
+Su atractiva imagen , pese_a resultar casi insultante de cerca , se convierte en prácticamente invisible de lejos .
+        </example>
+        <example>
+antes de que la bomba atómica se convirtiera en una horrible realidad
+        </example>
+        <example>
+No fue hasta la adopción de la pistola como arma reglamentaria , durante la Revolución_Francesa , cuando el duelo se convirtió en un juego de azar mortal .
+        </example>
+        <example>
+tomado al_pie_de_la_letra , ZZNM se convierte en paladín de la mistificación descabellada del valor contra la que ZZNM quiso prevenirnos .
+        </example>
+        <example>
+de modo sutil el tiempo libre se convertía en otra especie de trabajo en cadena .
+        </example>
+        <example>
+veinte años más tarde en Europa el tiempo libre se convertía en un encadenamiento de servidumbres donde no cabía el perfeccionamiento personal a_través_de la liberación espiritual de la persona , a_pesar_de_que la idea de cultura avanzaba en este sentido .
+        </example>
+        <example>
+Miquilena , mientras_tanto , se ha convertido una vez más desde que Chávez ocupa la Presidencia en el " comodín " de la partida , pues *0* marcará la pauta sobre el inmediato futuro político .
+        </example>
+        <example>
+Para los responsables de la ciudad , la coincidencia de los diversos eventos , especialmente la visita de Clinton , se convertirá desde el punto de vista logístico en una de las mayores pruebas de fuerza desde el Puente_Aéreo de 1948 , cuando los norteamericanos abastecieron Berlín desde el aire durante el bloqueo soviético .
+        </example>
+        <example>
+no se puede aceptar que las misiones observadoras se conviertan en instrumentos para avalar o no avalar procesos internos y rebatir la legislación interna .
+        </example>
+        <example>
+los cancilleres evalúen " cómo perfeccionar estos mecanismos " para_que *0* no se conviertan " en un instrumento para polarizar , erigirse como jueces o como árbitros en un proceso electoral "
+        </example>
+        <example>
+el Sistema_Nacional_de_Salud " no se ha convertido en una de las prioridades de desarrollo del Estado_del_Bienestar " .
+        </example>
+        <example>
+un grupo guerrillero decidía entregar sus armas para convertirse en organización política
+        </example>
+        <example>
+Hoy *0* se ha convertido en una pequeña celebridad en Cottbus .
+        </example>
+        <example>
+Inmediatamente *0* se convirtió en un éxito
+        </example>
+        <example>
+Ahora será la viceministra Margarita_Robles quien tome las riendas de la negociación y se convierta en la interlocutora de María_Eugenia_Cuenca .
+        </example>
+        <example>
+Lo que fue un Ministerio bien llevado , inteligente y coherente , se convierte en la cueva de ' Alí_Babá
+        </example>
+        <example>
+Los fusiles , las ametralladoras , granadas y buena parte de los artefactos que los guerrilleros del CRS que se han usado para luchar contra el Ejército colombiano que serán convertidas en campanas para las parroquias del municipio Sucre .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El gol fue convertido por Rodrigo_Barra
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Las dos que sin_embargo se consideraban - y *0* considerábamos - esencialmente editoras , se han convertido del_todo a la propia escritura
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -45,7 +45,7 @@ def write_verbs(verbs):
                 else:
                     unmatched.append(line)
             case "N":
-                line = [line[0],line[0],'V','M','N','0','0','0','0'] + line[1:]
+                line = [line[0],line[0],'V','M','N','0','0','0','0'] + line[12:14] + line[1:]
                 matched.append(line)
             case _:
                 unmatched.append(line)
@@ -132,7 +132,7 @@ def presente(line):
                 person = "3"
                 verb = "o"+line[0]
                 number = line[10]
-    line = [verb, line[0],'V','I','P',person,number]+line[1:]
+    line = [verb, line[0],'V','I','P',person,number]+line[1:3] + line[12:15]+line[3:]
     return line
        
 def preterito_imperfecto(line):
@@ -439,7 +439,6 @@ def inflect_defectivo(verb):
                         case 'P':
                             v = "ohua'ĩ"
     line = [v,verb[0],'V','I','P',verb[9],verb[10]] + verb[1:]
-    print(line)
     return line, posible
 
 def duplicate_plurals(verbs):
@@ -484,7 +483,7 @@ def separar_verbos(verbs):
     return final
 
 def main():
-    verbs = read_csv("matched-verbs.csv")
+    verbs = read_csv("../../ancora/fullymerged-transitivities.csv")
     verbs = separar_verbos(verbs)
     verbs = duplicate_plurals(verbs)
     matched, unmatched = write_verbs(verbs)

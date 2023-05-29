@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="lanzar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+Lanzar un negocio
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Esta ha lanzado al mercado algunos programas, como el SimLife y el SimArt, diseñados con las técnicas más revolucionarias de esta nueva ciencia
+        </example>
+        <example>
+el partido que lanzó a la fama al delantero más prolífico
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="hacia" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="contra" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Lanzar todas las jabalinas
+        </example>
+        <example>
+El emisor de la torre lanza hacia abajo el paquete de ondas lumínicas
+        </example>
+        <example>
+Lanzar, con un cohete Scout-D, un reloj máser de hidrógeno, por_aquel_entonces el más exacto del mundo, a 10.000 kilómetros de altura, con_objeto_de comparar por telemetría su frecuencia de oscilación con la de otro reloj idéntico situado en tierra
+        </example>
+        <example>
+Lanzar sobre el Japón las 275.000 bombas botulímicas y el millón de bacterias de carbunco que *O* producían mensualmente
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Felipe_González -que a_lo_que_parece no ha perdido del_todo el carisma aquel que *O* tuvo- lanza piropos a Aznar
+        </example>
+        <example>
+mientras lanzaba besos al público
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+De_hecho, se han lanzado numerosas conjeturas sin demostración científica alguna, ya_que la falta de recubrimiento en los ambfibios hacen la comparación más problemática
+        </example>
+        <example>
+las andanadas lanzadas por el todavía presidente de la región
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Los dos republicanos se han lanzado a cautivar al 17_por_ciento de los votantes indecisos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

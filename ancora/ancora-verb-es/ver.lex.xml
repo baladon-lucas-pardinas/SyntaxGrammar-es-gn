@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ver" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="bajo" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* veo que alguien invoca la conciencia o el honor
+        </example>
+        <example>
+ahora *0* vemos que el solitario ex_compañero de Webber , Juwan_Howard , es un buen jugador
+        </example>
+        <example>
+*0* Verás qué jugoso era todo aquello
+        </example>
+        <example>
+Con la reducción de equipos profesionales *0* vemos que este año la Vuelta la están corriendo 58 corredores españoles
+        </example>
+        <example>
+viendo que *0* no tienen cabida en la élite
+        </example>
+        <example>
+Cuando finalmente el paquete lumínico llega al receptor que se precipita hacia el observador , éste verá que , en_virtud_del efecto Doppler , el aparato receptor registra una frecuencia mayor
+        </example>
+        <example>
+si *0* adoptamos con el entendimiento el punto de vista del sol *0* vemos que *0* siguen un curso regular
+        </example>
+        <example>
+Por mi parte yo veo como indicador más característico de unidad tribal la comunidad del lenguaje , pues una tradición común de prácticas y conocimientos , de costumbres y creencias , sólo puede ser compartida por personas que utilicen la misma lengua
+        </example>
+        <example>
+Así , el acto del Juicio reflexionante lo ve Kant prefigurado en los bajo una forma instintiva
+        </example>
+        <example>
+hacerle ver la urgencia de reformar el mercado laboral
+        </example>
+        <example>
+En este contexto , *0* vio " difíciles " las negociaciones
+        </example>
+        <example>
+hacerles ver que la solidaridad humana velaría por ellos
+        </example>
+        <example>
+ahora *0* te vemos distinto
+        </example>
+        <example>
+que , - por_supuesto - , en las próximas elecciones generales le ve como candidato
+        </example>
+        <example>
+que *0* vimos en Andorra
+        </example>
+        <example>
+*0* Vemos , pues , que puede existir un corrimiento de frecuencias
+        </example>
+        <example>
+Hace años que *0* no veo a Rosa , bastante
+        </example>
+        <example>
+*0* no los vemos
+        </example>
+        <example>
+vean *0* por_ejemplo sus totales reboteadores
+        </example>
+        <example>
+no están acostumbrados a ver
+        </example>
+        <example>
+que nos veían siempre reunidos
+        </example>
+        <example>
+*0* Veo su foto en los periódicos
+        </example>
+        <example>
+por lo que , subjetivamente , *0* ve abalanzarse el receptor hacia sí , aunque en_realidad el aparato siga fijo en tierra
+        </example>
+        <example>
+ver el primer capítulo de esta serie
+        </example>
+        <example>
+Como *0* veremos
+        </example>
+        <example>
+que *0* vemos
+        </example>
+        <example>
+él ve gigantes
+        </example>
+        <example>
+desde una ventana de palacio *0* viera a un estudiante riendo
+        </example>
+        <example>
+que la vimos
+        </example>
+        <example>
+que verán cortadas al tráfico las principales arterias de la ciudad
+        </example>
+        <example>
+ver a Clinton
+        </example>
+        <example>
+Hace un par de días , en una única acera *0* vi cinco contenedores
+        </example>
+        <example>
+La Policía de Kwazulu lo vio todo
+        </example>
+        <example>
+que *0* veían en el bar tomándose el segundo desayuno
+        </example>
+        <example>
+*0* no ven aparecer a un Idígoras rugiendo
+        </example>
+        <example>
+*0* Lo veía en el cubo de los desperdicios , entre hollejos de patata , cáscaras de huevo y trozos marchitos de remolacha mientras el otro , el escogido ,5)  Tras recordar que nunca se ha hecho pública la lista completa de los beneficiarios del programa , Maragall explicó que ayer *0* se vio con Fainé para tratar de esta cuestión . presidía plácidamente el tibio belén
+        </example>
+        <example>
+los del Barça vieron aquel partido
+        </example>
+        <example>
+visto en televisión
+        </example>
+        <example>
+*0* no se pueden ver
+        </example>
+        <example>
+*0* Veremos cómo *0* se enfrentan ahora al otro gallito de la South_Conference , Kentucky , aunque la pérdida del pívot Rodney_Dent - lesión de ligamentos el pasado martes ante Vanderbilt - puede condenar a los de Rick_Pitino
+        </example>
+        <example>
+las ganas de verte
+        </example>
+        <example>
+no tienen nada que ver
+        </example>
+        <example>
+a ver si con la palabra *0* podemos
+        </example>
+        <example>
+a ver qué hago yo ahora
+        </example>
+        <example>
+Como la cosa no se arregle *0* ya veremos si *0* no hacemos otra
+        </example>
+        <example>
+A ver , qué vamos a hacer *0* ahora
+        </example>
+        <example>
+que ahora ve la luz
+        </example>
+        <example>
+un espejismo que *0* he visto
+        </example>
+        <example>
+*0* lo han visto en la tele
+        </example>
+        <example>
+sólo en raras ocasiones *0* podemos verlos
+        </example>
+        <example>
+*0* estamos viendo en todos los medios de comunicación estos días
+        </example>
+        <example>
+como *0* hemos visto
+        </example>
+        <example>
+haber visto nunca un bosnio de cerca
+        </example>
+        <example>
+*0* he visto a estudiantes , chicos y chicas destrozar papeleras y hacer fuego
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="impersonal">
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+se le vea como a un robot intratable en la carrera
+        </example>
+        <example>
+el posible pacto entre el PSOE e IU hay que verlo como una operación posítica
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+en su estrategia política aún falta por verse
+        </example>
+        <example>
+por lo que se ve
+        </example>
+        <example>
+véase la tabla 1
+        </example>
+        <example>
+véase la tabla 2
+        </example>
+        <example>
+se ve que *0* todavía es capaz de pegar bocados
+        </example>
+        <example>
+Se ve que la señora Aguirre , prototipo rubioceniza y pequeño chanel de la derecha global que nos rodea por todas partes , entiende la limpieza como un holocausto
+        </example>
+        <example>
+se ve que *0* no tiene la menor inteción de ponerme en ascuas
+        </example>
+        <example>
+*0* ya se ve
+        </example>
+        <example>
+Nuevamente se vio a prueba la inventiva de Henry_Ford
+        </example>
+        <example>
+vistas las pluralidades sociales
+        </example>
+        <example>
+está visto que un soldador es imprescindible
+        </example>
+        <example>
+ahí se ha podido ver que a Day le cuesta convertirse
+        </example>
+        <example>
+se ha visto en el apartado anterior
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+personalmente , *0* no le veo tanto carisma
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="sin" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Mayberry se ve limitado
+        </example>
+        <example>
+en su deseperación , *0* se vean obligados a combatirlo con las armas
+        </example>
+        <example>
+que se ve privado de lo más bonito para un padre
+        </example>
+        <example>
+dado_que los titíes viven en los árboler , las hembras se ven obligadas a acarrear los gemelos
+        </example>
+        <example>
+verse arrastrado a aquel descabellado lance
+        </example>
+        <example>
+el ofendido se veía forzado a elegir
+        </example>
+        <example>
+Mientras , el ministro de Defensa , general Eliécer_Hurtado , se vio obligado a salir_al_paso
+        </example>
+        <example>
+En este contexto , el volumen de las exportaciones que Uruguay vende a Argentina se verá disminuido
+        </example>
+        <example>
+Residentes de Umlazi , - township - descomunal situado al sur de Durban , se vieron obligados a huir
+        </example>
+        <example>
+que se ven sometidos al desgarrador trance de entregar a uno de sus hijos
+        </example>
+        <example>
+E insospechada , paradójicamente , sin dejar de ser ídolo , *0* empieza a verse olvidado
+        </example>
+        <example>
+las propiedades conductoras de los materiales moleculares se ven muy afectadas por las interacciones entre los sistemas electrónicos y las vibraciones del retículo cristalino , llengando en el caso extremo
+        </example>
+        <example>
+Los políticos se han visto obligados a dar una respuesta
+        </example>
+        <example>
+la presencia de los vigilantes de - plantilla - del museo se ha visto reforzada
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+el regalo , además_de carísimo , tuviera directamente que ver con el mayor vicio del obsequiado
+        </example>
+        <example>
+Una gran parte de mis casos tiene que ver con impagos
+        </example>
+        <example>
+tienen que ver tu significación intelectual y tu posicionamiento político con los de Javier_Pradera o Fernando_Savater , como *0* no sea el compromiso común
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Los mejicanos que entran ilegalmente en California tienen que vérselas con la policía
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+ayer *0* se vio con Fainé para tratar de esta cuestión .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

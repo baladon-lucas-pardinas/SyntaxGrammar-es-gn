@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="producir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="durante" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+a_veces el sueño del sonotone produce monstruos
+        </example>
+        <example>
+Una población de gallinetas moteadas estudiada en Minnesota en 1975 produjo 157 huevos , pero ningún polluelo : un solo visón se comió 87 huevos
+        </example>
+        <example>
+producir suficiente leche
+        </example>
+        <example>
+producir nieve artificial
+        </example>
+        <example>
+Sin_embargo , la aparición de los gases asfixiantes en la Gran_Guerra produjo un aparente milagro : ninguno de los contendientes se atrevió a usarlos , temerosos de la reacción , también química , del contrario
+        </example>
+        <example>
+que *0* producían mensualmente
+        </example>
+        <example>
+los gases producían pavor
+        </example>
+        <example>
+producirse a bajas temperaturas - próximas al cero absoluto - una distorsión del retículo - transición de Peierls - acompañada de una transición del comportamiento metálico a aislante
+        </example>
+        <example>
+que produce la enfermedad
+        </example>
+        <example>
+que *0* producían en los caballos
+        </example>
+        <example>
+En quince meses *0* produjo 1.700 modelos A
+        </example>
+        <example>
+que producen sustanciales beneficios durante un largo periodo "
+        </example>
+        <example>
+que ha producido un importante incremento del desempleo
+        </example>
+        <example>
+*0* Ahora también los produce
+        </example>
+        <example>
+que produjo tres muertos y numerosos heridos
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+ella puede producirle otra nidada rápidamente en_el_caso_de_que un depredador destruya la primera
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+con el que a_buen_seguro se producirá un mayor número de relevos de jugadores
+        </example>
+        <example>
+La nieve artificial se produce dentro de un cañón que mezcla aire y agua en las justas proporciones
+        </example>
+        <example>
+
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+puede producirse una transferencia total de carga formando especies - D+IA-I - que se comportan eléctricamente como sustancias iónicas aislantes - aislantes Mott-Hubbard -
+        </example>
+        <example>
+no se produzca en la hinchada ni un cisma ni un motín
+        </example>
+        <example>
+Antes de que *0* nos demos_cuenta se habrá producido un relevo condenado a ser un trauma de hierro y convertido , finalmente , en un tránsito de terciopelo
+        </example>
+        <example>
+sólo recientemente se ha producido una auténtica revolución con la creación de nuevos materiales , cada vez mejores , en mayor número y más adaptados a las propiedades específicas que en cada caso se les demandan
+        </example>
+        <example>
+a_lo_largo_de cuyos ejes se produce el movimiento electrónico responsable de la conductividad
+        </example>
+        <example>
+Así , la alta conductividad de - metal orgánico - en CTC sólo se produce cuando , de las tres situaciones posibles de empaquetamiento y transferencia de carga - fig. 4B - , los apilamientos segregados van acompañados de transferencia parcial de carga
+        </example>
+        <example>
+que no se produce al existir moléculas sin ionizar , en el caso de la transferencia parcial , pues nicamente se forman iones monocargados que son , además , particularmente estables como consecuencia
+        </example>
+        <example>
+que se producía al exponer el poliacetileno a la presencia de un agente oxidante - - dopado - - , llegándose a valores de 200 .
+        </example>
+        <example>
+en que *0* se han producido
+        </example>
+        <example>
+se produjo una grieta , que desde entonces no ha dejado de ampliarse , entre dos formas de tiempo : trabajo y tiempo libre , tiempo de servidumbre y tiempo de ocio
+        </example>
+        <example>
+que se produjo a_partir_de 1986
+        </example>
+        <example>
+hace 150 años , se produjera la primera migración china al Perú
+        </example>
+        <example>
+El accidente se produjo poco antes del mediodía en el número 29 de la calle_Pintor_Cabrera cuando el hombre , identificado como M.L.R. y vecino de Alcoy , estaba trabajando con otro obrero en el inmueble y *0* se precipitó al vacío causas aún desconocidas
+        </example>
+        <example>
+donde se produjo el accidente
+        </example>
+        <example>
+Mañana se producirá la entrevista decisiva con Amparo_Rubiales , la delegada del Gobierno
+        </example>
+        <example>
+no se produzca en la hinchada ni un cisma ni un motín
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

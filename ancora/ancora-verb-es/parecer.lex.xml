@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="parecer" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C42.state-experiencer" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="atr" thematicrole="atr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="exp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="dentro" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+parecer demasiado excelso dentro de su locura
+        </example>
+        <example>
+cualquier detalle , incluidos los chistosos y los prácticos , nos parece de agradecer
+        </example>
+        <example>
+Anoche , en el Calderón , el Real_Madrid parecía recién llegado de Chiapas
+        </example>
+        <example>
+Hasta Butragueño , mientras *0* estuvo en el campo , parecía estar haciendo novillos de ese pamplinoso nirvana , lleno de ascetismo y resignación en el que *0* lleva sumido tanto tiempo
+        </example>
+        <example>
+Anoche todo el parecía haberse olvidado de que *0* es el Madrid
+        </example>
+        <example>
+*0* parecía a_salvo no_sólo de sus calamidades , sino_también de su historia
+        </example>
+        <example>
+con esos nombres , todos nuestros niños parecerán medio comanches
+        </example>
+        <example>
+Todo esto le parece mágico
+        </example>
+        <example>
+- Me parece formidable que la organización haya decidido que este año vengan también chicos y chicas de otras creencias
+        </example>
+        <example>
+lo que *0* le parezca
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Los partidos de baloncesto , aun repetidos - un periódico deportivo se lamentaba ayer de ello , en futbolístico reflejo , como si las múltiples repeticiones de los duelos Detroit-Chicago o Boston-Nueva_York a_lo_largo_de toda la temporada no fueran desde siempre la sal de la temporada normal y de los - playoffs - en la NBA - , no suelen parecerse
+        </example>
+        <example>
+*0* Se parece a la palabra francesa monde , a la esperantista mond ' , a las españolas mundo , mundano , mono y mondo
+        </example>
+        <example>
+el Sur_Bronx no se parece mucho al Cañón_del_Colorado
+        </example>
+        <example>
+En eso *0* se parece al Duque_de_Alba , aquel guerrero que antes de dar nombre al coñac , en la marcha hacia Bruselas fue cortando cabezas y cuando *0* llegó a Flandes colgó a los primeros abertzales del imperio del Sol
+        </example>
+        <example>
+*0* no se parece a lo que ha venido siendo la tónica general de las peticiones de ETA -
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C21.state-attributive" type="resultative">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr"/>
+      <examples>
+        <example>
+Euzkadi se traduciría literalmente por algo parecido a bosque de euzkos, cualquier cosa que ello sea
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="desarrollar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="sin" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="hacia" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+cómo se desarrolla la visión de los bebés durante los primeros meses de vida
+        </example>
+        <example>
+Sin_embargo , la búsqueda de conductores orgánicos no se desarrolló hasta el descubrimiento del potente aceptor de electrones tetraciano-p-quinodima - TCNQ - en 1960 y el potente dador electrónico tetratiafulvaleno - TTF - en 1970
+        </example>
+        <example>
+el viaje se desarrolle hacia el Oeste o hacia el Este
+        </example>
+        <example>
+desarrollándose en varias Universidades y en el CSIC
+        </example>
+        <example>
+La campaña se ha desarrollado sin incidentes lamentables , aunque el coordinador general del Programa_de_las_Naciones_Unidas_para_la_Observación_Electoral , el vietnamita Nguyen_Huu_Dong , dijo el pasado_lunes que la compra y los obstáculos al libre voto , son los temas que más preocupan a los observadores extranjeros
+        </example>
+        <example>
+en que *0* se han desarrollado en Estocolomo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El Mapei-CLAS desarrolló la estrategia esperada : mantener un fuerte ritmo para evitar escapadas serias
+        </example>
+        <example>
+desarrollarla
+        </example>
+        <example>
+En colaboración con Otto *0* desarrollaron el que se llamaría motor de cuatro tiempos , por las cuatro carreras sucesivas del émbolo - aspiración , compresión , explosión y expulsión - y que obtuvo un arrollador triunfo en la Exposición_Universal_de_París de 1878
+        </example>
+        <example>
+que Sony desarrolló junto_a Toshiba
+        </example>
+        <example>
+que desarrolla su labor científica en Los_Alamos_National_Laboratory y el Instituto_de_Santa_Fe , en Nuevo_México - EE_UU
+        </example>
+        <example>
+Y en la Universidad_de_Stanford , Hug_Lusted y Ben_Knapp , han desarrollado un curioso sistema que permite a los inválidos amantes de la música componer y tocar sus propias canciones
+        </example>
+        <example>
+que han desarrollado proyectos más destacados
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+A_partir_del siglo_IX se desarrolló en el seno de la Iglesia un movimiento de hostilidad contra el duelo judicial
+        </example>
+        <example>
+En busca de la solución a este problema , desde hace algunos años se han desarrollado los polímeros metalomacrocíclicos denominados - Chich_Kebabo - o - Schaschlik - , que en castellano *0* podríamos traducir por - brocheta
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="hacia" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+los hechos se desarrollaron hacia las seis_y_media de la tarde del viernes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <examples>
+        <example>
+Las células no_sólo migraban hacia diferentes regiones del cerebro sino_que algunas desarrollaban fibras
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

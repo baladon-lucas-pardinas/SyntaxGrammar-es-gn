@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="quedar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+siempre les pueden quedar las dudas de *0* se reservó o de si realmente *0* no tuvo fuerzas para atacar desde más lejos , como en Sierra_Nevada
+        </example>
+        <example>
+quedan más paraísos
+        </example>
+        <example>
+que aún le quedan a la Vuelta
+        </example>
+        <example>
+Queda la última contrarreloj
+        </example>
+        <example>
+con su concurso nada le queda que hacer al valor si no morir , porque la destreza es infame si hay superioridad e inútil si hay igualdad
+        </example>
+        <example>
+quedamos otros 50 a los que *0* no nos dan dinero , ni ropa civil , ni nada ... a ver qué hago yo ahora si *0* no tengo ni un centavo
+        </example>
+        <example>
+A Corcuera sólo le queda su puesto como miembro del comité federal del PSOE
+        </example>
+        <example>
+A todas ellas les ha quedado el sabor dulzón de aquellos años
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="durante" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="sin" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Pero *0* se solían quedar cortos a la hora de la verdad
+        </example>
+        <example>
+además *0* quedan como lo que son : unos patosos o unos tacaños
+        </example>
+        <example>
+regalando cosas prácticas - - calcetines , esmalte de uñas , un carné de militante del PSOE , un colirio - - *0* quedan bien , sin darse_cuenta de que todas las cosas prácticas son , por definición , de mal gusto
+        </example>
+        <example>
+sus programas teóricos queden lejos
+        </example>
+        <example>
+quedarse incomprensiblemente paralizados
+        </example>
+        <example>
+en cuyo fondo , como en el mito clásico , queda retenida la esperanza una_vez_que todos los males se han derramado sobre la faz de la tierra y *0* han devastado el suelo y el aire
+        </example>
+        <example>
+que se han quedado incompletos
+        </example>
+        <example>
+Cuando alguien se asomaba *0* se quedaba enganchado
+        </example>
+        <example>
+queda para toda la vida como una eñe mutilada y sin sombrero
+        </example>
+        <example>
+los espantos de los combates de trincheras y los bombardeos aéreos de ciudades quedaron ensombrecidos por un nuevo fantasma , el de las armas químicas
+        </example>
+        <example>
+que , por una causa u otra , han quedado impedidas
+        </example>
+        <example>
+Durante un instante *0* queda por_lo_tanto inmóvil junto_al emisor , para a_continuación iniciar su caída hacia la Tierra
+        </example>
+        <example>
+que habían quedado abiertas entre las chozas
+        </example>
+        <example>
+las disposiciones racionales del hombre quedarían dormidas para siempre - en su germen sin la tensión de fuerzas de la ambición , codicia , de la vanidad que rivaliza en la envidia , del apetito insaciable de posesión o de dominación
+        </example>
+        <example>
+Se le quedaba pequeña la compañía
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="atr">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+que aún quedan por desvelar sus rudos secretos
+        </example>
+        <example>
+Queda por examinar una forma de guerra biológica muy es10)  En_caso_de_que el sistema inmunológico haya vencido a la enfermedad , ésta no sólo desaparece de forma momentánea , sino_que el organismo queda prácticamente inmunizado contra ella .pecial , bautizada con el nombre de guerra ecológica
+        </example>
+        <example>
+que aún quedan por resolver
+        </example>
+        <example>
+Mucho queda por investigar y conocer sobre estos incómodos y peligrosos compañeros de existencia
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C21.state-attributive" type="benefactive">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="atr">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+Me quedan muchos sueños por cumplir
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Las conclusiones de la comisión Ibercorp , que ampliará el plazo de trabajo , quedan para después_del verano
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+quedarse en Madrid en_vez_de regresar a Altos_Hornos en Vizcaya , donde *0* trabajó como electricista hasta 1976 en que *0* fue liberado por UGT
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+atrás va quedando la vida , como tierra quemada
+        </example>
+        <example>
+Atrás quedarán las tardes de dominó y las interminables fiestas caribeñas , los rosarios cantados y las raciones gratuitas de mondongo , gandinga , pollo a la varita y chuchifritos
+        </example>
+        <example>
+Atrás había quedado una etapa de la vida de Pilar caracterizada por el trabajo constante y que la llevó de militar en la CNT - " pero cuando *0* era muy joven , - eh ? , porque *0* fui de la última generación antifranquista y *0* no bebí en las fuentes comunistas sino en las anarquistas " , *0* dice - a ser considerada la musa ideológica del pujolismo por excelencia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+a todo el mundo le quede claro que *0* queremos gobernar en Andalucía y que el 12_de_junio por la noche *0* pondremos nuestro programa encima_de la mesa para llegar a un acuerdo con los socialistas y gobernar
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+de la sopa de luces de la pantalla *0* se queda sólo con la tecla elegida
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="atr"/>
+      <examples>
+        <example>
+en la segunda mitad quedó a_merced_de los locales
+        </example>
+        <example>
+un primer paso hacia la democratización de Serbia, que quedará en nada si las autoridades de Belgrado no transfieren a Milosevic al tribunal internacional
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+Los otros departamentos quedaron en_manos_de convergencias
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="11">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="efi">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se han quedado en 600
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="12">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+uno de los dos abrevaderos que, según tengo entendido, quedan en Barcelona ciudad
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

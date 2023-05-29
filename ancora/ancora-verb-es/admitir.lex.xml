@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="admitir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* admitimos como cierta la idea antropológica que afirma que la inteligencia aparece , en la escala evolutiva hacia el hombre , cuando hay un ser capaz de crear sus propias herramientas para cada necesidad
+        </example>
+        <example>
+*0* admiten que " es difícil comprobarlo
+        </example>
+        <example>
+Pese_a todo , Mato admitió que es necesario reducir la temporalidad y luchar contra la siniestralidad laboral , para lo que *0* considera imprescindible que los sindicatos y empresarios lleguen pronto a acuerdos concretos
+        </example>
+        <example>
+El presupuesto del común de los mortales no admite grandes despilfarros
+        </example>
+        <example>
+Los fanáticos de Sendero_Luminoso no pueden admitir que haya seres libres
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Sin_embargo , si hay unanimidad en pensar que los mejores equipos de la NBA son mejores que los_nuestros , también se admite que la defensa de ellos es mucho mejor que la_nuestra y que probablemente ahí es donde radica la mayor diferencia entre un baloncesto y otro
+        </example>
+        <example>
+Y para que el azar jugara en estos enfrentamientos un papel todavía más relevante , no se admitían pistolas de cañón rayado , de mucha mayor puntería
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

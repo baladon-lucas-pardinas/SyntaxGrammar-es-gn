@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="bastar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+el cálculo de probabilidades no basta para alcanzar la victoria
+        </example>
+        <example>
+Incluso la atención de dos padres no basta , debido_a que uno de ellos estaría forzado a comer y a llevar el cachorro al mismo tiempo
+        </example>
+        <example>
+Baste recordar que por aquellas fechas la penicilina era un producto caro y escaso
+        </example>
+        <example>
+Pero como la salud del hombre es una sucesión incesante de enfermedades y de curaciones , la simple dieta de la razón práctica no basta todavía para preservar este equilibrio
+        </example>
+        <example>
+De esa oposición extrema baste aquí una muestra
+        </example>
+        <example>
+basta apercibirse de que la verdad del cogito presupone las palabras que la enuncian
+        </example>
+        <example>
+Baste recordar que - sin ningún desdoro uno de los grupos ecológicos más activos se llama Greenpeace
+        </example>
+        <example>
+no bastará su noble intención para_que le permitan cumplir el precepto
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <!--(IMPERSONAL)-->
+  <sense id="2">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Ya no basta con querer practicarla
+        </example>
+        <example>
+No bastará con hacer la conversión
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="dar_cuenta" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+entonces *0* se dan_cuenta de cuál es su verdadera carencia
+        </example>
+        <example>
+quizá porque en Izquierda_Unida todos , hasta Anguita , se han dado_cuenta de que sus peleas no iban a ninguna parte
+        </example>
+        <example>
+Cómo no nos habremos dado_cuenta *0* ?
+        </example>
+        <example>
+ya *0* se había dado_cuenta con un vahído mortal que *0* estaba prisionera
+        </example>
+        <example>
+*0* se dio_cuenta que , ante tanta erudición , hacía_falta mucho valor
+        </example>
+        <example>
+sin darse_cuenta de que todas las cosas prácticas son , por definición , de mal gusto
+        </example>
+        <example>
+*0* nos demos_cuenta
+        </example>
+        <example>
+sin darse_cuenta
+        </example>
+        <example>
+Antes de que *0* nos demos_cuenta
+        </example>
+        <example>
+*0* Me di_cuenta de que la formidable responsabilidad , lo que *0* llaman el peso del hogar , caía de_súbito sobre mis hombros
+        </example>
+        <example>
+*0* no nos dimos_cuenta de que el resto del mundo tenía los ojos puestos en el país vecino
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Los goles de Marcos_González (a los 3 minutos), del argentino Diego_Rivarola (m.36), de Sebastián_Pardo (m.53), y Edson_Monsalve (m.78), dieron_cuenta fácil del dueño de casa
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>
