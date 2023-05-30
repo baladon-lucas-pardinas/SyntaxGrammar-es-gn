@@ -20,14 +20,14 @@ def merge(ancora,ours):
     res = []
     i = 0
     j = 0
-    while (i < len(ours)) & (j < len(ancora)-1):
+    while (i < len(ours)) & (j < len(ancora)):
         if ancora[j][0] == ours[i][0]:
             res.append(ancora[j])
             i += 1
             j += 1
-        elif ours[i] > ancora[j]:
+        elif ours[i][0] > ancora[j][0]:
             j += 1
-        elif ours[i] < ancora[j]:
+        elif ours[i][0] < ancora[j][0]:
             tr = '0'
             if ours[i][1] == 'transitive':
                 tr = 'tr'
@@ -43,7 +43,7 @@ def merge(ancora,ours):
         intr = '0'
         if ours[i][1] == 'intransitive':
             intr = 'intr'
-        res.append([ours[i][0],tr,'0',intr])
+        res.append([ours[i][0],tr,intr,'0'])
         i += 1
     return res
 
@@ -51,7 +51,7 @@ def fullmerge(transitives,all):
     res = []
     i = 0
     j = 0
-    while j < len(all):
+    while j < len(all) and i < len(transitives):
         if transitives[i][0] == all[j][2]:
             res.append(all[j]+transitives[i][1:])
         elif transitives[i+1][0] == all[j][2]:
