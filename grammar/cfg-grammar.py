@@ -1,3 +1,4 @@
+### This code removes all features from the feature grammar, leaving behind a context-free grammar
 
 with open('./feature-grammar.txt', 'r') as input_file, open('./cfg-grammar.txt', 'w') as output_file:
     for line in input_file:
