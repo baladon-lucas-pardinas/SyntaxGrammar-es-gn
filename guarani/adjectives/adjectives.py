@@ -18,7 +18,7 @@ def main():
     adj = read_csv("matched-adjectives.csv")
     matched = []
     for a in adj:
-        line = [a[0],a[0],'A','Q'] + a[2:]
+        line = [a[0],a[0],'A','Q'] + a[1:]
         matched.append(line)
     write_to_csv("matched-adjectives-guarani.csv", matched)
 
