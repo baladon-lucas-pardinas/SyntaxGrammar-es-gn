@@ -108,7 +108,7 @@ def formato(verbos):
     return rows
 
 def main():
-    ruta = "./ancora-verb-es"  # reemplazar con la ruta de la carpeta que contiene los archivos xml
+    ruta = "../ancoralex-es-2.0.3/ancora-verb-es"  # reemplazar con la ruta de la carpeta que contiene los archivos xml
     final = recorrerAncoraVerbs(ruta)
     write_to_csv("ancora-verbs.csv", final)
     (post, unresolver) = process2(final)
