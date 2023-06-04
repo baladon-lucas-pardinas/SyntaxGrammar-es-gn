@@ -38,23 +38,6 @@ def recorrerAncoraVerbs(ruta):
     #print(etiquetas)
     return pre
 
-def process(verbs):
-    post = []
-    unresolved = []
-
-    for v in verbs:
-        tag = v[1].split('.')[0]
-        match tag:
-            case 'A21'|'A11'|'A22'|'A23'|'B22':
-                post.append([v[0],'transitive'])
-            case 'B23'|'D31'|'D21'|'B11'|'B21'|'D11':
-                post.append([v[0],'intransitive'])
-            case 'A34'|'A32'|'A12'|'A35'|'A31'|'A33'|'A13'|'B12':
-                post.append([v[0],'ditransitive'])
-            case _:
-                unresolved.append(v)
-    return post, unresolved
-
 def process2(verbs):
     post = []
     unresolved = []
@@ -108,7 +91,7 @@ def formato(verbos):
     return rows
 
 def main():
-    ruta = "../ancoralex-es-2.0.3/ancora-verb-es"  # reemplazar con la ruta de la carpeta que contiene los archivos xml
+    ruta = "../../ancoralex-es-2.0.3/ancora-verb-es"  # reemplazar con la ruta de la carpeta que contiene los archivos xml
     final = recorrerAncoraVerbs(ruta)
     write_to_csv("ancora-verbs.csv", final)
     (post, unresolver) = process2(final)
