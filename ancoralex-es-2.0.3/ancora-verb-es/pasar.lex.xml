@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="pasar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C42.state-experiencer" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="exp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+que le ha pasado al Liceo
+        </example>
+        <example>
+luego pasa lo que pasa
+        </example>
+        <example>
+Y si ahora realmente *0* lo es qué pasa con la otra
+        </example>
+        <example>
+qué pasó en 1945
+        </example>
+        <example>
+lo peor para la divisa europea ya ha pasado
+        </example>
+        <example>
+Lo que pasa
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="bajo" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+golpea una papelera al pasar
+        </example>
+        <example>
+*0* pasó de una bota a otra anunciando con susurros sus intenciones
+        </example>
+        <example>
+La tirada pasa bajo el cristal
+        </example>
+        <example>
+por donde no pasa un alma
+        </example>
+        <example>
+pasa la tormenta
+        </example>
+      </examples>
+    </frame>
+    <frame lss="D11.inergative-agentive" type="impersonal">
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se pasaba por el poder político
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg3" function="cc" thematicrole="ein">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* me he pasado a la página de pasatiempos
+        </example>
+        <example>
+pasar de la Liga_Europea a la ACB y al tercer extranjero
+        </example>
+        <example>
+*0* Pasaron de la condena a_muerte a la libertad bajo fianza
+        </example>
+        <example>
+la secuencia evolutiva de la piel de los animales pasa claramente de los peces a los reptiles
+        </example>
+        <example>
+absorbida por el intestino , pasa a la sangre
+        </example>
+        <example>
+*0* podrían pasar directamente al Tribunal_Supremo_de_Justicia
+        </example>
+        <example>
+Las exportaciones pasaron de los 12,3_millones_de_dólares en 199 a los 14,8_millones en el presente año
+        </example>
+        <example>
+que pasó de los vaqueros y barba desaliñada a su cuidado aspecto actual
+        </example>
+        <example>
+Pero de ahí *0* pasó en un suspiro a la independentista ERC que dirige Angel_Colom
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A31.ditransitive-patient-locative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+la pelota antes de pasarla , generalmente mal
+        </example>
+        <example>
+sabe pasar , defender , y rebotear como Michael_Jordan
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+si nadie pone de moda el tema , la cosa pasará dulcemente inadvertida
+        </example>
+        <example>
+tendrían que pasar semanas antes del brote de las plantas
+        </example>
+        <example>
+pase el tiempo
+        </example>
+        <example>
+Diecisiete años han pasado desde entonces
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="atr"/>
+      <examples>
+        <example>
+*0* Se pasa más de diez horas al día escribiendo
+        </example>
+        <example>
+que se pasó el tiempo haciendo - lindezas -
+        </example>
+        <example>
+Los blancos se han pasado la temporada jugando a la gallina ciega
+        </example>
+        <example>
+se pasa medio libro discutiendo por teléfono
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+terminó anoche, pasadas las ocho
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* pasa de_largo hasta su destrucción final
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="cc" thematicrole="ein">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="durante" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+durante esta legislatura *0* hemos pasado de una rata y media a dos ratas por persona
+        </example>
+        <example>
+Los cuentos tradicionales han pasado por el tamiz de Disney
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B21.unaccusative-state" type="impersonal">
+      <argument argument="arg3" function="cc" thematicrole="ein">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se pasa de cándidos árbitros extrajeros a árbitros españoles
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <!--mirar estructura léxico-semántica del verbo en infinitivo#-->
+  <sense id="9">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el desgraciado asunto del lino pasara a la historia
+        </example>
+        <example>
+el caso del lino pasara a la historia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg3" function="cc" thematicrole="ein">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+crisis políticas , encarcelamientos de altas personalidades y otras zarandaja , pasaron a un lugar muy secundario
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="11">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+pasar una esponja por encima del recuerdo de Florentino Ariza
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="12">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+sería ir a pasar vergüenza
+        </example>
+        <example>
+Si se mete pronto en el partido, no pasará apuros
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="13">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+provocó que *0* pasara prácticamente desapercibida en las librerías
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="14">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+las claves de la victoria ante Pilotes pasan por "una muy buena defensa y un rápido y efectivo contraataque"
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="15">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+la propuesta de pasar la noche en un hotel
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="16">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+que la resaca del Bayern no nos pase factura
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="18">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+Sería fundamental pasar esta ronda previa
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="19">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+puede que usted lo considere pasado de moda
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="20">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <examples>
+        <example>
+habían pasado casi 30 segundos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="21">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+el Madrid pasará el primer examen del año ante su afición
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="22">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+Bajo el epígrafe Arte,_la_noche_temática, pasaron la vida de la única cantante del universo que no es su voz, sino su alma lo que se escucha
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="23">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+El viaducto peatonal conecta Mollet con Martorell y pasa sobre la autopista C-33
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="24">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd">
+        <constituent preposition="lo" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="cc" thematicrole="atr"/>
+      <examples>
+        <example>
+cuando peor lo pasaba su equipo
+        </example>
+        <example>
+Aznar, Rajoy y Mayor Oreja se lo pasan la mar de bien viendo el espectáculo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="17">
+    <frame default="yes" lss="C31.state-scalar" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="ext"/>
+      <argument argument="arg3" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+hoy varios operadores de turismo pasaron varios minutos sin poder hacer ofertas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="25">
+    <frame lss="A21.transitive-agentive-patient" type="transitive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>pasaban al pelotón como si nada</example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

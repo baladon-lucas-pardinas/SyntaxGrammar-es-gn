@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="conocer" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="ext"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+cualquiera que me conozca un_poco sabe que yo solita , pintura incluida , soy un teatro lírico .
+        </example>
+        <example>
+ésa es la única liturgia que *0* conozco y *0* deseo - .
+        </example>
+        <example>
+Mariano , al que muy pocos veteranos del mundillo conocíamos
+        </example>
+        <example>
+*0* Intentamos estudiar la vida no como realmente *0* la conocemos , sino tal_y_como *0* podría ser en un ambiente diferente del terrestre , en otros planetas
+        </example>
+        <example>
+Yo quería conocer aquello , hacer un reportaje , y él se ofreció a servirme de guía
+        </example>
+        <example>
+nuestro observador conoce el Principio_de_la_Equivalencia
+        </example>
+        <example>
+Los virus son las formas de existencia más primitivas que *0* conocemos .
+        </example>
+        <example>
+Mucho queda por investigar y conocer sobre estos incómodos y peligrosos compañeros de existencia .
+        </example>
+        <example>
+estrategas de oficio conocían perversos ardides para desajustar de alguna manera la igualdad que garantizaban las reglas del juego .
+        </example>
+        <example>
+El presidente estadounidense habló por teléfono este miércoles con Arafat , para conocer su punto de vista de la situación .
+        </example>
+        <example>
+Guterres , quien también habló el miércoles por teléfono con Arafat para conocer la versión de las dos partes
+        </example>
+        <example>
+*0* someterá un informe , dado a conocer hoy
+        </example>
+        <example>
+Antonio_Puerta conoce a José_Luis_Corcuera desde los años 70 , cuando ambos estaban en UGT-Metal .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cpred" thematicrole="atr">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+como le ha ocurrido a Azkargorta , que en Bolivia es conocido por Bigotón : sus aciertos y sus errores , sus éxitos y fracasos saldrán siempre de ahí , de su mágico bigotón
+        </example>
+        <example>
+La medicina nuclear , es_decir , el uso de radiaciones ionizantes , como rayos X o el radio , como medio de diagnóstico y tratamiento médico de ciertas enfermedades es conocida desde antiguo , mucho antes de que comenzara la llamada era nuclear , tras el estallido de la primera bomba atómica .
+        </example>
+        <example>
+el efecto se conoce comúnmente por corrimiento gravitacional al rojo .
+        </example>
+        <example>
+Con propósito de claridad y sistematización , *0* clasificaremos los - metales orgánicos - en los tres tipos fundamentales que actualmente se conocen
+        </example>
+        <example>
+En 1926 las fábricas de Daimler y de Benz , que nunca se conocieron personalmente , se reúnen en una sola , la DaimlerBenz_A._G. .
+        </example>
+        <example>
+no se conocen con exactitud las propiedades de estos materiales
+        </example>
+        <example>
+*0* Es un pueblo con casi un 80_% de parados con experiencia de lucha sindical y *0* están orgullosos de que se les conozca en España por su tenacidad y su pacifismo .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="impersonal">
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+con el que se conoce al monedero en algunos sectores de Ecuador
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

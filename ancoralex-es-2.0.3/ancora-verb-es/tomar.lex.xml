@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="tomar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="sin" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+la sabiduría toma el poder
+        </example>
+        <example>
+El balón , sin llegar a dormirse , se tomó su tiempo para alcanzar la meta de Buyo
+        </example>
+        <example>
+volver a tomar los mandos del aeroplano
+        </example>
+        <example>
+en el que los duelistas la toman por su mano
+        </example>
+        <example>
+en que la tomaba Kant , al
+        </example>
+        <example>
+que ha tomado como referencia la Comunidad_de_Madrid
+        </example>
+        <example>
+El modelo Sierra toma su nombre de esa palabra española , aprovechando que *0* no es en_absoluto extraña al mundo anglosajón
+        </example>
+        <example>
+El presidente estadounidense tomó buena nota de las europeas reiteradas por Schroeder
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+hasta que les tome declaración el próximo 29_de_agosto
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+luego no se tomen retaliaciones o contra los militares a pretextode una sanción disciplinaria
+        </example>
+        <example>
+se toman decisiones inmorales en temas en los que están en juego valores democráticos y civiles importantes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+todos , al ser mejores , vamos a tomar por culo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* no puede tomarse a_la_ligera
+        </example>
+        <example>
+en el que los duelistas se la toman por su mano
+        </example>
+        <example>
+se toman su trabajo en serio
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+*0* son tomados en_serio como modelo
+        </example>
+        <example>
+en el que la gente tiende a tomarse tan en_serio
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Actualmente , los alemanes toman un promedio de 6,7 kilos de café
+        </example>
+        <example>
+tomándose el segundo desayuno
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Una de las empresas tomaría posesión de los sistemas operativos Windows
+        </example>
+        <example>
+tomar posesión de la Casa_Presidencial
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="cc" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El Gobierno tiene que tomar cartas en el asunto
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+La mujer toma riendas que *0* nunca usó
+        </example>
+        <example>
+tome las riendas de la negociación
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+la ONU o quien sea tome la decisión definitiva
+        </example>
+        <example>
+tomara ella la decisión
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="argL" function="suj"/>
+      <argument argument="arg0" function="cag" thematicrole="agt"/>
+      <examples>
+        <example>
+se debe respetar la decisión tomada por el Tribunal_Europeo_de_Derechos_Humanos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="tem">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Usted me toma por Herodes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* Le hemos tomado cariño a los dos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="11">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+tomarla con su pueblo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="12">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+algunas vacas sagradas, como Naybet o Djalminha, tomaran conciencia de que el Deportivo podía ganar sin ellos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="13">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+murmuró el octogenario Alberto_Sordi, tomando del brazo al presidente de la República, Carlo_Azeglio_Ciampi
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="14">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+No es la primera vez que Air_Europa me toma el pelo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

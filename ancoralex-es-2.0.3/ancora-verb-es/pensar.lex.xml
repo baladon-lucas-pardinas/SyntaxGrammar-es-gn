@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="pensar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Qué pueden pensar sus aficionados ?
+        </example>
+        <example>
+pensar que América es un inmenso continente donde caben las modalidades de Nuevo_México y de Chiloé
+        </example>
+        <example>
+*0* Pienso , al_contrario , - que guardando la cortesía - es democráticamente bueno que los políticos , en su territorio , se lleven mal
+        </example>
+        <example>
+pensar que el martes *0* se despierte
+        </example>
+        <example>
+quien va primero en solitario no necesita - basket average - , *0* piensan
+        </example>
+        <example>
+pensar que los mejores equipos de la NBA son mejores que los_nuestros
+        </example>
+        <example>
+pensar que , en la evolución de la vida sobre la Tierra , los depredadores tuvieron que aparecer muy tarde
+        </example>
+        <example>
+Pero con las aves , más_de uno de nuestros lectores pensará que los sesudos hombres de ciencia se equivocan
+        </example>
+        <example>
+piensan los estrategas
+        </example>
+        <example>
+por lo que los científicos piensan que la composición de ambos puede incluir algún tipo de material rocoso , mezclado con carbono y gases
+        </example>
+        <example>
+pensar que la formación de la vida , hace cuatro_mil_quinientos_millones de años , llevaba implícita la aparición posterior de los diferentes tipos de virus
+        </example>
+        <example>
+*0* Comenzaremos a pensar la idea regulativa a_partir_de la reunión del telos moral o ideal
+        </example>
+        <example>
+pensar que *0* pienso
+        </example>
+        <example>
+*0* piensan hacerse los fuertes :
+        </example>
+        <example>
+*0* Pensamos que con todo lo que hay que arreglar se necesitarían técnicos
+        </example>
+        <example>
+para las que *0* pensó que *0* no estaba preparado por sus orígenes
+        </example>
+        <example>
+*0* Hemos debido pensarlo
+        </example>
+        <example>
+pensar que *0* ha sido inspiración divina
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="fin"/>
+      <examples>
+        <example>
+En_contra_de lo que se pensaba
+        </example>
+        <example>
+una obra pensada para acercar las siete artes al pequeño espectador
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+*0* He pensado en conductas - y formas de vida - paralelas
+        </example>
+        <example>
+*0* Tendremos que pensar en la cronología , en las emigraciones antiguas
+        </example>
+        <example>
+pensar en la Vuelta a España
+        </example>
+        <example>
+*0* Pienso ahora en María_Elena_Moyano , la Madre_Coraje
+        </example>
+        <example>
+Felipe_González está pensando en nombrar otro vicepresidente cuando *0* retoque el Gobierno
+        </example>
+        <example>
+*0* Piensan más_bien en una sangrienta jugada de farol
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <examples>
+        <example>
+La oleada especulativa que se ha desatado en Ecuador tras el anuncio de que se " dolarizará " la economía continúa en aumento y *0* hace pensar que los controles emprendidos por el Gobierno resultan insuficientes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+hace pensar en que estos títulos pronto dejarán de ser el mejor indicador
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+En el PNV tenemos derecho a pensar de él lo que nos parece
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

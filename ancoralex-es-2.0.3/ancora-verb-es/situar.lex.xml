@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="situar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A31.ditransitive-patient-locative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* se sitúa fuera del escenario
+        </example>
+        <example>
+que les sitúa dentro del grupo de las sustancias eléctricamente aislantes
+        </example>
+        <example>
+que sitúa al 48_por_ciento de las mujeres en carreras de bajo o muy bajo grado de inserción laboral frente_a un 28_por_ciento de los hombres
+        </example>
+        <example>
+situar la justicia sobre todas las cosas
+        </example>
+        <example>
+en el interior del laboratorio-cohete *0* situamos a un observador encargado de medir la frecuencia del paquete lumínico cuando éste sale del emisor
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+situados en tierra
+        </example>
+        <example>
+en una granja situada a 140 kilómetros de Harare
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="ext">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+que situó el total de desempleados en 1.531.169 , el 9,16porciento de la población activa
+        </example>
+        <example>
+que le sitúa en un valor incluso mayor que el cobre en_relación_a su peso
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B21.unaccusative-state" type="anticausative">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="ext">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+la inversión media en investigación en la Unión_Europea se sitúa en el 1,8_por_ciento del PIB , frente_al 2,8_por_ciento Japón y EEUU
+        </example>
+        <example>
+El desempleo masculino se situó en 607.810 parados al haber disminuido en 23.398 , un 3,71_por_ciento
+        </example>
+        <example>
+Por lo que la tasa de paro entre los hombres se situó en mayo en el 6,08_por_ciento , frente_al 6,90 del mismo mes del año anterior
+        </example>
+        <example>
+con lo que la tasa de paro entre las mujeres se situó en el 13,72_por_ciento , frente_al 15,08_por_ciento de mayo_de_1999
+        </example>
+        <example>
+su tasa de paro se situó en el 10,41_por_ciento
+        </example>
+        <example>
+con lo que la cifra de desempleados en las islas se sitúa en 89.764 , es_decir el 12,7_por_ciento de la población activa , según datos del Ministerio_de_Trabajo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

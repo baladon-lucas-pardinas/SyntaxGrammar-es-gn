@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="entrar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+entrar en las villas
+        </example>
+        <example>
+*0* entre en una Secretaría_del_Estado por la puerta del frente
+        </example>
+        <example>
+si el maniático sólo ejerce la confusión desde una fantasía particula, *0* entramos en el campo de lo humorístico
+        </example>
+        <example>
+Mladénov entró en el Gabinete_de_Gobierno comunista a la edad de 35 años
+        </example>
+        <example>
+que entra en un edificio en llamas a rescatar a un niño
+        </example>
+        <example>
+*0* entró con seis hombres armados en el Parlamento
+        </example>
+        <example>
+ese país entrará en un período recesivo
+        </example>
+        <example>
+Argentina entra en recesió
+        </example>
+        <example>
+la coalición de Banzer entrarán en una nueva etapa de relaciones
+        </example>
+        <example>
+que entraron ilegalmente en México
+        </example>
+        <example>
+quien hace dos semanas entró con seis hombres armados en el Parlamento
+        </example>
+        <example>
+así *0* entraron en su nuevo reino
+        </example>
+        <example>
+valores que entran cómodamente dentro_del margen
+        </example>
+        <example>
+en cuya filosofía no entraba el subir los precios
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="efi">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="desde" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Desde entonces *0* entró en silencio absoluto
+        </example>
+        <example>
+en 1989 *0* entró en conflicto con Yívkov
+        </example>
+        <example>
+cuando nos limitemos a trabajos de ensablaje y entremos en competencia con mano de obra mucho más barata
+        </example>
+        <example>
+pueden entrar en contradicción
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+que le ha entrado a la derecha gubernamental
+        </example>
+        <example>
+al Ayuntamiento le ha entrado de_pronto una especie de sofocón
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+La campaña, que entrará en vigor en el transcurso de este mes, constará de 49 proyectos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+cuando entra en juego el personaje
+        </example>
+        <example>
+ha entrado en escena con afirmaciones contradictorias
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="C42.state-experiencer" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="exp"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        
+      </argument>
+      <examples>
+        <example>
+esta película les ha entrado bien y se han vuelto locos por ella
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem"/>
+      <examples>
+        <example>
+Jörg Frick, el abogado de la ex campeona, sin entrar a comentar las cifras, ha confirmado que su cliente ha retirado la demanda
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

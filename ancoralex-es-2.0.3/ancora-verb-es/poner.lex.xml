@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="poner" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A31.ditransitive-patient-locative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="bajo" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+fulgores y tosquedades que la desgracia y la desesperación pone en mano de los combatientes campesinos
+        </example>
+        <example>
+La señora Aguirre es una portera amargada y revenida que pone sus ordenanzas municipales y sus limpiasuelos abrasivos al servicio de esta especie de Tercer_Reich antisindical en el que lleva_camino de convertirse , no sólo en Madrid , la Operación_Limpieza
+        </example>
+        <example>
+Este niuspéiper ponía ayer un ejemplo
+        </example>
+        <example>
+donde la verdadera justicia jamás puso pie
+        </example>
+        <example>
+poner los medios para minimizar las medidas correctivas del entrenador barcelonista y poder , así , ganar de_nuevo
+        </example>
+        <example>
+Zarrabeitia puso la rebeldía , y Delgado la gallardía
+        </example>
+        <example>
+donde *0* ponía el primer fundamento de la distinción de las regiones en el espacio
+        </example>
+        <example>
+si *0* hubiera de poner en mis inclinaciones naturales la determinación de mi voluntad al mal
+        </example>
+        <example>
+los negociadores de Binimarama pondrán sobre la mesa el tema de los rehenes y cuándo tendrá_lugar su liberación
+        </example>
+        <example>
+poner la bandera americana al_revés en un edificio oficial *0* puede ir a la cárcel
+        </example>
+        <example>
+Qué necesidad había de ponerlo , al dorso de cada sobre , si el papel era tan recycled_ecological antes como ahora
+        </example>
+        <example>
+en Birkenau , en_lugar_de la solemne ceremonia *0* hubiesen puesto la película
+        </example>
+        <example>
+ponerlo sobre los brazos del tresillo
+        </example>
+        <example>
+que lo ponga el municipio
+        </example>
+        <example>
+el 12_de_junio por la noche *0* pondremos nuestro programa encima_de la mesa para llegar a un acuerdo con los socialistas y gobernar
+        </example>
+        <example>
+quien ponga su coche en doble parada
+        </example>
+        <example>
+pongamos *0* por caso
+        </example>
+        <example>
+ponerlos a secar
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A31.ditransitive-patient-locative" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="bajo" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+te ponga mucha alegría en el cuerpo
+        </example>
+        <example>
+un buen jugador ... que no pondría un tapón ni a su hermanita menor -
+        </example>
+        <example>
+lo que se le ponía por delante
+        </example>
+        <example>
+*0* Es como si , desde el principio , la vida se pusiera sus propios frenos , estableciendo unos sutiles mecanismos de regulación , los virus , que actuarían como factores correctores en esa especie de juego que *0* llamamos equilibrio ecológico
+        </example>
+        <example>
+*0* le puso un - silin - - techo - al chiringuito
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="bajo" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+México tiene su mente puesta en las selecciones de Jamaica
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="bajo" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+han puesto bajo presión al presidente Fujimori
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+poner punto final a la situación de provisionalidad
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+una demora podría poner en peligro el acuerdo
+        </example>
+        <example>
+la grave crisis que puso en peligro el sistema bancario-financiero de Rumanía la última semana , tras volver hoy , jueves , la calma a los mercados
+        </example>
+        <example>
+el sistema antimisiles pone en peligro la cohesión de la Alianza
+        </example>
+        <example>
+mientras *0* más demoremos , en más peligro *0* pondremos los logros que se han alcanzado hasta ahora "
+        </example>
+        <example>
+la táctica agresiva del Milán ha puesto en dificultad al Barcelona
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <examples>
+        <example>
+los progresos de la ciencia comenzaban a poner en evidencia la importancia del mundo microscópico
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Lo que señalan los sondeos se puso en_evidencia con el fracaso electoral en el Estado federado de Carintia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="argL" function="creg">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <examples>
+        <example>
+han puesto de relieve excelentes conocedores del kantismo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+*0* pone de manifiesto que las empresas se centran más en la I_+_D con objetivos de mercado
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+poner orden en los pleitos que afectan a sus intereses
+        </example>
+        <example>
+poner orden en los barrios de las grandes ciudades
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+que ponían seriamente en_entredicho su autoridad moral
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+que fue puesto en_entredicho con la anterior directiva
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="ante" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+que deberá poner a_prueba su capacidad de organización ante semejante avalancha de acontecimientos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="11">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+cómo se ponen *0* en contacto con ETA ?
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="12">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+si nadie pone de moda el tema
+        </example>
+        <example>
+que puso el Bernabéu boca_abajo
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A11.transitive-causative" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+Si hay alguien que quiere que no ascendamos, *0* le voy a poner las cosas más fáciles de esta forma
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B21.unaccusative-state" type="anticausative">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+ponerse mariagoretis
+        </example>
+        <example>
+*0* se habría puesto antipático
+        </example>
+        <example>
+María_Angélica se puso pálida
+        </example>
+        <example>
+quienes de_pronto se ponen solidarios con las víctimas de la colza o con la catedral de Burgos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="13">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Además , la hembra debe poder poner otra nidada si *0* fuese necesario
+        </example>
+        <example>
+poner huevos grandes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="14">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        
+      </argument>
+      <examples>
+        <example>
+Rosa_Conde le ponía a un hijo Ernesto_Vladimiro en honor del Ché y Lenin
+        </example>
+        <example>
+En honor de la hija del gran deportista Emil_Jellinek , *0* le ponen su nombre : Mercedes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <!--mirar estructura léxico-semántica del verbo en infinitivo#-->
+  <sense id="16">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+ponerme en ascuas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="17">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+*0* me ponga al rojo vivo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="18">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+Cuando *0* lo pusieron en libertad *0* escapó
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argL" function="cc" thematicrole="">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg0" function="cag" thematicrole="agt"/>
+      <examples>
+        <example>
+*0* fue puesto en libertad pocos días después .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="19">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="argL" function="cpred"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+poner perdido un día tan hermoso con tantos piquetes policiales
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="20">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+poner los pelos de punta
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="21">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+Este mismo mes los técnicos entrarán en la factoría para revisar la maquinaria y ponerla a_punto
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+puesta a_punto en 1945
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="22">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+*0* se puso en pie intentando una huida deseperada
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="23">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se pusieron en juego las parrillas de salida
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="24">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+el incremento en el volumen de captura de la merluza está poniendo en riesgo ese recurso natural
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="25">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El centurión , que aspiraba a ser generalísimo de Nerodia , puso a disposición de los monarcas a dos soldados fornidos para llevarlos en brazos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="26">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* lo pone en inglés
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="27">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+Se puso como objetivo consolidar las democracias y fortalecer las instituciones y la cultura democrática
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="28">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+*0* lo pondrá en conocimiento del presidente
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="29">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+*0* pone un pie en LAtinoamérica
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="30">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+poner en ventaja a sus equipos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="31">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+*0* puso en muchos apuros al tenista germano .
+        </example>
+        <example>
+para poner en aprietos al meta Richard_Wright
+        </example>
+        <example>
+que ha puesto en alerta a los inversores
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="32">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+pone broche a una sensacional temporada
+        </example>
+        <example>
+poner el colofón a su carrera
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="33">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+ni él ni su Gobierno ponen límites a la relación con el PSOE
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="34">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg1" function="cc" tem="tem" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+La centralita de la Bolsa_de_París se ha puesto también al_día de su nueva realidad
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="35">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+pondrá en circulación mañana, jueves, la revista " AutoFoco "
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="36">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+poner en cuarentena su monta a_primeros_de agosto
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="37">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="contra" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+no le ha puesto contra las cuerdas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="38">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+ponerse de_acuerdo en algo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="39">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+que la puso en venta el pasado verano
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+En unos días se pondrá a la venta en España un videojuego
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="40">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+los seguidores de la Colla se pusieron manos a la obra para completarla
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="41">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+El equipo de Jané se puso por delante por primera vez enel partido
+        </example>
+        <example>
+luego se puso al_frente_de la que calcula el coste de la vida
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="42">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Si ponen atención en lo que se dice y se escribe sobre una posible repatriación
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="43">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+el Tribunal_Supremo pone en jaque a la Administración de Duhalde
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="44">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+ha puesto al PNV entre la espada etarra y la pétrea pared del Gobierno
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="45">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+El presidente del PP de Catalunya pone rumbo al centro catalanista
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="46">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="cc" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+este año pondrá el acento en la moda íntima
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="15">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>puestos a desangrar al herido</example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

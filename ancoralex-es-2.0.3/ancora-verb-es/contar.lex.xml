@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="contar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+cuentan los convergentes
+        </example>
+        <example>
+No contarte mi vida nunca más
+        </example>
+        <example>
+Cuentan Tácito y César en sus libros que las tribus germanas solían resolver sus batallas en combates singulares a espada
+        </example>
+        <example>
+La Historia cuenta que el emperador Nerón visitó los Alpes en el otoño del año_sesenta_y_uno_después_de_Cristo
+        </example>
+        <example>
+Cuentan los bribones de la ciudad que después_de beber una botella de ginebra con Cayetana , el que la acompañaba , la insultó : - Tú sólo frecuentas banderilleros y bailaores maricas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+contada por el director americano
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+Ojo,yo te he contado esta historia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="ext">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+*0* Cuenta con operaciones en 30 países
+        </example>
+        <example>
+que cuenten con similares ingredientes
+        </example>
+        <example>
+que contaba con un balcón en su parte superior .
+        </example>
+        <example>
+El enorme esfuerzo que se está vertiendo en todo el mundo en el estudio de estos nuevos materiales , cuenta también en nuestro país con programas de investigación desarrollándose en varias Universidades y en el CSIC
+        </example>
+        <example>
+contar con el 51,22_por_ciento de los votos totales , al 99,78_por_ciento de las mesas escrutadas
+        </example>
+        <example>
+contar con la aprobación
+        </example>
+        <example>
+donde el - Deustche_Bank - no cuente con una filial
+        </example>
+        <example>
+Cottbus contase con su primer asador
+        </example>
+        <example>
+*0* no cuenta con medios para recaudar el dinero exigido , busque lo que se denomina - una maniobra de pura perturbación -
+        </example>
+        <example>
+*0* sigue contando en Madrid con la fuerza suficiente como para cumplir las amenazas que *0* incluyen en sus cartas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C21.state-attributive" type="impersonal">
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se cuente con ellos al final
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* No cuento a Alfonso que se lesionó y nos privó de la posibilidad de juzgarlo
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+tiene los días contados
+        </example>
+        <example>
+en la acera de los neogaullistas del Reagrupamiento_por_la_República (RPR) se cuentan ya tres políticos en liza
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+que comenzará contar a_partir_del 1_de_diciembre próximo
+        </example>
+        <example>
+Eso es lo que cuenta
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

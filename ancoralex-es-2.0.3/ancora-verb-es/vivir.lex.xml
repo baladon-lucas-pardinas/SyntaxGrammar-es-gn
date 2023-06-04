@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="vivir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* Vivía todo el día de cabeza
+        </example>
+        <example>
+la casa vive llena de chavales
+        </example>
+        <example>
+España , en la primavera del 68 , vivía de espaldas a cuanto ocurría en Europa
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+en que vivían los hombres
+        </example>
+        <example>
+en la que *0* viven
+        </example>
+        <example>
+en la que *0* vivimos
+        </example>
+        <example>
+*0* vivía allí entonces
+        </example>
+        <example>
+en los países más prósperos y desarrollados viven ya tantas ratas como seres humanos
+        </example>
+        <example>
+la mayor parte vive en latitudes altas , en donde la temporada de reproducción es muy corta y *0* no deja tiempo para criar una segunda nidada
+        </example>
+        <example>
+Estos simios peruanos viven en grupos formados por los padres , su descendencia de años anteriores y las crías pequeñas más actuales
+        </example>
+        <example>
+los titíes viven en los árboles
+        </example>
+        <example>
+Allí vivían , *0* no sé cómo , la hermana de mi amigo , su marido y cuatro niños
+        </example>
+        <example>
+*0* Vivíamos justo enfrente_de los - hostels - - edificaciones donde residen los trabajadores zulúes - que controla Inkatha
+        </example>
+        <example>
+viven 130.000 personas
+        </example>
+        <example>
+que viven en ciudades
+        </example>
+        <example>
+*0* Vive en Badalona
+        </example>
+        <example>
+En aquel tiempo *0* vivía con él y con un tercero en - una comuna - que se disolvió cuando el ex_ministro trajo a vivir a su familia a Madrid
+        </example>
+        <example>
+*0* tenemos que vivir en casa de unos parientes de mi mujer
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Delgado vive con algo más que dignidad su declive
+        </example>
+        <example>
+Negativa , los grandes de la banca española vivieron el acoso de ETA a_comienzos_de la década de los ochenta
+        </example>
+        <example>
+que vivía uno de los momentos de cambio más importantes de su reciente historia , casi su segunda revolución
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+Que Álex viva un momento de gloria con La Comunidad
+        </example>
+        <example>
+ese momento yo ya lo he vivido y sé lo que es
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt"/>
+      <examples>
+        <example>
+Un sinfín de situaciones vividas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="impersonal">
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+que se vive
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="D21.inergative-experiencer" type="default">
+      <argument argument="arg0" function="suj" thematicrole="exp"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="ext"/>
+      <examples>
+        <example>
+*0* vivió
+        </example>
+        <example>
+que ha vivido mil años como mujer de libros y entre libros
+        </example>
+        <example>
+*0* había vivido 5.000 años atrás
+        </example>
+        <example>
+Ella vivió con la cabeza alta ante el Generalísimo , que jamás pisó el Palacio_de_Liria
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>la verdad es que vive de su hembra</example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

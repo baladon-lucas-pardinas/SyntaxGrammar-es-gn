@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="llevar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="cc" thematicrole="loc"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="creg" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+lo cual lleva a preguntarse por qué *0* tienen entonces nuevo presidente
+        </example>
+        <example>
+su ambición le llevó , en una ocasión , a chocar contra una valla
+        </example>
+        <example>
+La falta del entorno familiar en situaciones difíciles , sobre_todo cuando profesionalmente no van bien las cosas , llevan al ciclista a un estado depresivo
+        </example>
+        <example>
+El estallido de la Primera_Guerra_Mundial , en 1914 , llevó muy poco después a que la humanidad contemplara con sus propios ojos los efectos combinados de ciencia y guerra
+        </example>
+        <example>
+ha conseguido sintetizar , por un nuevo método , películas de de alta calidad , lo que ha llevado a un material más cristalino que no presenta defectos de carbonos Sp3 en su estructura
+        </example>
+        <example>
+La popularidad del Motor_Otto llevó a la fundación , en 1872 , de la firma Gas-Motoren-Fabrik_Deutz_A._G. , en la que participaban los brillantes ingenieros Gottlieb_Daimler y Wilhelm_Maybach
+        </example>
+        <example>
+Esto lleva a pensar que la formación de la vida
+        </example>
+        <example>
+los acontecimientos de su vida pasada que les han llevado a tal situación esclava
+        </example>
+        <example>
+los esfuerzos que han hecho en los últimos veinticinco años algunas organizaciones internacionales - UNESCO , Consejo_de_Europa , CEE - por llevar a los gobiernos interesados a plantearse e intentar resolver un problema que , considerado en_profundidad , era políticamente nuevo
+        </example>
+        <example>
+una serie de consideraciones políticas que han llevado a que cualificados miembros de la lucha antiterrorista alberguen ciertas dudas sobre su autenticidad
+        </example>
+        <example>
+otras veces son motivos profesionales los que te llevan a un cambio de equipo
+        </example>
+        <example>
+una etapa de la vida de Pilar caracterizada por el trabajo constante y que la llevó de militar en la CNT - " pero cuando *0* era muy joven , - eh ? , porque *0* fui de la última generación antifranquista y *0* no bebí en las fuentes comunistas sino en las anarquistas " , *0* dice - a ser considerada la musa ideológica del pujolismo por excelencia
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+tal y como se ha llevado desde CiU
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        
+      </argument>
+      <argument argument="argL" function="creg">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Entre lo que *0* sabe y lo que *0* se inventa *0* puede llevar a la ruina a gran parte de la clase dirigente
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="B23.unaccusative-theme-cotheme" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="cot">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+Suele decirse que es muy bueno que los políticos se lleven bien
+        </example>
+        <example>
+Con el personal *0* me llevo bien
+        </example>
+        <example>
+Pilar se lleva bien con otros nacionalistas
+        </example>
+        <example>
+¿Cómo se lleva con Pilar Cuesta?
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+es democráticamente bueno que los políticos , en su territorio , se lleven mal
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+la competición universitaria , extraordinariamente abierta este año , lleva semanas dominada - en los ránking extraoficiales , *0* claro está - , por un equipo muy poco habitual : el de la Universidad_de_Arkansas
+        </example>
+        <example>
+Hasta Butragueño , mientras *0* estuvo en el campo , parecía estar haciendo novillos de ese pamplinoso nirvana , lleno de ascetismo y resignación en el que *0* lleva sumido tanto tiempo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="atr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+varios de los rehenes llevaban días con molestias
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="C31.state-scalar" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="ext"/>
+      <examples>
+        <example>
+lo que *0* llevamos de carrera
+        </example>
+        <example>
+Llevamos menos de un mes en esta situación
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Rubia , *0* se peinaba de maja y *0* se atrevía a llevar vestidos chillones
+        </example>
+        <example>
+dentro y fuera del equipo , en donde solamente dos jugadores llevan con dignidad la camiseta del club
+        </example>
+        <example>
+la costumbre importada desde Italia hacia el siglo_XV de llevar espada como un accesorio más de la indumentaria cotidiana
+        </example>
+        <example>
+*0* Deducíamos que *0* era la bandera japonesa porque la llevaban los japoneses
+        </example>
+        <example>
+todos los participantes , vestidos con chándales impermeables , llevaban banderas con la estrella de David de todos los tamaños
+        </example>
+        <example>
+*0* Llevaba también unas lucecillas en los ojos , una bocina y una guantera en los cuartos traseros
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="impersonal">
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+escaparate de lo que se llevará el próximo verano
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+la escasa ventaja que le lleva su rival republicano George_W._Bush
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Después , o en_medio , *0* le das un mordisco traicionero y *0* te llevas los puntos a la guarida donde *0* preparas tu próximo asalto
+        </example>
+        <example>
+Rominger se llevó la etapa más bonita de lo que *0* llevamos de carrera
+        </example>
+        <example>
+Esos ladrones se llevaron nuestras vacas y ovejas
+        </example>
+        <example>
+*0* Le ofrecí tres_mil_pesetas si *0* se llevaba uno de los dos Niños_Dioses , el que él quisiera
+        </example>
+        <example>
+*0* Dejaba cinco años de gestión espléndida y *0* se llevaba la sensación de que *0* había superado pruebas para las que *0* pensó que *0* no estaba preparado por sus orígenes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Unos llevan la fama y otros cardan la lana
+        </example>
+        <example>
+Pero nosotros llevaremos siempre muy dentro el ciclismo
+        </example>
+        <example>
+cada uno lleva su pensamiento dentro de ese inmenso pelotón con muchas horas sobre el caballo de acero , que es impulsado no_sólo por la fuerza física , sino por la anímica
+        </example>
+        <example>
+Otro tipo de publicidad es el montaje que la Vuelta a España lleva alrededor_del ciclismo en sí
+        </example>
+        <example>
+- Por qué en las embajadas continúa ondeando la que no lleva rayos ?
+        </example>
+        <example>
+De un tiempo a esta parte los sobres que envía la caja de ahorros - básicamente para avisar del saldo negativo - llevan una especie de marca con tres flechas planas y dobladas , cada una de las cuales muere en la siguiente
+        </example>
+        <example>
+la marmita que lleva su nombre
+        </example>
+        <example>
+El sábado pasado , sobre la hierba blaugrana del Nou_Camp , esta yegua viejorra y pendedera que es ahora el Real_Madrid se llevó un puñado de zurriagazos de los que dejan mataduras hasta el día de la extremaunción
+        </example>
+        <example>
+un caballo mecánico que llevaba adosadas dos ruedecillas en las patas delanteras
+        </example>
+        <example>
+todos los partidos que *0* llevamos jugados
+        </example>
+        <example>
+la formación de la vida , hace cuatro_mil_quinientos_millones de años , llevaba implícita la aparición posterior de los diferentes tipos de virus
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="11">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el retiro de la política *0* lo llevo bien
+        </example>
+        <example>
+*0* Ha llevado con empaque su ducado , a la sombra de Durero
+        </example>
+        <example>
+*0* Tengo ganas de volver a casa y llevar una vida más tranquila
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="12">
+    <frame default="yes" lss="A31.ditransitive-patient-locative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="hasta" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Incluso la atención de dos padres no basta , debido_a que uno de ellos estaría forzado a comer y a llevar el cachorro al mismo tiempo
+        </example>
+        <example>
+la señal es atrapada por los electrodos para llevarla hasta un amplificador-transmisor que la envía a su vez a una pequeña antena de radio instalada en su silla de ruedas
+        </example>
+        <example>
+*0* habían de llevar dos padrinos o testigos , encargados de determinar el grado de la ofensa , decidir la fecha , el terreno , el tipo de arma y la distancia que mediaría entre los adversarios
+        </example>
+        <example>
+tres años después *0* montó su motor en un carrillo que le llevó a Joinville a_lo_largo_de quince kilómetros , con inmenso gasto
+        </example>
+        <example>
+Hasta_que el preso no se presente en comisaría o *0* lo lleven
+        </example>
+        <example>
+puso a disposición de los monarcas a dos soldados fornidos para llevarlos en brazos"26)  El Alavés , equipo revelación de la Liga , y el Celta , para muchos el que ha ofrecido el mejor fútbol del campeonato , llevan demasiado tiempo sin ganar .
+        </example>
+        <example>
+Muy bien : - cree usted que *0* puede dar franca salida a sus ímpetus caritativos agarrando un bosnio o dos y llevándolos a su casa para colmarlos de atenciones , protegerlos del invierno , regalarles turrón en Navidad y hacerles ver que la solidaridad humana velaría por ellos y por los demás destituidos del mundo ?
+        </example>
+        <example>
+Desde allí les llevaron, junto a otros 45 sufridos pasajeros, hasta el aeropuerto de Maó
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A31.ditransitive-patient-locative" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="hasta" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+que llevará el metro a 25.000 vecinos de esta zona
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="13">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+Lleva tiempo entenderlos
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C11.state-existential" type="benefactive">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+Le ha llevado años de numerosas discusiones con las confederaciones, per, por fin, obtuvo en agosto pasado la luz verde para aplicarlo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="14">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+será una blasfemia llevar adelante la operación de rescate
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="15">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El ruso Guennadi_Padalka llevaba en la estación desde el mes_de_agosto.
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

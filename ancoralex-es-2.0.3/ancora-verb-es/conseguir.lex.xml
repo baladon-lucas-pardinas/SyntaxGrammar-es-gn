@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="conseguir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="sin" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="tras" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Ahora_bien , aun logrando el metalomacrociclo polimérico - dopado - y con la cristalización apropiada , no se puede conseguir un control sobre la distancia interplanar
+        </example>
+        <example>
+que tres días antes *0* no había conseguido nunca
+        </example>
+        <example>
+consiguiendo a_la_vez que todos los hombres mirasen a la canasta
+        </example>
+        <example>
+*0* no consiguió acabar con ese poder oficialista
+        </example>
+        <example>
+Y *0* lo va consiguiendo
+        </example>
+        <example>
+La empresa organizadora de la carrera consigue una gran cantidad de colaboradores y patrocinadores
+        </example>
+        <example>
+Al_igual_que la cebra , otros muchos animales consiguen mimetizarse gracias_a sus crípticas libreas
+        </example>
+        <example>
+conseguir un autómata capaz de emular algunas de las actividades propias de los seres vivos
+        </example>
+        <example>
+Alguno consigue escapar de allí , muy de_tarde_en_tarde
+        </example>
+        <example>
+él había conseguido un trabajo y una cama en la ciudad
+        </example>
+        <example>
+Con estos vuelos *0* consiguieron verificar simultáneamente dos aspectos de la relatividad
+        </example>
+        <example>
+conseguirlo
+        </example>
+        <example>
+*0* Consiguió , *0* me dicen , organizar el suburbio
+        </example>
+        <example>
+Muy recientemente H._Naarmann de los laboratorios de BASF , en Ludwigshafen , Alemania , ha conseguido sintetizar
+        </example>
+        <example>
+conseguir una disposición de macrociclos de ftalocianinas en apilamientos sin necesidad de ligandos puente
+        </example>
+        <example>
+*0* conseguimos un corredor vial a_través_de Venezuela , con un permiso especial de la hermana República , para transportar la materia prima que necesita la industria avícola , con el fin de sacar productos
+        </example>
+        <example>
+haber conseguido seducir a cuatro de las cinco grandes centrales
+        </example>
+        <example>
+que tras algunos retoques introducidos a_lo_largo_de una maratoniana reunión de trece horas , consiguió ayer al alba llevarse a su terreno a la mayoría de sus interlocutores sindicales
+        </example>
+        <example>
+conseguir que los colectivos con más problemas - parados de larga duración , mayores de 45 años y mujeres - logren acceder al mercado laboral
+        </example>
+        <example>
+el archipiélago ha conseguido romper en estos meses su tendencia tradicional
+        </example>
+        <example>
+Una familia consiguió acarrear dos sacos de las famosas madumbes
+        </example>
+        <example>
+*0* íbamos a poder conseguir algo
+        </example>
+        <example>
+Convenientemente ensartados en un hilo de nylon , y alternados con los huesos de las aceitunas del aperitivo - que *0* habremos guardado , evidentemente : ¡ aquí no se tira nada ! - *0* conseguiremos un bonito collar recycled_ecological
+        </example>
+        <example>
+con las armas *0* no hemos conseguido lo que *0* queríamos , a ver si con la palabra *0* podemos
+        </example>
+        <example>
+Qué han conseguido *0*
+        </example>
+        <example>
+*0* ha conseguido huir de los cretinos
+        </example>
+        <example>
+El flamante portavoz del Grupo socialista , Joaquín_Almunia , ha conseguido paralizar la actividad parlamentaria
+        </example>
+        <example>
+usted consiga ganarse el cielo y ser motivo de ejemplo en las tertulias que sostienen los ángeles después_del almuerzo en las nubes rosadas , sin haber visto nunca un bosnio de cerca
+        </example>
+        <example>
+*0* consiguió reunir a toda la familia real española en Madrid
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+En 1960 se consiguió llevar_a_cabo la primera prueba fiable
+        </example>
+        <example>
+Pero junto_a estos conductores de matriz polimérica , llamados extrínsecos - - composites - o materiales compuestos - por ser una segunda sustancia la que proporciona la conductividad , se está consiguiendo desde hace unos años un tipo mucho más interesante
+        </example>
+        <example>
+En algunos casos se ha conseguido llegar a propiedades semiconductoras
+        </example>
+        <example>
+Así , se han conseguido mesofases discóticas con derivados de ftalocianinas
+        </example>
+        <example>
+Esta situación se consigue cuando moléculas planas y conjugadas cristalizan en apilamientos
+        </example>
+        <example>
+El acuerdo se ha conseguido después_de que Alcan se asegurase el apoyo de BZ_Group_Holding_Limited
+        </example>
+        <example>
+si no se lucha no se consigue nada
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>un intermediario que les consiguiera una comida con el propio señor González</example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="esperar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Porque de tanto escuchar al señor Pujol decir que si se corrige la reforma laboral *0* deja de apoyar al Gobierno , y que si el Constitucional desautoriza la Ley_de_Inmersión_Lingüística_del_Catalán *0* también retira el apoyo , el personal espera que en cualquier momento el señor Pujol salga con que , o hay pasta para el Liceo , o de apoyo al Gobierno ni mijita .
+        </example>
+        <example>
+la muerte , con su guarnición de sangre y masa encefálica desparramada , espera al hombre en el asfalto
+        </example>
+        <example>
+Toda tu cultura se reduce a esperar al rival , a morderle , a sujetarle y a extorsionarle .
+        </example>
+        <example>
+su táctica es esperar los ataques
+        </example>
+        <example>
+No espere el lector una definición previa de la palabra cultura
+        </example>
+        <example>
+Desde fuera , el Rancho_Criollo parece un fuerte apache esperando la carga del quinto de caballería
+        </example>
+        <example>
+Los nacionalistas , que son los garantes de este decrépito Ejecutivo , esperan los resultados del día_12 .
+        </example>
+        <example>
+El coronel quiere concluir su brillante carrera militar , aunque *0* aún debe esperar las posibles sanciones disciplinarias que le podría imponer el mando militar .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+Esperemos *0* que muy pronto
+        </example>
+        <example>
+*0* espero fusionar las operaciones de Algroup y Alcan en una nueva industria líder a nivel global en el sector del aluminio y el embalado
+        </example>
+        <example>
+*0* Esperamos que el Senado actúe rápidamente e *0* inicie el debate el 12_de_junio y si *0* es posible *0* someta a votación el proyecto esa misma semana
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Para las elecciones , se espera la llegada de más_de 450 observadores extranjeros procedentes de unos 21 países , lo_mismo_que de diversos organismos internacionales .
+        </example>
+        <example>
+Los documentos de la disolución con la firma de Mori y el sello del emperador Akihito se espera que *0* sean entregados al presidente de la poderosa Cámara_del_Legislativo , Soichiro_Ito , por el ministro Portavoz del gobierno Mikio_Aoki , a primera hora de la tarde .
+        </example>
+        <example>
+Se espera que se presenten más_de 1.200 candidatos a las elecciones , que se celebrarán el mismo día que el fallecido ex primer ministro Keizo_Obuchi cumpliría 63 años .
+        </example>
+        <example>
+Se espera que los tres partidos de la coalición gubernamental compuesta por el Liberal_Demócrata - - , el nuevo Komeito y el Nuevo_Conservador , logren la mayoría en la poderosa Cámara_Baja aunque *0* podrían no renovar la cómoda mayoría que ahora *0* poseen
+        </example>
+        <example>
+se espera que *0* retengan la mayoría , aunque *0* podrían no renovar su cómoda mayoría absoluta de la actualidad
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="impersonal">
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+Se espera que para la próxima cosecha costarricense , que comienza en octubre , el precio de venta promedio de Costa_Rica supere los 111 dólares por saco
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cc" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Sin esperar a vestirme , *0* bajé en busca del portero del edificio
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A22.transitive-agentive-theme" type="impersonal">
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+hay que esperar a que se confirmen las informaciones
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se encuentra conmovido por la suerte que espera en este invierno a los refugiados bosnios .
+        </example>
+        <example>
+Le espera un mes terrible
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+    </frame>
+    <frame lss="B21.unaccusative-state" type="anticausative">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <examples>
+        <example>
+el primer gol no se hizo esperar
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

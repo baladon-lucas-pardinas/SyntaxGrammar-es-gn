@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="tratar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+tratar de evitar una canasta de los rivales aunque *0* sea con falta
+        </example>
+        <example>
+tratar de provocar el error en el equipo rival
+        </example>
+        <example>
+tratar de acceder al tercero
+        </example>
+        <example>
+sus guardaespaldas trataban penosamente de conducirlo hacia su automóvil oficial
+        </example>
+        <example>
+tratando de no caerse ni hacer el ridículo , porque *0* ya no eran cortesanos , sino reyes
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A22.transitive-agentive-theme" type="impersonal">
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Se trataría de amedrentar y sembrar el terror en la capital del Estado
+        </example>
+        <example>
+se trata de defender los intereses generales de los españoles
+        </example>
+        <example>
+se trata de prever acciones libres
+        </example>
+        <example>
+se trata de determinar la estructura de la significación cultural de las creencias , las leyendas , los mitos o las ideas
+        </example>
+        <example>
+Así_pues , se trata de definir un campo propio de la creatividad humana
+        </example>
+        <example>
+Se trata ahora de luchar contra el recorte del dinero del PER y la reducción del salario de los trabajadores contratados ."
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+    </frame>
+    <frame lss="C21.state-attributive" type="impersonal">
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se trata , como en algunas películas , de un - sheriff - corrupto que sólo se preocupa de poner orden en los pleitos que afectan a sus intereses
+        </example>
+        <example>
+se trata de un hombre sin escrúpulos
+        </example>
+        <example>
+se trataba sólo de una vieja metáfora
+        </example>
+        <example>
+No se trató , por_añadidura , de un contraataque eléctrico por elegante o irresistible por brutal , resuelto en tres pases de escueta y relampagueante verticalidad
+        </example>
+        <example>
+se trataba del mismo Juan_Fernández
+        </example>
+        <example>
+No se trata de un cumplido vaporoso y obsequioso
+        </example>
+        <example>
+se trataba de la amistad la que reunía a corredores de diferentes equipos
+        </example>
+        <example>
+de un conducto reglamentario se tratase
+        </example>
+        <example>
+se trata únicamente de un anuncio publicitario
+        </example>
+        <example>
+Se trata de los cánceres de piel , huesos o pulmón , cataratas , anemias aplásticas y leucemias , cuya probabilidad aumenta con la dosis absorbida por los tejidos
+        </example>
+        <example>
+No se trata de un producto de laboratorio , ni de una fórmula secreta ni de magia
+        </example>
+        <example>
+Se trata del Gravitational_Red_Shift_Rocket_Experiment
+        </example>
+        <example>
+Por_último , se trataría de una de esas armas limpias con las que parecen soñar los estrategas
+        </example>
+        <example>
+en_realidad no se trata de una estructura biológica muy fuerte
+        </example>
+        <example>
+Pero en_realidad no se trata , ni_mucho_menos , de un fenómeno parapsicológico
+        </example>
+        <example>
+se tratara de un teclado luminoso
+        </example>
+        <example>
+según el virus de que se trate
+        </example>
+        <example>
+se trate de una planta , animal o del propio ser humano
+        </example>
+        <example>
+En_realidad , se trata de viejos conocidos que tuvieron un origen común
+        </example>
+        <example>
+se trata del humanismo de los moralistas , del gusto literario y artístico , del patrimonio de los hombres sumamente civilizados
+        </example>
+        <example>
+Se trata de una auténtica revolución contenida en cuatro letras : Care - Contrato de ayuda para regresar al empleo
+        </example>
+        <example>
+no se trata de un tema más antiguo
+        </example>
+        <example>
+se trata " de un repunte algo superior a la tónica que este indicador venía arrojando en los últimos meses
+        </example>
+        <example>
+en esta ocasión se trate de otra banda organizada y sin conexión con ETA
+        </example>
+        <example>
+" Se trata , en_efecto , de introducir un ligando unido al metal del metalomacrociclo , lo que permite la formación de especies poliméricas en las que la distancia entre macrociclos - fig. 2 - viene fijada por el ligando L
+        </example>
+        <example>
+" Se trata de beneficiar a laboratorios farmacéuticos , endosan al sistema sanitario no_sólo los fármacos convenientes , sino bastante morralla " , *0* apostilló
+        </example>
+        <example>
+Se trata la esclerosis lateral amiotrófica o mal de Gehring , la misma enfermedad que ha desahuciado al prestigioso y revolucionario físico Stephen_Hawking
+        </example>
+        <example>
+Para el consejero se trata " de un repunte algo superior a la tónica que este indicador venía arrojando en los últimos meses "
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+en el que se tratarán diversos temas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+*0* trata a los desempleados como a " delincuentes "
+        </example>
+        <example>
+algunos medios le han tratado de esquizofrénico afectado de manía persecutoria
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+quienes los cometen deben ser tratados como lo que son: terroristas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="acerca_de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+los representantes saudíes y yemíes trataron principalmente sobre la colaboración del sector privado en futuras inversiones conjuntas, "por las amplias oportunidades que ofrece", dijo Ariani
+        </example>
+        <example>
+el texto premiado trata de la transición en Cuba
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="como" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+pidió públicamente que se le dejara de tratar de excelencia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+Esos informes y los de los dos psiquiatras del Hospital Román Alberca de Murcia recomiendan que Rabadán sea tratado de inmediato
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <!--significat=negociar géneros###-->
+  <sense id="8" undocumented="yes">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+    </frame>
+  </sense>
+</lexentry>

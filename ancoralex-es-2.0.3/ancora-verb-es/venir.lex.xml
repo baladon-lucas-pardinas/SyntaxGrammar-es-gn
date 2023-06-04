@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="venir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+A_lo_mejor por_ahí puede venir la salvación del Madrid
+        </example>
+        <example>
+Luego vienen a meter cizaña el sentido común , la debilidad sentimental , la resignación , los escrúpulos y el miedo a las enfermedades
+        </example>
+        <example>
+Por eso , ¡ vengan más Madrid-Barcelona !
+        </example>
+        <example>
+Lo que vino después pareció reforzar esa idea de que el Madrid es - Buyo y diez más
+        </example>
+        <example>
+De ahí viene el sabio refrán popular de " año de nieves , año de bienes
+        </example>
+        <example>
+La respuesta vino de la mano de un grupo de investigadores del departamento de Medicina_experimental del instituto Max_Planck_de_Gottingen - República_Federal_Alemana
+        </example>
+        <example>
+todo el saber le venía de que , cuando *0* tenía cinco años , había muerto su madre
+        </example>
+        <example>
+Posteriormente , en opinión de Ruocco , " vendrá la necesidad de vender , porque las empresas de Argentina van a salir a competir duramente con las uruguayas en los otros mercados internacionales
+        </example>
+        <example>
+*0* Vengo de Würzburgo , donde viven 130.000 personas y éramos 300 abogados
+        </example>
+        <example>
+además_de asomar la tensión de ser el líder de la carrera , le viene la idea de que *0* será atacado cuando *0* baje la guardia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+*0* viniste a Madrid
+        </example>
+        <example>
+Al campo de confinamiento , como le llamaban los nazis , venían los elegidos
+        </example>
+        <example>
+Me parece formidable que la organización haya decidido que este año vengan también chicos y chicas de otras creencias
+        </example>
+        <example>
+- Aquí , cada cual viene a su vaina
+        </example>
+        <example>
+Muchas de estas extranjeras se casaron con españoles o con hispanoamericanos que venían becados por sus gobiernos
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A11.transitive-causative" type="causative">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+quizás Lorenzo_Daza la havía hecho venir para que *0* influyera en favor del doctor Urbino
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <examples>
+        <example>
+el Real_Madrid puede hacer otra vez el ridículo el domingo que viene
+        </example>
+        <example>
+Hasta el año que viene
+        </example>
+        <example>
+Siempre hasta la temporada que viene
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C42.state-experiencer" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="exp"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+a mí no me extraña que el martillo , el yunque y el estribo puedan de_golpe ponerse a armar follón sólo porque sí , porque *0* les viene en gana
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Se trata , en_efecto , de introducir un ligando unido al metal del metalomacrociclo , lo que permite la formación de especies poliméricas en las que la distancia entre macrociclos - fig. 2 - viene fijada por el ligando L
+        </example>
+        <example>
+la reunión del telos moral o ideal , que viene expresado por la fórmula kantiana del reino de los fines , y del telos existencial , que el Ensayo_sobre_las_magnitudes_negativas - 1703 - presentaba como un perfeccionamiento sin crecimiento de lo positivo
+        </example>
+        <example>
+Lo que importa es el valor de la actividad , venga *0* aguijoneada por el dolor o impulsada por el placer
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C21.state-attributive" type="resultative">
+      <argument argument="arg2" function="cc" thematicrole="atr"/>
+      <examples>
+        <example>
+pequeños empresarios recién venidos a ganaderos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+entonces viene la_mar_de bien ponerse mariagoretis y regalarle a Rafael_Feria un alfiler de corbata y a Michael_Jackson un pai-pai
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C11.state-existential" type="benefactive">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+el hecho de que las semifinales no se disputen hasta el mes_de_abril va a venir muy bien a su equipo
+        </example>
+        <example>
+que de_paso no nos vendrá nada mal
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+el equipo no se va a venir abajo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="querer" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+        <constituent preposition="contra" type="sp"/>
+        <constituent preposition="según" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="ante" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* No quiero decir que lo sea , cínico o divertido
+        </example>
+        <example>
+*0* Quiero decir que , como *0* saben , el Consejo_de_Ministros acaba de aprobar un proyecto
+        </example>
+        <example>
+Ayer *0* no quiso ganar
+        </example>
+        <example>
+Rominger lo quiso
+        </example>
+        <example>
+*0* Quiero con esto decir que Medardo_Fraile ha escrito un relato
+        </example>
+        <example>
+*0* me quiero poner íntimo
+        </example>
+        <example>
+la señora Aguirre quiere de_veras castigar la suciedad de Madrid
+        </example>
+        <example>
+que *0* quisiera
+        </example>
+        <example>
+Con esto *0* no quiero decir que nosotros no hagamos faltas personales , ya_que *0* aún no lo hacemos todo lo bien que me gustaría
+        </example>
+        <example>
+*0* quiero hacer reflexionar a algunos
+        </example>
+        <example>
+El primero quería arreglar las causas de su naufragio
+        </example>
+        <example>
+Rominger , por lo que *0* vimos en Andorra , quiere aplastar hasta un cierto punto
+        </example>
+        <example>
+Más adelante *0* queremos hacer del Mbitiword un mundo lo más parecido al real
+        </example>
+        <example>
+*0* quisieron llegar a la ciudad
+        </example>
+        <example>
+Yo quería conocer aquello
+        </example>
+        <example>
+el doctor Meagher quiere llevar_a_cabo una actividad
+        </example>
+        <example>
+*0* No queremos pensar que ese lugar sea la Antártida
+        </example>
+        <example>
+Henry_Ford , por su parte , quiso dedicarse a la política
+        </example>
+        <example>
+contra la que ZZNM quiso prevenirnos
+        </example>
+        <example>
+quiere comenzar el proceso de privatización
+        </example>
+        <example>
+La_UE y EEUU quieren iniciar una nueva ronda comercial
+        </example>
+        <example>
+Ahora , el Congresillo quiere guardar las formas y consultar a la " sociedad civil " - Iglesia , partidos , empresarios , sindicatos - cuál sería la composición idónea y equilibrada del CNE , supuestamente garante de la imparcialidad de los comicios , con el fin de dar un tinte democrático
+        </example>
+        <example>
+la UE quiere cooperar para relazar el proceso de paz
+        </example>
+        <example>
+El coronel quiere concluir su brillante carrera militar , aunque *0* aún debe esperar las posibles sanciones
+        </example>
+        <example>
+en los cuales su partido quiere contribuir a su solución
+        </example>
+        <example>
+Infinidad de gente quiere fundar empresas
+        </example>
+        <example>
+CiU quiere tener cunato_antes su policía autonómica
+        </example>
+        <example>
+En CiU *0* querían llegar a un principio de acuerdo
+        </example>
+        <example>
+querer practicarla
+        </example>
+        <example>
+*0* quiere ayudar a sus semejantes
+        </example>
+        <example>
+a Nicolás_Redondo *0* lo quieren ante los tribunales mejor antes del 27_E que después
+        </example>
+        <example>
+El Hollywood clásico quería que sus actores se volvieran estrellas
+        </example>
+        <example>
+Todos quieren algo del virtuoso
+        </example>
+        <example>
+*0* quiera sobre cada uno de los naufragios
+        </example>
+        <example>
+los EEUU no quieren dirigir el mundo
+        </example>
+        <example>
+Algunos de los protagonistas no quieren que el progreso llegue porque eso requerirá un mauor esfuerzo por su parte
+        </example>
+        <example>
+Tony_Rominger quiere parecerse cada vez más a Miguel_Indurain
+        </example>
+        <example>
+El primero quiso escaparse
+        </example>
+        <example>
+*0* no quiere una puta
+        </example>
+        <example>
+en la que pocos , muy pocos , quisieran vivir
+        </example>
+        <example>
+hemos conseguido lo que *0* queríamos
+        </example>
+        <example>
+Esta vez *0* queremos que a todo el mundo le quede claro que *0* queremos
+        </example>
+        <example>
+*0* queremos gobernar en Andalucía
+        </example>
+        <example>
+el que él quisiera
+        </example>
+        <example>
+Demasiadas veces *0* no han querido
+        </example>
+        <example>
+una cierta interpretación romántica o tradorromántica del personaje , cuyo ejemplo pudiera ser ZZNM , ha querido hacer de él un personaje trágico
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="impersonal">
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+con la que se quiere hacer patente que " Artur_Mas , como futuro líder , es quien manda en el partido
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="ext"/>
+      <examples>
+        <example>
+al que *0* quisimos tanto
+        </example>
+        <example>
+cuánta gente te quería
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+Mi querido Joaquín_Ruiz-Giménez
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

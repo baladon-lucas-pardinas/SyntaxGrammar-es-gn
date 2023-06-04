@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="deber" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="según" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Según mis noticias , eso del tinnitus puede deberse a un simple tapón de cera o a la inflamación de una membrana .
+        </example>
+        <example>
+Pero la existencia de dos recién nacidos en la misma caja sólo podía deberse a un descuido de fábrica .
+        </example>
+        <example>
+este corrimiento se debía a la dilatación del tiempo causada por la velocidad
+        </example>
+        <example>
+Y si *0* no se llegaron a utilizar , probablemente *0* se debió a una doble razón : de una parte , el arma atómica - puesta a_punto en 1945 - proporcionaba otro medio de destrucción en masa que se creyó más fácil de controlar , y además por_aquel_entonces sólo la poseía Estados_Unidos , lo que aumentaba su valor estratégico .
+        </example>
+        <example>
+la demora se debió seguramente , en_parte , al éxito de las máquinas de vapor que ya arrastraban trenes y barcos con eficiencia .
+        </example>
+        <example>
+la actitud de los oficiales se debe al elevado grado de corrupción que *0* dice hubo durante la anterior administración .
+        </example>
+        <example>
+es a Gottlieb_Daimler - 1834 - 1900 - y a su fiel colaborador Maybach a quien se deben los primeros esfuerzos continuados para el desarrollo y producción de vehículos a motor .
+        </example>
+        <example>
+el incremento del número de desempleados en Canarias durante el pasado_mes_de_mayo se debe al crecimiento de la población activa y al fin de la zafra agrícola .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Los millones de británicos que habrían sucumbido ante un ataque de estas características no deben sus vidas a ninguna consideración ética
+        </example>
+        <example>
+su parte material debe al conflicto de las fuerzas motrices la regularidad de su curso
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <!--mirar estructura léxico-semántica del verbo en infinitivo#-->
+</lexentry>

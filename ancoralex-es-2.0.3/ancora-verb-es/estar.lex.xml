@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="estar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="frente" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+*0* estuvo en el campo
+        </example>
+        <example>
+Ahí estamos *0*
+        </example>
+        <example>
+Y ahí está la lección
+        </example>
+        <example>
+no estaba Kurtinaitis
+        </example>
+        <example>
+en la que prácticamente nunca estuvo Míchel por discutibles razones tácticas
+        </example>
+        <example>
+Rominger sabe que *0* está a más de la mitad de carrera
+        </example>
+        <example>
+Ayer el único hombre superior a él , Camargo , estaba tan lejos en la general - más de diez minutos - que *0* no le preocupó
+        </example>
+        <example>
+estar junto_a su esposa e hijo
+        </example>
+        <example>
+estar al lado de su mujer en el nacimiento de su hijo
+        </example>
+        <example>
+En_realidad , la guerra biológica siempre ha estado presente en la historia de los conflictos humanos
+        </example>
+        <example>
+Para Sutter , lo mágico de esta tecnología está en los programas que permiten al ordenador analizar un sinfín
+        </example>
+        <example>
+el emisor hubiera estado en y el receptor en lo alto de la torre
+        </example>
+        <example>
+El secreto de esta novedosa técnica , que podrá ayudar a cientos de miles de pacientes total o parcialmente impedidos , está en las ondas cerebrales
+        </example>
+        <example>
+el presidente del Ecuador , el doctor Gustavo_Noboa_Bejarano estará la próxima semana aquí en Lima para participar en la reunión de la Comunidad_Andina "
+        </example>
+        <example>
+en Lima estarán los cinco mandatarios andinos conversando sobre el proceso de integración que impulsan sus países desde hace más de 30 años
+        </example>
+        <example>
+su madre no estaba
+        </example>
+        <example>
+el baño está en el pasillo
+        </example>
+        <example>
+en_vez_de Nueva_York *0* estuvieran en su añorado San_Juan
+        </example>
+        <example>
+*0* Estamos aquí desde el Miércoles_Santo
+        </example>
+        <example>
+Juan_Manuel_Sánchez_Gordillo , el alcalde , está en Sevilla , en una cosa de Agricultura
+        </example>
+        <example>
+Mi casa y mis hijas están en Madrid
+        </example>
+        <example>
+*0* estamos ante el espejo que la vida es : vulgar , ridículo , grotesco , inhumano
+        </example>
+        <example>
+la gira presidencial prevista entre el 16 y el 25_de_junio por varios países de la Organización_de_Países_Exportadores_de_Petróleo - OPEP - , con el fin de afinar detalles de_cara_a la II_Cumbre de ese cartel petrolero en Caracas , está en el alero hasta que se fijen los comicios
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="atr" thematicrole="atr">
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="contra" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="desde" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="tras" type="sp"/>
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+La criatura estará hecha polvo
+        </example>
+        <example>
+*0* está mustio desde el domingo
+        </example>
+        <example>
+el Mendicutti ya está mucho mejor , bastante recuperado de la fase mustia de la ciclotimia , razonablemente japi por el comportamiento de público y crítica con su último buk - Los_novios_búlgaros , por si alguien no se ha enterado - y veri contento con el hijo honoriscausa que le acaba de nacer un hijo búlgaro , por_cierto , fíjense *0* qué casualidad
+        </example>
+        <example>
+Y como el Mendicutti anda en_vilo por lo del nombre , una servidora , la Susi , está tresanchantada de darle a la pen o_sea , a la pluma
+        </example>
+        <example>
+*0* estaba equivocado
+        </example>
+        <example>
+en los ránking extraoficiales , *0* claro está
+        </example>
+        <example>
+De_antemano estaba muy claro que el Barcelona tenía mucho más margen para mejorar
+        </example>
+        <example>
+A_largo_de las etapas anteriores el asfalto ha estado profusamente herido con letreros alusivos a los últimos conflictos laborales del Estado - Santa_Bárbara , Santana_Motor , Gillette -
+        </example>
+        <example>
+Rominger nunca había estado tan bien a estas alturas de la temporada
+        </example>
+        <example>
+Por el momento , *0* no está para hacer derroches que le puedan costar caro
+        </example>
+        <example>
+cómo estará su mujer tras la operación
+        </example>
+        <example>
+- Casi todos los músculos de su cuerpo están paralizados , agarrotados
+        </example>
+        <example>
+Los que gobiernan están torpes , sin reflejos , asustados
+        </example>
+        <example>
+que una vez más están entre los mejores clasificados de las votaciones semanales de entrenadores y periodistas especializados - no hay clasificación oficial al no existir una liga nacional universitaria
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C21.state-attributive" type="impersonal">
+      <argument argument="arg2" function="atr" thematicrole="atr"/>
+      <examples>
+        <example>
+Todas las guerras son infames, se ha de estar contra ellas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="atr"/>
+      <examples>
+        <example>
+La suerte estaba echada
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <!--estar en vela##-->
+  <sense id="4" undocumented="yes">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="atr"/>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="utilizar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El hombre ha ido aprendiendo , desde los tiempos más remotos , a utilizar los recursos y materiales que la naturaleza le brindaba .
+        </example>
+        <example>
+Las pruebas realizadas utilizando poliacetileno dopado como electrodo en diferentes estados de oxidación
+        </example>
+        <example>
+o_bien utilizando litio en uno de los electrodos
+        </example>
+        <example>
+Cuando la ofensa había sido grave , el ofendido tenía derecho a utilizar su propia arma , que antes podía manipularse rayando el cañón hasta la mitad sin que *0* se percibiese a simple vista .
+        </example>
+        <example>
+una tradición común de prácticas y conocimientos , de costumbres y creencias , sólo puede ser compartida por personas que utilicen la misma lengua - .
+        </example>
+        <example>
+*0* le acusó en una carta abierta de utilizar métodos poco democráticos de gobierno .
+        </example>
+        <example>
+en_vez_de " responder detalladamente " a la interpelación del PNV *0* se dedicó a " la descalificación de un grupo político y a hablar de cuestiones que no tienen nada que ver , *0* utilizó la política del chipirón de responder atacando " .
+        </example>
+        <example>
+el automóvil que *0* utilizará
+        </example>
+        <example>
+los semiconductores de Sony permitirán que otros productos que los utilicen lean programas de PlayStation_2 , discos versátiles digitales - DVD -
+        </example>
+        <example>
+- *0* Le he escrito - dice Jauregui porque *0* es una forma que *0* utilizo cuando *0* me quiero poner íntimo .
+        </example>
+        <example>
+Una_vez_que él ha asumido individualmente la responsabilidad paterna , ella puede utilizar su tiempo en lo que *0* le parezca .
+        </example>
+        <example>
+Así_que la tecnología no tiene más que utilizarlos debidamente .
+        </example>
+        <example>
+Mientras_tanto , otro investigador del mismo instituto donde trabaja Sutter , Anthony_M._Norcia , está utilizando las ondas cerebrales para intentar desvelar el misterio de cómo se desarrolla la visión de los bebés durante los primeros meses de vida .
+        </example>
+        <example>
+Más tarde la invasión de los bárbaros introdujo el denominado - duelo judiciario - o juicio de Dios durante la Edad_Media , época en que los nobles y hombres libres lo utilizaron como procedimiento para zanjar sus diferencias .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Aparte_de ello , los isótopos radiactivos se utilizan hoy en los laboratorios de investigación de medicina y biología , tanto como medios de diagnóstico en relación con técnicas de trazadores como en gammagrafías y en la investigación del metabolismo de ciertas sustancias .
+        </example>
+        <example>
+bombardearon con bacterias de carbunco el despoblado islote de Gruinard , localizado en la costa noroeste de Escocia y que sólo se utilizaba como lugar de pastoreo para el ganado ovino .
+        </example>
+        <example>
+se utilizan metales de transición como Fe , Ru , Os , Co , Rh , Mn o Cr , que imponen una configuración octaédrica
+        </example>
+        <example>
+se utilizan moléculas orgánicas con sistemas n como ligandos
+        </example>
+        <example>
+eso podría ser utilizado por los energúmenos de hoy para desenterrar el hacha de guerra de los energúmenos de ayer
+        </example>
+        <example>
+lo_mismo *0* podrían utilizarse como portadores de mortíferas plagas .
+        </example>
+        <example>
+también podrían ser utilizadas para transformar bacterias y virus de carácter patológico leve o benigno , en bacterias mortales .
+        </example>
+        <example>
+Y si *0* no se llegaron a utilizar , probablemente *0* se debió a una doble razón
+        </example>
+        <example>
+Como especies dadoras se han utilizado metales alcalinos , aminas , alquenos ricos en electrones , heterociclos o moléculas aromáticas
+        </example>
+        <example>
+su leyenda es utilizada como metáfora o como advertencia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

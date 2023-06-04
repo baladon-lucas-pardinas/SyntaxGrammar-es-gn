@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="mostrar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="ante" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el Madrid hubiera encajado más goles si los jugadores atléticos no se hubiesen mostrado blandos o egoístas
+        </example>
+        <example>
+Ese nombre de bandido generoso del bebé ha contagiado al papá , que no puede dejar de ser bandido para ganar la Vuelta , pero que se muestra generoso para ganar amigos .
+        </example>
+        <example>
+es más fácil que las piernas del segoviano se muestren , en la última semana , más frágiles que la moral del suizo .
+        </example>
+        <example>
+El presidente del órgano regulador de las Telecomunicaciones se mostró partidario de completar esta liberalización de las telecomunicaciones con otras medidas que incentiven la competencia como_puede_ser abrir el acceso a la información de los clientes de Telefónica a otros operadores .
+        </example>
+        <example>
+El portavoz del Gobierno se ha mostrado contento con la sentencia
+        </example>
+        <example>
+Algo más alegre que el resto del grupo , la joven se muestra menos exigente respecto_a la película de Spielberg
+        </example>
+        <example>
+El generalísimo de Flandes se mostraba muy altivo ante el rey Felipe_II .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="contra" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+En ciertas regiones del firmamento , contra un fondo de tinieblas hormigueante de estrellas , los telescopios nos muestran apariencias fantasmagóricas , semejantes a nubes movidas por el viento .
+        </example>
+        <example>
+la ministra Anna_Birulés animó a las pymes a invertir en Investigación y Desarrollo y *0* mostró a los empresarios presentes la disposición del Gobierno a facilitar este camino .
+        </example>
+        <example>
+El gobernador mostró a los periodistas un golpe leve sufrido en la cabeza y un pequeño sangrado en el labio superior , causados por las piedras y naranjas arrojadas por los manifestantes .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+sus herederos se opusieron a que se mostraran sus obras
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Puesto_que la hembra está receptiva constantemente y *0* no muestra señales visibles de cansancio , sus compañeros se acoplan con ella en cualquier momento
+        </example>
+        <example>
+Hasta hace relativamente pocos años , no era imaginable el hecho de que un compuesto orgánico mostrase propiedades conductoras como un metal .
+        </example>
+        <example>
+Como *0* es sabido , la mayor parte de los compuestos orgánicos muestran valores de la conductividad eléctrica muy bajos
+        </example>
+        <example>
+Otros polímeros también han mostrado valores metálicos de la conductividad - véase la tabla 2 - .
+        </example>
+        <example>
+No_obstante , sometidos a un dopado oxidante *0* muestran a_menudo aumentos sustanciales de la conductividad .
+        </example>
+        <example>
+En este sentido , los metales orgánicos tipo CTC muestran en_general una acusada dependencia de la conductividad con la temperatura .
+        </example>
+        <example>
+*0* advirtió de que el año_2000 " no muestra mejorías y la industria nacional peligra
+        </example>
+        <example>
+las cifras del desempleo en el mes_de_mayo muestran una reducción del paro menor que en años anteriores y un crecimiento " escandaloso " de la contratación temporal , que ha supuesto el 91,2_por_ciento de todos los contratos .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

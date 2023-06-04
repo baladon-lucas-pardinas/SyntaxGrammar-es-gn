@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="entender" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Se ve que la señora Aguirre , prototipo rubioceniza y pequeño chanel de la derecha global que nos rodea por todas partes , entiende la limpieza como un holocausto .
+        </example>
+        <example>
+El concepto de , como el de historia , al que *0* está estrechamente ligado , tal_como *0* lo entendemos hoy , es relativamente reciente .
+        </example>
+        <example>
+Por si , a_pesar_del hábil grafismo , alguien no lo hubiese entendido , una leyenda escrita lo explica en palabras : Recycled_ecological_paper .
+        </example>
+        <example>
+*0* Añadió que el Gobierno entiende que éste es un social
+        </example>
+        <example>
+Así nació el Rincón_Criollo , la - casita - con más solera en el barrio con más miseria , el símbolo de la cultura boricua en una ciudad sin raíces que nunca entendió la nostalgia natural del portorriqueño .
+        </example>
+        <example>
+Jáuregui entiende que Corcuera tiene motivos para estar deprimido
+        </example>
+        <example>
+*0* Entendí que la blasfemia acechaba al belén
+        </example>
+        <example>
+No había que ser muy perspicaz para entender el siniestro mensaje .
+        </example>
+        <example>
+Las frases de que " la crisis exige una actitud positiva " y la de estar " a disposición del presidente Banzer " , expresadas por Sánchez_de_Lozada , dieron a entender que el MNR y la coalición de Banzer entrarán en una nueva etapa de relaciones .
+        </example>
+        <example>
+aunque algunas de sus actuaciones pudieran darlo a entender .
+        </example>
+        <example>
+Livia y Druso bajaron de las alturas como Dios les dio a entender
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="atr"/>
+      <examples>
+        <example>
+Lo que se entiende como tal no tiene nada de artificio .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cc" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Para entendernos , *0* diríamos esperpentos .
+        </example>
+        <example>
+El pueblo en España se entendió mejor con los aristócratas que con sus capataces .
+        </example>
+        <example>
+un enfrentamiento entre dos mundos , de los que tenían conciencia explícita pensadores e incluso la gente común : el de la naturaleza y el del espíritu éste último sería , para entendernos , el de la cultura que se oponía a la naturaleza .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+entiende de vientos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

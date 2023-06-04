@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="dar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="mediante" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+doña Carmen_Alborch me dé un millonerío para reconstruirme
+        </example>
+        <example>
+que se dieron los científicos para amortiguar los posibles errores de medición
+        </example>
+        <example>
+Por todo esto *0* le dieron el premio Príncipe_de_Asturias_de_la_Paz de 1987
+        </example>
+        <example>
+dar un permiso de residencia de trabajo a un ciudadano polaco
+        </example>
+        <example>
+dar a los fabricantes de ordenadores mayor flexibilidad en la elección del sistema de operación
+        </example>
+        <example>
+dar hexacoordinación
+        </example>
+        <example>
+dar sus opiniones sobre la " payasada " del aplazamiento electoral
+        </example>
+        <example>
+Paralelamente , sus patrocinadores , con el departamento de marketing a la expectativa de cumplir los objetivos marcados a principio de temporada , dan " toques de atención " a los directores de equipo cuando no se alcanzan los niveles deseados
+        </example>
+        <example>
+mediante la cual la Naturaleza da la regla al arte
+        </example>
+        <example>
+darían a su propia existencia un valor superior al de ese rebaño doméstico
+        </example>
+        <example>
+les ha dado algo para que *0* descansasen
+        </example>
+        <example>
+a los que *0* no nos dan dinero , ni ropa civil , ni nada ... a ver qué hago yo ahora
+        </example>
+        <example>
+le daba la oportunidad de fardar
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+de esta forma se daría un impulso " sustancial " a esta infraestructura ferroviaria
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+a su vez , Christian_Laettner diera el salto a la NBA
+        </example>
+        <example>
+dar más pasos adelante
+        </example>
+        <example>
+Cuando Clinton , esté llegando esta tarde al Palacio_de_Bellevue , donde *0* seré recibido con honores militares por el presidente alemán , Johannes_Rau , a pocos metros de distancia , en la Avenida_17_de_Junio , los corredores de la Vuelta_Ciclista a Alemania darán los últimos golpes de pedal de su entrada triunfal a la capital
+        </example>
+        <example>
+las escaramuzas de los Tres_Mosqueteros han dado la vuelta al mundo
+        </example>
+        <example>
+el paso que dará el Uebergang al sostener que el acto por el cual el sujeto se afecta a sí mismo en la percepción contiene el Principio_de_posibilidad_de_la_experiencia -
+        </example>
+        <example>
+Y luego *0* dio una fiesta
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se está dando en instituciones del Estado
+        </example>
+        <example>
+La jugada del segundo gol rojiblanco sintetiza por sí sola las más grandes diferencias que se dieron en el encuentro : las que van de un conjunto expresivo y ágil a otro torpe y lacónico
+        </example>
+        <example>
+pueda darse la conductividad
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="tem">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Puerta daba por hecho la vuelta de a Altos_Hornos
+        </example>
+        <example>
+me doy por satisfecho
+        </example>
+        <example>
+dio por_supuesto que se estaba hablando de una mujer
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="tem">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+cuya presencia " se daba por segura
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Antonio_Peñalver no da señales de vida por más recados que *0* le mando desde aquí
+        </example>
+        <example>
+las exportaciones comienzan a dar señales de reducción
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="argL" function="suj"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+A nivel global no se deben dar señales a otros Estados de que vuelve a estar permitido " , afirmaron las mismas fuentes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+dar nombre al coñac
+        </example>
+        <example>
+da título a la película
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+hoy_por_hoy , la Historia de este país no da para más
+        </example>
+        <example>
+El frío ambiental y la visita anterior a los barracones donde quizá murió alguno de los_suyos , no daba para alegrías
+        </example>
+        <example>
+La ley da para mucho
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="exp">
+      </argument>
+      <examples>
+        <example>
+que me dé mucho gusto
+        </example>
+        <example>
+En una intervención ante militantes populares en el hotel de la capital malagueña elegido como sede de la noche electoral del PP , Villalobos dio las gracias " a los militantes de muchos años que hoy tienen una emoción especial " , y *0* se confesó también " especialmente emocionada " en sus quintas elecciones generales .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+me da una pena grandísima lo que le ha pasado al Liceo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+*0* puede dar franca salida a sus ímpetus caritativos agarrando un bosnio o dos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="11">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+poder darle la bienvenida como *0* se merece cuando *0* regrese al timón
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="12">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cc" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+podel darle tranquilamente a la servesa
+        </example>
+        <example>
+darle a la pen o_sea , a la pluma
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="13">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="creg">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+sus actuaciones pudieran darlo a entender
+        </example>
+        <example>
+dieron a entender que el MNR y la coalición de Banzer entrarán en una nueva etapa de relaciones
+        </example>
+        <example>
+como Dios les dio a entender
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="14">
+    <frame default="yes" lss="C42.state-experiencer" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg2" function="ci" thematicrole="exp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* nos dio igual
+        </example>
+        <example>
+da igual lo que *0* hicieran o lo duro que *0* trabajasen
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="15">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+en_vez_de darles una vuelta en la sartén como_Dios_manda
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="16">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+" - Es realmente posible que una mutación casual dé origen a un virus tan inteligentemente maligno como el del SIDA ?"
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="17">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+En opinión de los citados especialistas , - esto daría prueba de una actividad interna anterior , aunque va a ser difícil ensamblar toda esta historia geológica -
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="18">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+Ganas de darse aires
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="19">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="cc" thematicrole="atr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* Da derecho a un plato de judías y a un zumo de naranja
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="20">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+dar cabida al invitado de honor
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="21">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+dando vueltas por los sueños de los políticos y de los financieros
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="22">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+que pronto darán servicios
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="23">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+darle un beso
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="24">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+dar un tinte democrático a lo que será una designación
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="25">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+*0* le das un mordisco traicionero
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="26">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+Ese tobogán de la comparación podría darnos muy bien la idea de feria que todo el relato tiene , chafarrinones , gentes distorsionadas , estridencias de algarabías
+        </example>
+        <example>
+darnos idea de cómo eran las cosas
+        </example>
+        <example>
+Su pertenencia a varias comisiones parlamentarias da una idea de su capacidad de trabajo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="27">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+dar un empujón
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="28">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+la diminuta red neuronal que da vida a su cerebro
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="29">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Los políticos se han visto obligados a dar una respuesta a la demanda comunitaria
+        </example>
+        <example>
+*0* no da respuesta " , entre otras cuestiones , al problema de los parados sin cobertura social - cuatro_de_cada_diez -
+        </example>
+        <example>
+dar respuesta conjunta " lo antes posible"
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="30">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="sobre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+Ante unas mil personas , entre ellas la ministra de Ciencia y Tecnología , Anna_Birulés , el alcalde de Barcelona , Joan_Clos , la Delegada del Gobierno , Julia_García_Valdecasas , y una nutrida representación del gobierno catalán , Pujol dio un toque de alerta sobre el aumento de los accidentes laborales
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="31">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+se dan cita miles de especialistas en distintas materias
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="32">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+las otras les habían dado calabazas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="33">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+    </frame>
+    <frame lss="A11.transitive-causative" type="causative">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+*0* Hace dar vueltas a su cristal
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="34">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+dándolo todo por perdido
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="35">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg2" function="creg" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+que nunca dio lugar a escándalos, antes_al_contrario
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="36">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="ins">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* les das con el estropajo
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="oblique_subject">
+      <argument argument="arg2" function="suj" thematicrole="ins"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el balón dio en el pecho de Rafel_Olarra
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="37">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+    </frame>
+  </sense>
+  <sense id="38">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+
+        </example>
+        <example>
+En el dormitorio ya no daba el sol
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="39">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+dando traspiés
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="40">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+que da sus frutos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="41">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+      </argument>
+      <examples>
+        <example>
+Villalobos dio las gracias " a los militantes de muchos años que hoy tienen una emoción especial
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="42">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+dando ejemplo
+        </example>
+        <example>
+dar el mal ejemplo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="43">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+dar prioridad a las negociaciones del Acuerdo_General_sobre_Aranceles_Aduaneros_y_Comercio ( GATT )
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="44">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+dé rodeos para decir las cosas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="45">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+Al Dépor nunca se le han dado bien los equipos alemanes en competición europea porque *0* ya fue eliminado por el Eintracht
+        </example>
+        <example>
+no sabía que Riazor se le diera tan mal al Real_Madrid
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="46">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+al dar positivo de nandralona en dos controles consecutivos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="47">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+ese tipo de políticas no han dado resultado.
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="48">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+darse un baño de masas entre sus seguidores
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="49">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <examples>
+        <example>
+todas las encuestas le dan como ganador con mayoría absoluta
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="50">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Nunca te puedes dar por vencido
+        </example>
+        <example>
+querían darse por no enterados
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="51">
+    <frame default="yes" lss="A31.ditransitive-patient-locative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+la falta de fiabilidad de que ha demostrado en las pruebas invernales, pueden dar esta temporada al_traste con sus esperanzas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="52">
+    <frame default="yes" lss="C42.state-experiencer" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="exp"/>
+      <examples>
+        <example>
+da la sensación de que, en efecto, es consciente de que su paso por el banquillo es circunstancial
+        </example>
+        <example>
+Da la impresión de ser auténtico
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="53">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+la fachada principal, que da a la avenida de Cambó
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="54">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+dar un giro de última hora
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="55">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+también da rienda suelta a su vena histriónica
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="56">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="creg">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Dio con Las_Ketchup cuando su propia compañía discográfica, Shaketown (léase Chaquetón), todavía se estaba gestando
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="57">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+La Audiencia investiga si el BBVA dio cobertura a operaciones irregulares
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="58">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+volverá a rodar en Barcelona porque le da suerte
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="59">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+Las actrices que dan vida a estos personajes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="60">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+me di de_baja después de la triste final de Sevilla
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="61">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+en IU no queda otro remedio que dar la cara
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="62">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+que dará luz verde a la inversión
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="63">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+el conductor se dio a la fuga
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="64">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+Tres heridos fueron ayer dados de_alta
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="65">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+para dar entrada a actuaciones con la música enlatada
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="66">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+ser un hombre tranquilo y poco dado a la exhibición
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

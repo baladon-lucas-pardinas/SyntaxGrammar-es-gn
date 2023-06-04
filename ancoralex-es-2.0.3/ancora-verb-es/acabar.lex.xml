@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="acabar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="hasta" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Eso_sí , los que regalan detalles chistosos se arriesgan a acabar con el detalle encajado entre las muelas del juicio
+        </example>
+        <example>
+La momia acabó en un frigorífico de la Universidad_de_Innsbruck .
+        </example>
+        <example>
+*0* Acaba en un rincón , cada día más hundido , hasta la postergación definitiva .
+        </example>
+        <example>
+Luego vienen a meter cizaña el sentido común , la debilidad sentimental , la resignación , los escrúpulos y el miedo a las enfermedades y acaba uno conformándose con cualquier cosa .
+        </example>
+        <example>
+Uno acaba de detalles hasta el gorro .
+        </example>
+        <example>
+una eficaz atención a los afectados que , a_la_postre , acabarían además convertidos en vectores de contagio involuntarios .
+        </example>
+        <example>
+su campaña de protestas y desobediencia civil acabará por presionar a Milosevic para que abandone
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Darlin , *0* le digo al Mendicutti , se acabaron los tiempos en que la Historia tenía mucha categoría , mucho poderío , mucho futuro , mucha grandeza .
+        </example>
+        <example>
+*0* Se acabó se acabó todo y yo con esta depre .
+        </example>
+        <example>
+se acaban las guerras
+        </example>
+        <example>
+Se acabó la Nochebuena , el año_93 , el día de Reyes , el gordo de Navidad , la lotería del Niño , el estreno de las rebajas , las galas de las teles ... todo , hasta el Xacobeo .
+        </example>
+        <example>
+ahí se acabó el partido de ayer .
+        </example>
+        <example>
+Ya en enero se ha acabado todo
+        </example>
+        <example>
+los cimientos se desmoronan , con una generación nueva que cuando *0* se acabe nos puede hacer volver a crisis como las del período de 1977 a 1993
+        </example>
+        <example>
+Ahí acabó su sueño .
+        </example>
+        <example>
+se deben abordar antes de que acabe el próximo año
+        </example>
+        <example>
+Y , en la mesa , se acabó eso de usar los palillos una sola vez y tirarlos .
+        </example>
+        <example>
+Hasta que *0* no se acaba no se sabe dónde *0* puede llegar .
+        </example>
+        <example>
+De_todas_formas , si los pronósticos de Corcuera se cumplen , su vuelta acabará en tres años .
+        </example>
+        <example>
+muchas de ellas no temen que se acabe la democracia
+        </example>
+        <example>
+se acabe su poder
+        </example>
+        <example>
+las tragedias clásicas acaban siempre bien , precisamen.
+        </example>
+        <example>
+Ahí acabó su sueño .
+        </example>
+        <example>
+se deben abordar antes de que acabe el próximo año
+        </example>
+        <example>
+Y , en la mesa , se acabó eso de usar los palillos una sola vez y tirarlos .
+        </example>
+        <example>
+Hasta que *0* no se acaba no se sabe dónde *0* puede llegar .
+        </example>
+        <example>
+De_todas_formas , si los pronósticos de Corcuera se cumplen , su vuelta acabará en tres años .
+        </example>
+        <example>
+muchas de ellas no temen que se acabe la democracia
+        </example>
+        <example>
+se acabe su poder
+        </example>
+        <example>
+las tragedias clásicas acaban siempre bien , precisamente porque la aniquilación del protagonista señala el inicio de una nueva armonía , dolorosamente rescatada .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="C11.state-existential" type="benefactive">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+a su Gobierno el tiempo se le acaba
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="creg" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Acabar de una vez con el Estado .
+        </example>
+        <example>
+Con un único gol , de un solo golpe , el Barcelona acabó con su maleficio del Bernabéu
+        </example>
+        <example>
+Esta presión se suma al abrumador cansancio físico , minando o acabando con sus ilusiones .
+        </example>
+        <example>
+Esto es debido_a_que *0* acaban con las presas y , por_tanto , *0* se mueren de hambre .
+        </example>
+        <example>
+acabar con los contratos " basura "
+        </example>
+        <example>
+evitando que se liberen recursos para acabar con las listas de espera en los centros hospitalarios .
+        </example>
+        <example>
+para acabar de forma eficaz con el trabajo forzoso .
+        </example>
+        <example>
+para acabar con las reservas de aguardiente antioqueño y cerveza - Polar - , en el bar del pueblo
+        </example>
+        <example>
+las discrepancias acabaron con su unión - .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+al acabar el libro
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+El desperfecto, que se produce en una obra acabada hace dos años, se detectó el viernes
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+y *0* acaba diagonalmente en la laguna de Acherón ( Huelva ) con el Caronte_de_la_Estigia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="efi"/>
+      <examples>
+        <example>
+Lo que podía haber sido una jornada en la que confluyeran fiesta y religiosidad, acabó en castigo y frustración
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

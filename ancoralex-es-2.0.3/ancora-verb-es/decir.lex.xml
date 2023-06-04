@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="decir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="sobre" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="tras" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="sin" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+de quién *0* dijo que " *0* es el diputado por excelencia de la Región_de_Murcia ".
+        </example>
+        <example>
+En sus mítines en Vizcaya *0* solía decir : - En Altos_Hornos las condiciones para jubilarse son tan buenas que a los 52 *0* me puedo convertir en un jubilado con un sueldo muy digno -
+        </example>
+        <example>
+Sony prevé un incremento de la demanda de la tecnología de PlayStation_2 a_medida_que aumenta el número de electrodomésticos como televisores digitales dotados con conexiones a redes informáticas de banda amplia , dijeron las fuentes
+        </example>
+        <example>
+Hasta el salario de convenio , *0* dice que lo ponga el municipio
+        </example>
+        <example>
+En Europa no dice gran cosa ese nombre
+        </example>
+        <example>
+Incluso partes de ti dicen que todo está bien - con_tal_de no perder -
+        </example>
+        <example>
+En Europa no dice gran cosa ese nombre , pero *0* merece más que una pasajera mención
+        </example>
+        <example>
+Como mi amiga la Susi no se anda con chiquitas , cuando *0* le pregunté qué le haría ilusión como regalo de Reyes *0* me dijo : Algo caro y que me dé mucho gusto
+        </example>
+        <example>
+Y la Susi me dice : Una guardería a todo plan , naturalmente de niñas
+        </example>
+        <example>
+Mas una de las guardas le dijo : Señor caballero , cantar en el ansia se dice entre esta gente ZZPLdos confesar en el tormento
+        </example>
+        <example>
+Dólera calificó de " brillante , tanto en su aspecto cuantitativo como cualitativo " el trabajo realizado esta legislatura en el Congreso_de_los_Diputados por Pedro_Antonio_Ríos , que repite candidatura , y de quién *0* dijo que " *0* es el diputado por excelencia de la Región_de_Murcia " .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+que se decía
+        </example>
+        <example>
+Y se decía , en el murmulleo madrileño , que otro título posterior de Juan , Sub_rosa , era una clara alusión a ella
+        </example>
+        <example>
+Incluso se dice que su señora , Cindy_Crowford - guapa , esbeltísima , modelo - es de las que prefieren los encantos del tercer sexo o , cuando_menos , sus sugerencias
+        </example>
+        <example>
+Señor caballero , cantar en el ansia se dice entre esta gente ZZPLdos confesar en el tormento
+        </example>
+        <example>
+Por eso , la salud no se dice solamente del organismo físico sino también de la razón por su vigor o por el grado de su activación
+        </example>
+        <example>
+se ha dicho que *0* es la Capilla_Sixtina del firmamento debido_a su indiscutible belleza
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A34.ditransitive-patient-theme" type="impersonal">
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="creg" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="sin" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Suele decirse que es muy bueno que los políticos se lleven bien
+        </example>
+        <example>
+Hasta_tal_punto_que podría decirse , sin paradoja excesiva , que la mejor forma de comenzar a olvidar ZZNM es leerlo
+        </example>
+        <example>
+que se dice nada
+        </example>
+        <example>
+Con esto , sin_embargo , se dice más que con la autoconciencia
+        </example>
+        <example>
+se dice medio en_serio medio en_broma
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="perder" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+cuando Felipe_González - que a_lo_que_parece no ha perdido del_todo el carisma aquel que *0* tuvo
+        </example>
+        <example>
+Emilio_Butragueño perdió la titularidad en el Real_Madrid y en el equipo nacional
+        </example>
+        <example>
+Mientras_tanto , a varios miles de kilómetros al norte , allí donde casi nadie mira ahora , Miguel_Indurain sigue perdiendo terreno en la Vuelta a Romandía
+        </example>
+        <example>
+*0* lo perdieran
+        </example>
+        <example>
+a la luz de una raya roja que se entrevera con otra verde , *0* pierde su peplo blanco
+        </example>
+        <example>
+*0* lo había perdido por ahí
+        </example>
+        <example>
+El investigador que nunca descubre nada que no se populariza gracias_a algún descubrimiento suficientemente espectacular que lo haga aparecer en algún magazine televisivo , va perdiendo las fuentes de financiación
+        </example>
+        <example>
+ZZTO , por_ejemplo , pierden lo corrosivo de su sátira
+        </example>
+        <example>
+Es_decir , que sin el vigor de los apetitos , la vida humana perdería su valor racional
+        </example>
+        <example>
+*0* pierde un 8,2_% en el año
+        </example>
+        <example>
+la creación de empleo está perdiendo " fuelle "
+        </example>
+        <example>
+el Gobierno haya perdido la ocasión de forzar la mano al PP cuando ha tocado cubrir la vacante de Abel_Matutes en la Comisión_de_la_Unión_Europea
+        </example>
+      </examples>
+    </frame>
+    <frame lss="A21.transitive-agentive-patient" type="benefactive">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+*0* nunca me hubiera perdido aquella expedición .
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <examples>
+        <example>
+pese_a la esperada reactivación , en los tres primeros meses del año_2000 se han perdido entre 2.600 y 2.700 puestos de trabajo en el sector manufacturero
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A34.ditransitive-patient-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cc" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="contra" type="sp"/>
+        <constituent preposition="ante" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+en ellos *0* perdieron - in_extremis - con North_Carolina
+        </example>
+        <example>
+tal_vez perdiendo
+        </example>
+        <example>
+una partida de mus que *0* perdieron
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <examples>
+        <example>
+no hay que perder el tiempo
+        </example>
+        <example>
+Los demás siguen perdiendo minutos y puestos en la general
+        </example>
+        <example>
+Trece personas perdieron ayer la vida
+        </example>
+        <example>
+"Hemos perdido el tren", asegura Carlos_Ariño
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cd" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Pero no se pierda *0* el ambiente de la ciudad
+        </example>
+        <example>
+perdido en una ciudad sumergida
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A11.transitive-causative" type="default">
+      <argument argument="arg0" function="suj" thematicrole="cau"/>
+      <argument argument="arg1" function="cd" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+la " industrialización " que , a su juicio , ha sufrido de la alta montaña en los últimos años le ha hecho perder la ilusión de participar en nuevas expediciones .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cd"/>
+      <examples>
+        <example>
+no pierde baza en su desesperado intento por mejorar
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <examples>
+        <example>
+Rivaldo se ha perdido los tres duelos de esta temporada con el Valencia
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cd"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+por las que el mejor de los intérpretes perdería la cabeza
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <examples>
+        <example>
+Y el factor movilizador se ha perdido, porque a la clase política no le ha interesado
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+parece como si lo hayamos perdido de vista
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

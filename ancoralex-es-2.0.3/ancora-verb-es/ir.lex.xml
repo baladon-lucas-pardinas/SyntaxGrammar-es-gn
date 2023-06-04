@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="ir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="en" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+a los indiecitos mexicanos *0* les iba mejor con Felipe_II
+        </example>
+        <example>
+a las aves que han logrado una relación armoniosa gracias_a la experiencia *0* les va mejor en la crianza que a los recién casados
+        </example>
+        <example>
+sobre_todo profesionalmente no van bien las cosas
+        </example>
+        <example>
+a su juicio , *0* no vamos bien en lo que respecta a la siniestralidad
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="desde" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+        <constituent preposition="hacia" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="tras" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* Fuiste a Barcelona
+        </example>
+        <example>
+*0* Fuimos hasta allí , tras un largo trayecto de la traqueteantes autobuses , para almorzar con su hermana
+        </example>
+        <example>
+donde *0* van
+        </example>
+        <example>
+ir a Las_Ventas
+        </example>
+        <example>
+*0* Fuimos a la camita
+        </example>
+        <example>
+Luego , después_de una viudez en la que *0* derramó muchas lágrimas sinceras por su esposo muerto , en_vez_de asistir a los tablaos , *0* iba a las tertulias de intelectuales
+        </example>
+        <example>
+esto irá en beneficio del espectáculo
+        </example>
+        <example>
+*0* van a por la siguiente
+        </example>
+        <example>
+Por músicos y cantores *0* van también a galeras
+        </example>
+        <example>
+que va al belén
+        </example>
+        <example>
+Vamos *0* al lío
+        </example>
+        <example>
+por poner la bandera americana al_revés en un edificio oficial *0* puede ir a la cárcel
+        </example>
+        <example>
+*0* se va con el chollo que le han dado
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg3" function="cc" thematicrole="ein">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="efi">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="hasta" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+que van de un conjunto expresivo y ágil a otro torpe y lacónico
+        </example>
+        <example>
+que van desde un congreso mundial de prostitutas hasta una prueba ciclista
+        </example>
+        <example>
+El que la derriba , ha ido de la insatisfacción a la violencia
+        </example>
+        <example>
+ha ido a la baja
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+Pero su importancia va mucho más allá de la que *0* podríamos atribuirles como fascinantes
+        </example>
+        <example>
+En las sociedades avanzadas , y entendida la cultura de modo ambiguo y confuso , el interés por la misma ha ido más allá de los círculos intelectuales llegando a ser una exigencia social
+        </example>
+        <example>
+El líder de los socialistas vascos, Nicolás_Redondo, fue más lejos al precisar que esa actitud, "que no tuvo el PP en su día", es la que les diferencia de los conservadores
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+esto puede irse al infierno si se abusa de la sátira
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+cuyas naves fueron a la mierda
+        </example>
+        <example>
+Véte a la merde
+        </example>
+        <example>
+que se vayan al carajo
+        </example>
+        <example>
+ir a por todas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+sus logros vayan al traste por el sinvergüenza de Roldán
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+cómo le van estos ultimatums al Barcelona
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="C41.state-benefactive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+las cosas no pueden ir a peor en_cuanto_a la participación , teniendo garantizada sólo la de los españoles
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+pueda darse la conductividad
+        </example>
+        <example>
+éste , señor , va por canario , *0* digo , por músico y cantor
+        </example>
+        <example>
+el debate social va por un camino que no es el correcto
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="11">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="atr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* iba con algunos cortesanos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="12">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Ella se iba con genios
+        </example>
+        <example>
+cuál de los dos se va
+        </example>
+        <example>
+que va a la basura
+        </example>
+        <example>
+de allí *0* se fue al " Dictionaire_historique_et_critique "
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="13">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+sus peleas no iban a ninguna parte
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="14">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+quien va primero en solitario
+        </example>
+        <example>
+que van en la candidatura al Parlamento_Europeo
+        </example>
+        <example>
+en que sus primas y amigas iban de luto tibio de postguerra
+        </example>
+        <example>
+iban mal afeitados
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="15">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* iba en busca de las migajas de sol de Maracas_Bay
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="16">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="creg" thematicrole="atr">
+        <constituent preposition="contra" type="sp"/>
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+cual va contra los convenios internacionales
+        </example>
+        <example>
+intervenir ante la realidad de los hechos va con la esencia misma del respeto a la vida e integridad de las personas
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="17">
+    <frame default="yes" lss="C21.state-attributive" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="arg3" function="creg" thematicrole="efi">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+de las tres situaciones posibles de empaquetamineto transferencia de carga -Fpa- fig. 48 -Fpt- , los apilamientos segregados van acompañados de transferencia parcial de carga
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="18">
+    <frame default="yes" lss="C31.state-scalar" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="ext"/>
+      <examples>
+        <example>
+en lo que va de año
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="19">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+va en_detrimento_de una de las fuerzas de la izquierda
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="20">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="ben"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+que se les están yendo de la mano al Gobierno
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="21">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+el equipo irá a más
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="22">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+se va por_los_cerros_de_Úbeda
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="23">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <examples>
+        <example>
+Y van dos años seguidos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="24">
+    <frame default="yes" lss="C42.state-experiencer" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="ci" thematicrole="exp"/>
+      <examples>
+        <example>
+que pueden hacer que se te vaya toda una eliminatoria
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="25">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+Han salido ídolos que han ido luego de_capa_caída
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <!--=funciona para###-->
+  <sense id="26">
+    <frame default="yes" lss="C11.state-existential" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cc" thematicrole="fin"/>
+      <examples>
+        <example>
+Va para hacer papel, aislantes del automóvil y lechos de establo para caballos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

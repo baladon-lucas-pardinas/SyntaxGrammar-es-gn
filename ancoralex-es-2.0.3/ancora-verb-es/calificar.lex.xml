@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="calificar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+*0* lo califica de clara alternativa - acaso también en el clásico sentido de claro / ilustre
+        </example>
+        <example>
+El primer ministro , Mugur_Isarescu , la calificaba de " ataque concertado y especulativo "
+        </example>
+        <example>
+En su editorial , el diario califica de halagüeñas las previsiones del informe de la OCDE , pues " el déficit se puede reducir este mismo año_2000 al 0,5_% del PIB , todo un récord "
+        </example>
+        <example>
+El consejero de Agricultura calificó lo ocurrido con las subvenciones al lino en nuestro país de " un hecho desgraciado para el prestigio de España y , sobre todo , del central "
+        </example>
+        <example>
+Que *0* calificó de " altamente ineficiente "
+        </example>
+        <example>
+Guillemmo lo califique de oficio
+        </example>
+        <example>
+Que hemos calificado como anti dialogante
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Con esos elementos se califica el 70_por_ciento del cliente
+        </example>
+        <example>
+los pasajeros responsabilizaron al conductor, que, sin embargo, fue calificado de "profesional experto" por el propietario del vehículo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame lss="B21.unaccusative-state" type="default" undocumented="yes">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <examples>
+        <example>En el sentit de clasificarse --no normatiu--</example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

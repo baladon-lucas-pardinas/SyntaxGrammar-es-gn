@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="salir" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg3" function="cc" thematicrole="ori">
+        <constituent preposition="de" type="sp"/>
+        <constituent preposition="entre" type="sp"/>
+      </argument>
+      <argument argument="arg4" function="cc" thematicrole="des">
+        <constituent preposition="a" type="sp"/>
+        <constituent preposition="hacia" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <examples>
+        <example>
+salen corriendo al grito de maricón el último
+        </example>
+        <example>
+Arkansas ha salido del letargo sureño de uno de los Estados más pobres de la Unión para mandar a su hijo predilecto - y , a_ratos , casquivano - Bill_Clinton a la Casa_Blanca
+        </example>
+        <example>
+Sus rivales deben salir de entre equipos que cuenten con similares ingredientes
+        </example>
+        <example>
+que salieron en Valladolid
+        </example>
+        <example>
+sus aciertos y sus errores , sus éxitos y fracasos saldrán siempre de ahí , de su mágico bigotón
+        </example>
+        <example>
+que salen de otras toberas
+        </example>
+        <example>
+Imaginemos *0* un laboratorio dotado de cohetes que sale disparado desde el centro de la Tierra
+        </example>
+        <example>
+éste sale del emisor
+        </example>
+        <example>
+los nuevos viriones deben salir de su cubil
+        </example>
+        <example>
+Casi inevitablemente , ZZNM ha salido de la novela para subir a los altares
+        </example>
+        <example>
+El empresario fiyiano George_Speight , cabecilla de una intentona golpista , salió hoy del Parlamento , donde *0* tiene retenidas a unas treinta personas , para reunirse con los militares y negociar una salida a la crisis que Fiyi desde hace 14 días
+        </example>
+        <example>
+del círculo salían rayos
+        </example>
+        <example>
+las empresas de Argentina van a salir a competir duramente con las uruguayas en los otros mercados internacionales
+        </example>
+        <example>
+La corrupción es como los pasos de la procesión , aún no ha llegado a la plaza un paso cuando sale el otro dando traspiés
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cc" thematicrole="tem">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp"/>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+en cualquier momento el señor Pujol salga con que , o hay pasta para el Liceo , o de apoyo al Gobierno ni mijita
+        </example>
+        <example>
+de_un_momento_a_otro , el señor Rodríguez_Ibarra , con lo_suyo que *0* es para el catalán , saldrá diciendo que él tiene desde hace siglos el Teatro_de_Mérida hecho una ruina - sic - , sin techo ni nada , y que ya va siendo hora de arreglarlo un poco
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cpred" thematicrole="atr"/>
+      <argument argument="arg3" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+de_repente , le salga bien a Hierro un disparo desde lejos
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="4">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="arg3" function="ci" thematicrole="ben"/>
+      <examples>
+        <example>
+*0* se le salen por las orejas
+        </example>
+        <example>
+La fuerza se le sale por los poros
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="5">
+    <frame default="yes" lss="A22.transitive-agentive-theme" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <argument argument="arg2" function="cc" thematicrole="tem">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+El Gobierno chileno salió ayer en defensa de la decisió de la Fiscalía_Antimonopolio
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="6">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc"/>
+      <examples>
+        <example>
+saldrían adelante
+        </example>
+        <example>
+Espero que si mi propuesta sale adelante, a más de uno se le caiga la cara de vergüenza
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="7">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+*0* salía en televisión
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="8">
+    <frame default="yes" lss="B11.unaccusative-motion" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="arg2" function="cc" thematicrole="loc"/>
+      <examples>
+        <example>
+cayó a la vía tras salirse de una autopista próxima
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="9">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Francisco Frutos se saldría con la suya
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="10">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argL" function="cc">
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+saldrán de gira
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

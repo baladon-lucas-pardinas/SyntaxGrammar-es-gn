@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="intentar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A21.transitive-agentive-patient" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="sin" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="durante" type="sp"/>
+        <constituent preposition="tras" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Hay quien intenta cumplir y llamar la atención regalando cosas completamente absurdas
+        </example>
+        <example>
+*0* intentaré solucionarle al Mendicutti el problema del nombre de ese hijo que *0* acaba de tener , digamos , por poderes .
+        </example>
+        <example>
+El libro que *0* leemos intenta explicarlo
+        </example>
+        <example>
+ésos son algunos de los ruidos que los oídos de ese buen hombre recrean para él cada_vez_que *0* intenta conciliar el sueño .
+        </example>
+        <example>
+También hacen más faltas los que sin saber defender intentan ser más agresivos .
+        </example>
+        <example>
+- Por qué no la intentó Aíto en Madrid , donde no estaba Kurtinaitis y ningún blanco tiraba , y sí en Barcelona ?
+        </example>
+        <example>
+Hace unos años , en una rara participación en la Copa_Korac , Fernández intentó - con la habitual y bien conocida connivencia federativa en Madrid - " colar " a un tercer extranjero , el argentino Ricardo_García , como jugador autóctono en la plantilla europea del OAR , aprovechando el casticismo del nombre y del apellido .
+        </example>
+        <example>
+*0* Intentamos estudiar la vida no como realmente *0* la conocemos , sino tal_y_como *0* podría ser en un ambiente diferente del terrestre , en otros planetas , con otros materiales e , incluso , en los universos artificiales definidos en un entorno de computación
+        </example>
+        <example>
+tanto él como ella intentan maximizar la transmisión de sus propios genes .
+        </example>
+        <example>
+otro investigador del mismo instituto donde trabaja Sutter , Anthony_M._Norcia , está utilizando las ondas cerebrales para intentar desvelar el misterio de cómo se desarrolla la visión de los bebés durante los primeros meses de vida .
+        </example>
+        <example>
+el zar Nicolás_I intentó resarcir a su viuda con una renta anual de 11.000_rublos y la edición de sus obras completas
+        </example>
+        <example>
+Antes de intentar - - y conseguir - - liberar a esos infortunados , ZZNM se interesa por los acontecimientos de su vida pasada que les han llevado a tal situación esclava .
+        </example>
+        <example>
+En_todo_caso , *0* intentaré explicar brevísimamente la evolución del concepto de cultura a_fin_de subrayar no_tanto las como el contexto del pensamiento en que *0* se han producido y su configuración actual .
+        </example>
+        <example>
+los esfuerzos que han hecho en los últimos veinticinco años algunas organizaciones internacionales - UNESCO , Consejo_de_Europa , CEE - por llevar a los gobiernos interesados a plantearse e intentar resolver un problema que , considerado en_profundidad , era políticamente nuevo .
+        </example>
+        <example>
+las 31 personas retenidas en el Parlamento desde el 19_de_mayo por un grupo de hombres armados que intentan consolidar una intentona golpista
+        </example>
+        <example>
+los agentes de seguridad intentaron proteger al gobernador
+        </example>
+        <example>
+se enfrentaron con piedras y palos a un destacamento de la Policía_Militar que intentó desalojar el lugar , dejando un saldo de 21 heridos
+        </example>
+        <example>
+Al lugar del suceso acudió una ambulancia del Servicio_de_Atención_Médica_Urgente - SAMU - , cuyos efectivos intentaron durante una hora reanimar al accidentado , quien finalmente murió y cuyo cadáver fue levantado por el juez hacia cuatro de la tarde .
+        </example>
+        <example>
+la intentona golpista que intenta consolidar el empresario fiyiano George_Speight , quien hace dos semanas entró con seis hombres armados en el Parlamento y secuestró al Gobierno y varios diputados .
+        </example>
+        <example>
+Katsav , de 54 años , intentará presentar la eventual elección de Peres como una preferencia por la elite frente_a un hombre del pueblo , ya_que él nació y *0* se crió en una familia modesta
+        </example>
+        <example>
+*0* Fue de los pocos que intentó hacer_frente a los seguidores de Inkatha en Sokombo
+        </example>
+        <example>
+Un grupo de espontáneos llegados por_sorpresa - es_decir , ajenos a la organización y sin su correspondiente chándal azul - intenta unirse a la comitiva .
+        </example>
+        <example>
+*0* Intentan rebajar un 30_por_ciento los fondos que *0* mandan para el PER
+        </example>
+        <example>
+en el departamento comercial , en el que *0* ya estuvo destinado en su última etapa en la empresa y donde ahora *0* intentarán aprovechar sus conocimientos del sector y sus contactos sindicales y convertirle , pese_a lo que él dice , en un ejecutivo .
+        </example>
+        <example>
+- *0* No es eso - intentó explicar mi hijo tras unos momentos de reflexión - .
+        </example>
+        <example>
+*0* intenté salir del salón
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B22.unaccusative-passive-transitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="argM" function="cc" thematicrole="mnr"/>
+      <examples>
+        <example>
+Volviendo a los motores de explosión , se intentó primero usar el gas - Samuel_Brown en 1823 - y luego los líquidos volátiles como la bencina - William_Barnett , 1838 - .
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

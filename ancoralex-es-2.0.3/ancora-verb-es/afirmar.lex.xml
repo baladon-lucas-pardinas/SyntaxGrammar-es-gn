@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="afirmar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="según" type="sp"/>
+        <constituent preposition="de" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* Afirmó que *0* sigue el criterio europeo y que *0* trata de incentivar el mercado donde no lo hay .
+        </example>
+        <example>
+Birulés afirmó que las pequeñas y medianas empresas son " el futuro " del país por su capacidad para innovar y entroncar con los cambios que está comportando la nueva economía .
+        </example>
+        <example>
+Los golpistas afirman que el autoproclamado Gobierno que formó Speight el 20_de_mayo tiene " el mandato del pueblo " , según la fuente .
+        </example>
+        <example>
+En una entrevista en Radio_Euskadi recogida por Efe , la vicelehendakari afirmó que el Gobierno_Vasco " aún no ha recibido " del ministerio la información sobre el comando " Basurde " de ETA pese_a haberla solicitado oficialmente en dos ocasiones .
+        </example>
+        <example>
+Ramacciotti afirmó que en la reunión extraordinaria celebrada hoy en Washington quedó " totalmente desestimado " que las elecciones celebradas en Perú el domingo puedan ser consideradas " inválidas o nulas " .
+        </example>
+        <example>
+En declaraciones a Radio_Programas_del_Perú - RPP - , Ramacciotti afirmó que los países del hemisferio coincidieron en que el fortalecimiento de la democracia y la consolidación de las instituciones internas " se debe hacer dentro_de un marco de respeto y de no intervención " .
+        </example>
+        <example>
+Ramacciotti afirmó que hoy " *0* hemos apreciado que no se va a aceptar injerencias de carácter externo " .
+        </example>
+        <example>
+La aprobación de la amnistía " es una muestra de responsabilidad cívica del Congreso ecuatoriano , con el fin de " olvidarnos de los hechos pasados para construir nueva historia " , afirmó Pons
+        </example>
+        <example>
+Fuerte con los débiles y débil con los fuertes parece ser la tendencia del Gobierno que hemos calificado como anti dialogante y que nos preocupa más en la medida en que *0* se consolide " , afirma el rector de la UCA , al insistir en que de continuar con esa política " *0* caminaríamos hacia una democracia autoritaria " .
+        </example>
+        <example>
+A nivel global no se deben dar señales a otros Estados de que vuelve a estar permitido " , afirmaron las mismas fuentes .
+        </example>
+        <example>
+Las autoridades migratorias mexicanas deportaron en los primeros cinco meses de este año a unos 40.000 inmigrantes centroamericanos que entraron ilegalmente en México , afirmó hoy el representante del Instituto_Nacional de Migración - INM - , Luis_Nava_García .
+        </example>
+        <example>
+- Me parece formidable que la organización haya decidido que este año vengan también chicos y chicas de otras creencias - , afirma su hermana .
+        </example>
+        <example>
+él afirma que - el retiro de la política *0* lo llevo bien - .
+        </example>
+        <example>
+es contundente al afirmar que - la amistad no debe volvernos ciegos - y que la responsabilidad de Corcuera está en haber mantenido durante todo su mandato a un señor que se pasó el tiempo haciendo - lindezas - .
+        </example>
+        <example>
+No hay ducha , el baño está en el pasillo , las paredes se caen y hace frío - , afirma este universitario .
+        </example>
+        <example>
+La inversión en investigación básica es el camino , afirmaron hoy empresarios , el embajador de EEUU y el director de investigación de la Comunidad_de_Madrid , quienes abogaron por elevar la " cultura científica " de los ciudadanos y la " cultura de la innovación " de los empresarios .
+        </example>
+        <example>
+Si *0* admitimos como cierta la idea antropológica que afirma que la inteligencia aparece , en la escala evolutiva hacia el hombre , cuando hay un ser capaz de crear sus propias herramientas para cada necesidad , nunca ha sido el hombre tan humano como en los modernos descubrimientos de nuevos materiales .
+        </example>
+        <example>
+Por eso , si poco *0* puedo decir de la obra publicada de Rosa_Regás , *0* puedo afirmar mucho de su trayectoria intelectual , fecunda y abierta .
+        </example>
+        <example>
+Lo que *0* sí puedo asegurar es que *0* no estaré en un alto cargo como se ha dicho - , ha afirmado a_tiempo el ex_ministro de Interior José_Luis_Corcuera , quien la pasada semana ultimaba las condiciones de su reingreso en la empresa siderúrgica en la que *0* comenzó a trabajar como aprendiz cuando *0* tenía 14 años
+        </example>
+        <example>
+quien afirmó a los periodistas que González actúa de_mala_fe
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

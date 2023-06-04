@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="manifestar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="cau"/>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="durante" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+*0* Es una reunión de gran trascendencia puesto_que ahí se hará la reafirmación de la necesidad de la unidad de la Comunidad_Andina , de la unidad de nuestra subregión frente_a los grandes desafíos que se nos presentan por la globalización " , *0* manifestó a la prensa
+        </example>
+        <example>
+Por su parte , un grupo médico de la Cruz_Roja manifestó que lo que más afectaba a los cautivos , entre los que se encuentran cinco mujeres , es el ambiente
+        </example>
+        <example>
+Guterres , quien también habló el miércoles por teléfono con Arafat para conocer la versión de las dos partes , manifestó a Barak que la UE quiere cooperar
+        </example>
+        <example>
+La representante manifestó su seguridad
+        </example>
+        <example>
+para manifestarme su solidaridad
+        </example>
+        <example>
+*0* Intentamos estudiar la vida no como realmente *0* la conocemos , sino tal_y_como *0* podría ser en un ambiente diferente del terrestre , en otros planetas , con otros materiales e , incluso , en los universos artificiales definidos en un entorno de computación , ha manifestado Christopher_Langton
+        </example>
+        <example>
+Durante los dos días siguientes , numerosos diputados habían manifestado su apoyo a Pilar porque al_fin_y_al_cabo muchos políticos con poltrona en el Congreso participan en tertulias
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="arg0" function="cag" thematicrole="agt"/>
+      <examples>
+        <example>
+a_diferencia_de lo manifestado por Acedo
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="2">
+    <frame default="yes" lss="D11.inergative-agentive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="fin">
+        <constituent preposition="para" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <examples>
+        <example>
+Manifestarme solo y sin pancarta para exigir mi derecho a la soledad sin slogan
+        </example>
+      </examples>
+    </frame>
+  </sense>
+  <sense id="3">
+    <frame default="yes" lss="B21.unaccusative-state" type="default">
+      <argument argument="arg1" function="suj" thematicrole="tem"/>
+      <argument argument="argM" function="cpred" thematicrole="atr"/>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv"/>
+      <argument argument="argM" function="cc" thematicrole="cau">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+Los primeros se manifiestan en forma de lesiones apreciables en el propio individuo irradiado , mientras_que los segundos , al afectar a su material genético , se manifiestan únicamente como alteraciones
+        </example>
+        <example>
+los segundos , al afectar a su material genético , se manifiestan únicamente como alteraciones hereditarias a_través_de su descendencia
+        </example>
+        <example>
+efecto que por_otro_lado todavía no se manifestaba por no encontrarse el reloj a una altura suficiente
+        </example>
+        <example>
+*0* no se manifiesta en toda su plenitud sino hasta 1983
+        </example>
+        <example>
+*0* se manifestaba no_sólo a la sombra de los teólogos , sino_también a la
+        </example>
+        <example>
+la enfermedad comenzó a manifestarse en estos países
+        </example>
+        <example>
+Al correr de los siglos se había manifestado un enfrentamiento entre dos mundos
+        </example>
+        <example>
+*0* se manifestó en_favor_de otro planteamiento
+        </example>
+        <example>
+Se manifiesta crecido tras el resultado electoral del 12-M
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>

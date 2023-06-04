@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+
+  ancoralex-2.0.3
+       
+			Copyright (C) 2007,2008,2009,2010,2011 CLiC - UB
+			Centre de Llenguatge i Computació - Universitat de Barcelona
+ 
+  This file is part of ancoralex-2.0.3.
+ 
+  ancoralex-2.0.3 is free software and data: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published
+  by the Free Software Foundation, either version 3 of the License,
+  or (at your option) any later version.
+
+  ancoralex-2.0.3 is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with ancoralex-2.0.3.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ 
+  Check a text in catalan explaining the terms of the license at http://www.softcatala.cat/wiki/GPL3.
+  In spanish at http://www.viti.es/gnu/licenses/gpl.html
+  
+  The following paper must be cited when using verb lexicon: 
+
+ * Aparicio, Juan, Mariona Taulé, M.Antònia Martí (2008) 'AnCora-Verb: A Lexical Resource for 
+   the Semantic Annotation of Corpora'. Proceedings of 6th International Conference on Language 
+   Resources and Evaluation. Marrakesh (Morocco).
+
+  The following paper must be cited when using noun lexicon: 
+
+ * Peris, Aina, Mariona Taulé (2011). AnCora-Nom: A Spanish lexicon of deverbal nominalizations. 
+   Procesamiento del Lenguaje Natural, nº46, pp. 11-18.
+ 
+ 
+
+ 
+
+-->
+
+<lexentry lemma="explicar" lng="es" type="verb">
+  <sense id="1">
+    <frame default="yes" lss="A32.ditransitive-patient-benefactive" type="default">
+      <argument argument="arg0" function="suj" thematicrole="agt"/>
+      <argument argument="arg1" function="cd" thematicrole="pat"/>
+      <argument argument="arg2" function="ci" thematicrole="ben">
+        <constituent preposition="a" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="adv">
+        <constituent preposition="por" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="tmp">
+        <constituent preposition="hasta" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="mnr">
+        <constituent preposition="con" type="sp"/>
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <argument argument="argM" function="cc" thematicrole="loc">
+        <constituent preposition="en" type="sp"/>
+      </argument>
+      <examples>
+        <example>
+detalle que han explicado los científicos constatando que sólo así evita el primate que el agua de la lluvia llegue hasta sus manos y *0* le dificulte sus movimientos usuales
+        </example>
+        <example>
+lo que explica también el efecto
+        </example>
+        <example>
+Hasta hace poco los investigadores y científicos no se explicaban muy bien esta circunstancia
+        </example>
+        <example>
+Gregorio_Marañón explica en su ensayo sobre Don_Juan que la reacción psicológica específica del varón es el culto del honor
+        </example>
+        <example>
+T._S._Eliot lo explicaba así
+        </example>
+        <example>
+Pierre_Emmanuel , presidente de la Comisión_de_Asuntos_Culturales_del_VI_plan_francés , lo explicaba en 1971 con toda crudeza
+        </example>
+        <example>
+Uno de un curso superior nos explicó que los aliados le habían cortado los rayos , en plan castración
+        </example>
+        <example>
+La compañía hizo uso del recurso de apelación , tras lo cual la multa fue confirmada y reducida a 1.365_millones_de_pesos , explicó el funcionario
+        </example>
+        <example>
+Zubía explicó que , además_del " vertiginoso avance tecnológico " de los últimos años , el desprestigio sufrido por la Formación_Profesional - FP - ha provocado un abandono de estos oficios en_favor_de una concentración de estudiantes en carreras universitarias de bajo o muy bajo grado de inserción laboral , como el Derecho o Psicología
+        </example>
+        <example>
+Fidalgo , quien hoy asistió a la inauguración del séptimo congreso regional de CCOO , explicó que , de los más_de cuatro_billones_de_pesetas que el Erario público gastará este año en asistencia sanitaria , un tercio es para el gasto farmacéutico , un apartado que *0* calificó de " altamente ineficiente
+        </example>
+        <example>
+Por si , a_pesar_del hábil grafismo , alguien no lo hubiese entendido , una leyenda escrita lo explica en palabras : Recycled_ecological_paper
+        </example>
+        <example>
+Fuentes de la unión comarcal de CCOO explicaron a EFE que el fallecido estaba empleado en una subcontrata que efectuaba obras en el inmueble , que consta de cuatro plantas
+        </example>
+        <example>
+*0* Lo remataron - , explica su tía Cristia
+        </example>
+        <example>
+Romero lo explica así
+        </example>
+        <example>
+Ya sé qué ocurre - explicó una de mis hijas
+        </example>
+      </examples>
+    </frame>
+    <frame lss="B12.unaccusative-passive-ditransitive" type="passive">
+      <argument argument="arg1" function="suj" thematicrole="pat"/>
+      <argument argument="arg0" function="cag" thematicrole="agt"/>
+      <examples>
+        <example>
+este detalle no se había explicado demasiado bien
+        </example>
+      </examples>
+    </frame>
+  </sense>
+</lexentry>
