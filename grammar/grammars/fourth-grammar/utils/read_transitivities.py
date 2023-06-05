@@ -8,9 +8,10 @@ def read_transitivities(file_path):
         reader = csv.reader(file)
         for row in reader:
             verb = row[0]
-            transitive = row[1] == 'transitive'
-            intransitive = row[2] == 'intransitive'
+            transitive = row[1] == 'tr'
+            ditransitive = row[2] == 'di'
+            intransitive = row[3] == 'intr'
             
-            result[verb] = {'transitive': transitive, 'intransitive': intransitive}
+            result[verb] = {'transitive': transitive, 'intransitive': intransitive, 'ditransitive' : ditransitive}
     
     return result
