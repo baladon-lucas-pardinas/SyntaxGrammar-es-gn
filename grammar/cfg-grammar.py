@@ -21,7 +21,9 @@ def get_word_weights(filepath):
 
             word_data[word] = (occurrences, base_form, total_occurrences)
             if base_form not in base_form_data:
-                base_form_data[base_form] = total_occurrences
+                base_form_data[base_form] = (total_occurrences, 1)
+            else:
+                base_form_data[base_form] = (total_occurrences, base_form_data[base_form][1] + 1)
 
     return result
 
@@ -41,6 +43,11 @@ def add_weights(filepath, word_weights):
                     rhs = rhs.replace("'", "").replace('"', '').strip()
                     base_form_occurrences = word_data[rhs][2]
                     line = f"{line.rstrip()} # {base_form_occurrences}\n"
+                    # # Choose this one or the one above
+                    # (word_data, base_form) = word_weights[lhs]
+                    # rhs = rhs.replace("'", "").replace('"', '').strip()
+                    # (base_form_occurrences, base_form_count) = base_form[word_data[rhs][1]]
+                    # line = f"{line.rstrip()} # {base_form_occurrences / base_form_count}\n"
                 else:
                     line = f"{line.rstrip()} # \n"
             lines.append(line)  # Store the line in the list

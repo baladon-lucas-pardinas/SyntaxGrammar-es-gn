@@ -2,6 +2,7 @@
 
 ### Inspired by https://eli.thegreenplace.net/2010/01/28/generating-random-sentences-from-a-context-free-grammar/
 from collections import defaultdict
+from math import log2
 import random
 import argparse
 from nltk.grammar import FeatureGrammar
@@ -11,7 +12,7 @@ class CFG(object):
     def __init__(self):
         self.prod = defaultdict(list)
 
-    def add_prod(self, lhs, rhs, weight=0.1):
+    def add_prod(self, lhs, rhs, base_weight=0):
         """ Add production to the grammar. 'rhs' can
             be several productions separated by '|'.
             Each production is a sequence of symbols
@@ -21,6 +22,7 @@ class CFG(object):
                 grammar.add_prod('NT', 'VP PP', 0.5)
                 grammar.add_prod('Digit', '1|2|3|4', 0.25)
         """
+        weight = log2(1.5 + base_weight)
         prods = rhs.split('|')
         for prod in prods:
             self.prod[lhs].append((tuple(prod.split()), weight))
