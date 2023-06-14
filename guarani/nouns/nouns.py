@@ -26,7 +26,7 @@ def final_vocal(noun):
     return noun[len(noun)-1] in vocal
 
 def final_tonica(noun):
-    tonica = ['á','é','í','ó','ú','ý']
+    tonica = ['á','é','í','ó','ú','ý','ã', 'ẽ', 'ĩ', 'õ', 'ũ', 'ỹ']
     return noun[len(noun)-1] in tonica
 
 def comienzo_consonante(noun):
@@ -69,16 +69,16 @@ def write_nouns(nouns):
             nasal = 'N'
         else:
             nasal = 'O'
-        if noun[0] in ['N','O']:
+        if noun[0] in ['n','o']:
             especialTercera = 1
-        elif not es_nasal(noun) and principio_vocal(noun) and final_tonica(noun):
+        elif (not es_nasal(noun)) and principio_vocal(noun) and final_tonica(noun):
+            print(noun)
             especialTercera = 2
         elif es_nasal(noun) and principio_vocal(noun) and final_tonica(noun):
             especialTercera = 3
         elif comienzo_consonante(noun):
             especialTercera = 4
         elif principio_tonica(noun) and final_vocal(noun):
-            print(noun)
             especialTercera = 5
         final.append([noun, line[0],'N','C','0',number,especialTercera,nasal]+line[1:])
     return final
