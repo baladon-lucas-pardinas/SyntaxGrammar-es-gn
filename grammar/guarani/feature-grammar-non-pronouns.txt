@@ -9,7 +9,7 @@ VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr'] # VP[AGR=?a, MOOD=?m] -
 VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP
 VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di'] NP 'a' NP # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di'] NP NP
 # NP expansion productions
-NP[AGR=?a] -> D[AGR=?a] N[AGR=?a] # NP[AGR=?a, NAS=?n] -> D[AGR=?a, NAS=?n, TER=?t] N[AGR=?a, NAS=?n, TER=?t]
+NP[AGR=?a] -> D[AGR=?a] N[AGR=?a] # NP[AGR=?a, NAS=?n] -> D[AGR=?a, NAS=?n] N[AGR=?a, NAS=?n]
 # ###################
 # Lexical Productions
 # ###################
