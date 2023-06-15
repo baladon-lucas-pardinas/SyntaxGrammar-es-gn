@@ -24,10 +24,47 @@ def get_syntactic_transfer_rules(filepath):
         'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]' : 'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]',
         "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']",
         "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP[AGR=?b]" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr']",
-        "NP[AGR=?a] -> D[AGR=?a] N[AGR=?a]" : "NP[AGR=?a] -> D[AGR=?a] N[AGR=?a] DUMMY_GUARANI_WORKS",
+        "NP[AGR=?a] -> D[AGR=?a] N[AGR=?a]" : "NP[AGR=?a, NAS=?b] -> D[AGR=?a, NAS=?b] N[AGR=?a, NAS=?b]",
     }
     return rules
 
+# def parse_tree(tree_str):
+#     stack = []
+#     current_node = None
+#     principio = False
+#     termino = False
+
+#     for char in tree_str:
+#         if char == "(":
+#             if current_node is not None:
+#                 stack.append(current_node)
+#             current_node = {'type': '', 'label': '', 'children': [], 'word': ''}
+#             principio = True
+#             termino = False
+#         elif char == ")":
+#             if stack:
+#                 parent_node = stack.pop()
+#                 parent_node['children'].append(current_node)
+#                 current_node = parent_node
+#                 termino = False
+#         elif char == "[":
+#             termino = False
+#             principio = False
+#         elif char == "]":
+#             termino = True
+#         else:
+#             if principio and not str.isspace(char):
+#                 current_node['type'] += char
+#             elif termino and not str.isspace(char):
+#                 if char == ',':
+#                     current_node['label'] += char
+#                     termino = False
+#                 else:
+#                     current_node['word'] += char
+#             elif not str.isspace(char):
+#                 current_node['label'] += char
+
+#     return current_node
 def parse_tree(tree_str):
     stack = []
     current_node = None
@@ -50,8 +87,10 @@ def parse_tree(tree_str):
         elif char == "[":
             termino = False
             principio = False
+            current_node['label'] += char  # Include the square bracket in the label
         elif char == "]":
             termino = True
+            current_node['label'] += char  # Include the square bracket in the label
         else:
             if principio and not str.isspace(char):
                 current_node['type'] += char
@@ -65,6 +104,49 @@ def parse_tree(tree_str):
                 current_node['label'] += char
 
     return current_node
+
+def parse_nested_dict(string):
+    stack = []
+    current_dict = {}
+    key = ""
+    value = ""
+    inside_quotes = False
+
+    for char in string:
+        if char == "[":
+            if key:
+                stack.append((key, current_dict))
+                current_dict = {}
+                key = ""
+        elif char == "]":
+            if key:
+                current_dict[key] = value.strip()
+                key = ""
+                value = ""
+            if stack:
+                parent_key, parent_dict = stack.pop()
+                parent_dict.update(current_dict)
+                current_dict = parent_dict
+        elif char == "=":
+            if inside_quotes:
+                value += char
+            else:
+                key = value.strip()
+                value = ""
+        elif char == ",":
+            if inside_quotes:
+                value += char
+            else:
+                current_dict[key] = value.strip()
+                key = ""
+                value = ""
+        elif char == "'":
+            inside_quotes = not inside_quotes
+        else:
+            value += char
+
+    return current_dict
+
 
 def get_spanish_trees(filepath):
     with open(filepath, 'r') as file:
@@ -84,12 +166,13 @@ def get_spanish_trees(filepath):
                     trees.append(content[tree_start:i+1])
                 stack.pop()
 
+    # Should apply parse_nested_dict to each tree's label I believe
     return [parse_tree(x) for x in trees]
 
 def main():
     args = parse_arguments()
     trees = get_spanish_trees(args.spanish_trees_file)
-    # print(trees[0])
+    print(trees[0])
     
     ### Next steps: 
     # get equivalent grammar rules
