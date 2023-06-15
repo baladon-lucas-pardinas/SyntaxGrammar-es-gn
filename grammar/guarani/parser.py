@@ -1,5 +1,5 @@
 import csv
-import xml.etree.ElementTree as ET
+import re
 
 def write_to_csv(filepath, rows):
     with open(filepath, 'w', newline='') as file:
@@ -79,7 +79,7 @@ def parse_tree(tree_str):
 
 
 def translate_tree(tree):
-    word_mapping = {
+    """ word_mapping = {
         'nosotras': 'che resẽ',
         'lisiaríamos': 'ambyai',
         'nuestras': 'che rupi',
@@ -88,15 +88,27 @@ def translate_tree(tree):
     }
 
     tag_mapping = {
-        'S': 'NP VP',
-        'P': 'NP VP',
+        'S -> NP VP': 'S -> NP VP',
+        'VP -> VP': 'VP -> VP',
         'VP': 'V',
         'V': 'V',
         'NP': 'D N',
         'D': 'D',
         'N': 'N'
         # Otros mapeos de etiquetas necesarios para la traducción al guaraní
-    }
+    } """
+
+    genExp = r'.*GEN=?\'(.)\'.*' 
+    numExp = r'.*NUM=?\'(.)\'.*' 
+    perExp = r'.*PER=?\'(.)\'.*' 
+
+    match tree['type']:
+        case 'N':
+            gen = re.search(tree['label'],genExp).group(1)
+            num = re.search(tree['label'],numExp).group(1)
+            for row in nouns:
+                if row[6] == tree['word'] and row[10] == gen and row[11] == num:
+                    nouns.append(row[0])
 
     translated_tree = {'label': tag_mapping.get(tree['label'], tree['label']), 'children': []}
     if 'children' in tree:
@@ -109,6 +121,48 @@ def translate_tree(tree):
         translated_tree['label'] = translated_word
 
     return translated_tree
+
+def translate_nouns(tree):
+    nouns = []
+    genExp = r'.*GEN=?\'(.)\'.*' 
+    numExp = r'.*NUM=?\'(.)\'.*' 
+    gen = re.search(tree['label'],genExp).group(1)
+    num = re.search(tree['label'],numExp).group(1)
+    for row in nouns:
+        if row[6] == tree['word'] and row[12].lower() == gen.lower() and row[13].lower() == num.lower():
+            nouns.append({'noun':row[0], 'tercera':row[6], 'nasal':row[7]})
+    return nouns
+
+def translate_det(tree):
+    nouns = []
+    genExp = r'.*GEN=?\'(.)\'.*' 
+    numExp = r'.*NUM=?\'(.)\'.*' 
+    typeExp = r'.*TYPE=?\'(.)\'.*' 
+    possPerExp = r'.*POSSPER=0=?\'(.)\'.*' 
+    possNumExp = r'.*POSSNUM=0=0=?\'(.)\'.*' 
+    gen = re.search(tree['label'],genExp).group(1)
+    num = re.search(tree['label'],numExp).group(1)
+    typ = re.search(tree['label'],typeExp).group(1)
+    possPer = re.search(tree['label'],possPerExp).group(1)
+    possNum = re.search(tree['label'],possNumExp).group(1)
+    for row in nouns:
+        if row[6] == tree['word'] and row[16].lower() == typ.lower() and row[19].lower() == num.lower() and row[18].lower() == gen.lower() and row[17].lower() == possPer.lower() and row[20].lower() == possNum.lower():
+            nouns.append({'det':row[0],'persona':row[4],'numero':row[6],'possesor':row[7],'incluyente': row[8], 'nasal':row[9], 'tercero':row[10],'presencia':row[11]})
+    return nouns
+
+def translate_verbs(tree):
+    verbs = []
+    numExp = r'.*NUM=?\'(.)\'.*' 
+    perExp = r'.*PER=?\'(.)\'.*' 
+    tenseExp = r'.*TENSE=?\'(.)\'.*' 
+    moodExp = r'.*MOOD=?\'(.)\'.*' 
+    mood = re.search(tree['label'],moodExp).group(1)
+    tense = re.search(tree['label'],tenseExp).group(1)
+    per = re.search(tree['label'],perExp).group(1)
+    num = re.search(tree['label'],numExp).group(1)
+    for row in nouns:
+        if row[12] == tree['word'] and row[16].lower() == mood.lower() and row[17].lower() == tense.lower() and row[18] == per and row[19].lower() == num.lower():
+            verbs.append([row[0],row[7],row[8]])
 
 
 def translate_tree2(tree):
@@ -145,6 +199,12 @@ def translate_tree2(tree):
 
     return translated_tree
 
+
+nouns = read_csv("../../guarani/nouns/finished-nouns.csv")
+determiners = read_csv("../../guarani/determiners/determiners.csv")
+adjectives = read_csv("../../guarani/adjectives/matched-adjectives-guarani.csv")
+pronouns = read_csv("../../guarani/pronouns/pronouns.csv")
+verbs = read_csv("../../guarani/verbs/matched-verbs-guarani.csv")
 
 # Árbol gramatical en español
 #tree_str = "(S[AGR=[GEN='f', NUM='p', PER=1, TENSE='c']] (P[AGR=[GEN='f', NUM='p', PER=1], CASE='n', POLITE=0, TYPE='p'] nosotras) (VP[AGR=[NUM='p', PER=1, TENSE='c'], MOOD='i'] (V[AGR=[NUM='p', PER=1, TENSE='c'], MOOD='i', SUBCAT='tr'] lisiaríamos) (NP[AGR=[GEN='f', NUM='p', PER=3]] (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p'] nuestras) (N[AGR=[GEN='f', NUM='p', PER=3]] olas))))"
