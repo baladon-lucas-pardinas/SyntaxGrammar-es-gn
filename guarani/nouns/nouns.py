@@ -1,4 +1,5 @@
 import csv
+import codecs
 
 def final_nasal(noun):
     nasals = ['ã', 'ẽ', 'ĩ', 'õ', 'ũ', 'ỹ']
@@ -34,7 +35,7 @@ def comienzo_consonante(noun):
     return not noun[0] in vocales
 
 def read_csv(filepath):
-    with open(filepath, 'r') as file:
+    with codecs.open(filepath, 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
         matrix = []
         for row in reader:
@@ -50,7 +51,7 @@ def plural(noun):
     return noun
 
 def write_to_csv(filepath, rows):
-    with open(filepath, 'w', newline='') as file:
+    with codecs.open(filepath, 'w', encoding='utf-8') as file:
         writer = csv.writer(file)
         for row in rows:
             writer.writerow(row)

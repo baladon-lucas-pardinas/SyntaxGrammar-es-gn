@@ -1,4 +1,5 @@
 import csv
+import codecs
 
 def defectivos(verb):
     defectivos = ["ko'i", "je'ói", "hua'ĩ"]
@@ -13,7 +14,7 @@ def aireal(verb):
     return (verb in aireales)
 
 def read_csv(filepath):
-    with open(filepath, 'r') as file:
+    with codecs.open(filepath, 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
         matrix = []
         for row in reader:
@@ -28,7 +29,7 @@ def nasal(verb):
     return nasal
 
 def write_to_csv(filepath, rows):
-    with open(filepath, 'w',newline='') as file:
+    with codecs.open(filepath, 'w', encoding='utf-8') as file:
         writer = csv.writer(file)
         for row in rows:
             writer.writerow(row)
@@ -483,7 +484,7 @@ def separar_verbos(verbs):
     return final
 
 def main():
-    verbs = read_csv("../../ancora/fullymerged-transitivities.csv")
+    verbs = read_csv("../../ancora/archivos/fullymerged-transitivities.csv")
     verbs = separar_verbos(verbs)
     verbs = duplicate_plurals(verbs)
     matched, unmatched = write_verbs(verbs)
