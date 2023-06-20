@@ -29,11 +29,15 @@ def main():
     trees = fetch_spanish_trees(args.spanish_trees_file)
 
     ### Rubbish
-    x = trees[0]['children'][1]['children'][0]
+    ## nouns:
+    #x = trees[0]['children'][0]['children'][1]
+    ## verbs:
+    #x = trees[0]['children'][1]['children'][0]
+    ## determiners:
+    x = trees[0]['children'][0]['children'][0]
     print(x)
-    y = translate_verbs(x, verbs)
+    y = translate_determiners(x, determiners)
     print(y)
-    print(trees[0])
     ### End of rubbish
 
     ### Next steps: 
