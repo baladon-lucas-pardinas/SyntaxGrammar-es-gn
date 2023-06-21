@@ -7,9 +7,9 @@ S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i] # S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, 
 # VP expansion productions
 VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr'] # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']
 VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP
-VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di'] NP 'a' NP # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di'] NP NP
+VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di'] NP 'a' NP # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di'] NP NP '_pe'
 # NP expansion productions
-NP[AGR=?a] -> D[AGR=?a] N[AGR=?a] # NP[AGR=?a, NAS=?n] -> D[AGR=?a, NAS=?n] N[AGR=?a, NAS=?n]
+NP[AGR=?a] -> D[AGR=?a] N[AGR=?a] # NP[AGR=?a, NAS=?n] -> D[AGR=[NAS=?n, TER=?t]] N[AGR=[NAS=?n, TER=?t]]
 # ###################
 # Lexical Productions
 # ###################
