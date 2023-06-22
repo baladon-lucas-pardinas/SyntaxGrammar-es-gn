@@ -4,16 +4,22 @@ from utils.parse_arguments import parse_arguments
 from leaves.determiners import translate_determiners
 from leaves.nouns import translate_nouns
 from leaves.verbs import translate_verbs
+from transfer.guarani_tree import build_guarani_tree
 
 
     
 def get_syntactic_transfer_rules(filepath):
     # dummy, I need to actually write the fetch function for this
     rules = {
-        'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]' : 'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]',
-        "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']",
-        "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP[AGR=?b]" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr']",
-        "NP[AGR=?a] -> D[AGR=?a] N[AGR=?a]" : "NP[AGR=?a, NAS=?b] -> D[AGR=?a, NAS=?b] N[AGR=?a, NAS=?b]",
+        # 'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]' : 'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]',
+        # "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']",
+        # "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP[AGR=?b]" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr']",
+        # "NP[AGR=?a] -> D[AGR=?a] N[AGR=?a]" : "NP[AGR=?a, NAS=?b] -> D[AGR=?a, NAS=?b] N[AGR=?a, NAS=?b]",'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]' : 'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]',
+        'S-> NP VP' : 'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]',
+        "VP -> V" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']",
+        "VP -> V NP" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr']",
+        "NP -> D N" : "NP[AGR=?a, NAS=?b] -> D[AGR=?a, NAS=?b] N[AGR=?a, NAS=?b]",
+    
     }
     return rules
 
@@ -27,13 +33,17 @@ def main():
 
     args = parse_arguments()
     trees = fetch_spanish_trees(args.spanish_trees_file)
+    transfer_rules = get_syntactic_transfer_rules(args.equivalence_rules_file)
+    print(trees[0])
+    print(build_guarani_tree(trees[0], transfer_rules))
+
 
     ### Rubbish
-    x = trees[0]['children'][1]['children'][0]
-    print(x)
-    y = translate_verbs(x, verbs)
-    print(y)
-    print(trees[0])
+    # x = trees[0]['children'][1]['children'][0]
+    # print(x)
+    # y = translate_verbs(x, verbs)
+    # print(y)
+    # print(trees[0])
     ### End of rubbish
 
     ### Next steps: 
