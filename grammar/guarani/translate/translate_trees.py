@@ -45,6 +45,15 @@ def main():
     # y = translate_verbs(x, verbs)
     # print(y)
     # print(trees[0])
+    ## nouns:
+    #x = trees[0]['children'][0]['children'][1]
+    ## verbs:
+    #x = trees[0]['children'][1]['children'][0]
+    ## determiners:
+    x = trees[0]['children'][0]['children'][0]
+    print(x)
+    y = translate_determiners(x, determiners)
+    print(y)
     ### End of rubbish
 
     ### Next steps: 
