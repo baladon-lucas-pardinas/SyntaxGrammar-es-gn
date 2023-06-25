@@ -31,18 +31,18 @@ def get_syntactic_transfer_rules(filepath):
 
         "VP -> V" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='intr', NEG=0]"],
         "VP -> V NP" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='tr', NEG=0] NP"],
-        "VP -> V NP1 A NP2" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='di', NEG=0] NP1 NP2[AGR='?a'] A[AGR='?a']"],
+        "VP -> V NP1 AA NP2" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='di', NEG=0] NP1 NP2[AGR='?a'] AA[AGR='?a']"],
 
         "VP -> NEG V" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='intr', NEG=1]"],
         "VP -> NEG V NP" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='tr', NEG=1] NP"],
-        "VP -> NEG V NP1 A NP2" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='di', NEG=1] NP1 NP2[AGR='?a'] A[AGR='?a']"],
+        "VP -> NEG V NP1 AA NP2" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='di', NEG=1] NP1 NP2[AGR='?a'] AA[AGR='?a']"],
 
         "NP1 -> NP" : ["NP1[AGR='?a'] -> NP[AGR='?a']"],
 
         "NP2 -> NP" : ["NP2[AGR='?a'] -> NP[AGR='?a']"],
 
-        "A -> 'a'" : ["A[AGR=[NAS='o']] -> '_pe'",
-                    "A[AGR=[NAS='n']] -> '_me'"],
+        "AA -> 'a'" : ["AA[AGR=[NAS='o']] -> '_pe'",
+                    "AA[AGR=[NAS='n']] -> '_me'"],
 
         "NP -> D N" : ["NP[AGR='?a'] -> D[AGR='?a'] N[AGR='?a']"],
 

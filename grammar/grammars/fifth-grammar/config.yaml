@@ -3,4 +3,4 @@ nouns: ../../spanish/spanish-nouns/matched-nouns.csv
 transitivities: ../../spanish/transitivity/ancora-rae/merged-transitivities.csv
 determiners: ../../spanish/spanish-determiners/determiners.csv
 pronouns: ../../spanish/spanish-pronouns/pronouns.csv
-output: ../grammar-files/g7/feature-grammar.txt
+output: ../grammar-files/g9/feature-grammar.txt
