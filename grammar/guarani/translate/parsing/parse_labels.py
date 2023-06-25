@@ -8,6 +8,10 @@ def parse_label(label : str):
     # Turn into a JSON-like string
     label = label.replace('[', '{').replace(']', '}').replace('=', ':')
 
+    # Avoid empty labels
+    if (label == '{}'):
+        return {}
+
     # Add quotes around JSON labels
     label = label.replace(':', '":').replace(',', ',"').replace('{', '{"')
 

@@ -5,11 +5,14 @@ from .unification import UnificationFailed, unify
 from .parse_lhs_feat import parse_lhs_features
 from .replace_variables import replace_variables
 from translate.leaves.translate_leaf import translate_leaf
-from itertools import product
+from itertools import product, combinations
 from copy import deepcopy
 
 def cartesian_product(lists):
     return list(product(*lists))
+
+def get_combinations(my_list):
+    return list(combinations(my_list, 2))
 
 
 def build_guarani_tree(spanish_tree, equivalence, lexicon):
@@ -19,7 +22,10 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
         #return [] ### Actually need to take care of this case
                     # Should return a list of possible string-features pairs for this word
                     # Return type should be [(string, features)] where features is a dict
-        return translate_leaf(spanish_tree, lexicon)
+        temp = translate_leaf(spanish_tree, lexicon)
+        print(temp)
+        return temp
+        # return translate_leaf(spanish_tree, lexicon)
     
     for child in spanish_tree['children']:
         sp_rule += ' ' + child['type']
@@ -38,6 +44,7 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
         translations[child['type']] += build_guarani_tree(child, equivalence, lexicon)
     print('trans:')
     print(translations)
+    print('end_trans')
     #  S-> NP VP
     # {NP: [(string, features)], VP: [(string, features)]}
 
@@ -57,18 +64,21 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
         possibilities = cartesian_product([x[1] for x in gn_symbol_translations])
 
         rule_tree = parse_rule(gn_rule.split('->')[1].strip())
-        print(gn_rule)
-        print(rule_tree)
+        # print(gn_rule)
+        # print(rule_tree)
         lhs_features = parse_lhs_features(gn_rule.split('->')[0].strip())
 
         # Possibilities is a list of lists of tuples, where each tuple is (string, features)
 
         for possibility in possibilities:
             try:
+                print('pos')
+                print(possibility)
+                print(rule_tree)
                 variables = {}
                 for feat in rule_tree.keys():
                     for val in rule_tree[feat].keys():
-                        should_match = cartesian_product(rule_tree[feat][val]) # No es producto cartesiano, es combinaciones
+                        should_match = get_combinations(rule_tree[feat][val]) # No es producto cartesiano, es combinaciones
                         for (a, b) in should_match:
                             if (a != b):
                                 unified = unify(possibility[a][1], possibility[b][1], feat)
@@ -76,6 +86,7 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
                                     raise UnificationFailed("Unification failed")
                                 
                         unified = possibility[0][0]
+                        print(unified)
                         for i in range(1, len(possibility)):
                             unified = unify(unified, possibility[i][1], feat)
                             if (unified == None):
@@ -98,6 +109,7 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
             except UnificationFailed as e:
                 pass
 
+    print(result)
     return result
 
 

@@ -1,6 +1,6 @@
 import re
 
-def parse_rule(input_string):
+def parse_string(input_string):
     result_dict = {}
 
     # Find all occurrences of [KEY='VALUE']
@@ -27,7 +27,8 @@ def parse_rule(input_string):
 
     return result_dict
 
-# # Example usage:
-# rule_string = "D[AGR=?a, NAS=?n] N[AGR=?a, NAS=?n] V[AGR=?a]"
-# parsed_rule = parse_rule(rule_string)
-# print(parsed_rule)
+# if main run the previous function
+if (__name__ == "__main__"):
+    print(parse_string("D[AGR='?a', NAS='?n'] N[AGR='?a', NAS='?n'] V[AGR='?a']"))
+    print(parse_string("D[AGR='?a', NAS='?n', TER='a'] N[AGR='?a', NAS='?n', COMP=2] V[AGR='?a', COMP=2]"))
+    

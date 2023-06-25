@@ -72,7 +72,7 @@ def main():
     args = parse_arguments()
     trees = fetch_spanish_trees(args.spanish_trees_file)
     transfer_rules = get_syntactic_transfer_rules(args.equivalence_rules_file)
-    print(trees[0])
+    # print(trees[0])
     print(build_guarani_tree(trees[0], transfer_rules, lexicon))
 
 

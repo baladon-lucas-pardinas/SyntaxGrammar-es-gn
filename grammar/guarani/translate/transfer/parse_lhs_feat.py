@@ -12,5 +12,5 @@ def parse_lhs_features(lhs: str):
     label = get_string_from_bracket(lhs)
     if label == None:
         return {}
-    print(label)
+    # print(label)
     return parse_label(label)

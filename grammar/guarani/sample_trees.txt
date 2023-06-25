@@ -1,3 +1,11 @@
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] indicaciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      extienden)))
 (S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
   (NP[AGR=[GEN='f', NUM='s', PER=3]]
     (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] esta)
@@ -63,14 +71,6 @@
     (NP[AGR=[GEN='m', NUM='s', PER=3]]
       (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] ese)
       (N[AGR=[GEN='m', NUM='s', PER=3]] costado))))
-(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
-  (NP[AGR=[GEN='f', NUM='p', PER=3]]
-    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
-      aquellas)
-    (N[AGR=[GEN='f', NUM='p', PER=3]] indicaciones))
-  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
-    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
-      extienden)))
 (S[AGR=[GEN='m', NUM='s', PER=3, TENSE='i']]
   (NP[AGR=[GEN='m', NUM='s', PER=3]]
     (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] el)
