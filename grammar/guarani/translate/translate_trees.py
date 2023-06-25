@@ -1,10 +1,10 @@
-from fetch.spanish_trees import fetch_spanish_trees
-from utils.read_csv import read_csv
-from utils.parse_arguments import parse_arguments
-from leaves.determiners import translate_determiners
-from leaves.nouns import translate_nouns
-from leaves.verbs import translate_verbs
-from transfer.guarani_tree import build_guarani_tree
+from .fetch.spanish_trees import fetch_spanish_trees
+from .utils.read_csv import read_csv
+from .utils.parse_arguments import parse_arguments
+from .leaves.determiners import translate_determiners
+from .leaves.nouns import translate_nouns
+from .leaves.verbs import translate_verbs
+from .transfer.guarani_tree import build_guarani_tree
 
 
     
@@ -16,27 +16,35 @@ def get_syntactic_transfer_rules(filepath):
         # "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']",
         # "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP[AGR=?b]" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr']",
         # "NP[AGR=?a] -> D[AGR=?a] N[AGR=?a]" : "NP[AGR=?a, NAS=?b] -> D[AGR=?a, NAS=?b] N[AGR=?a, NAS=?b]",'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]' : 'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]',
-        'S -> NP VP' : 'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]',
-        "VP -> V" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']",
-        "VP -> V NP" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr']",
-        "NP -> D N" : "NP[AGR=?a, NAS=?b] -> D[AGR=?a, NAS=?b] N[AGR=?a, NAS=?b]",
+        'S -> NP VP' : 'S[AGR="?a"] -> NP[AGR="?a"] VP[AGR="?a", MOOD="i"]',
+        "VP -> V" : "VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='intr']",
+        "VP -> V NP" : "VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='tr'] NP",
+        "NP -> D N" : "NP[AGR='?a', NAS='?n'] -> D[AGR=[NAS='?n', TER='?t']] N[AGR=[NAS='?n', TER='?t']]",
     
     }
     return rules
 
 def main():
     # Get CSV files
-    nouns = read_csv("../../../guarani/nouns/finished-nouns.csv")
-    determiners = read_csv("../../../guarani/determiners/determiners.csv")
-    adjectives = read_csv("../../../guarani/adjectives/matched-adjectives-guarani.csv")
-    pronouns = read_csv("../../../guarani/pronouns/pronouns.csv")
-    verbs = read_csv("../../../guarani/verbs/matched-verbs-guarani.csv")
+    nouns = read_csv("../../guarani/nouns/finished-nouns.csv")
+    determiners = read_csv("../../guarani/determiners/determiners.csv")
+    adjectives = read_csv("../../guarani/adjectives/matched-adjectives-guarani.csv")
+    pronouns = read_csv("../../guarani/pronouns/pronouns.csv")
+    verbs = read_csv("../../guarani/verbs/matched-verbs-guarani.csv")
+
+    lexicon = {
+        'N' : nouns,
+        'D' : determiners,
+        'A' : adjectives,
+        'P' : pronouns,
+        'V' : verbs
+    }
 
     args = parse_arguments()
     trees = fetch_spanish_trees(args.spanish_trees_file)
     transfer_rules = get_syntactic_transfer_rules(args.equivalence_rules_file)
     print(trees[0])
-    print(build_guarani_tree(trees[0], transfer_rules))
+    print(build_guarani_tree(trees[0], transfer_rules, lexicon))
 
 
     ### Rubbish
@@ -50,10 +58,10 @@ def main():
     ## verbs:
     #x = trees[0]['children'][1]['children'][0]
     ## determiners:
-    x = trees[0]['children'][0]['children'][0]
-    print(x)
-    y = translate_determiners(x, determiners)
-    print(y)
+    # x = trees[0]['children'][0]['children'][0]
+    # print(x)
+    # y = translate_determiners(x, determiners)
+    # print(y)
     ### End of rubbish
 
     ### Next steps: 

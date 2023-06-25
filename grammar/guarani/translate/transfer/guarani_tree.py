@@ -1,9 +1,10 @@
 from collections import defaultdict
-from ..parsing.rule_to_cfg import rule_to_cfg
-from ..parsing.parse_rule import parse_rule
+from translate.parsing.rule_to_cfg import rule_to_cfg
+from translate.parsing.parse_rule import parse_rule
 from .unification import UnificationFailed, unify
 from .parse_lhs_feat import parse_lhs_features
 from .replace_variables import replace_variables
+from translate.leaves.translate_leaf import translate_leaf
 from itertools import product
 from copy import deepcopy
 
@@ -11,20 +12,20 @@ def cartesian_product(lists):
     return list(product(*lists))
 
 
-def build_guarani_tree(spanish_tree, equivalence):
+def build_guarani_tree(spanish_tree, equivalence, lexicon):
     sp_rule = spanish_tree['type'] + ' ->'
     if (len(spanish_tree['children']) == 0):
         # return [sp_rule + ' ' + spanish_tree['word']]
-        return [] ### Actually need to take care of this case
+        #return [] ### Actually need to take care of this case
                     # Should return a list of possible string-features pairs for this word
                     # Return type should be [(string, features)] where features is a dict
+        return translate_leaf(spanish_tree, lexicon)
     
     for child in spanish_tree['children']:
         sp_rule += ' ' + child['type']
 
     gn_rule : str = equivalence[sp_rule] # This will actually be a list of rules
     cfg_gn_rule = rule_to_cfg(gn_rule)
-    
 
     # For children get their subtree? Or just the word? Or maybe features and string?
     # Then use the guarani rule to select the order of those words
@@ -35,7 +36,9 @@ def build_guarani_tree(spanish_tree, equivalence):
 
     translations = defaultdict(lambda: [])
     for child in spanish_tree['children']:
-        translations[child['type']] += build_guarani_tree(child, equivalence)
+        translations[child['type']] += build_guarani_tree(child, equivalence, lexicon)
+    print('trans:')
+    print(translations)
     #  S-> NP VP
     # {NP: [(string, features)], VP: [(string, features)]}
 
@@ -52,6 +55,8 @@ def build_guarani_tree(spanish_tree, equivalence):
 
     # This will actually be something like "for each gn_rule in gn_rules:"
     rule_tree = parse_rule(gn_rule.split('->')[1].strip())
+    print(gn_rule)
+    print(rule_tree)
     lhs_features = parse_lhs_features(gn_rule.split('->')[0].strip())
 
     # Possibilities is a list of lists of tuples, where each tuple is (string, features)
@@ -61,7 +66,7 @@ def build_guarani_tree(spanish_tree, equivalence):
             variables = {}
             for feat in rule_tree.keys():
                 for val in rule_tree[feat].keys():
-                    should_match = cartesian_product(rule_tree[feat][val])
+                    should_match = cartesian_product(rule_tree[feat][val]) # No es producto cartesiano, es combinaciones
                     for (a, b) in should_match:
                         if (a != b):
                             unified = unify(possibility[a][1], possibility[b][1], feat)

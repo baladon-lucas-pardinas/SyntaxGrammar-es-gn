@@ -1,5 +1,5 @@
-from parsing.parse_labels import parse_labels
-from parsing.parse_tree import parse_tree
+from ..parsing.parse_labels import parse_labels
+from ..parsing.parse_tree import parse_tree
 
 
 def fetch_spanish_trees(filepath):
