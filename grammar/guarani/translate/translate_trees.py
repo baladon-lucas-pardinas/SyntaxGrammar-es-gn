@@ -16,11 +16,40 @@ def get_syntactic_transfer_rules(filepath):
         # "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr']",
         # "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP[AGR=?b]" : "VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr']",
         # "NP[AGR=?a] -> D[AGR=?a] N[AGR=?a]" : "NP[AGR=?a, NAS=?b] -> D[AGR=?a, NAS=?b] N[AGR=?a, NAS=?b]",'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]' : 'S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i]',
-        'S -> NP VP' : 'S[AGR="?a"] -> NP[AGR="?a"] VP[AGR="?a", MOOD="i"]',
-        "VP -> V" : "VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='intr']",
-        "VP -> V NP" : "VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='tr'] NP",
-        "NP -> D N" : "NP[AGR='?a', NAS='?n'] -> D[AGR=[NAS='?n', TER='?t']] N[AGR=[NAS='?n', TER='?t']]",
-    
+        "S -> NP VP PP" : ["S[AGR='?a'] -> NP[AGR='?a'] VP[AGR='?a', MOOD='i'] PP"],
+        "S -> NP VP" : ["S[AGR='?a'] -> NP[AGR='?a'] VP[AGR='?a', MOOD='i']"],
+
+        "S -> P VP PP" : ["S[AGR='?a'] -> P[AGR=[INC='?i', POS='b'], CASE='n'] VP[AGR=[INC='?i', POS='b'], MOOD='i'] PP",
+                        "S[AGR='?a'] -> P[AGR=[INC='?i', POS=0], CASE='n'] VP[AGR=[INC='?i', POS=0], MOOD='i'] PP",
+                        "S[AGR='?a'] -> VP[AGR=[INC='?i', POS='b'], MOOD='i'] P[AGR=[INC='?i', POS='b'], CASE='n'] PP",
+                        "S[AGR='?a'] -> VP[AGR=[INC='?i', POS='p'], MOOD='i'] P[AGR=[INC='?i', POS='p'], CASE='n'] PP"],
+
+        "S -> P VP" : ["S[AGR='?a'] -> P[AGR=[INC='?i', POS='b'], CASE='n'] VP[AGR=[INC='?i', POS='b'], MOOD='i']",
+                    "S[AGR='?a'] -> P[AGR=[INC='?i', POS=0], CASE='n'] VP[AGR=[INC='?i', POS=0], MOOD='i']",
+                    "S[AGR='?a'] -> VP[AGR=[INC='?i', POS='b'], MOOD='i'] P[AGR=[INC='?i', POS='b'], CASE='n']",
+                    "S[AGR='?a'] -> VP[AGR=[INC='?i', POS='p'], MOOD='i'] P[AGR=[INC='?i', POS='p'], CASE='n']"],
+
+        "VP -> V" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='intr', NEG=0]"],
+        "VP -> V NP" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='tr', NEG=0] NP"],
+        "VP -> V NP1 A NP2" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='di', NEG=0] NP1 NP2[AGR='?a'] A[AGR='?a']"],
+
+        "VP -> NEG V" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='intr', NEG=1]"],
+        "VP -> NEG V NP" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='tr', NEG=1] NP"],
+        "VP -> NEG V NP1 A NP2" : ["VP[AGR='?a', MOOD='?m'] -> V[AGR='?a', MOOD='?m', SUBCAT='di', NEG=1] NP1 NP2[AGR='?a'] A[AGR='?a']"],
+
+        "NP1 -> NP" : ["NP1[AGR='?a'] -> NP[AGR='?a']"],
+
+        "NP2 -> NP" : ["NP2[AGR='?a'] -> NP[AGR='?a']"],
+
+        "A -> 'a'" : ["A[AGR=[NAS='o']] -> '_pe'",
+                    "A[AGR=[NAS='n']] -> '_me'"],
+
+        "NP -> D N" : ["NP[AGR='?a'] -> D[AGR='?a'] N[AGR='?a']"],
+
+        "PP -> PR NP" : ["PP -> NP[AGR='?a'] PR[AGR='?a', S='s']",
+                        "PP -> NP[AGR='?a'] PR[AGR='?a', S='0']"],
+
+        "NEG -> 'no'" : [],
     }
     return rules
 

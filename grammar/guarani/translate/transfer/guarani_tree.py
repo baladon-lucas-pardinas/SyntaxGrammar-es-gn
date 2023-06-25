@@ -24,8 +24,7 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
     for child in spanish_tree['children']:
         sp_rule += ' ' + child['type']
 
-    gn_rule : str = equivalence[sp_rule] # This will actually be a list of rules
-    cfg_gn_rule = rule_to_cfg(gn_rule)
+    
 
     # For children get their subtree? Or just the word? Or maybe features and string?
     # Then use the guarani rule to select the order of those words
@@ -42,59 +41,62 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
     #  S-> NP VP
     # {NP: [(string, features)], VP: [(string, features)]}
 
-    gn_symbol_translations = []
-    right_hand_side = cfg_gn_rule.split('->')[1].strip().split()
-    # [VP, NP]
-
-    for symbol in right_hand_side:
-        gn_symbol_translations.append((symbol, translations[symbol]))
-
-    possibilities = cartesian_product([x[1] for x in gn_symbol_translations])
-
     result = []
 
-    # This will actually be something like "for each gn_rule in gn_rules:"
-    rule_tree = parse_rule(gn_rule.split('->')[1].strip())
-    print(gn_rule)
-    print(rule_tree)
-    lhs_features = parse_lhs_features(gn_rule.split('->')[0].strip())
+    gn_rules : str = equivalence[sp_rule] # This is a list of rules
 
-    # Possibilities is a list of lists of tuples, where each tuple is (string, features)
+    for gn_rule in gn_rules:
+        cfg_gn_rule = rule_to_cfg(gn_rule)
+        gn_symbol_translations = []
+        right_hand_side = cfg_gn_rule.split('->')[1].strip().split()
+        # [VP, NP]
 
-    for possibility in possibilities:
-        try:
-            variables = {}
-            for feat in rule_tree.keys():
-                for val in rule_tree[feat].keys():
-                    should_match = cartesian_product(rule_tree[feat][val]) # No es producto cartesiano, es combinaciones
-                    for (a, b) in should_match:
-                        if (a != b):
-                            unified = unify(possibility[a][1], possibility[b][1], feat)
+        for symbol in right_hand_side:
+            gn_symbol_translations.append((symbol, translations[symbol]))
+
+        possibilities = cartesian_product([x[1] for x in gn_symbol_translations])
+
+        rule_tree = parse_rule(gn_rule.split('->')[1].strip())
+        print(gn_rule)
+        print(rule_tree)
+        lhs_features = parse_lhs_features(gn_rule.split('->')[0].strip())
+
+        # Possibilities is a list of lists of tuples, where each tuple is (string, features)
+
+        for possibility in possibilities:
+            try:
+                variables = {}
+                for feat in rule_tree.keys():
+                    for val in rule_tree[feat].keys():
+                        should_match = cartesian_product(rule_tree[feat][val]) # No es producto cartesiano, es combinaciones
+                        for (a, b) in should_match:
+                            if (a != b):
+                                unified = unify(possibility[a][1], possibility[b][1], feat)
+                                if (unified == None):
+                                    raise UnificationFailed("Unification failed")
+                                
+                        unified = possibility[0][0]
+                        for i in range(1, len(possibility)):
+                            unified = unify(unified, possibility[i][1], feat)
                             if (unified == None):
                                 raise UnificationFailed("Unification failed")
-                            
-                    unified = possibility[0][0]
-                    for i in range(1, len(possibility)):
-                        unified = unify(unified, possibility[i][1], feat)
-                        if (unified == None):
-                            raise UnificationFailed("Unification failed")
-                    variables[val] = unified
-            possibility_features = deepcopy(lhs_features)
-            replace_variables(variables, possibility_features)
-            strings = [x[0] for x in possibility]
-            joint_string = ' '.join(strings)
-            result.append((joint_string, possibility_features))
+                        variables[val] = unified
+                possibility_features = deepcopy(lhs_features)
+                replace_variables(variables, possibility_features)
+                strings = [x[0] for x in possibility]
+                joint_string = ' '.join(strings)
+                result.append((joint_string, possibility_features))
 
-                    # Part of the old pseudocode:
-                    # then unify their results (or maybe we can stack unifications from the beginning?)
-                    # if cannot unify, discard the whole combination
-                    # variables[val] = finalUnifiedResult
-                    # Once we are done with those, we can use the variables dict and the lhs of the rule
-                    # to create a new features dict corresponding to the whole sentence
-                    # Finally, we append all strings in possibility and append the duple
-                    # (string, features) to result
-        except UnificationFailed as e:
-            pass
+                        # Part of the old pseudocode:
+                        # then unify their results (or maybe we can stack unifications from the beginning?)
+                        # if cannot unify, discard the whole combination
+                        # variables[val] = finalUnifiedResult
+                        # Once we are done with those, we can use the variables dict and the lhs of the rule
+                        # to create a new features dict corresponding to the whole sentence
+                        # Finally, we append all strings in possibility and append the duple
+                        # (string, features) to result
+            except UnificationFailed as e:
+                pass
 
     return result
 
