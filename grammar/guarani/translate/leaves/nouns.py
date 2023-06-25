@@ -6,5 +6,5 @@ def translate_nouns(tree,nounCSV):
     num = agreement['NUM']
     for row in nounCSV:
         if row[8] == tree['word'] and row[12].lower() == gen.lower() and row[13].lower() == num.lower():
-            nounsRes.append(row[0],{'TER':row[6], 'NAS':row[7]})
+            nounsRes.append((row[0],{'AGR':{'NAS':row[7]}, 'TER':row[6]}))
     return nounsRes
