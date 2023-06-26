@@ -22,10 +22,10 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
         #return [] ### Actually need to take care of this case
                     # Should return a list of possible string-features pairs for this word
                     # Return type should be [(string, features)] where features is a dict
-        temp = translate_leaf(spanish_tree, lexicon)
-        print(temp)
-        return temp
-        # return translate_leaf(spanish_tree, lexicon)
+        # temp = translate_leaf(spanish_tree, lexicon)
+        # print(temp)
+        # return temp
+        return translate_leaf(spanish_tree, lexicon)
     
     for child in spanish_tree['children']:
         sp_rule += ' ' + child['type']
@@ -42,9 +42,9 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
     translations = defaultdict(lambda: [])
     for child in spanish_tree['children']:
         translations[child['type']] += build_guarani_tree(child, equivalence, lexicon)
-    print('trans:')
-    print(translations)
-    print('end_trans')
+    # print('trans:')
+    # print(translations)
+    # print('end_trans')
     #  S-> NP VP
     # {NP: [(string, features)], VP: [(string, features)]}
 
@@ -72,9 +72,6 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
 
         for possibility in possibilities:
             try:
-                print('pos')
-                print(possibility)
-                print(rule_tree)
                 variables = {}
                 for feat in rule_tree.keys():
                     for val in rule_tree[feat].keys():
@@ -85,8 +82,7 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
                                 if (unified == None):
                                     raise UnificationFailed("Unification failed")
                                 
-                        unified = possibility[0][0]
-                        print(unified)
+                        unified = possibility[0][1]
                         for i in range(1, len(possibility)):
                             unified = unify(unified, possibility[i][1], feat)
                             if (unified == None):
@@ -109,7 +105,6 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
             except UnificationFailed as e:
                 pass
 
-    print(result)
     return result
 
 
