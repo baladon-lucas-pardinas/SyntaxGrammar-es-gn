@@ -89,7 +89,7 @@ def main():
         for (a,b) in aux:
             f = post_process([p,a])
             final.append(f)
-    write_to_csv("final-phrases.csv", final)
+    write_to_csv(args.output, final)
 
 
     ### Rubbish
