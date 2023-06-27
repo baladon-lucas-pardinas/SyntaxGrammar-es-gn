@@ -2,6 +2,7 @@ from .fetch.spanish_trees import fetch_spanish_trees
 from .utils.read_csv import read_csv
 from .utils.write_csv import write_to_csv
 from .utils.parse_arguments import parse_arguments
+from .corpus_generation.remove_duplicates import remove_duplicates
 from .leaves.determiners import translate_determiners
 from .leaves.nouns import translate_nouns
 from .leaves.verbs import translate_verbs
@@ -89,7 +90,8 @@ def main():
         for (a,b) in aux:
             f = post_process([p,a])
             final.append(f)
-    write_to_csv("final-phrases.csv", final)
+    write_to_csv(args.output, final)
+    remove_duplicates(args.output)
 
 
     ### Rubbish
