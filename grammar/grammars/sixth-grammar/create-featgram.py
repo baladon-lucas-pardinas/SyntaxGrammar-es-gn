@@ -9,6 +9,7 @@ from utils.read_config import read_config
 from utils.read_transitivities import read_transitivities
 from grammar_productions.np_subject import grammar as np_grammar_string
 from grammar_productions.pronoun_subject import grammar as pronoun_grammar_string
+from utils.remove_duplicates import remove_duplicates
 
 def main():
     args = parse_arguments()
@@ -33,6 +34,8 @@ def main():
             write_determiner_productions(grammar_file, config['determiners'])
         if 'pronouns' in config:
             write_pronoun_productions(grammar_file, config['pronouns'])
+
+    remove_duplicates(output_file)
 
 
 if __name__ == '__main__':

@@ -7,8 +7,10 @@ def write_verb_productions(grammar_file, verb_lexicon, transitivities, subject):
     with open(verb_lexicon, newline='', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
-            word, infinitive, mood, tense, person, number = row[1], row[2], row[5], row[6], row[7], row[8]
-            # Let's omit for now the non-indicative moods and check is subject makes sense
+            # This is to use the appropriate columns in matched-verbs-guarani.csv
+            shifted_row = [row[1]] + row[-12:-3]
+            word, infinitive, mood, tense, person, number = shifted_row[1], shifted_row[2], shifted_row[5], shifted_row[6], shifted_row[7], shifted_row[8]
+            # Let's omit for now the non-indicative moods and check if subject makes sense
             if mood == 'I' and (subject != 'np' or person == '3'):
                 transitivity = transitivities[infinitive]
                 if transitivity['transitive']: 

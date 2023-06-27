@@ -1,6 +1,6 @@
-verbs: ../../spanish/spanish-verbs/matched-verbs.csv
-nouns: ../../spanish/spanish-nouns/matched-nouns.csv
+verbs: ../../guarani/verbs/matched-verbs-guarani.csv
+nouns: ../../guarani/nouns/finished-nouns.csv
 transitivities: ../../spanish/transitivity/ancora-rae/merged-transitivities.csv
 determiners: ../../spanish/spanish-determiners/determiners.csv
 pronouns: ../../spanish/spanish-pronouns/pronouns.csv
-output: ../grammar-files/g9/feature-grammar.txt
+output: ../grammar-files/g10/feature-grammar.txt
