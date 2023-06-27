@@ -1,0 +1,68 @@
+% start S
+# ###################
+# Grammar Productions
+# ###################
+# S expansion productions
+S[AGR=?a] -> P[AGR=?a, CASE=n] VP[AGR=?a, MOOD=i] PP # S[AGR=?a] -> P[AGR=[INC=?i, POS='b'], CASE=n] VP[AGR=[INC=?i, POS='b'], MOOD=i] PP
+S[AGR=?a] -> P[AGR=?a, CASE=n] VP[AGR=?a, MOOD=i] PP # S[AGR=?a] -> P[AGR=[INC=?i, POS=0], CASE=n] VP[AGR=[INC=?i, POS=0], MOOD=i] PP
+S[AGR=?a] -> P[AGR=?a, CASE=n] VP[AGR=?a, MOOD=i] PP # S[AGR=?a] -> VP[AGR=[INC=?i, POS='b'], MOOD=i] P[AGR=[INC=?i, POS='b'], CASE=n] PP
+S[AGR=?a] -> P[AGR=?a, CASE=n] VP[AGR=?a, MOOD=i] PP # S[AGR=?a] -> VP[AGR=[INC=?i, POS='p'], MOOD=i] P[AGR=[INC=?i, POS='p'], CASE=n] PP
+# VP expansion productions
+VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr'] # VP[AGR=?a, MOOD=?m] -> V[AGR=[INC=?i, POS=?p], MOOD=?m, SUBCAT='intr']
+VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP # VP[AGR=?a, MOOD=?m] -> V[AGR=[INC=?i, POS=?p], MOOD=?m, SUBCAT='tr'] NP
+VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di'] NP1 A NP2 # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di'] NP1 NP2[NAS=?n] A[NAS=?n]
+# NP1 expansion productions
+NP1 -> NP # NP1 -> NP
+# NP2 expansion productions
+NP2 -> NP # NP2 -> NP
+# A expansion productions
+A -> 'a' # A[NAS='o'] -> '_pe'
+A -> 'a' # A[NAS='n'] -> '_me'
+# NP expansion productions
+NP[AGR=?a] -> D[AGR=?a] N[AGR=?a] # NP[AGR=?a, NAS=?n] -> D[AGR=[NAS=?n, TER=?t]] N[AGR=[NAS=?n, TER=?t]]
+# PP expansion productions
+PP -> PR NP # PP -> NP PR[S='s', NAS='0']
+PP -> PR NP # PP -> NP PR[S='0', NAS='0']
+PP -> PR NP # PP -> NP[NAS='n'] PR[S='s', NAS='n']
+PP -> PR NP # PP -> NP[NAS='n'] PR[S='0', NAS='n']
+PP -> PR NP # PP -> NP[NAS='o'] PR[S='s', NAS='o']
+PP -> PR NP # PP -> NP[NAS='o'] PR[S='0', NAS='o']
+
+
+
+
+
+
+
+
+
+
+
+S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i] PP # S[AGR=?a] -> NP[AGR=?a] VP[AGR=?a, MOOD=i] PP
+# VP expansion productions
+VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr'] # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr', NEG=0]
+VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr', NEG=0] NP
+VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di'] NP1 A NP2 # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di', NEG=0] NP1 NP2[NAS=?n] A[NAS=?n]
+
+VP[AGR=?a, MOOD=?m] -> NEG V[AGR=?a, MOOD=?m, SUBCAT='intr'] # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='intr', NEG=1]
+VP[AGR=?a, MOOD=?m] -> NEG V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='tr', NEG=1] NP
+VP[AGR=?a, MOOD=?m] -> NEG V[AGR=?a, MOOD=?m, SUBCAT='di'] NP1 A NP2 # VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m, SUBCAT='di', NEG=1] NP1 NP2[NAS=?n] A[NAS=?n]
+
+# NP1 expansion productions
+NP1[AGR=?a] -> NP[AGR=?a] # NP1[AGR=?a, NAS=?n] -> NP[AGR=?a, NAS=?n]
+# NP2 expansion productions
+NP2[AGR=?a] -> NP[AGR=?a] # NP2[AGR=?a, NAS=?n] -> NP[AGR=?a, NAS=?n]
+# A expansion productions
+A -> 'a' # A[NAS='o'] -> '_pe'
+A -> 'a' # A[NAS='n'] -> '_me'
+# NP expansion productions
+NP[AGR=?a] -> D[AGR=?a] N[AGR=?a] # NP[AGR=?a, NAS=?n] -> D[AGR=[NAS=?n, TER=?t]] N[AGR=[NAS=?n, TER=?t]]
+# PP expansion productions
+PP -> PR NP # PP -> PR[S='s', NAS='0'] NP
+PP -> PR NP # PP -> PR[S='0', NAS='0'] NP
+PP -> PR NP # PP -> PR[S='s', NAS='n'] NP[NAS='n']
+PP -> PR NP # PP -> PR[S='0', NAS='n'] NP[NAS='n']
+PP -> PR NP # PP -> PR[S='s', NAS='o'] NP[NAS='o']
+PP -> PR NP # PP -> PR[S='0', NAS='o'] NP[NAS='o']
+# NEG expansion productions
+NEG -> 'no' #
