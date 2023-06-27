@@ -8,8 +8,6 @@ def translate_determiners(tree,detCSV):
     possPer = label['POSSPER']
     possNum = label['POSSNUM']
 
-
-    
     ## Tener cuidado de solo mirar TER cuando se conjuga en tercera persona
     ## Actualmente la presencia (PRES) no se utiliza
     for row in detCSV:
