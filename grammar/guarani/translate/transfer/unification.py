@@ -9,7 +9,7 @@ def unify(left_features, right_features, feat):
     right_dict = right_features[feat]
 
     try:
-        return nested_unify(left_dict, right_dict)
+        return {feat: nested_unify(left_dict, right_dict)}
     except UnificationFailed as e:
         return None
 

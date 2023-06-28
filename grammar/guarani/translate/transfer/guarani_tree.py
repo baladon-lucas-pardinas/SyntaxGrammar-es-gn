@@ -75,19 +75,20 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
                 variables = {}
                 for feat in rule_tree.keys():
                     for val in rule_tree[feat].keys():
-                        should_match = get_combinations(rule_tree[feat][val]) # No es producto cartesiano, es combinaciones
+                        matchings = rule_tree[feat][val]
+                        should_match = get_combinations(matchings)
                         for (a, b) in should_match:
                             if (a != b):
                                 unified = unify(possibility[a][1], possibility[b][1], feat)
                                 if (unified == None):
                                     raise UnificationFailed("Unification failed")
                                 
-                        unified = possibility[0][1]
-                        for i in range(1, len(possibility)):
-                            unified = unify(unified, possibility[i][1], feat)
+                        unified = possibility[matchings[0]][1] 
+                        for i in range(1, len(matchings)):
+                            unified = unify(unified, possibility[matchings[i]][1], feat) # Unified has shape {feat: unification_result}
                             if (unified == None):
                                 raise UnificationFailed("Unification failed")
-                        variables[val] = unified
+                        variables[val] = unified[feat]
                 possibility_features = deepcopy(lhs_features)
                 replace_variables(variables, possibility_features)
                 strings = [x[0] for x in possibility]
