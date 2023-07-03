@@ -34,25 +34,27 @@ def get_syntactic_transfer_rules(filepath):
 
         "VP -> V" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='intr', NEG=0]"],
         "VP -> V NP" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='tr', NEG=0] NP"],
-        "VP -> V NP1 AA NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=0] NP1 NP2[AGR='?a'] AA[AGR='?a']"],
+        "VP -> V NP1 AA NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=0] NP1 NP2[AGR='?b'] AA[AGR='?b']"],
+        # "VP -> V NP1 AA NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=0] NP1 NP2[AGR='?a'] AA[AGR='?a']"],
 
         "VP -> NEG V" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='intr', NEG=1]"],
         "VP -> NEG V NP" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='tr', NEG=1] NP"],
-        "VP -> NEG V NP1 AA NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=1] NP1 NP2[AGR='?a'] AA[AGR='?a']"],
+        "VP -> NEG V NP1 AA NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=1] NP1 NP2[AGR='?b'] AA[AGR='?b']"],
+        # "VP -> NEG V NP1 AA NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=1] NP1 NP2[AGR='?a'] AA[AGR='?a']"],
 
         "NP1 -> NP" : ["NP1[AGR='?a'] -> NP[AGR='?a']"],
 
         "NP2 -> NP" : ["NP2[AGR='?a'] -> NP[AGR='?a']"],
 
-        "AA -> 'a'" : ["AA[AGR=[NAS='o']] -> '_pe'",
-                    "AA[AGR=[NAS='n']] -> '_me'"],
+        # "AA -> 'a'" : ["AA[AGR=[NAS='o']] -> '_pe'",
+        #             "AA[AGR=[NAS='n']] -> '_me'"],
 
         "NP -> D N" : ["NP[AGR='?a'] -> D[AGR='?a'] N[AGR='?a']"],
 
         "PP -> PR NP" : ["PP -> NP[AGR='?a'] PR[AGR='?a', S='s']",
                         "PP -> NP[AGR='?a'] PR[AGR='?a', S='0']"],
 
-        "NEG -> 'no'" : [],
+        # "NEG -> 'no'" : [],
     }
     return rules
 
@@ -78,8 +80,8 @@ def main():
     args = parse_arguments()
     trees = fetch_spanish_trees(args.spanish_trees_file)
     transfer_rules = get_syntactic_transfer_rules(args.equivalence_rules_file)
-    #print(trees[1])
-    build_guarani_tree(trees[1], transfer_rules, lexicon)
+    # print(trees[26])
+    build_guarani_tree(trees[26], transfer_rules, lexicon)
     # print(trees[0])
 
     final = []
