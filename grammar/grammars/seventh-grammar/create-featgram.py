@@ -5,6 +5,7 @@ from lexical_productions.verbs import write_verb_productions
 from lexical_productions.nouns import write_noun_productions
 from lexical_productions.determiners import write_determiner_productions
 from lexical_productions.pronouns import write_pronoun_productions
+from lexical_productions.adpositions import write_adposition_productions
 from utils.read_config import read_config
 from utils.read_transitivities import read_transitivities
 from grammar_productions.np_subject import grammar as np_grammar_string
@@ -34,6 +35,8 @@ def main():
             write_determiner_productions(grammar_file, config['determiners'])
         if 'pronouns' in config:
             write_pronoun_productions(grammar_file, config['pronouns'])
+        if 'adpositions' in config:
+            write_adposition_productions(grammar_file, config['adpositions'])
 
     remove_duplicates(output_file)
 
