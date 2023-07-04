@@ -4,4 +4,4 @@ transitivities: ../../spanish/transitivity/ancora-rae/merged-transitivities.csv
 determiners: ../../spanish/spanish-determiners/determiners.csv
 pronouns: ../../spanish/spanish-pronouns/pronouns.csv
 adpositions: ../../guarani/adpositions/adpositions.csv
-output: ../grammar-files/g10/feature-grammar.txt
+output: ../grammar-files/g11-pr/feature-grammar.txt
