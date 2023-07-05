@@ -1,0 +1,19 @@
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] equidad))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='di']
+      juega)
+    (NP1[AGR=[GEN='f', NUM='p', PER=3]]
+      (NP[AGR=[GEN='f', NUM='p', PER=3]]
+        (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+          estas)
+        (N[AGR=[GEN='f', NUM='p', PER=3]] hechuras)))
+    (NP2[AGR=[GEN='f', NUM='p', PER=3]]
+      (AA[] a)
+      (NP[AGR=[GEN='f', NUM='p', PER=3]]
+        (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+          aquellas)
+        (N[AGR=[GEN='f', NUM='p', PER=3]] alumnas)))))

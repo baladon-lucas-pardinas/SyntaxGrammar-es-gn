@@ -1,8 +1,8 @@
 import csv
-
+import codecs
 
 def read_csv(filepath):
-    with open(filepath, 'r', encoding='utf-8') as file:
+    with codecs.open(filepath, 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
         matrix = []
         for row in reader:
