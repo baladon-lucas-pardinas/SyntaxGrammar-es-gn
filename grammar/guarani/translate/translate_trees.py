@@ -44,12 +44,12 @@ def get_syntactic_transfer_rules(filepath):
 
         "NP1 -> NP" : ["NP1[AGR='?a'] -> NP[AGR='?a']"],
 
-        "NP2 -> AA NP" : ["NP2[AGR='?a'] -> NP[AGR='?a'] AA[AGR='?a']"],
+        "NP2 -> AA NP" : ["NP2[AGR='?a'] -> NP[AGR='?a', NW='?n'] AA[NW='?n']"],
 
         # "AA -> 'a'" : ["AA[AGR=[NAS='o']] -> '_pe'",
         #             "AA[AGR=[NAS='n']] -> '_me'"],
 
-        "NP -> D N" : ["NP[AGR='?a'] -> D[AGR='?a'] N[AGR='?a']"],
+        "NP -> D N" : ["NP[AGR='?a', NW='?n'] -> D[AGR='?a'] N[AGR='?a', NW='?n']"],
 
         "PP -> PR NP" : ["PP -> NP[AGR='?a'] PR[AGR='?a', S='s']",
                         "PP -> NP[AGR='?a'] PR[AGR='?a', S='0']"],
