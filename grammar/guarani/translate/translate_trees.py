@@ -34,17 +34,16 @@ def get_syntactic_transfer_rules(filepath):
 
         "VP -> V" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='intr', NEG=0]"],
         "VP -> V NP" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='tr', NEG=0] NP"],
-        "VP -> V NP1 NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=0] NP1 NP2"],
+        "VP -> V NP PPA" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=0] NP PPA"],
         # "VP -> V NP1 AA NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=0] NP1 NP2[AGR='?a'] AA[AGR='?a']"],
 
         "VP -> NEG V" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='intr', NEG=1]"],
         "VP -> NEG V NP" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='tr', NEG=1] NP"],
-        "VP -> NEG V NP1 NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=1] NP1 NP2"],
+        "VP -> NEG V NP PPA" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=1] NP PPA"],
         # "VP -> NEG V NP1 AA NP2" : ["VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=1] NP1 NP2[AGR='?a'] AA[AGR='?a']"],
 
-        "NP1 -> NP" : ["NP1[AGR='?a'] -> NP[AGR='?a']"],
 
-        "NP2 -> AA NP" : ["NP2[AGR='?a'] -> NP[AGR='?a', NW='?n'] AA[NW='?n']"],
+        "PPA -> AA NP" : ["PPA[AGR='?a'] -> NP[AGR='?a', NW='?n'] AA[NW='?n']"],
 
         # "AA -> 'a'" : ["AA[AGR=[NAS='o']] -> '_pe'",
         #             "AA[AGR=[NAS='n']] -> '_me'"],
