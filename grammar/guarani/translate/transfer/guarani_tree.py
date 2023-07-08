@@ -16,6 +16,8 @@ def get_combinations(my_list):
 
 
 def build_guarani_tree(spanish_tree, equivalence, lexicon):
+    print(spanish_tree)
+    print(' ')
     sp_rule = spanish_tree['type'] + ' ->'
     if (len(spanish_tree['children']) == 0):
         # return [sp_rule + ' ' + spanish_tree['word']]
@@ -25,10 +27,13 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
         # temp = translate_leaf(spanish_tree, lexicon)
         # print(temp)
         # return temp
-        return translate_leaf(spanish_tree, lexicon)
+        aux = translate_leaf(spanish_tree, lexicon)
+        return aux
     
     for child in spanish_tree['children']:
         sp_rule += ' ' + child['type']
+    print(sp_rule)
+    print( ' ')
 
     
 
@@ -50,6 +55,7 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
 
     result = []
 
+
     gn_rules : str = equivalence[sp_rule] # This is a list of rules
 
     for gn_rule in gn_rules:
@@ -70,6 +76,8 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
 
         # Possibilities is a list of lists of tuples, where each tuple is (string, features)
 
+        print(possibilities)
+        print('')
         for possibility in possibilities:
             try:
                 variables = {}
