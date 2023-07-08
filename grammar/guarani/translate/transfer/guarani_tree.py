@@ -114,6 +114,7 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
             except UnificationFailed as e:
                 pass
 
+    # print(result)
     return result
 
 

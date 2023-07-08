@@ -8,10 +8,19 @@ def unify(left_features, right_features, feat):
     left_dict = left_features[feat]
     right_dict = right_features[feat]
 
-    try:
-        return {feat: nested_unify(left_dict, right_dict)}
-    except UnificationFailed as e:
-        return None
+    if (isinstance(left_dict, str) and isinstance(right_dict, str)):
+        if left_dict == right_dict:
+            return {feat: left_dict}
+        else:
+            return None
+    elif not (isinstance(left_dict, str) and isinstance(right_dict, str)):
+        try:
+            res = {feat: nested_unify(left_dict, right_dict)}
+            return res
+        except UnificationFailed as e:
+            return None
+    else:
+        return None 
 
 def nested_unify(left, right):
     result = {}
