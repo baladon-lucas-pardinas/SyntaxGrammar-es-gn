@@ -16,8 +16,10 @@ def get_combinations(my_list):
 
 
 def build_guarani_tree(spanish_tree, equivalence, lexicon):
-    # print(spanish_tree)
-    # print(' ')
+    print('')
+    print(spanish_tree)
+    """ print(spanish_tree)
+    print(' ') """
     sp_rule = spanish_tree['type'] + ' ->'
     if (len(spanish_tree['children']) == 0):
         # return [sp_rule + ' ' + spanish_tree['word']]
@@ -28,12 +30,14 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
         # print(temp)
         # return temp
         aux = translate_leaf(spanish_tree, lexicon)
+        print('')
+        print(aux)
         return aux
     
     for child in spanish_tree['children']:
         sp_rule += ' ' + child['type']
-    # print(sp_rule)
-    # print( ' ')
+    print(sp_rule)
+    print( ' ')
 
     
 
@@ -47,8 +51,8 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
     translations = defaultdict(lambda: [])
     for child in spanish_tree['children']:
         translations[child['type']] += build_guarani_tree(child, equivalence, lexicon)
-    # print('trans:')
-    # print(translations)
+    """ print('')
+    print(translations) """
     # print('end_trans')
     #  S-> NP VP
     # {NP: [(string, features)], VP: [(string, features)]}
@@ -75,9 +79,9 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
         lhs_features = parse_lhs_features(gn_rule.split('->')[0].strip())
 
         # Possibilities is a list of lists of tuples, where each tuple is (string, features)
-
-        # print(possibilities)
-        # print('')
+        """ 
+        print(possibilities)
+        print('') """
         for possibility in possibilities:
             try:
                 variables = {}
@@ -114,7 +118,7 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
             except UnificationFailed as e:
                 pass
 
-    # print(result)
+    print(result)
     return result
 
 

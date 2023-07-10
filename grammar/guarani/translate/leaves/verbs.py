@@ -6,18 +6,23 @@ def translate_verbs(tree,verbCSV):
     tense = agreement['TENSE']
     per = agreement['PER']
     num = agreement['NUM']
-    neg = '1' # agreement['NEG']
     for row in verbCSV:
         if row[12] == tree['word'] and row[16].lower() == mood.lower() and row[17].lower() == tense.lower() and row[18] == str(per) and row[19].lower() == num.lower():
-            verb = row[0]
-            if neg == '1':
+            if (row[7] == '0'):
+                verb = row[0]
+                verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':'0','POS':row[8]}))
                 verb = negate_verb(row)
-            verbs.append((verb,{'AGR':{'INC':row[7],'POS':row[8]}, 'MOOD':row[3]}))
+                verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':'1','POS':row[8]}))
+            else:
+                verb = row[0]
+                verbs.append((verb,{'AGR':{'INC':row[7]}, 'MOOD':row[3],'NEG':'0','POS':row[8]}))
+                verb = negate_verb(row)
+                verbs.append((verb,{'AGR':{'INC':row[7]}, 'MOOD':row[3],'NEG':'1','POS':row[8]}))
     return verbs
 
 def negate_verb(row):
     raiz = row[1]
-    parts = raiz.split(raiz,1)
+    parts = row[0].split(raiz,1)
     if nasal(raiz):
         neg_inicial = 'n'
     else:
@@ -31,11 +36,14 @@ def negate_verb(row):
             neg_inicial += 'o'
         case 'pe':
             neg_inicial += 'a'
+        case 'ña':
+            neg_inicial += 'a'
     if raiz[len(raiz) - 1] in ['i', 'í','ĩ']:
         neg_final = 'ri'
     else:
         neg_final = 'i'
-    return (neg_inicial + parts[0] + raiz + neg_final + parts[1])
+    negated = neg_inicial + parts[0] + raiz + neg_final + parts[1]
+    return (negated)
 
 def nasal(verb):
     nasal = False
