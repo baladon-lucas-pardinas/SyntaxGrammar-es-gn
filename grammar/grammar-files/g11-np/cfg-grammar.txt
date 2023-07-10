@@ -7,16 +7,14 @@ S -> NP VP PP #
 # VP expansion productions
 VP -> V # 
 VP -> V NP # 
-VP -> V NP1 AA NP2 # 
+VP -> V NP PPA # 
 VP -> NEG V # 
 VP -> NEG V NP # 
-VP -> NEG V NP1 AA NP2 # 
+VP -> NEG V NP PPA # 
 # PP expansion productions
 PP -> PR NP # 
-# NP1 expansion productions
-NP1 -> NP # 
-# NP2 expansion productions
-NP2 -> NP # 
+# PPA expansion productions
+PPA -> AA NP # 
 # NP expansion productions
 NP -> D N # 
 # Lexical Productions

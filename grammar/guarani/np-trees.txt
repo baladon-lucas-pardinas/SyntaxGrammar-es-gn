@@ -1,0 +1,1233 @@
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] vinos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      comprometían)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] pezón))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      velará))
+  (PP[]
+    (PR[] para)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] tiradores))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] paraderos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] juran)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        estos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] exámenes))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] resoplidos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      contarán)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] diafragma))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      aplaude)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        aquella)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] oportunidad))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] salvado))
+  (VP[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      moría)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] toallas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='tr']
+      testimoniaban)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] edificio))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] adquisiciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      fijan)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] chiquero))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      valió)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] pimpollos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      empleaban))
+  (PP[]
+    (PR[] sobre)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        aquellas)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] alusiones))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] gallinas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      presentaron)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] socia))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] baja)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+        nuestros)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] vocabularios))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] provincia))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      obrará)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] viejos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      estrenaban)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] tiendas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      parten)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] percepciónes))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      abren)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] humedades))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      rompen)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        aquel)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] edificio))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] báculos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      conversaron))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] ganso))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] igual))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      desafiará)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        esos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] trozos))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] protectoras))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      retomarán)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        aquel)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] maestro))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] servidores))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      gozaron)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] entrevistas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      sumaron))
+  (PP[]
+    (PR[] hasta)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] ese)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] ingreso))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] sanciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      quebrarán)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] jaguar))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      elimina)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+        nuestro)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] esqueleto))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] lenguas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      regresaban)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] paseos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      diferenciaron)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+        vuestra)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] labor))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] ornamentación))
+  (VP[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i', SUBCAT='tr']
+      sangraba)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] puente))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] añoranza))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      duerme)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] proyectos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      embestirán)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        esta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] posición))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] misión))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      destapa)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] ese)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] habilidades))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      reflejan)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] matorrales))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] miradas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      obraban)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] familias))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      obedecieron)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestros)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] voceríos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      cederán)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] edificios))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      pierden)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] ofensa))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] navíos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      transformarán)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        esta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] sangre))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] hormigas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      prepararán)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] descubridor))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      confiará)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] comidas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      proveen)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+        nuestros)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] cuellos)))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        estos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] arreglos))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] propagaciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      perderán))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+        vuestros)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] delitos))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] vinos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      prosperan)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] brasa))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      triunfa)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] imaginación))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      establecerá)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] salida))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      enseña)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        aquella)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] modestia))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] marcos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      plantarán))
+  (PP[]
+    (PR[] para)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        estas)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] propiedades))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] saber))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      recalcará)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+        nuestras)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] dichas))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquella)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] toma))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      mejorará)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+        nuestro)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] fracasado))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] cabo))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      significará)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] verdades))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='tr']
+      desnudaban)
+    (NP[AGR=[GEN='c', NUM='s', PER=3]]
+      (D[AGR=[GEN='c', NUM='s'], POSSNUM='n', POSSPER=3, TYPE='p']
+        su)
+      (N[AGR=[GEN='c', NUM='s', PER=3]] reserva))))
+(S[AGR=[GEN='c', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='c', NUM='s', PER=3]]
+    (D[AGR=[GEN='c', NUM='s'], POSSNUM='s', POSSPER=2, TYPE='p'] tu)
+    (N[AGR=[GEN='c', NUM='s', PER=3]] confidente))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      despegó)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] invitación))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      preguntó)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+        vuestras)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] oraciones))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] leyes))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      trasladarán)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] rodajas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      acertaron)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] ese)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] hartazgo))
+  (VP[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      naufragaba)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] cuidados))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      abrazaron)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestros)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] maizales))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      lanzaban)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] sepultureros))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      alzaron)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] aquel)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] perfil))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      reinó)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestros)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] herederos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      lamentaban)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] ese)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] satélite))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      pasa))
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] dignidades))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestros)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] cuartos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      tiraban)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] resolución))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      toma)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] ideal))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      expresará)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] acción))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      abrió)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] listas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      encajarán)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] profesiones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      comunican)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+        nuestras)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] chacras))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] embuste))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] une)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        aquel)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] vecindario))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] revólver))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr'] contó)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        estos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] teatros))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] poeta))
+  (VP[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      cargaba)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquella)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] subida))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      presta))
+  (PP[]
+    (PR[] desde)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] debilidad))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] misión))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      trabajará)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestros)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] secretarios))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      callan)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] angustia))
+  (VP[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      cargaba)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquella)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] administradora))
+  (VP[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      proseguía)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquella)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] separación))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      despegará)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] sarampión))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      esperará)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] trasportes))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      rodean)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] parodias))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      habitarán)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] peleas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      bajaron)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] relaciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      tirarán)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] percepciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='di']
+      forzarán)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] esa)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] señora))
+    (PPA[AGR=[GEN='m', NUM='p', PER=3]]
+      (AA[] a)
+      (NP[AGR=[GEN='m', NUM='p', PER=3]]
+        (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+          aquellos)
+        (N[AGR=[GEN='m', NUM='p', PER=3]] presidentes)))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] percepciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      forzarán)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] esa)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] señora)))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        aquellos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] presidentes))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] esta)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] pobreza))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      ocupa)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] aquel)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] precio))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      cegará)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        esas)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] disculpas))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] prestatarias))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      enlazaron)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] hortalizas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      ocuparon)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] grupos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      establecen)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] nivelaciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      explotan)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] susto))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr'] vagó)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+        vuestro)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] momento)))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='c', NUM='s', PER=3]]
+      (D[AGR=[GEN='c', NUM='s'], POSSNUM='s', POSSPER=2, TYPE='p']
+        tu)
+      (N[AGR=[GEN='c', NUM='s', PER=3]] semejante))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] gesto))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      goza)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] sonido))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='di']
+      forzará)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        esos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] idiomas))
+    (PPA[AGR=[GEN='m', NUM='s', PER=3]]
+      (AA[] a)
+      (NP[AGR=[GEN='m', NUM='s', PER=3]]
+        (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+          vuestro)
+        (N[AGR=[GEN='m', NUM='s', PER=3]] motín)))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] sonido))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      forzará)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        esos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] idiomas)))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+        vuestro)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] motín))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestros)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] cuerpos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      toman)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] desfalcos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      descendían))
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+        vuestro)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] país))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+      vuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] abanico))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      anhela)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] pruebas)))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+        vuestros)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] cinturones))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] protesta))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      perderá)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] línea))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      niega)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] señales))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      expresaron)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] atenciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      valieron)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestro)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] nacido))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      camina)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] traducciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      estrenaron)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] esa)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] consecuencia))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      pudo)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] aquel)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] destino))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      recupera)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] sorteos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      prolongarán)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        esta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] violación))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] prensa))
+  (VP[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i', SUBCAT='tr']
+      negaba)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=2, TYPE='p']
+        vuestro)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] objetivo))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] estos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] testimonios))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      profundizaban)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestros)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] lugares))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      ofrecen)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] aquel)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] vegetal))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      alegra)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquella)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] imaginación))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      degenerará)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] metro))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      acercó))
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        esos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] ablandamientos))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] dignidades))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      diferencian)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+        nuestro)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] vicio)))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] sufrimiento))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] finalidades))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      llevan))
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM='p', POSSPER=1, TYPE='p']
+        nuestros)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] sembrados))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s'], POSSNUM='p', POSSPER=1, TYPE='p']
+      nuestra)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] creencia))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      estableció)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] bajo))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] plantaciones))
+  (VP[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      dormían)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='i']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d'] este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] ratero))
+  (VP[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='i'], MOOD='i', SUBCAT='intr']
+      tomaba)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] solidaridades))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      cacarearon)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+        esos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] sobresaltos))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] clan))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      mantiene)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p'], POSSNUM='p', POSSPER=2, TYPE='p']
+        vuestras)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] cosquillas))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] funcionario))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      introduce)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d']
+      aquellos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] peligros))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      acercaron)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] mercados))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      proceden)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='d'] esas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] bellezas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      iniciaron)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='a'] el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] combate))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p'], POSSNUM=0, POSSPER=0, TYPE='a'] los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] conocimientos))
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      prosiguieron))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s'], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] menoscabo))))

@@ -1,10 +1,12 @@
 import re
 
 def parse_rule(input_string):
+    # print(input_string)
     result_dict = {}
 
     # Find all occurrences of [KEY='VALUE']
     matches = re.findall(r'\[(.*?)\]', input_string)
+    # print(matches)
 
     for index, match in enumerate(matches):
         # Split the key-value pairs
