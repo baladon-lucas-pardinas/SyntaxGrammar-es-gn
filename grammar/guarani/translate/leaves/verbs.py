@@ -8,16 +8,20 @@ def translate_verbs(tree,verbCSV):
     num = agreement['NUM']
     for row in verbCSV:
         if row[12] == tree['word'] and row[16].lower() == mood.lower() and row[17].lower() == tense.lower() and row[18] == str(per) and row[19].lower() == num.lower():
-            if (row[7] == '0'):
+            if (special_verb(row[1])):
                 verb = row[0]
-                verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':'0','POS':row[8]}))
-                verb = negate_verb(row)
-                verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':'1','POS':row[8]}))
+                verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':str(0),'POS':row[8]}))
             else:
-                verb = row[0]
-                verbs.append((verb,{'AGR':{'INC':row[7]}, 'MOOD':row[3],'NEG':'0','POS':row[8]}))
-                verb = negate_verb(row)
-                verbs.append((verb,{'AGR':{'INC':row[7]}, 'MOOD':row[3],'NEG':'1','POS':row[8]}))
+                if (row[7] == '0'):
+                    verb = row[0]
+                    verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':str(0),'POS':row[8]}))
+                    verb = negate_verb(row)
+                    verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':str(1),'POS':row[8]}))
+                else:
+                    verb = row[0]
+                    verbs.append((verb,{'AGR':{'INC':row[7]}, 'MOOD':row[3],'NEG':str(0),'POS':row[8]}))
+                    verb = negate_verb(row)
+                    verbs.append((verb,{'AGR':{'INC':row[7]}, 'MOOD':row[3],'NEG':str(1),'POS':row[8]}))
     return verbs
 
 def negate_verb(row):
@@ -51,3 +55,8 @@ def nasal(verb):
     if any(nas in verb for nas in nasals):
         nasal = True 
     return nasal
+
+def special_verb(verb):
+    irregulares = ["‘a","‘u","yguy","yta","‘e","ha"]
+    defectivos = ["ko'i", "je'ói", "hua'ĩ"]
+    return verb in irregulares or verb in defectivos

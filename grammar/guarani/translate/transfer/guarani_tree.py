@@ -16,8 +16,6 @@ def get_combinations(my_list):
 
 
 def build_guarani_tree(spanish_tree, equivalence, lexicon):
-    # print(spanish_tree)
-    # print(' ')
     sp_rule = spanish_tree['type'] + ' ->'
     if (len(spanish_tree['children']) == 0):
         # return [sp_rule + ' ' + spanish_tree['word']]
@@ -32,6 +30,8 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
     
     for child in spanish_tree['children']:
         sp_rule += ' ' + child['type']
+    # print(spanish_tree)
+    # print(' ')
     # print(sp_rule)
     # print( ' ')
 
@@ -48,7 +48,6 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
     for child in spanish_tree['children']:
         translations[child['type']] += build_guarani_tree(child, equivalence, lexicon)
     # print('trans:')
-    # print(translations)
     # print('end_trans')
     #  S-> NP VP
     # {NP: [(string, features)], VP: [(string, features)]}
@@ -58,11 +57,15 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
 
     gn_rules : str = equivalence[sp_rule] # This is a list of rules
 
+    # print('')
+
     for gn_rule in gn_rules:
         cfg_gn_rule = rule_to_cfg(gn_rule)
         gn_symbol_translations = []
         right_hand_side = cfg_gn_rule.split('->')[1].strip().split()
         # [VP, NP]
+        # print(gn_rules)
+        # print(cfg_gn_rule)
 
         for symbol in right_hand_side:
             gn_symbol_translations.append((symbol, translations[symbol]))
@@ -70,33 +73,46 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
         possibilities = cartesian_product([x[1] for x in gn_symbol_translations])
 
         rule_tree = parse_rule(gn_rule.split('->')[1].strip())
-        # print(gn_rule)
+        # print(gn_rule.split('->')[1].strip())
         # print(rule_tree)
         lhs_features = parse_lhs_features(gn_rule.split('->')[0].strip())
 
         # Possibilities is a list of lists of tuples, where each tuple is (string, features)
 
-        # print(possibilities)
+        #print(possibilities)
         # print('')
         for possibility in possibilities:
             try:
                 variables = {}
                 for feat in rule_tree.keys():
-                    for val in rule_tree[feat].keys():
-                        matchings = rule_tree[feat][val]
-                        should_match = get_combinations(matchings)
-                        for (a, b) in should_match:
-                            if (a != b):
-                                unified = unify(possibility[a][1], possibility[b][1], feat)
+                    if(isinstance(rule_tree[feat],str)):
+                        if (len(possibility) == 1 and possibility[0][1].get(feat)):
+                            if ((possibility[0][1][feat]) != rule_tree[feat]):
+                                raise UnificationFailed("Unification failed")
+                        elif (len(possibility) > 1 and possibility[0][1].get(feat) and possibility[1][1].get(feat)):
+                            if ((possibility[0][1][feat]) != (possibility[1][1][feat])):
+                                raise UnificationFailed("Unification failed")
+                            elif((possibility[0][1][feat]) != rule_tree[feat]):
+                                raise UnificationFailed("Unification failed")
+                            # print(rule_tree[feat])
+                            # print(possibility[0][1][feat])
+                            # print(possibility[1][1][feat])
+                    else:
+                        for val in rule_tree[feat].keys():
+                            matchings = rule_tree[feat][val]
+                            should_match = get_combinations(matchings)
+                            for (a, b) in should_match:
+                                if (a != b):
+                                    unified = unify(possibility[a][1], possibility[b][1], feat)
+                                    if (unified == None):
+                                        raise UnificationFailed("Unification failed")
+                                    
+                            unified = possibility[matchings[0]][1] 
+                            for i in range(1, len(matchings)):
+                                unified = unify(unified, possibility[matchings[i]][1], feat) # Unified has shape {feat: unification_result}
                                 if (unified == None):
                                     raise UnificationFailed("Unification failed")
-                                
-                        unified = possibility[matchings[0]][1] 
-                        for i in range(1, len(matchings)):
-                            unified = unify(unified, possibility[matchings[i]][1], feat) # Unified has shape {feat: unification_result}
-                            if (unified == None):
-                                raise UnificationFailed("Unification failed")
-                        variables[val] = unified[feat]
+                            variables[val] = unified[feat]
                 possibility_features = deepcopy(lhs_features)
                 replace_variables(variables, possibility_features)
                 strings = [x[0] for x in possibility]
@@ -114,7 +130,8 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
             except UnificationFailed as e:
                 pass
 
-    # print(result)
+    # print('')
+    #print(result)
     return result
 
 

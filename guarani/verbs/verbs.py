@@ -202,7 +202,7 @@ def inflect_irregular(verb):
                         case 'P':
                             v = "ho'a"
         case "‘u":
-            match verb[1]:
+            match verb[4]:
                 case "comer":
                     match verb[9]:
                         case '1':
@@ -227,6 +227,29 @@ def inflect_irregular(verb):
                                 case 'P':
                                     v = "ho'u"
                 case "beber":
+                    match verb[9]:
+                        case '1':
+                            match verb[10]:
+                                case 'S':
+                                    v = "hai'u"
+                                case 'P':
+                                    if verb[1] == 'I':
+                                        v = "jai'u"
+                                    else:
+                                        v = "roi'u"
+                        case '2':
+                            match verb[10]:
+                                case 'S':
+                                    v = "rei'u"
+                                case 'P':
+                                    v = "pei'u"
+                        case '3':
+                            match verb[10]:
+                                case 'S':
+                                    v = "hoi'u"
+                                case 'P':
+                                    v = "hoi'u"
+                case "tomar":
                     match verb[9]:
                         case '1':
                             match verb[10]:
@@ -363,7 +386,7 @@ def inflect_irregular(verb):
                             v = "oho"
                         case 'P':
                             v = "oho"
-    line = [v,verb[0],'V','I','P',verb[9],verb[10]] + verb[1:]
+    line = [v,verb[0],'V','I','P',verb[9],verb[10]] + verb[1:3] + verb[12:15] + verb[3:]
     return line
 
 def inflect_defectivo(verb):
@@ -439,7 +462,8 @@ def inflect_defectivo(verb):
                             posible = False
                         case 'P':
                             v = "ohua'ĩ"
-    line = [v,verb[0],'V','I','P',verb[9],verb[10]] + verb[1:]
+    
+    line = [v,verb[0],'V','I','P',verb[9],verb[10]] + verb[1:3] + verb[12:15] + verb[3:]
     return line, posible
 
 def duplicate_plurals(verbs):

@@ -26,6 +26,8 @@ def parse_rule(input_string):
                         result_dict[key][value] = [index]
                 else:
                     result_dict[key] = {value: [index]}
+            else:
+                result_dict[key] = value
 
     return result_dict
 
