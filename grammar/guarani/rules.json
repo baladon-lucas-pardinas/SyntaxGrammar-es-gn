@@ -7,33 +7,33 @@
     ],
     "S -> P VP PP": [
         "S[AGR='?a'] -> P[AGR='?i', POS='B'] VP[AGR='?i', POS='B'] PP",
-        "S[AGR='?a'] -> P[AGR='?i', POS=0] VP[AGR='?i', POS=0] PP",
+        "S[AGR='?a'] -> P[AGR='?i', POS='0'] VP[AGR='?i', POS='0'] PP",
         "S[AGR='?a'] -> VP[AGR='?i', POS='0'] P[AGR='?i', POS='0'] PP",
         "S[AGR='?a'] -> VP[AGR='?i', POS='P'] P[AGR='?i', POS='P'] PP"
     ],
     "S -> P VP": [
         "S[AGR='?a'] -> P[AGR='?i', POS='B'] VP[AGR='?i', POS='B']",
-        "S[AGR='?a'] -> P[AGR='?i', POS=0] VP[AGR='?i', POS=0]",
+        "S[AGR='?a'] -> P[AGR='?i', POS='0'] VP[AGR='?i', POS='0']",
         "S[AGR='?a'] -> VP[AGR='?i', POS='0'] P[AGR='?i', POS='0']",
         "S[AGR='?a'] -> VP[AGR='?i', POS='P'] P[AGR='?i', POS='P']"
     ],
     "VP -> V": [
-        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG=0, POS='?p']"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p']"
     ],
     "VP -> V NP": [
-        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG=0, POS='?p'] NP"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p'] NP"
     ],
     "VP -> V NP PPA": [
-        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG=0, POS='?p'] NP PPA"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p'] NP PPA"
     ],
     "VP -> NEG V": [
-        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG=1, POS='?p']"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='1', POS='?p']"
     ],
     "VP -> NEG V NP": [
-        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG=1, POS='?p'] NP"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='1', POS='?p'] NP"
     ],
     "VP -> NEG V NP PPA": [
-        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG=1, POS='?p'] NP PPA"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='1', POS='?p'] NP PPA"
     ],
     "PPA -> AA NP": [
         "PPA[AGR='?a'] -> NP[AGR='?a', NF='?n'] AA[NF='?n']"
@@ -42,7 +42,7 @@
         "NP[AGR='?a', NF='?n'] -> D[AGR='?a'] N[AGR='?a', NF='?n']"
     ],
     "PP -> PR NP": [
-        "PP -> NP[AGR='?a'] PR[AGR='?a', S='s']",
+        "PP -> NP[AGR='?a'] PR[AGR='?a', S='S']",
         "PP -> NP[AGR='?a'] PR[AGR='?a', S='0']"
     ]
 }

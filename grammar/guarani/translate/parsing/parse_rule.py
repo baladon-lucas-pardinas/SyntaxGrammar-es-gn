@@ -3,6 +3,7 @@ import re
 def parse_rule(input_string):
     # print(input_string)
     result_dict = {}
+    result_dict_text = {}
 
     # Find all occurrences of [KEY='VALUE']
     matches = re.findall(r'\[(.*?)\]', input_string)
@@ -27,9 +28,15 @@ def parse_rule(input_string):
                 else:
                     result_dict[key] = {value: [index]}
             else:
-                result_dict[key] = value
+                if key in result_dict_text:
+                    if value in result_dict_text[key]:
+                        result_dict_text[key][value].append(index)
+                    else:
+                        result_dict_text[key][value] = [index]
+                else:
+                    result_dict_text[key] = {value: [index]}
 
-    return result_dict
+    return (result_dict,result_dict_text)
 
 # # Example usage:
 # rule_string = "D[AGR=?a, NAS=?n] N[AGR=?a, NAS=?n] V[AGR=?a]"
