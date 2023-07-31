@@ -6,16 +6,16 @@
         "S[AGR='?a'] -> NP[AGR='?a'] VP[AGR='?a']"
     ],
     "S -> P VP PP": [
-        "S[AGR='?a'] -> P[AGR='?i', POS='B'] VP[AGR='?i', POS='B'] PP",
-        "S[AGR='?a'] -> P[AGR='?i', POS='0'] VP[AGR='?i', POS='0'] PP",
-        "S[AGR='?a'] -> VP[AGR='?i', POS='0'] P[AGR='?i', POS='0'] PP",
-        "S[AGR='?a'] -> VP[AGR='?i', POS='P'] P[AGR='?i', POS='P'] PP"
+        "S[AGR='?i'] -> P[AGR='?i', POS='B'] VP[AGR='?i', POS='B'] PP",
+        "S[AGR='?i'] -> P[AGR='?i', POS='0'] VP[AGR='?i', POS='0'] PP",
+        "S[AGR='?i'] -> VP[AGR='?i', POS='0'] P[AGR='?i', POS='0'] PP",
+        "S[AGR='?i'] -> VP[AGR='?i', POS='P'] P[AGR='?i', POS='P'] PP"
     ],
     "S -> P VP": [
-        "S[AGR='?a'] -> P[AGR='?i', POS='B'] VP[AGR='?i', POS='B']",
-        "S[AGR='?a'] -> P[AGR='?i', POS='0'] VP[AGR='?i', POS='0']",
-        "S[AGR='?a'] -> VP[AGR='?i', POS='0'] P[AGR='?i', POS='0']",
-        "S[AGR='?a'] -> VP[AGR='?i', POS='P'] P[AGR='?i', POS='P']"
+        "S[AGR='?i'] -> P[AGR='?i', POS='B'] VP[AGR='?i', POS='B']",
+        "S[AGR='?i'] -> P[AGR='?i', POS='0'] VP[AGR='?i', POS='0']",
+        "S[AGR='?i'] -> VP[AGR='?i', POS='0'] P[AGR='?i', POS='0']",
+        "S[AGR='?i'] -> VP[AGR='?i', POS='P'] P[AGR='?i', POS='P']"
     ],
     "VP -> V": [
         "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p']"
