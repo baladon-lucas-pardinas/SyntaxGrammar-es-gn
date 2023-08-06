@@ -72,7 +72,9 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
 
         possibilities = cartesian_product([x[1] for x in gn_symbol_translations])
 
-        rule_tree = parse_rule(gn_rule.split('->')[1].strip())
+        (rule_tree,rule_tree_text) = parse_rule(gn_rule.split('->')[1].strip())
+        # print(rule_tree)
+        # print(rule_tree_text)
         # print(gn_rule.split('->')[1].strip())
         # print(rule_tree)
         lhs_features = parse_lhs_features(gn_rule.split('->')[0].strip())
@@ -82,37 +84,44 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
         #print(possibilities)
         # print('')
         for possibility in possibilities:
+            # print(possibility)
             try:
                 variables = {}
                 for feat in rule_tree.keys():
-                    if(isinstance(rule_tree[feat],str)):
-                        if (len(possibility) == 1 and possibility[0][1].get(feat)):
-                            if ((possibility[0][1][feat]) != rule_tree[feat]):
-                                raise UnificationFailed("Unification failed")
-                        elif (len(possibility) > 1 and possibility[0][1].get(feat) and possibility[1][1].get(feat)):
-                            if ((possibility[0][1][feat]) != (possibility[1][1][feat])):
-                                raise UnificationFailed("Unification failed")
-                            elif((possibility[0][1][feat]) != rule_tree[feat]):
-                                raise UnificationFailed("Unification failed")
-                            # print(rule_tree[feat])
-                            # print(possibility[0][1][feat])
-                            # print(possibility[1][1][feat])
-                    else:
-                        for val in rule_tree[feat].keys():
-                            matchings = rule_tree[feat][val]
-                            should_match = get_combinations(matchings)
-                            for (a, b) in should_match:
-                                if (a != b):
-                                    unified = unify(possibility[a][1], possibility[b][1], feat)
-                                    if (unified == None):
-                                        raise UnificationFailed("Unification failed")
-                                    
-                            unified = possibility[matchings[0]][1] 
-                            for i in range(1, len(matchings)):
-                                unified = unify(unified, possibility[matchings[i]][1], feat) # Unified has shape {feat: unification_result}
+                    for val in rule_tree[feat].keys():
+                        matchings = rule_tree[feat][val]
+                        should_match = get_combinations(matchings)
+                        for (a, b) in should_match:
+                            if (a != b):
+                                unified = unify(possibility[a][1], possibility[b][1], feat)
                                 if (unified == None):
                                     raise UnificationFailed("Unification failed")
-                            variables[val] = unified[feat]
+                                
+                        unified = possibility[matchings[0]][1] 
+                        for i in range(1, len(matchings)):
+                            unified = unify(unified, possibility[matchings[i]][1], feat) # Unified has shape {feat: unification_result}
+                            if (unified == None):
+                                raise UnificationFailed("Unification failed")
+                        variables[val] = unified[feat]
+                for feat in rule_tree_text.keys():
+                    for val in rule_tree_text[feat].keys():
+                        matchings = rule_tree_text[feat][val]
+                        if (len(matchings) == 1):
+                            if (str(possibility[matchings[0]][1][feat]) != val):
+                                raise UnificationFailed("Unification failed")
+                        else:
+                            should_match = get_combinations(matchings)
+                            for (a, b) in should_match:
+                                # print(str(possibility[a][1][feat]))
+                                # print(val)
+                                if (str(possibility[a][1][feat]) == val):
+                                    if (a != b):
+                                        unified = unify(possibility[a][1], possibility[b][1], feat)
+                                        if (unified == None):
+                                            raise UnificationFailed("Unification failed")
+                                else:
+                                    raise UnificationFailed("Unification failed")
+                    
                 possibility_features = deepcopy(lhs_features)
                 replace_variables(variables, possibility_features)
                 strings = [x[0] for x in possibility]
@@ -130,8 +139,6 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
             except UnificationFailed as e:
                 pass
 
-    # print('')
-    #print(result)
     return result
 
 
