@@ -5,5 +5,8 @@ def translate_adpositions(tree,adpCSV):
             if (row[5] == '0'):
                 adpRes.append((row[0],{'AGR':{}, 'S':row[4]}))
             else:
-                adpRes.append((row[0],{'AGR':{'NAS':row[5]}, 'S':row[4]}))
+                if (row[3] == 'U'):
+                    adpRes.append((row[0],{'AGR':{}, 'U':row[3], 'S':row[4],'NF':row[5]}))
+                else:
+                    adpRes.append((row[0],{'AGR':{'NAS':row[5]}, 'U':row[3], 'S':row[4]}))
     return adpRes
