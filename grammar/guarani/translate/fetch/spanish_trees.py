@@ -1,9 +1,10 @@
 from ..parsing.parse_labels import parse_labels
 from ..parsing.parse_tree import parse_tree
+import codecs
 
 
 def fetch_spanish_trees(filepath):
-    with open(filepath, 'r') as file:
+    with codecs.open(filepath, 'r', encoding='utf-8') as file:
         content = file.read()
 
         trees = []

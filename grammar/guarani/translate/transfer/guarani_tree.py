@@ -16,8 +16,6 @@ def get_combinations(my_list):
 
 
 def build_guarani_tree(spanish_tree, equivalence, lexicon):
-    # print(spanish_tree)
-    # print(' ')
     sp_rule = spanish_tree['type'] + ' ->'
     if (len(spanish_tree['children']) == 0):
         # return [sp_rule + ' ' + spanish_tree['word']]
@@ -32,6 +30,8 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
     
     for child in spanish_tree['children']:
         sp_rule += ' ' + child['type']
+    # print(spanish_tree)
+    # print(' ')
     # print(sp_rule)
     # print( ' ')
 
@@ -48,7 +48,6 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
     for child in spanish_tree['children']:
         translations[child['type']] += build_guarani_tree(child, equivalence, lexicon)
     # print('trans:')
-    # print(translations)
     # print('end_trans')
     #  S-> NP VP
     # {NP: [(string, features)], VP: [(string, features)]}
@@ -58,27 +57,34 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
 
     gn_rules : str = equivalence[sp_rule] # This is a list of rules
 
+    # print('')
+
     for gn_rule in gn_rules:
         cfg_gn_rule = rule_to_cfg(gn_rule)
         gn_symbol_translations = []
         right_hand_side = cfg_gn_rule.split('->')[1].strip().split()
         # [VP, NP]
+        # print(gn_rules)
+        # print(cfg_gn_rule)
 
         for symbol in right_hand_side:
             gn_symbol_translations.append((symbol, translations[symbol]))
 
         possibilities = cartesian_product([x[1] for x in gn_symbol_translations])
 
-        rule_tree = parse_rule(gn_rule.split('->')[1].strip())
-        # print(gn_rule)
+        (rule_tree,rule_tree_text) = parse_rule(gn_rule.split('->')[1].strip())
+        # print(rule_tree)
+        # print(rule_tree_text)
+        # print(gn_rule.split('->')[1].strip())
         # print(rule_tree)
         lhs_features = parse_lhs_features(gn_rule.split('->')[0].strip())
 
         # Possibilities is a list of lists of tuples, where each tuple is (string, features)
 
-        # print(possibilities)
+        #print(possibilities)
         # print('')
         for possibility in possibilities:
+            # print(possibility)
             try:
                 variables = {}
                 for feat in rule_tree.keys():
@@ -97,6 +103,25 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
                             if (unified == None):
                                 raise UnificationFailed("Unification failed")
                         variables[val] = unified[feat]
+                for feat in rule_tree_text.keys():
+                    for val in rule_tree_text[feat].keys():
+                        matchings = rule_tree_text[feat][val]
+                        if (len(matchings) == 1):
+                            if (str(possibility[matchings[0]][1][feat]) != val):
+                                raise UnificationFailed("Unification failed")
+                        else:
+                            should_match = get_combinations(matchings)
+                            for (a, b) in should_match:
+                                # print(str(possibility[a][1][feat]))
+                                # print(val)
+                                if (str(possibility[a][1][feat]) == val):
+                                    if (a != b):
+                                        unified = unify(possibility[a][1], possibility[b][1], feat)
+                                        if (unified == None):
+                                            raise UnificationFailed("Unification failed")
+                                else:
+                                    raise UnificationFailed("Unification failed")
+                    
                 possibility_features = deepcopy(lhs_features)
                 replace_variables(variables, possibility_features)
                 strings = [x[0] for x in possibility]
@@ -114,7 +139,6 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
             except UnificationFailed as e:
                 pass
 
-    # print(result)
     return result
 
 

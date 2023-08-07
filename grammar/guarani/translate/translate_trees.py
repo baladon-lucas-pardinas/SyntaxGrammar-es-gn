@@ -41,6 +41,9 @@ def main():
         translations = build_guarani_tree(spanish_tree, transfer_rules, lexicon)
         spanish_sentence = extract_words(spanish_tree)
 
+        if translations == []:
+            print(spanish_sentence)
+            
         # pick three translations at random
         translations = random.sample(translations, min(args.max_translations, len(translations)))
 

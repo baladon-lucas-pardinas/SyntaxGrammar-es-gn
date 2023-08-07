@@ -6,43 +6,45 @@
         "S[AGR='?a'] -> NP[AGR='?a'] VP[AGR='?a']"
     ],
     "S -> P VP PP": [
-        "S[AGR='?a'] -> P[AGR=[INC='?i', POS='b'], CASE='n'] VP[AGR=[INC='?i', POS='b']] PP",
-        "S[AGR='?a'] -> P[AGR=[INC='?i', POS=0], CASE='n'] VP[AGR=[INC='?i', POS=0]] PP",
-        "S[AGR='?a'] -> VP[AGR=[INC='?i', POS='b']] P[AGR=[INC='?i', POS='b'], CASE='n'] PP",
-        "S[AGR='?a'] -> VP[AGR=[INC='?i', POS='p']] P[AGR=[INC='?i', POS='p'], CASE='n'] PP"
+        "S[AGR='?i'] -> P[AGR='?i', POS='B'] VP[AGR='?i', POS='B'] PP",
+        "S[AGR='?i'] -> P[AGR='?i', POS='0'] VP[AGR='?i', POS='0'] PP",
+        "S[AGR='?i'] -> VP[AGR='?i', POS='0'] P[AGR='?i', POS='0'] PP",
+        "S[AGR='?i'] -> VP[AGR='?i', POS='P'] P[AGR='?i', POS='P'] PP"
     ],
     "S -> P VP": [
-        "S[AGR='?a'] -> P[AGR=[INC='?i', POS='b'], CASE='n'] VP[AGR=[INC='?i', POS='b']]",
-        "S[AGR='?a'] -> P[AGR=[INC='?i', POS=0], CASE='n'] VP[AGR=[INC='?i', POS=0]]",
-        "S[AGR='?a'] -> VP[AGR=[INC='?i', POS='b']] P[AGR=[INC='?i', POS='b'], CASE='n']",
-        "S[AGR='?a'] -> VP[AGR=[INC='?i', POS='p']] P[AGR=[INC='?i', POS='p'], CASE='n']"
+        "S[AGR='?i'] -> P[AGR='?i', POS='B'] VP[AGR='?i', POS='B']",
+        "S[AGR='?i'] -> P[AGR='?i', POS='0'] VP[AGR='?i', POS='0']",
+        "S[AGR='?i'] -> VP[AGR='?i', POS='0'] P[AGR='?i', POS='0']",
+        "S[AGR='?i'] -> VP[AGR='?i', POS='P'] P[AGR='?i', POS='P']"
     ],
     "VP -> V": [
-        "VP[AGR='?a'] -> V[AGR='?a', SUBCAT='intr', NEG=0]"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p']"
     ],
     "VP -> V NP": [
-        "VP[AGR='?a'] -> V[AGR='?a', SUBCAT='tr', NEG=0] NP"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p'] NP"
     ],
     "VP -> V NP PPA": [
-        "VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=0] NP PPA"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p'] NP PPA"
     ],
     "VP -> NEG V": [
-        "VP[AGR='?a'] -> V[AGR='?a', SUBCAT='intr', NEG=1]"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='1', POS='?p']"
     ],
     "VP -> NEG V NP": [
-        "VP[AGR='?a'] -> V[AGR='?a', SUBCAT='tr', NEG=1] NP"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='1', POS='?p'] NP"
     ],
     "VP -> NEG V NP PPA": [
-        "VP[AGR='?a'] -> V[AGR='?a', SUBCAT='di', NEG=1] NP PPA"
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='1', POS='?p'] NP PPA"
     ],
     "PPA -> AA NP": [
-        "PPA[AGR='?a'] -> NP[AGR='?a', NW='?n'] AA[NW='?n']"
+        "PPA[AGR='?a'] -> NP[AGR='?a', NF='?n'] AA[NF='?n']"
     ],
     "NP -> D N": [
-        "NP[AGR='?a', NW='?n'] -> D[AGR='?a'] N[AGR='?a', NW='?n']"
+        "NP[AGR='?a', NF='?n'] -> D[AGR='?a'] N[AGR='?a', NF='?n']"
     ],
     "PP -> PR NP": [
-        "PP -> NP[AGR='?a'] PR[AGR='?a', S='s']",
-        "PP -> NP[AGR='?a'] PR[AGR='?a', S='0']"
+        "PP -> NP[AGR='?a', NF='?n'] PR[AGR='?a', U='U', S='S', NF='?n']",
+        "PP -> NP[AGR='?a', NF='?n'] PR[AGR='?a', U='U', S='0', NF='?n']",
+        "PP -> NP[AGR='?a'] PR[AGR='?a', U='S', S='S']",
+        "PP -> NP[AGR='?a'] PR[AGR='?a', U='S', S='0']"
     ]
 }
