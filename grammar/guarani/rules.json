@@ -42,7 +42,9 @@
         "NP[AGR='?a', NF='?n'] -> D[AGR='?a'] N[AGR='?a', NF='?n']"
     ],
     "PP -> PR NP": [
-        "PP -> NP[AGR='?a'] PR[AGR='?a', S='S']",
-        "PP -> NP[AGR='?a'] PR[AGR='?a', S='0']"
+        "PP -> NP[AGR='?a', NF='?n'] PR[AGR='?a', U='U', S='S', NF='?n']",
+        "PP -> NP[AGR='?a', NF='?n'] PR[AGR='?a', U='U', S='0', NF='?n']",
+        "PP -> NP[AGR='?a'] PR[AGR='?a', U='S', S='S']",
+        "PP -> NP[AGR='?a'] PR[AGR='?a', U='S', S='0']"
     ]
 }
