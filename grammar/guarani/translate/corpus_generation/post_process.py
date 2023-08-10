@@ -20,5 +20,9 @@ def post_process(p):
         p[1] = ' '.join(p[1])
         p[1] = p[1].replace('*',last_word)
 
+    # Capitalize first character and add period
+    p[0] = p[0][0].upper() + p[0][1:] + '.'
+    p[1] = p[1][0].upper() + p[1][1:] + '.'
+
     return([p[0], p[1]])
     
