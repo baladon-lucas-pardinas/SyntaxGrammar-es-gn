@@ -7,6 +7,9 @@ def unify(left_features, right_features, feat):
     # Due to the restrictoin we can do the following:
     left_dict = left_features[feat]
     right_dict = right_features[feat]
+    # try:
+    # except:
+    #     return None
 
     if (isinstance(left_dict, str) and isinstance(right_dict, str)):
         if left_dict == right_dict:
