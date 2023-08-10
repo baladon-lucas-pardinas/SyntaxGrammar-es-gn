@@ -81,10 +81,9 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
 
         # Possibilities is a list of lists of tuples, where each tuple is (string, features)
 
-        #print(possibilities)
+        # print(possibilities)
         # print('')
         for possibility in possibilities:
-            # print(possibility)
             try:
                 variables = {}
                 for feat in rule_tree.keys():
