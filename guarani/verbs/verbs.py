@@ -341,28 +341,6 @@ def inflect_irregular(verb):
                             v = "he'i"
                         case 'P':
                             v = "he'i"
-            match verb[9]:
-                case '1':
-                    match verb[10]:
-                        case 'S':
-                            v = "ha'yta"
-                        case 'P':
-                            if verb[1] == 'I':
-                                v = "ja'yta"
-                            else:
-                                v = "ro'yta"
-                case '2':
-                    match verb[10]:
-                        case 'S':
-                            v = "re'yta"
-                        case 'P':
-                            v = "pe'yta"
-                case '3':
-                    match verb[10]:
-                        case 'S':
-                            v = "ho'yta"
-                        case 'P':
-                            v = "ho'yta"
         case "ha":
             match verb[9]:
                 case '1':

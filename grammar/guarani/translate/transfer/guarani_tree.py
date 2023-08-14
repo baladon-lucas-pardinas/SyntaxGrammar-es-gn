@@ -18,24 +18,11 @@ def get_combinations(my_list):
 def build_guarani_tree(spanish_tree, equivalence, lexicon):
     sp_rule = spanish_tree['type'] + ' ->'
     if (len(spanish_tree['children']) == 0):
-        # return [sp_rule + ' ' + spanish_tree['word']]
-        #return [] ### Actually need to take care of this case
-                    # Should return a list of possible string-features pairs for this word
-                    # Return type should be [(string, features)] where features is a dict
-        # temp = translate_leaf(spanish_tree, lexicon)
-        # print(temp)
-        # return temp
         aux = translate_leaf(spanish_tree, lexicon)
         return aux
     
     for child in spanish_tree['children']:
         sp_rule += ' ' + child['type']
-    # print(spanish_tree)
-    # print(' ')
-    # print(sp_rule)
-    # print( ' ')
-
-    
 
     # For children get their subtree? Or just the word? Or maybe features and string?
     # Then use the guarani rule to select the order of those words
@@ -47,42 +34,27 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
     translations = defaultdict(lambda: [])
     for child in spanish_tree['children']:
         translations[child['type']] += build_guarani_tree(child, equivalence, lexicon)
-    # print('trans:')
-    # print('end_trans')
-    #  S-> NP VP
-    # {NP: [(string, features)], VP: [(string, features)]}
 
     result = []
 
 
     gn_rules : str = equivalence[sp_rule] # This is a list of rules
 
-    # print('')
-
     for gn_rule in gn_rules:
         cfg_gn_rule = rule_to_cfg(gn_rule)
         gn_symbol_translations = []
         right_hand_side = cfg_gn_rule.split('->')[1].strip().split()
         # [VP, NP]
-        # print(gn_rules)
-        # print(cfg_gn_rule)
-
         for symbol in right_hand_side:
             gn_symbol_translations.append((symbol, translations[symbol]))
 
         possibilities = cartesian_product([x[1] for x in gn_symbol_translations])
 
         (rule_tree,rule_tree_text) = parse_rule(gn_rule.split('->')[1].strip())
-        # print(rule_tree)
-        # print(rule_tree_text)
-        # print(gn_rule.split('->')[1].strip())
-        # print(rule_tree)
         lhs_features = parse_lhs_features(gn_rule.split('->')[0].strip())
 
         # Possibilities is a list of lists of tuples, where each tuple is (string, features)
-
-        # print(possibilities)
-        # print('')
+        
         for possibility in possibilities:
             try:
                 variables = {}
@@ -111,8 +83,6 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
                         else:
                             should_match = get_combinations(matchings)
                             for (a, b) in should_match:
-                                # print(str(possibility[a][1][feat]))
-                                # print(val)
                                 if (str(possibility[a][1][feat]) == val):
                                     if (a != b):
                                         unified = unify(possibility[a][1], possibility[b][1], feat)
@@ -139,77 +109,3 @@ def build_guarani_tree(spanish_tree, equivalence, lexicon):
                 pass
 
     return result
-
-
-    # Pseudocode:
-    # get cartesian product
-    # parse rule
-    # for each combination:
-    #   for each step of rule:
-    #       unify
-    #       if unification fails:
-    #           discard combination
-    #       else:
-    #           store unified result
-    #   add combination to possibilities, with unified string and features
-    
-    # [(VP, [(string, features)]), (NP, [(string, features)])]
-    
-
-    # [(D, [(string, features)]), (N, traducciones)]
-
-    # gn_rule = "NP[AGR=?a] -> D[AGR=?a, NAS=?b] N[AGR=?a, NAS=?b]" 
-
-    # [(D, string, features), (N, string, features)]
-
-    # [(string, features)]
-
-    # [(string, features)]
-
-    # So I should do the producto cartesiano of the aforementioned thing and 
-    # unify on each step, so check the object for matches, first parsing the rule.
-    # Seems not trivial but not too hard either.
-
-
-
-
-    # for D:
-    #     for N:
-    #         parse (D N)
-
-
-
-    ### New idea: use the NLTK parser on each step. Just place the words in the new order,
-    ##  have our grammar, and ask it to parse away. Hence we can weed out invalid combinations.
-
-    
-
-    
-
-    # for child in spanish_tree['children']:
-    #     rules += build_guarani_tree(child, equivalence)
-    # return rules
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def build_guarani_tree(spanish_tree, equivalence):
-#     rules = []
-#     rule = spanish_tree['type'] + ' ->'
-#     if (len(spanish_tree['children']) == 0):
-#         return [rule + ' ' + spanish_tree['word']]
-#     for child in spanish_tree['children']:
-#         rule += ' ' + child['type']
-#     rules.append(rule)
-#     for child in spanish_tree['children']:
-#         rules += build_guarani_tree(child, equivalence)
-#     return rules
