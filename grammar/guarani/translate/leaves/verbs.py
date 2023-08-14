@@ -11,6 +11,9 @@ def translate_verbs(tree,verbCSV):
             verb = row[0] + ' *'
             if (special_verb(row[1])):
                 verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':str(0),'POS':row[8]}))
+                if (irregular(row[1])):
+                    verb = negate_irregular(row)
+                verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':str(1),'POS':row[8]}))
             else:
                 if (row[7] == '0'):
                     verbs.append((verb,{'AGR':{}, 'MOOD':row[3],'NEG':str(0),'POS':row[8]}))
@@ -47,6 +50,72 @@ def negate_verb(row):
     negated = neg_inicial + parts[0] + raiz + neg_final + parts[1] + ' *'
     return (negated)
 
+def negate_irregular(row):
+    raiz = row[1]
+    verb = row[0]
+    spanish_verb_root = row[13]
+    neg_final = ''
+    neg_inicial = ''
+    match raiz:
+        case '‘a':
+            start = verb[0:4]
+            end = verb[4:]
+            neg_inicial = 'nde'
+            neg_final = 'i'
+        case '‘u':
+            match spanish_verb_root:
+                case 'comer':
+                    start = verb[0:4]
+                    end = verb[4:]
+                    neg_inicial = 'nde'
+                    neg_final = 'i'
+                case _:
+                    start = verb[0:5]
+                    end = verb[5:]
+                    neg_inicial = 'nde'
+                    neg_final = 'i'
+        case 'yguy':
+            start = verb[0:7]
+            end = verb[7:]
+            neg_inicial = 'nde'
+            neg_final = 'i'
+        case 'yta':
+            start = verb[0:6]
+            end = verb[6:]
+            neg_inicial = 'nde'
+            neg_final = 'i'
+        case '‘e':
+            match verb[0:3]:
+                case 'ere':
+                    start = verb[0:3]
+                    end = verb[3:]
+                    neg_inicial = 'nd'
+                case _:
+                    start = verb[0:4]
+                    end = verb[4:]
+                    neg_inicial = 'nde'
+            neg_final = 'i'
+        case 'ha':
+            match verb[0:3]:
+                case 'aha':
+                    start = verb[0:3]
+                    end = verb[3:]
+                    neg_inicial = 'nd'
+                case 'oho':
+                    start = verb[0:3]
+                    end = verb[3:]
+                    neg_inicial = 'nd'
+                case _:
+                    start = verb[0:4]
+                    end = verb[4:]
+                    neg_inicial = 'nde'
+            neg_final = 'i'
+    negated = neg_inicial + start + neg_final + end + ' *'
+    return negated
+
+                # nd - VERBO - i
+                # nde- si empiezan con consonante o vocal??
+
 def nasal(verb):
     nasal = False
     nasals = ['ã', 'ẽ', 'ĩ', 'õ', 'ũ', 'ỹ','g̃', 'm', 'n', 'ñ', 'mb', 'nd', 'ng', 'nt']
@@ -55,6 +124,12 @@ def nasal(verb):
     return nasal
 
 def special_verb(verb):
+    return irregular(verb) or defective(verb)
+
+def irregular(verb):
     irregulares = ["‘a","‘u","yguy","yta","‘e","ha"]
+    return verb in irregulares
+
+def defective(verb):
     defectivos = ["ko'i", "je'ói", "hua'ĩ"]
-    return verb in irregulares or verb in defectivos
+    return verb in defectivos

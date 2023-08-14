@@ -31,10 +31,6 @@ def main():
     args = parse_arguments()
     trees = fetch_spanish_trees(args.spanish_trees_file)
     transfer_rules = fetch_syntactic_transfer_rules(args.equivalence_rules_file)
-    # print(trees[26])
-    #build_guarani_tree(trees[26], transfer_rules, lexicon)
-    # print(trees[0])
-
     parallel_corpus = []
 
     for spanish_tree in trees:
@@ -52,32 +48,7 @@ def main():
             parallel_corpus.append(sentence_pair)
 
     write_to_csv(args.output, parallel_corpus)
-    remove_duplicates(args.output)
-
-    ### Rubbish
-    # x = trees[0]['children'][1]['children'][0]
-    # print(x)
-    # y = translate_verbs(x, verbs)
-    # print(y)
-    # print(trees[0])
-    ## nouns:
-    #x = trees[0]['children'][0]['children'][1]
-    ## verbs:
-    #x = trees[0]['children'][1]['children'][0]
-    ## determiners:
-    # x = trees[0]['children'][0]['children'][0]
-    # print(x)
-    # y = translate_determiners(x, determiners)
-    # print(y)
-
-    ### End of rubbish
-
-    ### Next steps: 
-    # get equivalent grammar rules
-    # get equivalent lexicon rules
-    # perform transformation on tree, rule by rule, top to bottom
-    # consolidate guarani sentence
-    # write both sentences in parallel as a csv
+    # remove_duplicates(args.output)
 
 if __name__ == '__main__':
     main()
