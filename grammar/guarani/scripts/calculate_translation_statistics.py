@@ -67,6 +67,7 @@ if __name__ == "__main__":
     csv_file_path = args.csv_file
 
     total_tokens_spanish, total_tokens_guarani, total_sentences = count_tokens(csv_file_path)
+    print(f"Total number of sentence pairs: {total_sentences}")
     print(f"Total number of tokens in Spanish: {total_tokens_spanish}")
     print(f"Total number of tokens in Guarani: {total_tokens_guarani}")
     
