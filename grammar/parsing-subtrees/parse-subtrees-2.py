@@ -1,9 +1,7 @@
 import argparse
 import csv
-from nltk import grammar, FeatureChartParser
+from nltk import grammar, FeatureChartParser, Tree
 
-### WHAT I SHOULD DO HERE INSTEAD IS SPLIT BY UNKNOWN WORDS AND THEN PARSE EACH SUBSTRING
-### I SHOULD READ FROM MY EXTRACTED.CSV
 ### FOR PARSING EACH SUBSTRING I SHOULD DO A SORT OF MAXMATCH, BUT THAT CAN BE ANOTHER SCRIPT, V3
 
 # Function to read a text file into a string
@@ -18,28 +16,27 @@ def read_sentences_from_csv(file_path):
         return [row[0] for row in csv_reader] # Assuming single-column CSV
 
 # Function to split sentences
-def split_sentence(sentence: str, feature_parser: FeatureChartParser) -> list[str]:
+def split_sentence(sentence: str, grammar: grammar.FeatureGrammar) -> list[str]:
     words = sentence.split()  # Split the sentence into words
     sub_sentences = []
     current_sub_sentence = []
-
     for word in words:
-        if word in feature_parser.grammar().lexicon():  # Check if the word is known in the grammar
+        if word in grammar._lexical_index:  # Check if the word is known in the grammar
             current_sub_sentence.append(word)
         else:
-            if current_sub_sentence:  # Append current sub_sentence if not empty
+            if  len(current_sub_sentence) > 1:  # Append current sub_sentence if at least 2 words
                 sub_sentences.append(" ".join(current_sub_sentence))
             current_sub_sentence = []
 
-    if current_sub_sentence:  # Append the last sub_sentence if not empty
+    if len(current_sub_sentence) > 1:  # Append the last sub_sentence if at least 2 words
         sub_sentences.append(" ".join(current_sub_sentence))
 
     return sub_sentences
 
 # Function to perform the max_match operation (placeholder, implement later)
-def max_match(sentence, feature_parser):
-    # Implement your max_match logic here
-    pass
+def max_match(sentence: str, feature_parser: FeatureChartParser) -> Tree | None:
+    # Placeholder, nothing like max_match at all
+    return feature_parser.parse_one(sentence.split(" "))
 
 # Function to write trees to a txt file
 def write_trees_to_file(trees, output_file):
@@ -59,10 +56,10 @@ def main():
 
     # Read the feature grammar from a file and create a feature grammar
     grammar_string = read_text_file(args.grammar)
-    my_grammar = grammar.FeatureGrammar.fromstring(grammar_string)
+    feat_grammar = grammar.FeatureGrammar.fromstring(grammar_string)
 
     # Create a FeatureChartParser based on the grammar
-    feature_parser = FeatureChartParser(my_grammar)
+    feature_parser = FeatureChartParser(feat_grammar)
 
     # Read sentences from the CSV file
     sentences = read_sentences_from_csv(args.input)
@@ -72,7 +69,7 @@ def main():
 
     # Loop through sentences, split them, and perform max_match
     for sentence in sentences:
-        sub_sentences = split_sentence(sentence)
+        sub_sentences = split_sentence(sentence, feat_grammar)
         for sub_sentence in sub_sentences:
             tree = max_match(sub_sentence, feature_parser)
             if tree is not None:
