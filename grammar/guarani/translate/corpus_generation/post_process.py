@@ -8,6 +8,7 @@ def post_process(p):
 
     p[1] = p[1].replace(' _', '')
     p[1] = p[1].replace('_ ', '')
+    p[1] =  re.sub(r'_# .', '', p[1])
     p[1] =  re.sub(r'\s+', ' ', p[1]) # remove extra spaces
     p[1] = p[1].strip()
 

@@ -14,9 +14,22 @@ def write_to_csv(filepath, rows):
         for row in rows:
             writer.writerow(row)
 
+def separar_adjetivos(adjs):
+    final = []
+    for a in adjs:
+        alist = a[0].split("_")
+        #vlist2 = vlist[0].split('\"')
+        for i in alist:
+            i = i.replace(",","")
+            #j = i.replace('\"','')
+            f = [i] + a[1:]
+            final.append(f)
+    return final
+
 def main():
     adj = read_csv("matched-adjectives.csv")
     matched = []
+    adj = separar_adjetivos(adj)
     for a in adj:
         line = [a[0],a[0],'A','Q'] + a[1:]
         matched.append(line)
