@@ -41,14 +41,19 @@ def max_match(sentence: str, feature_parser: FeatureChartParser) -> Tree | None:
 # Function to write trees to a txt file
 def write_trees_to_file(trees, output_file):
     with open(output_file, 'w') as file:
-        for tree in trees:
-            file.write(str(tree) + '\n')
+        file.writelines([str(tree) + '\n' for tree in trees])
+
+# Function to write lines to a txt file
+def write_sentences_to_file(sentences: list[str], output_file: str):
+    with open(output_file, 'w') as file:
+        file.writelines([sentence + '\n' for sentence in sentences])
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Process sentences using a FeatureChartParser')
     parser.add_argument('--grammar', required=True, help='Path to the feature grammar text file')
     parser.add_argument('--input', required=True, help='Path to the input CSV file containing sentences')
     parser.add_argument('--output', required=True, help='Path to the output txt file for trees')
+    parser.add_argument('--nonparsed', help='Path to the output txt file for unmatched sentences')
     return parser.parse_args()
 
 def main():
@@ -67,6 +72,9 @@ def main():
     # Initialize a list to store trees
     trees = []
 
+    # Initialize a list to store non-parsed sentences
+    non_parsed_sentences = []
+
     # Loop through sentences, split them, and perform max_match
     for sentence in sentences:
         sub_sentences = split_sentence(sentence, feat_grammar)
@@ -74,9 +82,16 @@ def main():
             tree = max_match(sub_sentence, feature_parser)
             if tree is not None:
                 trees.append(tree)
+            else:
+                non_parsed_sentences.append(sub_sentence)
 
     # Write trees to the output txt file
     write_trees_to_file(trees, args.output)
+
+    # Write sentences we couldn't parse to a different file
+    if (args.nonparsed):
+        write_sentences_to_file(non_parsed_sentences, args.nonparsed)
+
 
 if __name__ == '__main__':
     main()
