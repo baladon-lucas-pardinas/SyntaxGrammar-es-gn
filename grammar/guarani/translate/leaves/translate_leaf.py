@@ -22,6 +22,8 @@ def translate_leaf(spanish_tree, lexicon):
         return translate_adpositions(spanish_tree, lexicon['PR'])
     if (symbol == 'AA'):
         return translate_aa(spanish_tree, lexicon['AA'])
+    if (symbol == 'A'):
+        return translate_adjectives(spanish_tree, lexicon['A'])
     if (symbol == 'NEG'):
         return []
     raise Exception("Error: symbol not found in lexicon - " + symbol)

@@ -1,2 +1,14 @@
 def translate_adjectives(tree,adjCSV):
-    return
+    adjList = []
+    adj = tree['word']
+    label = tree['label']
+    agreement = label['AGR']
+    num = agreement['NUM']
+    try:
+        gen = agreement['GEN']
+    except:
+        gen = 'C'
+    for row in adjCSV:
+        if row[4].lower() == adj.lower() and row[9].lower() == gen.lower() and row[10].lower() == num.lower():
+            adjList.append((row[0],{'AGR':{}}))
+    return adjList
