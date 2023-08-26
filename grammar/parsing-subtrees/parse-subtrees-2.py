@@ -34,9 +34,23 @@ def split_sentence(sentence: str, grammar: grammar.FeatureGrammar) -> list[str]:
     return sub_sentences
 
 # Function to perform the max_match operation (placeholder, implement later)
-def max_match(sentence: str, feature_parser: FeatureChartParser) -> Tree | None:
-    # Placeholder, nothing like max_match at all
-    return feature_parser.parse_one(sentence.split(" "))
+def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> Tree | None:
+    words = sub_sentence.split()
+    substrings = []
+
+    # Generate all possible substrings, excluding single-word substrings, in order of longest to shortest
+    for j in range(len(words), 1, -1):
+        for i in range(len(words) - j + 1):
+            substring = " ".join(words[i:i+j])
+            substrings.append(substring)
+
+    # Try parsing each substring and return the first successful tree
+    for substring in substrings:
+        tree = feature_parser.parse_one(substring.split())
+        if tree is not None:
+            return tree
+
+    return None  # Return None if no successful parse tree is found
 
 # Function to write trees to a txt file
 def write_trees_to_file(trees, output_file):
@@ -53,6 +67,7 @@ def parse_arguments():
     parser.add_argument('--grammar', required=True, help='Path to the feature grammar text file')
     parser.add_argument('--input', required=True, help='Path to the input CSV file containing sentences')
     parser.add_argument('--output', required=True, help='Path to the output txt file for trees')
+    parser.add_argument('--indices', required=True, help='Path to the output CSV file for indices')
     parser.add_argument('--nonparsed', help='Path to the output txt file for unmatched sentences')
     return parser.parse_args()
 
@@ -75,18 +90,30 @@ def main():
     # Initialize a list to store non-parsed sentences
     non_parsed_sentences = []
 
-    # Loop through sentences, split them, and perform max_match
-    for sentence in sentences:
+    # Loop through sentences, split them, and perform max_tree
+    for sentence_index, sentence in enumerate(sentences):
         sub_sentences = split_sentence(sentence, feat_grammar)
+        current_index = 0  # Initialize the current index
         for sub_sentence in sub_sentences:
-            tree = max_match(sub_sentence, feature_parser)
+            start_index = sentence.find(sub_sentence, current_index)
+            end_index = start_index + len(sub_sentence)
+            current_index = end_index  # Update the current index for the next iteration
+            tree = max_tree(sub_sentence, feature_parser)
             if tree is not None:
-                trees.append(tree)
+                # Append a tuple containing the tree, sentence index, and subsentence indices
+                # start_index is inclusive, end_index is exclusive
+                trees.append((tree, (sentence_index, start_index, end_index)))
             else:
                 non_parsed_sentences.append(sub_sentence)
 
     # Write trees to the output txt file
-    write_trees_to_file(trees, args.output)
+    write_trees_to_file([x[0] for x in trees], args.output)
+
+    # Write sentence indices to a CSV file
+    with open(args.indices + '.csv', 'w', newline='') as file:
+        csv_writer = csv.writer(file)
+        csv_writer.writerows([x[1] for x in trees])
+
 
     # Write sentences we couldn't parse to a different file
     if (args.nonparsed):
