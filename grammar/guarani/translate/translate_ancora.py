@@ -49,7 +49,10 @@ def main():
         translations = random.sample(translations, 1)
 
         for (guarani_sentence, features) in translations:
-            sentence_pair = post_process([spanish_sentence, guarani_sentence])
+            # sentence_pair = post_process([spanish_sentence, guarani_sentence])
+            # Post-process should only be regarding Guarani,
+            # Spanish side should not be altered at all for Ancora
+            sentence_pair = [spanish_sentence, guarani_sentence]
             parallel_corpus.append(sentence_pair)
             out_indices.append(indices[trees_index])
 
