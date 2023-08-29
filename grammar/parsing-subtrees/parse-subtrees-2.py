@@ -2,8 +2,6 @@ import argparse
 import csv
 from nltk import grammar, FeatureChartParser, Tree
 
-### FOR PARSING EACH SUBSTRING I SHOULD DO A SORT OF MAXMATCH, BUT THAT CAN BE ANOTHER SCRIPT, V3
-
 # Function to read a text file into a string
 def read_text_file(file_path):
     with open(file_path, 'r') as file:
