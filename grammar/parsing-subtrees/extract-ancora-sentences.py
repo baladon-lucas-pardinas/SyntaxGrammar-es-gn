@@ -15,7 +15,14 @@ def extract_lines(input_filename):
 def separate_punctuation(line : str):
     punctuations = string.punctuation + "¿¡"
     for punctuation in punctuations:
-        line = line.replace(punctuation, f" {punctuation} ")
+        if (punctuation == '.'):
+            # Replace periods with a space on both sides only if the period is not between two numbers
+            line = re.sub(r'(?<!\d)\.(?!\d)', ' . ', line)
+        elif (punctuation == ','):
+            # Replace commas with a space on both sides only if the comma is not between two numbers
+            line = re.sub(r'(?<!\d)\,(?!\d)', ' , ', line)
+        else:
+            line = line.replace(punctuation, f" {punctuation} ")
     return re.sub(r'\s+', ' ', line).strip()
 
 def undo_contractions(line : str):

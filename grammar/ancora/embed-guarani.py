@@ -54,12 +54,12 @@ def embed_guarani(sentence: str, indices: list[tuple[int, int, int]], translatio
     return modified_sentence
 
 def preprocess_guarani(sentence: str) -> str:
-    pass # Placeholder, should preprocess * stuff
+    return sentence # Placeholder, should preprocess * stuff
 
 def postprocess_pair(pair: list[str]) -> list[str]:
     
     def postprocess_guarani(sentence: str) -> str:
-        pass # Placeholder, should postprocess _pe and other stuff
+        return sentence # Placeholder, should postprocess _pe and other stuff
 
     def join_punctuation(line : str):
         punctuations = string.punctuation
@@ -69,13 +69,13 @@ def postprocess_pair(pair: list[str]) -> list[str]:
             line = line.replace(f"{punctuation} ", punctuation)
         return re.sub(r'\s+', ' ', line).strip()
 
-    def undo_contractions(line : str):
-        return line.replace(" al ", " a el ").replace(" del ", " de el ")
+    def redo_contractions(line : str):
+        return line.replace(" a el ", " al ").replace(" de el ", " del ")
     
     pair[1] = postprocess_guarani(pair[1])
 
     # Apply this postprocess to both guarani and spanish sentences
-    return [join_punctuation(undo_contractions(sent)) for sent in pair]
+    return [join_punctuation(redo_contractions(sent)) for sent in pair]
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Process sentences and embed Guarani translations')
