@@ -4,9 +4,14 @@ def translate_nouns(tree,nounCSV):
     agreement = label['AGR']
     gen = agreement['GEN']
     num = agreement['NUM']
+    found = False
+
     for row in nounCSV:
         if row[8] == tree['word'] and row[12].lower() == gen.lower() and row[13].lower() == num.lower():
             nounsRes.append((row[0],{'AGR':{'NAS':row[7], 'TER':row[6]}, 'NF':final_nasal(row[0])}))
+            found = True
+    if not found:
+        nounsRes.append((tree['word'],{'AGR':{'NAS':nasal_spanish(tree['word'])}, 'NF':'O'}))
     return nounsRes
 
 def final_nasal(noun):
@@ -16,3 +21,10 @@ def final_nasal(noun):
         return 'N'
     else:
         return 'O'
+    
+def nasal_spanish(verb):
+    nasal = False
+    nasals = ['m', 'n', 'ñ', 'mb', 'nd', 'ng', 'nt']
+    if any(nas in verb for nas in nasals):
+        nasal = True 
+    return nasal
