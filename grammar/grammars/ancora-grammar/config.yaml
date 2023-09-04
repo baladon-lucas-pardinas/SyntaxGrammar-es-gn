@@ -1,4 +1,4 @@
-verbs: ../../guarani/verbs/matched-verbs-guarani.csv
+verbs: ../../spanish/freeling-espanol/all.verbs.csv
 nouns: ../../guarani/nouns/finished-nouns.csv
 transitivities: ../../spanish/transitivity/ancora-rae/merged-transitivities.csv
 determiners: ../../spanish/spanish-determiners/determiners.csv

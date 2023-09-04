@@ -9,9 +9,7 @@ from lexical_productions.adpositions import write_adposition_productions
 from lexical_productions.adjectives import write_adjective_productions
 from utils.read_config import read_config
 from utils.read_transitivities import read_transitivities
-from grammar_productions.np_subject import grammar as np_grammar_string
-from grammar_productions.pronoun_subject import grammar as pronoun_grammar_string
-from grammar_productions.adj_subject import grammar as adj_grammar_string
+from grammar_productions.ancora_grammar import grammar as ancora_grammar_string
 from utils.remove_duplicates import remove_duplicates
 
 def main():
@@ -22,18 +20,14 @@ def main():
 
     transitivities = read_transitivities(transitivities_file)
 
-    if args.subject == 'np':
-        base_grammar_string = np_grammar_string
-    elif args.subject == 'pronoun':
-        base_grammar_string = pronoun_grammar_string
-    elif args.subject == 'adj':
-        base_grammar_string = adj_grammar_string
+    
+    base_grammar_string = ancora_grammar_string
 
     with open(output_file, 'w') as grammar_file:
         grammar_file.write(base_grammar_string)
 
     with open(output_file, 'a') as grammar_file:
-        write_verb_productions(grammar_file, verb_lexicon, transitivities, args.subject)
+        write_verb_productions(grammar_file, verb_lexicon, transitivities)
         write_noun_productions(grammar_file, noun_lexicon)
         if 'determiners' in config:
             write_determiner_productions(grammar_file, config['determiners'])
