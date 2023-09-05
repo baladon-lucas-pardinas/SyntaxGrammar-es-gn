@@ -54,12 +54,27 @@ def embed_guarani(sentence: str, indices: list[tuple[int, int, int]], translatio
     return modified_sentence
 
 def preprocess_guarani(sentence: str) -> str:
-    return sentence # Placeholder, should preprocess * stuff
+    if (sentence.count('*') == 1):
+        sentence = sentence.replace(' *', '')
+    elif (sentence.count('*') == 2):
+        split_p = sentence.split()
+        last_word = split_p[len(split_p)-1].replace('*','')
+        sentence = sentence.split()[:-1]
+        sentence = ' '.join(sentence)
+        sentence = sentence.replace('*',last_word)
+
+    return sentence
 
 def postprocess_pair(pair: list[str]) -> list[str]:
     
     def postprocess_guarani(sentence: str) -> str:
-        return sentence # Placeholder, should postprocess _pe and other stuff
+        sentence = sentence.replace(' _', '')
+        sentence = sentence.replace('_ ', '')
+        sentence =  re.sub(r'_# .', '', sentence)
+        sentence =  re.sub(r'\s+', ' ', sentence) # remove extra spaces
+        sentence = sentence.strip()
+
+        return sentence
 
     def join_punctuation(line : str):
         punctuations = string.punctuation
@@ -67,7 +82,11 @@ def postprocess_pair(pair: list[str]) -> list[str]:
             line = line.replace(f" {punctuation}", punctuation)
         for punctuation in "¿¡":
             line = line.replace(f"{punctuation} ", punctuation)
-        return re.sub(r'\s+', ' ', line).strip()
+        line = re.sub(r'\s+', ' ', line).strip()
+        
+        # Capitalize first character
+        line[0] = line[0].upper()
+        return line
 
     def redo_contractions(line : str):
         return line.replace(" a el ", " al ").replace(" de el ", " del ")
