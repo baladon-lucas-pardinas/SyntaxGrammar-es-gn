@@ -14,4 +14,13 @@ def write_determiner_productions(grammar_file, determiner_lexicon):
             number = row[6].lower()
             possessor_num = row[7].lower()
 
-            grammar_file.write(f"D[AGR=[ GEN={gender}, NUM={number}], TYPE={type}, POSSPER={possessor_person}, POSSNUM={possessor_num}] -> '{word}'\n")
+            agr_feats = "PER=3"
+            if (gender != "C"):
+                agr_feats += f", GEN={gender.lower()}"
+
+            num_feats = [f", NUM={number.lower()}"]
+            if (number == "N"):
+                num_feats = [f", NUM={num.lower()}" for num in ["S", "P"]]
+
+            for num_feat in num_feats:
+                grammar_file.write(f"D[AGR=[{agr_feats + num_feat}], TYPE={type}, POSSPER={possessor_person}, POSSNUM={possessor_num}] -> '{word}'\n")
