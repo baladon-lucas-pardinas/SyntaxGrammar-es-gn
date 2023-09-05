@@ -6,6 +6,8 @@ def translate_verbs(tree,verbCSV):
     tense = agreement['TENSE']
     per = agreement['PER']
     num = agreement['NUM']
+    found = False
+
     for row in verbCSV:
         if row[12] == tree['word'] and row[16].lower() == mood.lower() and row[17].lower() == tense.lower() and row[18] == str(per) and row[19].lower() == num.lower():
             verb = row[0] + ' *'
@@ -23,7 +25,32 @@ def translate_verbs(tree,verbCSV):
                     verbs.append((verb,{'AGR':{'INC':row[7]}, 'MOOD':row[3],'NEG':str(0),'POS':row[8]}))
                     verb = negate_verb(row)
                     verbs.append((verb,{'AGR':{'INC':row[7]}, 'MOOD':row[3],'NEG':str(1),'POS':row[8]}))
+            found = True
+    if not found:
+        if num == 'P' and per == '2':
+            verbs.append((tree['word'],{'AGR':{'INC':'I'}, 'MOOD':mood,'NEG':str(0),'POS':'B'}))
+            verbs.append((tree['word'],{'AGR':{'INC':'I'}, 'MOOD':mood,'NEG':str(0),'POS':'P'}))
+            verbs.append((tree['word'],{'AGR':{'INC':'E'}, 'MOOD':mood,'NEG':str(0),'POS':'B'}))
+            verbs.append((tree['word'],{'AGR':{'INC':'E'}, 'MOOD':mood,'NEG':str(0),'POS':'P'}))
+            new_verb = negate_spanish_verb(tree['word'])
+            verbs.append((new_verb,{'AGR':{'INC':'I'}, 'MOOD':mood,'NEG':str(1),'POS':'B'}))
+            verbs.append((new_verb,{'AGR':{'INC':'I'}, 'MOOD':mood,'NEG':str(1),'POS':'P'}))
+            verbs.append((new_verb,{'AGR':{'INC':'E'}, 'MOOD':mood,'NEG':str(1),'POS':'B'}))
+            verbs.append((new_verb,{'AGR':{'INC':'E'}, 'MOOD':mood,'NEG':str(1),'POS':'P'}))
+        else:
+            verbs.append((tree['word'],{'AGR':{}, 'MOOD':mood,'NEG':str(0),'POS':'B'}))
+            verbs.append((tree['word'],{'AGR':{}, 'MOOD':mood,'NEG':str(0),'POS':'P'}))
+            verbs.append((tree['word'],{'AGR':{}, 'MOOD':mood,'NEG':str(0),'POS':'B'}))
+            verbs.append((tree['word'],{'AGR':{}, 'MOOD':mood,'NEG':str(0),'POS':'P'}))
+            new_verb = negate_spanish_verb(tree['word'])
+            verbs.append((new_verb,{'AGR':{}, 'MOOD':mood,'NEG':str(1),'POS':'B'}))
+            verbs.append((new_verb,{'AGR':{}, 'MOOD':mood,'NEG':str(1),'POS':'P'}))
+            verbs.append((new_verb,{'AGR':{}, 'MOOD':mood,'NEG':str(1),'POS':'B'}))
+            verbs.append((new_verb,{'AGR':{}, 'MOOD':mood,'NEG':str(1),'POS':'P'}))
     return verbs
+
+def negate_spanish_verb(verb):
+    return 'no ' + verb
 
 def negate_verb(row):
     raiz = row[1]
@@ -112,9 +139,6 @@ def negate_irregular(row):
             neg_final = 'i'
     negated = neg_inicial + start + neg_final + end + ' *'
     return negated
-
-                # nd - VERBO - i
-                # nde- si empiezan con consonante o vocal??
 
 def nasal(verb):
     nasal = False

@@ -13,8 +13,6 @@
     ],
     "S -> P VP": [
         "S[AGR='?i'] -> P[AGR='?i', POS='B'] VP[AGR='?i', POS='B']",
-        "S[AGR='?i'] -> P[AGR='?i', POS='0'] VP[AGR='?i', POS='0']",
-        "S[AGR='?i'] -> VP[AGR='?i', POS='0'] P[AGR='?i', POS='0']",
         "S[AGR='?i'] -> VP[AGR='?i', POS='P'] P[AGR='?i', POS='P']"
     ],
     "VP -> V": [
