@@ -1,7 +1,7 @@
 verbs: ../../spanish/freeling-espanol/all.verbs.csv
-nouns: ../../guarani/nouns/finished-nouns.csv
+nouns: ../../spanish/freeling-espanol/MM.nom.csv
 transitivities: ../../spanish/transitivity/ancora-rae/merged-transitivities.csv
-determiners: ../../spanish/spanish-determiners/determiners.csv
+determiners: ../../spanish/spanish-determiners/determiners-sorted.csv
 pronouns: ../../spanish/spanish-pronouns/pronouns.csv
 adpositions: ../../guarani/adpositions/adpositions.csv
 adjectives: ../../guarani/adjectives/matched-adjectives-guarani.csv

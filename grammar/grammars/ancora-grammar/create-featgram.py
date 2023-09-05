@@ -1,16 +1,16 @@
 ### Usage: python create-featgram.py --help
 
-from utils.parse_arguments import parse_arguments
-from lexical_productions.verbs import write_verb_productions
-from lexical_productions.nouns import write_noun_productions
-from lexical_productions.determiners import write_determiner_productions
-from lexical_productions.pronouns import write_pronoun_productions
-from lexical_productions.adpositions import write_adposition_productions
-from lexical_productions.adjectives import write_adjective_productions
-from utils.read_config import read_config
-from utils.read_transitivities import read_transitivities
-from grammar_productions.ancora_grammar import grammar as ancora_grammar_string
-from utils.remove_duplicates import remove_duplicates
+from .utils.parse_arguments import parse_arguments
+from .lexical_productions.verbs import write_verb_productions
+from .lexical_productions.nouns import write_noun_productions
+from .lexical_productions.determiners import write_determiner_productions
+from .lexical_productions.pronouns import write_pronoun_productions
+from .lexical_productions.adpositions import write_adposition_productions
+from .lexical_productions.adjectives import write_adjective_productions
+from .utils.read_config import read_config
+from .utils.read_transitivities import read_transitivities
+from .grammar_productions.ancora_grammar import grammar as ancora_grammar_string
+from .utils.remove_duplicates import remove_duplicates
 
 def main():
     args = parse_arguments()
