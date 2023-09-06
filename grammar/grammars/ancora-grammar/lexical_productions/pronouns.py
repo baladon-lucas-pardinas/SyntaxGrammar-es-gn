@@ -19,4 +19,13 @@ def write_pronoun_productions(grammar_file, pronoun_lexicon):
             if (polite == 'p'): 
                 person = '3'
 
-            grammar_file.write(f"P[AGR=[ GEN={gender}, NUM={number}, PER={person}], TYPE={type}, CASE={case}, POLITE={polite}] -> '{word}'\n")
+            agr_feats = f"PER={person}"
+            if (gender != "c"):
+                agr_feats += f", GEN={gender}"
+
+            num_feats = [f", NUM={number}"]
+            if (number == "n"):
+                num_feats = [f", NUM={num}" for num in ["s", "p"]]
+
+            for num_feat in num_feats:
+                grammar_file.write(f"P[AGR=[{agr_feats + num_feat}], TYPE={type}, CASE={case}, POLITE={polite}] -> '{word}'\n")
