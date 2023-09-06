@@ -5,4 +5,4 @@ determiners: ../../spanish/spanish-determiners/determiners-sorted.csv
 pronouns: ../../spanish/spanish-pronouns/pronouns.csv
 adpositions: ../../guarani/adpositions/adpositions.csv
 adjectives: ../../spanish/freeling-espanol/MM.adj.csv
-output: ../grammar-files/g11-adj/feature-grammar.txt
+output: ../grammar-files/ancora-1/feature-grammar.txt
