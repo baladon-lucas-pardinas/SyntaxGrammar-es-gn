@@ -1,5 +1,5 @@
 verbs: ../../spanish/freeling-espanol/all.verbs.csv
-nouns: ../../spanish/freeling-espanol/MM.nom.csv
+nouns: ../../spanish/spanish-nouns/purged.nom.csv
 transitivities: ../../spanish/transitivity/ancora-rae/merged-transitivities.csv
 determiners: ../../spanish/spanish-determiners/determiners-sorted.csv
 pronouns: ../../spanish/spanish-pronouns/pronouns.csv
