@@ -17,6 +17,7 @@ def main():
     pronouns = read_csv("../../guarani/pronouns/pronouns.csv")
     verbs = read_csv("../../guarani/verbs/matched-verbs-guarani.csv")
     adpositions = read_csv("../../guarani/adpositions/adpositions.csv")
+    connectors = read_csv("../../guarani/connectors/connectors.csv")
 
     lexicon = {
         'N' : nouns,
@@ -25,7 +26,8 @@ def main():
         'P' : pronouns,
         'V' : verbs,
         'AA': adpositions,
-        'PR': adpositions
+        'PR': adpositions,
+        'C': connectors
     }
 
     args = parse_arguments()
