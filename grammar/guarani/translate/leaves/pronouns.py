@@ -2,7 +2,7 @@ def translate_pronouns(tree,pronounCSV):
     pronounsRes = []
     label = tree['label']
     agreement = label['AGR']
-    num = agreement['NUM']
+    num = agreement.get('NUM') if agreement.get('NUM') else 'N'
     per = agreement['PER']
     found = False
 

@@ -2,8 +2,8 @@ def translate_determiners(tree,detCSV):
     dets = []
     label = tree['label']
     agreement = label['AGR']
-    gen = agreement['GEN']
-    num = agreement['NUM']
+    gen = agreement.get('GEN') if agreement.get('GEN') else 'C'
+    num = agreement.get('NUM') if agreement.get('NUM') else 'N'
     typ = label['TYPE']
     possPer = label['POSSPER']
     possNum = label['POSSNUM']

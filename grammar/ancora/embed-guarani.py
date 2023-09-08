@@ -85,7 +85,7 @@ def postprocess_pair(pair: list[str]) -> list[str]:
         line = re.sub(r'\s+', ' ', line).strip()
         
         # Capitalize first character
-        line[0] = line[0].upper()
+        line = line[0].upper() + line[1:]
         return line
 
     def redo_contractions(line : str):

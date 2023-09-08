@@ -44,9 +44,9 @@ def main():
 
         if translations == []:
             print(spanish_sentence)
-            
-        # pick just one translation
-        translations = random.sample(translations, 1)
+        else:
+            # pick just one translation
+            translations = random.sample(translations, 1)
 
         for (guarani_sentence, features) in translations:
             # sentence_pair = post_process([spanish_sentence, guarani_sentence])

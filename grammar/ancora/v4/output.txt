@@ -1,0 +1,4070 @@
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[NUM='p', PER=3]] reservas)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco)
+      (A[AGR=[NUM='s']] central))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] informe)))
+(S[AGR=[NUM='s', PER=2, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=2, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=2, TENSE='p'], MOOD='i', SUBCAT='intr']
+      divisas))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco)
+      (A[AGR=[NUM='s']] central))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] valor))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      depende))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] cambio)
+      (A[AGR=[NUM='s']] oficial))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      establece)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco)
+      (A[AGR=[NUM='s']] central))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[NUM='p', PER=3]] reservas)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i'] cada)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] onza))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] presidente)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      residencia))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[NUM='p', PER=3]] inmigrantes))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (A[AGR=[GEN='f', NUM='s']] falta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] de))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] departamento))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        diversos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] sectores))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr'] urgió)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] necesidad)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        esta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] medida)
+      (A[AGR=[NUM='s']] legal))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] cena)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (A[AGR=[NUM='s']] patronal)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] de))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] empresarios))))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] normativa)
+      (A[AGR=[NUM='s']] laboral))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      puede)))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr']
+      trabajo))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] ciudadano)
+      (A[AGR=[GEN='m', NUM='s']] polaco))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] momento))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] opinión))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] crecimiento)
+      (A[AGR=[GEN='m', NUM='s']] económico))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      esta)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] opinión))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr'] fue)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] presidente))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      esta)
+    (A[AGR=[GEN='f', NUM='s']] falta)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] de)))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      comenzó))
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] comarcas))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] provincias)
+    (A[AGR=[GEN='f', NUM='p']] catalanas)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] reforma)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] sistema))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] sistema)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] mercado)
+      (A[AGR=[NUM='s']] laboral))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      unas)
+    (A[AGR=[NUM='p']] mil)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] personas)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] ministra)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] alcalde)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno)
+      (A[AGR=[GEN='m', NUM='s']] catalán))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      alerta))
+  (PP[]
+    (PR[] sobre)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] aumento))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] sentido))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] ley)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] trabajo))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] juicio))))
+(S[AGR=[NUM='p', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=1, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr']
+      vamos)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      respecta))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] siniestralidad))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[NUM='s', PER=3]] parte))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] ministra)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] pymes))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      mostró))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] empresarios)
+      (A[AGR=[NUM='p']] presentes))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] camino)))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] pequeñas)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] futuro)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] país))))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] cambios))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (A[AGR=[GEN='f', NUM='s']] nueva)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] economía)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] cena)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] patronal)))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='di']
+      entregó)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] premios)
+      (A[AGR=[NUM='p']] anuales))
+    (PPA[AGR=[GEN='f', NUM='p', PER=3]]
+      (AA[] a)
+      (NP[AGR=[GEN='f', NUM='p', PER=3]]
+        (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+          las)
+        (N[AGR=[GEN='f', NUM='p', PER=3]] pymes)))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] apartado)
+      (A[AGR=[GEN='m', NUM='s']] periodístico))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (A[AGR=[GEN='m', NUM='s']] diario)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] la))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] empresa))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] apelaciones))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      esos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] remedios)))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr']
+      respecto))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (A[AGR=[GEN='f', NUM='s']] última)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] comparecencia))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      cuenta)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] hecho))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] competencia)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] futuro))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] semana)))
+(S[AGR=[NUM='p', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      presentaron))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[NUM='s', PER=3]] juez))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] propuestas))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      figura)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] división)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] firma))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] sistemas)
+      (A[AGR=[GEN='m', NUM='p']] operativos))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        esta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] firma))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] ordenadores))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] software)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] compañía))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[NUM='s', PER=3]] juez)))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] medidas)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] empresa))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] abogados)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] firma))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] capacidad))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      para)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] programas)
+      (A[AGR=[GEN='m', NUM='p']] informáticos))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] letrado)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] mundo))))
+(S[AGR=[NUM='s', PER=3, TENSE='f']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      ganará)))
+(S[AGR=[NUM='s', PER=3, TENSE='f']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      podrá)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (A[AGR=[GEN='f', NUM='s']] próxima)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] ronda)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      industria))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] programas)
+      (A[AGR=[GEN='m', NUM='p']] informáticos))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] firma))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='tr']
+      castigo)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        demasiado)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] duro)))
+  (PP[]
+    (PR[] para)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] infracciones))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] prácticas)
+    (A[AGR=[NUM='p']] comerciales)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[NUM='p', PER=3]] fabricantes))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        otra)
+      (N[AGR=[NUM='s', PER=3]] parte))))
+(S[AGR=[NUM='s', PER=3, TENSE='f']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      apelará)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        cualquier)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] dictamen))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] visión)))
+(S[AGR=[NUM='s', PER=1, TENSE='c']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='c'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='c'], MOOD='i', SUBCAT='tr']
+      prolongaría)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] proceso)
+      (A[AGR=[NUM='s']] judicial))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        esa)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] situación))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='c']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] recursos)
+    (A[AGR=[NUM='p']] legales))
+  (VP[AGR=[NUM='p', PER=3, TENSE='c'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='c'], MOOD='i', SUBCAT='intr']
+      podrían)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] tribunal)
+      (A[AGR=[GEN='m', NUM='s']] supremo))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] opción)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      existe))
+  (PP[]
+    (PR[] para)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (A[AGR=[NUM='p']] grandes)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] casos))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] gasolineras))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] diarios)
+    (A[AGR=[GEN='m', NUM='p']] económicos)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] avala)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] operación))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] gasolineras))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      amenazan))
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] huelga))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      cierra)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        otro)
+      (A[AGR=[GEN='m', NUM='s']] mal)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] mes)))
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] caída))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[NUM='s', PER=3]] editorial))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] diario))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      analiza)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] situación)
+      (A[AGR=[GEN='f', NUM='s']] económica)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] país))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] informe)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        esta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] legislatura))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] opinión)
+      (A[AGR=[GEN='f', NUM='s']] pública))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] urgencia)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] mercado)
+    (A[AGR=[NUM='s']] laboral)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] economía)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] inflación))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[NUM='s', PER=3]] parte))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      normaliza)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] relaciones)))
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] núcleo)
+      (A[AGR=[NUM='s']] estable))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (A[AGR=[GEN='f', NUM='s']] nueva)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] ronda)))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] gasolineras))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      amenazan)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] bolsa))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr'] cae)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] año))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      propone)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] mercado)
+      (A[AGR=[GEN='m', NUM='s']] único)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] fondos))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[NUM='s', PER=3]] editorial))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      señala)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] cambios))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      considera)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        estos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] cambios)
+      (A[AGR=[GEN='m', NUM='p']] lógicos))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] bolsas)
+    (A[AGR=[GEN='f', NUM='p']] europeas)))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] normas)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] ventaja))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      para)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] negocios))))
+(S[AGR=[GEN='f', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] gasolineras))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      protestan)))
+(S[AGR=[NUM='p', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      preparan)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        otra)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] ronda))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] comercio)
+    (A[AGR=[GEN='m', NUM='s']] electrónico))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      supera)))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr']
+      mayo))
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] caída))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[NUM='s', PER=3]] editorial))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] diario))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      califica)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] déficit)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      este)
+    (A[AGR=[GEN='m', NUM='s']] mismo)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] año)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] récord)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] patronal)
+    (A[AGR=[GEN='f', NUM='s']] francesa))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      presentó)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (A[AGR=[GEN='f', NUM='s']] maratoniana)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] negociación)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (A[AGR=[GEN='m', NUM='s']] nuevo)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] texto)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] interés)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[NUM='p', PER=3]] agentes)
+    (A[AGR=[NUM='p']] sociales))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      volverán)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (A[AGR=[GEN='m', NUM='s']] próximo)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] lunes)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      reafirma)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] relación))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] trabajo)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] sindicatos))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] aplicación)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      esta)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] puntualización))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr'] fue)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] sindicatos))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] confederación)
+    (A[AGR=[NUM='s']] general)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] proyecto)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] movimiento))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] retroceso)
+    (A[AGR=[NUM='s']] social)))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      otras)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] cuestiones)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] problema))))
+(S[AGR=[NUM='p', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      cobran)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] indemnización))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] documento))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      propone)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] empleo))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] personas))))
+(S[AGR=[NUM='s', PER=2, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=2, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=2, TENSE='p'], MOOD='i', SUBCAT='intr']
+      listas))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] paro))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] patronal)))
+(S[AGR=[NUM='s', PER=1, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='s'], MOOD='i', SUBCAT='tr'] así)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] compromiso)
+      (A[AGR=[GEN='m', NUM='s']] recíproco)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] régimen))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr']
+      subsidio))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] paro))))
+(S[AGR=[NUM='p', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='di']
+      facilitan)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] regreso))
+    (PPA[AGR=[GEN='m', NUM='s', PER=3]]
+      (AA[] a)
+      (NP[AGR=[GEN='m', NUM='s', PER=3]]
+        (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+          el)
+        (N[AGR=[GEN='m', NUM='s', PER=3]] empleo)))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        esta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] forma))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] patronos))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] firma)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] cobro))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] seguro)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] retos)
+      (A[AGR=[NUM='p']] profesionales))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        esos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] compromisos))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] subsidio))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] carácter)
+    (A[AGR=[GEN='m', NUM='s']] obligatorio)))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] sanciones)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      comporta)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] incumplimiento))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] sindicatos))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        otra)
+      (N[AGR=[NUM='s', PER=3]] parte))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] patronal))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      contempla)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] creación))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] reinserción)
+      (A[AGR=[NUM='s']] laboral))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] ampliación)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] periodo))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] subsidio)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (A[AGR=[NUM='s']] menor)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] coste)))
+(S[]
+  (PP[]
+    (PR[] sobre)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        otros)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] países))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] móvil))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        otros)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] países)
+      (A[AGR=[GEN='m', NUM='p']] europeos))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] comisión))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        unas)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] jornadas))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr']
+      radio))
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] bucle)
+      (A[AGR=[NUM='s']] local))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] progreso)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] dirección))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[NUM='s', PER=3]] modelo))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] estado)))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='tr']
+      cambio)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] operadores))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] red)))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] inversiones)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      esta)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] situación)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] competencia)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        otras)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] empresas))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      mostró)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] preocupación)))
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (A[AGR=[GEN='f', NUM='s']] falta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] de))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] telecomunicaciones))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] mercado)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] red))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] solución)
+    (A[AGR=[NUM='s']] total)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] empresa)
+    (A[AGR=[NUM='s']] dominante)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] red))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='tr'] como)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] inversión)
+      (A[AGR=[GEN='f', NUM='s']] atractiva))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      debe)))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      estas)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] inversiones)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      marcha))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] licencias))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] competencia)))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] concursos)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] grupo))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] telefonía)
+      (A[AGR=[NUM='s']] local))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      fija))
+  (PP[]
+    (PR[] hasta)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] domicilio))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] llegada))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] evolución)))
+(S[AGR=[NUM='p', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      tienen)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        estas)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] licencias))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] órgano)
+      (A[AGR=[GEN='m', NUM='s']] regulador))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] telecomunicaciones))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] competencia)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] información))))
+(S[]
+  (PP[]
+    (PR[] sobre)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] oferta))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] operadores)
+      (A[AGR=[NUM='p']] actuales))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      tantos)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] intereses)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] sigue)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] criterio)
+      (A[AGR=[GEN='m', NUM='s']] europeo))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] mercado)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] inversión)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] camino))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] crecimiento))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] embajador)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] comunidad))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] ciudadanos))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] innovación))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] empresarios))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] libro))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr']
+      medio))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] investigación))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] investigación)
+    (A[AGR=[GEN='f', NUM='s']] básica)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] comunidad))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] confederación)
+      (A[AGR=[NUM='s']] empresarial))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      abogó))
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] formación))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] unión)
+      (A[AGR=[GEN='f', NUM='s']] europea))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (A[AGR=[GEN='m', NUM='s']] buen)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] camino)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] entorno)
+    (A[AGR=[GEN='m', NUM='s']] propicio))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] innovación)
+      (A[AGR=[NUM='s']] empresarial))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      refirió))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (A[AGR=[NUM='s']] reciente)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] creación))))
+(S[]
+  (PP[]
+    (PR[] sobre)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] impulso))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] empresarios)
+      (A[AGR=[GEN='m', NUM='p']] madrileños))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] siglo)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] ciencia))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      ofreció)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] apoyo))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] consecución))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] embajador)
+    (A[AGR=[NUM='s']] estadounidense)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      contribuye))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] prosperidad)
+      (A[AGR=[GEN='f', NUM='s']] económica))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] campo))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        diversos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] acuerdos))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] libro)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] comité))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      destaca)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] importancia)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] investigación)
+      (A[AGR=[GEN='f', NUM='s']] básica))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] enseñanza))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      para)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] provisión)
+    (A[AGR=[GEN='f', NUM='s']] futura)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      defiende)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] financiación)
+      (A[AGR=[GEN='f', NUM='s']] pública)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] investigación)
+      (A[AGR=[GEN='f', NUM='s']] básica))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] i))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] documento)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      referencia)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] comunidad))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] retornos)
+    (A[AGR=[GEN='m', NUM='p']] económicos)))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] conocimiento)
+    (A[AGR=[GEN='m', NUM='s']] básico))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      tiende)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (A[AGR=[GEN='m', NUM='s']] largo)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] periodo)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] director)
+      (A[AGR=[NUM='s']] general))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] investigación)))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        diferentes)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] medidas))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] sector)
+    (A[AGR=[GEN='m', NUM='s']] productivo)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[NUM='s', PER=3]] portavoz)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[NUM='p', PER=3]] agentes)
+    (A[AGR=[NUM='p']] sociales))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      deben)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      cita))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        esta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] tarde))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      fundamentó)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='d'] tales)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] premisas))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] intereses)
+    (A[AGR=[NUM='p']] generales)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] unión)
+      (A[AGR=[GEN='f', NUM='s']] europea))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] opinión))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] hecho)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] reunión)))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[NUM='s', PER=3]] dirigente))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] interés)))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] máximos)
+      (A[AGR=[NUM='p']] representantes))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      muestra))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] talante))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr']
+      proceso))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] diálogo)
+      (A[AGR=[NUM='s']] social))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (A[AGR=[GEN='f', NUM='s']] política)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] de))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] empleo))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] reforma)
+    (A[AGR=[NUM='s']] laboral)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] acuerdos))))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[NUM='p', PER=3]] agentes)
+      (A[AGR=[NUM='p']] sociales))))
+(S[]
+  (PP[]
+    (PR[] sobre)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] empleo))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] crecimiento)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] inestabilidad)
+      (A[AGR=[NUM='s']] laboral))))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] contratos))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[NUM='s', PER=3]] portavoz)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] contratación)
+      (A[AGR=[GEN='f', NUM='s']] indefinida))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='tr'] como)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] remodelación)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] contrato)
+      (A[AGR=[NUM='s']] estable))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] relaciones)
+    (A[AGR=[NUM='p']] laborales)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] reforma)
+      (A[AGR=[NUM='s']] laboral))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] tasa)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] trabajo))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] república)
+      (A[AGR=[GEN='f', NUM='s']] checa))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] año))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] entidad)
+      (A[AGR=[NUM='s']] estatal))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] motivo)
+    (A[AGR=[NUM='s']] principal)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] costes))))
+(S[AGR=[GEN='m', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] estado))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      dispone)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] acciones))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno)
+    (A[AGR=[GEN='m', NUM='s']] checo)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] año))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] objetivos))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] pasado))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] valor))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] portafolio)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] privatización))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (A[AGR=[GEN='f', NUM='s']] nueva)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] dirección)))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr']
+      prestigio))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] institución))))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] empresas)
+      (A[AGR=[GEN='f', NUM='p']] austriacas))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] año)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        todos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] los))))
+(S[]
+  (PP[]
+    (PR[] desde)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] director)
+      (A[AGR=[NUM='s']] general))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] dirección))))
+(S[AGR=[NUM='s', PER=1, TENSE='i']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='i'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='i'], MOOD='i', SUBCAT='tr'] tenía)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] plantilla))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (A[AGR=[NUM='s']] presente)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] año))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[NUM='s', PER=3]] filial))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      otros)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] bancos)
+    (A[AGR=[GEN='m', NUM='p']] checos)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] reducción))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] caja)
+    (A[AGR=[GEN='f', NUM='s']] checa)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] plantilla)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] fin))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] banco)
+    (A[AGR=[NUM='s']] comercial)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco)
+      (A[AGR=[NUM='s']] belga))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] banco)))
+(S[AGR=[NUM='p', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      preparan)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] reducción))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (A[AGR=[GEN='m', NUM='p']] últimos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] dos))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] empresa)
+    (A[AGR=[NUM='s']] canadiense)))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      anunció)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] jueves))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] fusión)))
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] suiza))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      establece)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] cambio))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] empresa)
+      (A[AGR=[GEN='f', NUM='s']] helvética))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] acuerdo)))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[NUM='p', PER=3]] accionistas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      recibirán)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] pago))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] dividendo)
+    (A[AGR=[NUM='s']] especial)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i'] cada)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] acción))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] entrega))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] intercambio))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] acciones))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] fusión))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      creará)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] sociedad))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] beneficios)
+    (A[AGR=[GEN='m', NUM='p']] económicos)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] ahorro)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] acuerdo)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] apoyo)))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='intr'] uno))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] principales)
+      (A[AGR=[NUM='p']] accionistas))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] acciones))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] intercambio))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] comunicado))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] presidente)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      esta)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] fusión))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='di']
+      proporcionará)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (A[AGR=[NUM='s']] significante)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] valor))
+    (PPA[AGR=[GEN='m', NUM='p', PER=3]]
+      (AA[] a)
+      (NP[AGR=[GEN='m', NUM='p', PER=3]]
+        (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+          los)
+        (N[AGR=[NUM='p', PER=3]] accionistas)))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] operaciones)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (A[AGR=[GEN='f', NUM='s']] nueva)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] industria))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[NUM='s', PER=3]] parte))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] director)
+    (A[AGR=[GEN='m', NUM='s']] ejecutivo)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='f']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (A[AGR=[GEN='f', NUM='s']] nueva)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] compañía))
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      estará)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[NUM='p', PER=3]]
+      (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+      (N[AGR=[NUM='p', PER=3]] clientes))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (A[AGR=[NUM='p']] mayores)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] empresas))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] producción))))
+(S[AGR=[NUM='s', PER=2, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=2, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=2, TENSE='p'], MOOD='i', SUBCAT='intr']
+      personas))
+  (PP[]
+    (PR[] para)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] producción))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] sector))))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (A[AGR=[NUM='s']] fuerte)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] presencia))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] consumo)))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] estadísticas)
+    (A[AGR=[NUM='p']] anuales)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] década))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      registró)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] descenso))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] alemanes))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] toman)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] promedio))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      persona))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] año))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[NUM='p', PER=3]] mayores)
+    (A[AGR=[GEN='m', NUM='p']] bebedores)))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] escandinavos)))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] portugueses)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] año))))
+(S[AGR=[NUM='p', PER=3, TENSE='f']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr']
+      tratarán)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        diversos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] temas))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] comercialización)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] grano))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] fiscalía)
+    (A[AGR=[NUM='s']] general)))
+(S[AGR=[NUM='p', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      provocaron)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (A[AGR=[NUM='s']] grave)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] crisis))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='tr']
+      peligro)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] sistema)
+      (A[AGR=[GEN='m', NUM='s']] bancario))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (A[AGR=[GEN='f', NUM='s']] última)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] semana)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (A[AGR=[GEN='f', NUM='s']] calma)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] a)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] elecciones)
+      (A[AGR=[NUM='p']] municipales)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (A[AGR=[GEN='m', NUM='s']] próximo)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] domingo))))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='s']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      esta)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] crisis))
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr'] fue)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] consejo)
+      (A[AGR=[GEN='m', NUM='s']] supremo))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      amenaza))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] seguridad)
+      (A[AGR=[NUM='s']] nacional))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] tiempo))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (A[AGR=[GEN='m', NUM='s']] primer)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] ministro)))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] efectos)
+    (A[AGR=[GEN='m', NUM='p']] negativos)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] ámbito)
+      (A[AGR=[NUM='s']] exterior))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] fondo)
+    (A[AGR=[GEN='m', NUM='s']] monetario)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] acuerdo))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] relanzamiento)
+      (A[AGR=[GEN='m', NUM='s']] económico)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] país))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      quiebra))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] fondo)
+      (A[AGR=[NUM='s']] nacional))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (A[AGR=[GEN='m', NUM='s']] pánico)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] la)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] banco)
+      (A[AGR=[NUM='s']] comercial))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] estado))))
+(S[AGR=[NUM='p', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      colocaron)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] ahorros))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[NUM='s', PER=3]] policía))))
+(S[]
+  (PP[]
+    (PR[] sobre)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (A[AGR=[NUM='s']] inminente)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] quiebra))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        estas)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] llamadas))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] entrenador))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[NUM='s', PER=3]] filial)
+      (A[AGR=[NUM='s']] local))))
+(S[]
+  (PP[]
+    (PR[] hasta)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] fin))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (A[AGR=[GEN='m', NUM='s']] primer)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] ministro))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      garantizó)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] solidez))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] moneda)
+      (A[AGR=[NUM='s']] nacional))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] gente))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] calma)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] fiscalía)
+    (A[AGR=[NUM='s']] general)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (A[AGR=[GEN='f', NUM='s']] directiva)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] de)))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      administró)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] fondo)
+      (A[AGR=[NUM='s']] nacional))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] agujero)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] total))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      este)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] fondo)
+    (A[AGR=[GEN='m', NUM='s']] privado)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] población))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno)
+    (A[AGR=[GEN='m', NUM='s']] rumano)))
+(S[]
+  (PP[]
+    (PR[] sobre)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] fondos)
+      (A[AGR=[GEN='m', NUM='p']] mutuos))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] fraude)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (A[AGR=[GEN='f', NUM='s']] falsa)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] publicidad)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] embajador)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] país))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] reunión)))
+(S[AGR=[NUM='s', PER=3, TENSE='f']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr'] hará)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] reafirmación)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] necesidad))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (A[AGR=[NUM='p']] grandes)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] desafíos))))
+(S[AGR=[NUM='p', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      presentan))
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] globalización))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      manifestó))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] prensa)
+      (A[AGR=[GEN='f', NUM='s']] peruana))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] ecuador))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] doctor)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (A[AGR=[GEN='f', NUM='s']] próxima)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] semana)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] comunidad)
+      (A[AGR=[GEN='f', NUM='s']] andina))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        esa)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] cita))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] presidentes)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] anfitrión)))
+(S[]
+  (PP[]
+    (PR[] sobre)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] proceso))))
+(S[AGR=[NUM='p', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      impulsan)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] países))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] empresario)
+    (A[AGR=[GEN='m', NUM='s']] fiyiano)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] intentona)
+      (A[AGR=[NUM='s']] golpista))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] parlamento))))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[NUM='p', PER=3]] militares))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] crisis))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] acción)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] comunidad))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr'] dejó)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] recinto)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] legislativo))))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] grupo))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[NUM='p', PER=3]] golpistas)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] régimen)
+      (A[AGR=[NUM='s']] militar))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      encabeza)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[NUM='s', PER=3]] comandante))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] propuesta)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] exige)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] fin)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] ley)
+      (A[AGR=[NUM='s']] marcial))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] lunes)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno)
+      (A[AGR=[NUM='s']] civil))))
+(S[AGR=[GEN='m', NUM='p', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[NUM='p', PER=3]] golpistas))
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      afirman)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] pueblo))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] fuente)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      parte))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[NUM='p', PER=3]] militares))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] negociadores)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] mesa)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] tema)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[NUM='p', PER=3]] rehenes))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] liberación)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] régimen)))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='tr']
+      recibió)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] riendas)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] país))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] lunes)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno)
+    (A[AGR=[NUM='s']] militar)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (A[AGR=[GEN='f', NUM='s']] nueva)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] constitución)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] plazo))))
+(S[]
+  (PP[]
+    (PR[] hasta)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] fecha))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] demandas)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] constitución)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] gobierno)
+      (A[AGR=[GEN='m', NUM='s']] democrático))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] presidente))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] inmunidad)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[NUM='s', PER=3]] parte))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='tr']
+      principio)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] intentona)
+      (A[AGR=[NUM='s']] golpista))))
+(S[AGR=[NUM='p', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      están))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] espera))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[NUM='p', PER=3]] rehenes)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] democracia))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (A[AGR=[GEN='m', NUM='s']] primer)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] ministro)))
+(S[AGR=[NUM='s', PER=3, TENSE='f']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      entrevistará))
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] presidente)
+      (A[AGR=[NUM='s']] estadounidense))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        esta)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] noche))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[NUM='s', PER=3]] gobernante)
+      (A[AGR=[NUM='s']] estadounidense))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] avión)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[NUM='s', PER=3]] base)
+      (A[AGR=[GEN='f', NUM='s']] aérea))))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] aeropuerto)
+      (A[AGR=[NUM='s']] internacional))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (A[AGR=[GEN='m', NUM='s']] primer)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] ministro)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] palacio)))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] homólogo)
+      (A[AGR=[GEN='m', NUM='s']] portugués))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      preside)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+        este)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] semestre))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] oriente)
+      (A[AGR=[GEN='m', NUM='s']] medio))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] ejército)
+      (A[AGR=[NUM='s']] israelí))))
+(S[AGR=[NUM='s', PER=1, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=1, TENSE='p'], MOOD='i', SUBCAT='tr'] como)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] aumento)))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] reivindicaciones))))
+(S[]
+  (PP[]
+    (PR[] desde)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] martes))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] autoridad)
+      (A[AGR=[NUM='s']] nacional))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] debate)))
+(S[]
+  (PP[]
+    (PR[] por)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] aplazamiento))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] pasado))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] presidente)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] decisión)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] padrón)
+      (A[AGR=[NUM='s']] electoral))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] comicios))))
+(S[AGR=[NUM='p', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      buscan)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] presidencia))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (A[AGR=[NUM='s']] oficialista)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] francisco)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] conservador)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] alianza))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] elecciones)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] sondeos))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (A[AGR=[GEN='m', NUM='p']] últimos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] dos))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] revolución)
+      (A[AGR=[GEN='f', NUM='s']] democrática))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] busca)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] presidencia))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] intenciones))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] restantes)))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] campaña)))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      programa))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] naciones))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] observación)
+      (A[AGR=[NUM='s']] electoral))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[NUM='s', PER=3]] vietnamita)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] pasado)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (A[AGR=[NUM='s']] libre)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] voto))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] temas)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] observadores)
+      (A[AGR=[GEN='m', NUM='p']] extranjeros))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      los)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] observadores)))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] presiones)
+    (A[AGR=[GEN='f', NUM='p']] políticas)))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] zonas)
+      (A[AGR=[NUM='p']] rurales))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] para)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] elecciones))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr']
+      espera)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] llegada))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        diversos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] organismos)
+      (A[AGR=[NUM='p']] internacionales))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] campaña)
+      (A[AGR=[GEN='f', NUM='s']] política))))
+(S[AGR=[GEN='m', NUM='p', PER=3]]
+  (NP[AGR=[GEN='m', NUM='p', PER=3]]
+    (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      otros)
+    (N[AGR=[GEN='m', NUM='p', PER=3]] calificativos)))
+(S[]
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        muchos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] mexicanos))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[NUM='p', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] sus)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] programas))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      la)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] presidencia)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] oposición))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      residencia))
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] pinos))))
+(S[AGR=[NUM='s', PER=3, TENSE='p']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='tr'] logra)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        una)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] alianza)
+      (A[AGR=[GEN='f', NUM='s']] sólida))))
+(S[AGR=[GEN='f', NUM='s', PER=3]]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='d']
+      esta)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] semana)))
+(S[AGR=[NUM='s', PER=3, TENSE='f']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='tr'] hará)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        ninguna)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] alianza))))
+(S[]
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='p', PER=3]]
+      (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        los)
+      (A[AGR=[GEN='m', NUM='p']] últimos)
+      (N[AGR=[GEN='m', NUM='p', PER=3]] días))))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      el)
+    (A[AGR=[GEN='m', NUM='s']] mismo)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] fox)))
+(S[AGR=[NUM='s', PER=3, TENSE='f']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='s', PER=3, TENSE='f'], MOOD='i', SUBCAT='intr']
+      insistirá)))
+(S[AGR=[GEN='f', NUM='s', PER=3, TENSE='p']]
+  (NP[AGR=[GEN='f', NUM='s', PER=3]]
+    (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      una)
+    (N[AGR=[GEN='f', NUM='s', PER=3]] fuerza)
+    (A[AGR=[GEN='f', NUM='s']] opositora))
+  (VP[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='p'], MOOD='i', SUBCAT='intr']
+      para)))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] poder))))
+(S[AGR=[NUM='s', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='s', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      acusó))
+  (PP[]
+    (PR[] a)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        el)
+      (N[AGR=[NUM='s', PER=3]] líder))))
+(S[AGR=[NUM='p', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='intr']
+      participaron))
+  (PP[]
+    (PR[] en)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+        un)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] debate)
+      (A[AGR=[GEN='m', NUM='s']] televisivo))))
+(S[AGR=[GEN='f', NUM='p', PER=3]]
+  (NP[AGR=[GEN='f', NUM='p', PER=3]]
+    (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+      las)
+    (N[AGR=[GEN='f', NUM='p', PER=3]] encuestas)))
+(S[AGR=[GEN='m', NUM='s', PER=3]]
+  (NP[AGR=[GEN='m', NUM='s', PER=3]]
+    (D[AGR=[GEN='m', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='i']
+      un)
+    (A[AGR=[GEN='m', NUM='s']] segundo)
+    (N[AGR=[GEN='m', NUM='s', PER=3]] debate)))
+(S[]
+  (PP[]
+    (PR[] con)
+    (NP[AGR=[GEN='f', NUM='s', PER=3]]
+      (D[AGR=[GEN='f', NUM='s', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        la)
+      (N[AGR=[GEN='f', NUM='s', PER=3]] participación))))
+(S[]
+  (PP[]
+    (PR[] de)
+    (NP[AGR=[GEN='f', NUM='p', PER=3]]
+      (D[AGR=[GEN='f', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+        las)
+      (N[AGR=[GEN='f', NUM='p', PER=3]] encuestas))))
+(S[AGR=[NUM='p', PER=3, TENSE='s']]
+  (VP[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i']
+    (NEG[] no)
+    (V[AGR=[NUM='p', PER=3, TENSE='s'], MOOD='i', SUBCAT='di']
+      ocultaron)
+    (NP[AGR=[GEN='m', NUM='s', PER=3]]
+      (D[AGR=[NUM='s', PER=3], POSSNUM='n', POSSPER=3, TYPE='p'] su)
+      (N[AGR=[GEN='m', NUM='s', PER=3]] afecto))
+    (PPA[AGR=[GEN='m', NUM='p', PER=3]]
+      (AA[] a)
+      (NP[AGR=[GEN='m', NUM='p', PER=3]]
+        (D[AGR=[GEN='m', NUM='p', PER=3], POSSNUM=0, POSSPER=0, TYPE='a']
+          los)
+        (A[AGR=[NUM='p']] diferentes)
+        (N[AGR=[GEN='m', NUM='p', PER=3]] candidatos)))))

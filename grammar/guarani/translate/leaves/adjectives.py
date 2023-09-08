@@ -3,11 +3,8 @@ def translate_adjectives(tree,adjCSV):
     adj = tree['word']
     label = tree['label']
     agreement = label['AGR']
-    num = agreement['NUM']
-    try:
-        gen = agreement['GEN']
-    except:
-        gen = 'C'
+    gen = agreement.get('GEN') if agreement.get('GEN') else 'C'
+    num = agreement.get('NUM') if agreement.get('NUM') else 'N'
     found = False
     for row in adjCSV:
         if row[4].lower() == adj.lower() and row[9].lower() == gen.lower() and row[10].lower() == num.lower():

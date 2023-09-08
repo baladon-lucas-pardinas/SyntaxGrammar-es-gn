@@ -2,8 +2,8 @@ def translate_nouns(tree,nounCSV):
     nounsRes = []
     label = tree['label']
     agreement = label['AGR']
-    gen = agreement['GEN']
-    num = agreement['NUM']
+    gen = agreement.get('GEN') if agreement.get('GEN') else 'C'
+    num = agreement.get('NUM') if agreement.get('NUM') else 'N'
     found = False
 
     for row in nounCSV:

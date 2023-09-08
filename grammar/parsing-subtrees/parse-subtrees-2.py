@@ -31,7 +31,7 @@ def split_sentence(sentence: str, grammar: grammar.FeatureGrammar) -> list[str]:
 
     return sub_sentences
 
-# Function to perform the max_match operation (placeholder, implement later)
+# Function to find the longest substring that can be parsed and return its parse tree
 def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> Tree | None:
     words = sub_sentence.split()
     substrings = []
@@ -46,9 +46,11 @@ def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> Tree | No
     for substring in substrings:
         tree = feature_parser.parse_one(substring.split())
         if tree is not None:
-            return tree
+            start_index = sub_sentence.find(substring)
+            end_index = start_index + len(substring)
+            return (tree, start_index, end_index)  # Return a tuple containing the tree and the substring indices
 
-    return None  # Return None if no successful parse tree is found
+    return (None, None, None)  # Return None if no successful parse tree is found
 
 # Function to write trees to a txt file
 def write_trees_to_file(trees, output_file):
@@ -96,11 +98,11 @@ def main():
             start_index = sentence.find(sub_sentence, current_index)
             end_index = start_index + len(sub_sentence)
             current_index = end_index  # Update the current index for the next iteration
-            tree = max_tree(sub_sentence, feature_parser)
+            tree, sub_start_index, sub_end_index = max_tree(sub_sentence, feature_parser)
             if tree is not None:
                 # Append a tuple containing the tree, sentence index, and subsentence indices
                 # start_index is inclusive, end_index is exclusive
-                trees.append((tree, (sentence_index, start_index, end_index)))
+                trees.append((tree, (sentence_index, start_index + sub_start_index, start_index + sub_end_index)))
             else:
                 non_parsed_sentences.append(sub_sentence)
 
@@ -108,7 +110,7 @@ def main():
     write_trees_to_file([x[0] for x in trees], args.output)
 
     # Write sentence indices to a CSV file
-    with open(args.indices + '.csv', 'w', newline='') as file:
+    with open(args.indices, 'w', newline='') as file:
         csv_writer = csv.writer(file)
         csv_writer.writerows([x[1] for x in trees])
 
