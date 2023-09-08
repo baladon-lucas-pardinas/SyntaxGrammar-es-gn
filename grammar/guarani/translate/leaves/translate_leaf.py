@@ -5,6 +5,7 @@ from .pronouns import translate_pronouns
 from .adpositions import translate_adpositions
 from .determiners import translate_determiners
 from .adjectives import translate_adjectives
+from .connectors import translate_connectors
 
 def translate_leaf(spanish_tree, lexicon): 
     symbol = spanish_tree['type']
@@ -24,6 +25,8 @@ def translate_leaf(spanish_tree, lexicon):
         return translate_aa(spanish_tree, lexicon['AA'])
     if (symbol == 'A'):
         return translate_adjectives(spanish_tree, lexicon['A'])
+    if (symbol == 'C'):
+        return translate_connectors(spanish_tree, lexicon['C'])
     if (symbol == 'NEG'):
         return []
     raise Exception("Error: symbol not found in lexicon - " + symbol)
