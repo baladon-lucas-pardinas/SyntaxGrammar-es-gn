@@ -49,8 +49,8 @@ def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> list[tupl
         if tree is not None:
             start_index = sub_sentence.find(substring)
             end_index = start_index + len(substring)
-            result = [(tree, start_index, end_index)]  # Return a tuple containing the tree and the substring indices
-            result += max_tree(sub_sentence[:start_index], feature_parser)
+            result = max_tree(sub_sentence[:start_index], feature_parser)
+            result += [(tree, start_index, end_index)]  # Return a tuple containing the tree and the substring indices
             result += [(x, end_index + y, end_index + z) for (x, y, z) in max_tree(sub_sentence[end_index:], feature_parser)]
             return result
 
