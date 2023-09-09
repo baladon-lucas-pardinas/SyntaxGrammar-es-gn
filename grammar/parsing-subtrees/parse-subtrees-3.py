@@ -32,6 +32,7 @@ def split_sentence(sentence: str, grammar: grammar.FeatureGrammar) -> list[str]:
     return sub_sentences
 
 # Function to find the longest substring that can be parsed and return its parse tree
+# Recursively does the same for each remaining string (ie. left and right of the parsed substring)
 def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> list[tuple[Tree, int, int]]:
     words = sub_sentence.split()
     substrings = []

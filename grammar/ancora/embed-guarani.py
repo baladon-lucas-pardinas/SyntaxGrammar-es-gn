@@ -26,6 +26,11 @@ def build_indices_dict(indices_file: str) -> dict[int, list[tuple[int, int, int]
             start_index = int(row[1])
             end_index = int(row[2])
             indices_dict.setdefault(sentence_index, []).append((row_index, start_index, end_index))
+
+    # Sort the lists associated with each key by start_index
+    for key in indices_dict:
+        indices_dict[key].sort(key=lambda x: x[1])
+    
     return indices_dict
 
 def embed_guarani(sentence: str, indices: list[tuple[int, int, int]], translations: list[str]) -> str:
