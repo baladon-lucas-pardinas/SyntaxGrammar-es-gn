@@ -102,11 +102,11 @@ def main():
             start_index = sentence.find(sub_sentence, current_index)
             end_index = start_index + len(sub_sentence)
             current_index = end_index  # Update the current index for the next iteration
-            sub_trees, sub_start_index, sub_end_index = max_tree(sub_sentence, feature_parser)
+            sub_trees = max_tree(sub_sentence, feature_parser)
             if len(sub_trees) > 0:
                 # Append a tuple containing the tree, sentence index, and subsentence indices
                 # start_index is inclusive, end_index is exclusive
-                for tree in sub_trees:
+                for (tree, sub_start_index, sub_end_index) in sub_trees:
                     trees.append((tree, (sentence_index, start_index + sub_start_index, start_index + sub_end_index)))
             else:
                 non_parsed_sentences.append(sub_sentence)
