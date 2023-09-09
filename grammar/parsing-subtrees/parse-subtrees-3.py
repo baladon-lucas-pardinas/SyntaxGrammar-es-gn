@@ -32,12 +32,12 @@ def split_sentence(sentence: str, grammar: grammar.FeatureGrammar) -> list[str]:
     return sub_sentences
 
 # Function to find the longest substring that can be parsed and return its parse tree
-def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> Tree | None:
+def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> list[tuple[Tree, int, int]]:
     words = sub_sentence.split()
     substrings = []
 
     # Generate all possible substrings, excluding single-word substrings, in order of longest to shortest
-    for j in range(len(words), 1, -1):
+    for j in range(len(words), 0, -1):
         for i in range(len(words) - j + 1):
             substring = " ".join(words[i:i+j])
             substrings.append(substring)
@@ -48,9 +48,12 @@ def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> Tree | No
         if tree is not None:
             start_index = sub_sentence.find(substring)
             end_index = start_index + len(substring)
-            return (tree, start_index, end_index)  # Return a tuple containing the tree and the substring indices
+            result = [(tree, start_index, end_index)]  # Return a tuple containing the tree and the substring indices
+            result += max_tree(sub_sentence[:start_index], feature_parser)
+            result += [(x, end_index + y, end_index + z) for (x, y, z) in max_tree(sub_sentence[end_index:], feature_parser)]
+            return result
 
-    return (None, None, None)  # Return None if no successful parse tree is found
+    return []  # Return None if no successful parse tree is found
 
 # Function to write trees to a txt file
 def write_trees_to_file(trees, output_file):
