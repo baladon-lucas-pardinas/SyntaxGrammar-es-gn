@@ -87,10 +87,24 @@ def postprocess_pair(pair: list[str]) -> list[str]:
             line = line.replace(f" {punctuation}", punctuation)
         for punctuation in "¿¡":
             line = line.replace(f"{punctuation} ", punctuation)
+        
+        opening_quote = "QUOTE_OPEN"
+        closing_quote = "QUOTE_CLOSE"
+        single_opening_quote = "SINGLE_QUOTE_OPEN"
+        single_closing_quote = "SINGLE_QUOTE_CLOSE"
+
+        line = line.replace(f" {opening_quote} ", ' "').replace(f" {closing_quote} ", '" ')
+        line = line.replace(f" {single_opening_quote} ", " '").replace(f" {single_closing_quote} ", "' ")
+
         line = re.sub(r'\s+', ' ', line).strip()
         
         # Capitalize first character
-        line = line[0].upper() + line[1:]
+        if line[0] not in string.punctuation + "¿¡":
+            line = line[0].upper() + line[1:]
+        elif line[1] not in string.punctuation + "¿¡":
+            line = line[0] + line[1].upper() + line[2:]
+        else:
+            line = line[0] + line[1] + line[2].upper() + line[3:]
         return line
 
     def redo_contractions(line : str):
