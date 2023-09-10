@@ -12,6 +12,7 @@ VP[AGR=?a, MOOD=?m] -> NEG V[AGR=?a, MOOD=?m, SUBCAT='intr']
 VP[AGR=?a, MOOD=?m] -> NEG V[AGR=?a, MOOD=?m, SUBCAT='tr'] NP
 # NP expansion productions
 NP[AGR=?a] -> D[AGR=?a] N[AGR=?a] A[AGR=?a]
+NP[AGR=?a] -> D[AGR=?a] A[AGR=?a] N[AGR=?a]
 # ###################
 # Lexical Productions
 # ###################

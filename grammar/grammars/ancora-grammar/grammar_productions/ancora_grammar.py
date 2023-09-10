@@ -13,6 +13,7 @@ S -> VP
 S -> VP PP
 S -> NP
 S -> N
+S -> A
 S -> PP
 S -> CON
 # VP expansion productions
