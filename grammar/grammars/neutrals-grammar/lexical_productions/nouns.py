@@ -11,6 +11,10 @@ def write_noun_productions(grammar_file, noun_lexicon):
             word = shifted_row[1]
             gender = shifted_row[5]
             number = shifted_row[6]
+
+            # Skip nouns that are both gendered and numbered
+            if (number != "N" and gender != "C"):
+                continue
             
             agr_feats = "PER=3"
             if (gender != "C"):

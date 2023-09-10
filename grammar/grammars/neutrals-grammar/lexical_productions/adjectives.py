@@ -12,6 +12,10 @@ def write_adjective_productions(grammar_file, noun_lexicon):
             gender = shifted_row[6]
             number = shifted_row[7]
 
+            # Skip adjectives that are both gendered and numbered
+            if (number != "N" and gender != "C"):
+                continue
+
             num_feats = [f"NUM={number.lower()}"]
             if (number == "N"):
                 num_feats = [f"NUM={num.lower()}" for num in ["S", "P"]]
