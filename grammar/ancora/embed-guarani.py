@@ -93,8 +93,8 @@ def postprocess_pair(pair: list[str]) -> list[str]:
         single_opening_quote = "SINGLE_QUOTE_OPEN"
         single_closing_quote = "SINGLE_QUOTE_CLOSE"
 
-        line = line.replace(f" {opening_quote} ", ' "').replace(f" {closing_quote} ", '" ')
-        line = line.replace(f" {single_opening_quote} ", " '").replace(f" {single_closing_quote} ", "' ")
+        line = line.replace(f"{opening_quote} ", '"').replace(f" {closing_quote}", '"')
+        line = line.replace(f"{single_opening_quote} ", "'").replace(f" {single_closing_quote}", "'")
 
         line = re.sub(r'\s+', ' ', line).strip()
         
