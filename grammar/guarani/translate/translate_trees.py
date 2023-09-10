@@ -27,7 +27,7 @@ def main():
         'V' : verbs,
         'AA': adpositions,
         'PR': adpositions,
-        'C': connectors
+        'CON': connectors
     }
 
     args = parse_arguments()

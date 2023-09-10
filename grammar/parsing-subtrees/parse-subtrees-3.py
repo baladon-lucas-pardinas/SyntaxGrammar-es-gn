@@ -1,11 +1,23 @@
 import argparse
 import csv
 from nltk import grammar, FeatureChartParser, Tree
+import re
 
 # Function to read a text file into a string
 def read_text_file(file_path):
     with open(file_path, 'r') as file:
         return file.read()
+
+
+def find_last_substring_with_whitespace(sub_sentence, substring):
+    pattern = r'\b' + re.escape(substring) + r'(?=\s|$)'
+    matches = list(re.finditer(pattern, sub_sentence))
+    if matches:
+        last_match = matches[-1]
+        return last_match.start()
+    else:
+        return -1  # Return -1 when the substring is not found
+
 
 # Function to read sentences from a CSV file into a list
 def read_sentences_from_csv(file_path):
@@ -36,6 +48,7 @@ def split_sentence(sentence: str, grammar: grammar.FeatureGrammar) -> list[str]:
 def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> list[tuple[Tree, int, int]]:
     words = sub_sentence.split()
     substrings = []
+    result = []
 
     # Generate all possible substrings, excluding single-word substrings, in order of longest to shortest
     for j in range(len(words), 0, -1):
@@ -45,13 +58,19 @@ def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> list[tupl
 
     # Try parsing each substring and return the first successful tree
     for substring in substrings:
-        tree = feature_parser.parse_one(substring.split())
+        tree = None
+        if ' ' in substring:  # If the substring is not a single word
+            tree = feature_parser.parse_one(substring.split())
+        else:
+            tree = feature_parser.parse_one([substring])
         if tree is not None:
-            start_index = sub_sentence.find(substring)
+            start_index = find_last_substring_with_whitespace(sub_sentence, substring)
             end_index = start_index + len(substring)
-            result = max_tree(sub_sentence[:start_index], feature_parser)
+            if (start_index > 0):
+                result += max_tree(sub_sentence[:start_index], feature_parser)
             result += [(tree, start_index, end_index)]  # Return a tuple containing the tree and the substring indices
-            result += [(x, end_index + y, end_index + z) for (x, y, z) in max_tree(sub_sentence[end_index:], feature_parser)]
+            if (end_index < len(sub_sentence)):
+                result += [(x, end_index + y, end_index + z) for (x, y, z) in max_tree(sub_sentence[end_index:], feature_parser)]
             return result
 
     return []  # Return None if no successful parse tree is found
