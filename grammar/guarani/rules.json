@@ -42,6 +42,9 @@
     "NP -> D N A": [
         "NP[AGR='?a', NF='?n'] -> D[AGR='?a'] N[AGR='?a', NF='?n'] A[AGR='?a']"
     ],
+    "NP -> D A N": [
+        "NP[AGR='?a', NF='?n'] -> D[AGR='?a'] N[AGR='?a', NF='?n'] A[AGR='?a']"
+    ],
     "PP -> PR NP": [
         "PP -> NP[AGR='?a', NF='?n'] PR[AGR='?a', U='U', S='S', NF='?n']",
         "PP -> NP[AGR='?a', NF='?n'] PR[AGR='?a', U='U', S='0', NF='?n']",

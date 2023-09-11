@@ -34,11 +34,11 @@ def split_sentence(sentence: str, grammar: grammar.FeatureGrammar) -> list[str]:
         if word in grammar._lexical_index:  # Check if the word is known in the grammar
             current_sub_sentence.append(word)
         else:
-            if  len(current_sub_sentence) > 1:  # Append current sub_sentence if at least 2 words
+            if  len(current_sub_sentence) > 0:  # Append current sub_sentence if not empty
                 sub_sentences.append(" ".join(current_sub_sentence))
             current_sub_sentence = []
 
-    if len(current_sub_sentence) > 1:  # Append the last sub_sentence if at least 2 words
+    if len(current_sub_sentence) > 0:  # Append the last sub_sentence if not empty
         sub_sentences.append(" ".join(current_sub_sentence))
 
     return sub_sentences

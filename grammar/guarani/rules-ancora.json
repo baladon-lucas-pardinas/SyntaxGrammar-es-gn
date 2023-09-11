@@ -35,6 +35,9 @@
     "S -> CON": [
         "S -> CON"
     ],
+    "S -> A": [
+        "S -> A"
+    ],
     "VP -> V": [
         "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p']"
     ],

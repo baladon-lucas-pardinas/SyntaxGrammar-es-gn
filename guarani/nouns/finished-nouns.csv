@@ -3244,7 +3244,6 @@ kangy,kangy,N,C,0,S,4,N,flaqueza,flaqueza,N,C,F,S
 kangykuéra,kangy,N,C,0,P,4,N,flaquezas,flaqueza,N,C,F,P
 kangy,kangy,N,C,0,S,4,N,depresión,depresión,N,C,F,S
 kangykuéra,kangy,N,C,0,P,4,N,depresiones,depresión,N,C,F,P
-kangy,kangy,N,C,0,S,4,N,k,k,N,C,F,S
 kaninde,kaninde,N,C,0,S,4,N,guacamayo,guacamayo,N,C,M,S
 kanindekuéra,kaninde,N,C,0,P,4,N,guacamayos,guacamayo,N,C,M,P
 kanóa,kanóa,N,C,0,S,4,N,bote,bote,N,C,M,S
@@ -7513,8 +7512,6 @@ syva,syva,N,C,0,S,4,O,frente,frente,N,C,C,S
 syvakuéra,syva,N,C,0,P,4,O,frentes,frente,N,C,C,P
 syva,syva,N,C,0,S,4,O,ceño,ceño,N,C,M,S
 syvakuéra,syva,N,C,0,P,4,O,ceños,ceño,N,C,M,P
-syva,syva,N,C,0,S,4,O,s,s,N,C,F,S
-syva,syva,N,C,0,N,4,O,s,segundo,N,C,M,N
 sái,sái,N,C,0,S,4,O,falda,falda,N,C,F,S
 sáikuéra,sái,N,C,0,P,4,O,faldas,falda,N,C,F,P
 sái,sái,N,C,0,S,4,O,pollera,pollero,N,C,F,S
@@ -8106,7 +8103,6 @@ ta'ã,ta'ã,N,C,0,S,4,N,medida,medida,N,C,F,S
 ta'ãnguéra,ta'ã,N,C,0,P,4,N,medidas,medida,N,C,F,P
 ta'ãha,ta'ãha,N,C,0,S,4,N,medida,medida,N,C,F,S
 ta'ãhakuéra,ta'ãha,N,C,0,P,4,N,medidas,medida,N,C,F,P
-ta'ãha,ta'ãha,N,C,0,N,4,N,m,metro,N,C,M,N
 ta'ãha,ta'ãha,N,C,0,S,4,N,metro,metro,N,C,M,S
 ta'ãhakuéra,ta'ãha,N,C,0,P,4,N,metros,metro,N,C,M,P
 ta'ýra,ta'ýra,N,C,0,S,4,O,hija,hijo,N,C,F,S
