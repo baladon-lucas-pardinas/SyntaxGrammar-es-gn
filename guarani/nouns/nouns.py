@@ -59,7 +59,7 @@ def write_to_csv(filepath, rows):
 def write_nouns(nouns):
     final = []
     for line in nouns:
-        especialTercera = 6
+        especialTercera = 2
         if line[6] == 'P':
             noun = plural(line[0])
             number = 'P'

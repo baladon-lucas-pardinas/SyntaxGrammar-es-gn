@@ -29,11 +29,13 @@ def translate_determiners(tree,detCSV):
     if not found:
         dets.append((tree['word'],{'AGR':{'NAS':nasal_spanish(tree['word']), 'INC':'I'}}))
         dets.append((tree['word'],{'AGR':{'NAS':nasal_spanish(tree['word']), 'INC':'E'}}))
+        dets.append((tree['word'],{'AGR':{'INC':'I'}}))
+        dets.append((tree['word'],{'AGR':{'INC':'E'}}))
     return dets
 
 def nasal_spanish(verb):
-    nasal = False
+    nasal = 'O'
     nasals = ['m', 'n', 'ñ', 'mb', 'nd', 'ng', 'nt']
     if any(nas in verb for nas in nasals):
-        nasal = True 
+        nasal = 'N' 
     return nasal

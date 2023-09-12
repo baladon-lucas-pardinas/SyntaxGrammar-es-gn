@@ -23,8 +23,8 @@ def final_nasal(noun):
         return 'O'
     
 def nasal_spanish(verb):
-    nasal = False
+    nasal = 'O'
     nasals = ['m', 'n', 'ñ', 'mb', 'nd', 'ng', 'nt']
     if any(nas in verb for nas in nasals):
-        nasal = True 
+        nasal = 'N' 
     return nasal

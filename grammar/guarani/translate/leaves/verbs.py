@@ -141,10 +141,10 @@ def negate_irregular(row):
     return negated
 
 def nasal(verb):
-    nasal = False
+    nasal = 'O'
     nasals = ['ã', 'ẽ', 'ĩ', 'õ', 'ũ', 'ỹ','g̃', 'm', 'n', 'ñ', 'mb', 'nd', 'ng', 'nt']
     if any(nas in verb for nas in nasals):
-        nasal = True 
+        nasal = 'N' 
     return nasal
 
 def special_verb(verb):
