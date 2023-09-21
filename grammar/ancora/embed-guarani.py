@@ -82,10 +82,10 @@ def postprocess_pair(pair: list[str]) -> list[str]:
         return sentence
 
     def join_punctuation(line : str):
-        punctuations = string.punctuation
-        for punctuation in punctuations:
+
+        for punctuation in "!%),.:;?]}":
             line = line.replace(f" {punctuation}", punctuation)
-        for punctuation in "¿¡":
+        for punctuation in "¿¡([{~":
             line = line.replace(f"{punctuation} ", punctuation)
         
         opening_quote = "QUOTE_OPEN"
