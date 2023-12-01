@@ -50,7 +50,7 @@ def max_tree(sub_sentence: str, feature_parser: FeatureChartParser) -> list[tupl
     substrings = []
     result = []
 
-    # Generate all possible substrings, excluding single-word substrings, in order of longest to shortest
+    # Generate all possible substrings, including single-word substrings, in order of longest to shortest
     for j in range(len(words), 0, -1):
         for i in range(len(words) - j + 1):
             substring = " ".join(words[i:i+j])
