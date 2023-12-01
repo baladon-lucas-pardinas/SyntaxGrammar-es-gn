@@ -14,6 +14,6 @@ def parse_arguments():
     # parser.add_argument('-s', '--adpositions', type=str, help='Path to the preposition lexicon')
     # parser.add_argument('-o', '--output', type=str, default='output.txt', help='Path to the output file')
     parser.add_argument('-c', '--config', type=str, default='config.yaml', help='Path to the config file')
-    parser.add_argument('-s', '--subject', type=str, default='np', help='Subject type (np or pronoun)')
+    # parser.add_argument('-s', '--subject', type=str, default='np', help='Subject type (np or pronoun)')
 
     return parser.parse_args()
