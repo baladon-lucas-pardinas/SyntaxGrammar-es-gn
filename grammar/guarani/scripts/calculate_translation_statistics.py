@@ -2,6 +2,7 @@
 
 import csv
 import argparse
+import string
 
 def count_tokens(csv_file):
     total_tokens_spanish = 0
@@ -50,8 +51,8 @@ def calculate_vocabulary_size(csv_file):
             if len(row) > 0:
                 sentence_spanish = row[0]
                 sentence_guarani = row[1]
-                words_spanish = sentence_spanish.lower().replace('.', '').split()
-                words_guarani = sentence_guarani.lower().replace('.', '').split()
+                words_spanish = sentence_spanish.lower().translate(str.maketrans('', '', string.punctuation + "¿¡")).split()
+                words_guarani = sentence_guarani.lower().translate(str.maketrans('', '', string.punctuation + "¿¡")).split()
                 vocabulary_spanish.update(words_spanish)
                 vocabulary_guarani.update(words_guarani)
 
