@@ -29,6 +29,8 @@ def main():
         base_grammar_string = pronoun_grammar_string
     elif args.subject == 'adj':
         base_grammar_string = adj_grammar_string
+    elif args.subject == 'all':
+        base_grammar_string = all_grammar_string
 
     with open(output_file, 'w') as grammar_file:
         grammar_file.write(base_grammar_string)
@@ -44,8 +46,6 @@ def main():
             write_adposition_productions(grammar_file, config['adpositions'])
         if 'adjectives' in config:
             write_adjective_productions(grammar_file, config['adjectives'])
-        elif args.subject == 'all':
-            base_grammar_string = all_grammar_string
 
     remove_duplicates(output_file)
 
