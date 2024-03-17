@@ -12,6 +12,7 @@ from .utils.read_transitivities import read_transitivities
 from .grammar_productions.np_subject import grammar as np_grammar_string
 from .grammar_productions.pronoun_subject import grammar as pronoun_grammar_string
 from .grammar_productions.adj_subject import grammar as adj_grammar_string
+from .grammar_productions.all_subject import grammar as all_grammar_string
 from .utils.remove_duplicates import remove_duplicates
 
 def main():
@@ -43,6 +44,8 @@ def main():
             write_adposition_productions(grammar_file, config['adpositions'])
         if 'adjectives' in config:
             write_adjective_productions(grammar_file, config['adjectives'])
+        elif args.subject == 'all':
+            base_grammar_string = all_grammar_string
 
     remove_duplicates(output_file)
 
