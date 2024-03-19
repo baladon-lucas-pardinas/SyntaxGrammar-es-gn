@@ -55,10 +55,35 @@ Navigate to `grammar/guarani`, then run:
 
 ## Usage Instructions - Translating an existing monolingual corpus (Ancora)
 
+### 1. Extract Sentences from Ancora
+
+Extract sentences from the Ancora corpus, performing minor preprocessing to prepare them for parsing and translation. This step converts the corpus from a text file into a more manageable CSV format.
+
+Navigate to `grammar/ancora`, then run:
+
 `python ../parsing-subtrees/extract-ancora-sentences.py ../../ancora/ancora-sentences/ancora_all.txt extracted-3.csv`
+
+### 2. Parse Subsentences
+
+Parse subsentences from the extracted sentences using a predefined feature grammar. This step identifies possible syntax trees within each sentence and isolates subsentences that cannot be parsed for further analysis &mdash; the approach taken here is described in the associated paper. The program then stores the syntax trees obtained, the indices for each tree (meaning what sentence it belongs to, and the specific initial and final positions within that sentence), and the subsentences that could not be parsed.
+
+Navigate to `grammar/ancora/v9`, then run:
 
 `python ../../parsing-subtrees/parse-subtrees-3.py --grammar feature-grammar.txt --input ../extracted-3.csv --output trees.txt --indices indices.csv --nonparsed unparsed.txt`
 
+* Make sure you have the feature grammar located in the current directory. This grammar is a more forgiving version of the one used for synthetic corpora generation, as we're working under the assumption that the monolingual corpus is gramatically correct.
+
+### 3. Translate Parsed Trees
+
+Translate the parsed syntax trees from Spanish to Guarani, applying syntactic transfer rules. This step utilizes a custom unification algorithm, generating translated sentence pairs and tracking the original sentence indices.
+
 `python -m translate.translate_ancora ../ancora/v9/trees.txt rules-ancora.json -o ../ancora/v9/translations.csv --indices ../ancora/v9/indices.csv > ../ancora/v9/untranslated.csv`
 
+* The indices for the successfully translated pairs will be stored in <indices-filename>_out.csv, in the original indices file's directory.
+
+4. Embed Translations into Original Sentences
+
+Finally, embed the translated Guarani subsentences back into their original positions within the monolingual corpus' sentences. This final step integrates the translations to produce a partially translated corpus, akin to a sort of articial code-switching scenario.
+
 `python embed-guarani.py --indices v9/indices_out.csv --extracted extracted-3.csv --translations v9/translations.csv --output v9/output.csv`
+
