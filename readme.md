@@ -77,13 +77,17 @@ Navigate to `grammar/ancora/v9`, then run:
 
 Translate the parsed syntax trees from Spanish to Guarani, applying syntactic transfer rules. This step utilizes a custom unification algorithm, generating translated sentence pairs and tracking the original sentence indices.
 
+Navigate to `grammar/guarani`, then run:
+
 `python -m translate.translate_ancora ../ancora/v9/trees.txt rules-ancora.json -o ../ancora/v9/translations.csv --indices ../ancora/v9/indices.csv > ../ancora/v9/untranslated.csv`
 
 * The indices for the successfully translated pairs will be stored in <indices-filename>_out.csv, in the original indices file's directory.
 
-4. Embed Translations into Original Sentences
+### 4. Embed Translations into Original Sentences
 
 Finally, embed the translated Guarani subsentences back into their original positions within the monolingual corpus' sentences. This final step integrates the translations to produce a partially translated corpus, akin to a sort of articial code-switching scenario.
+
+Navigate to `grammar/ancora`, then run:
 
 `python embed-guarani.py --indices v9/indices_out.csv --extracted extracted-3.csv --translations v9/translations.csv --output v9/output.csv`
 
