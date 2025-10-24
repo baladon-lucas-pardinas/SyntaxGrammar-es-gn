@@ -158,7 +158,7 @@ def futuro(line):
     else:
         line = presente(line)
     if pos:
-        verb = line[0]+'t'
+        verb = line[0]+'ta'
         line = [verb, line[1], 'V','I','F']+line[5:]
     return line, pos
        
