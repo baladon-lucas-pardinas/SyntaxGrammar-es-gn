@@ -137,11 +137,22 @@ def count_usted_in_guarani(guarani_text):
     return len(matches)
 
 
-def has_usted_in_guarani(guarani_text):
-    """Check if Guarani text contains 'Usted' (case-insensitive)."""
+def has_usted_in_guarani(guarani_text, include_ustedes=False):
+    """
+    Check if Guarani text contains 'Usted' (case-insensitive).
+
+    Args:
+        guarani_text: Text to check
+        include_ustedes: If True, also check for 'ustedes'
+    """
     # Use extract_words to get words, then check for 'usted'
     words = extract_words(guarani_text)
-    return any(word.lower() == "usted" for word in words)
+    words_lower = [word.lower() for word in words]
+
+    if include_ustedes:
+        return any(word in ["usted", "ustedes"] for word in words_lower)
+    else:
+        return any(word == "usted" for word in words_lower)
 
 
 def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
@@ -289,7 +300,9 @@ def fix_csv(csv_path, exclude_spanish_words=False):
     print("Done!")
 
 
-def find_usted_sentences(csv_path, output_path=None, remove_from_original=False):
+def find_usted_sentences(
+    csv_path, output_path=None, remove_from_original=False, include_ustedes=False
+):
     """
     Find all sentences with 'Usted' in the Guarani translation.
 
@@ -297,6 +310,7 @@ def find_usted_sentences(csv_path, output_path=None, remove_from_original=False)
         csv_path: Path to the input CSV file
         output_path: Optional path for output CSV (defaults to <input>_usted.csv)
         remove_from_original: If True, remove sentences with Usted from the original file
+        include_ustedes: If True, also find sentences with 'ustedes'
     """
     csv_path = Path(csv_path)
 
@@ -308,7 +322,8 @@ def find_usted_sentences(csv_path, output_path=None, remove_from_original=False)
     print(f"Reading translations from: {csv_path}")
     rows = read_translation_csv(csv_path)
 
-    print("Searching for 'Usted' in Guarani translations...")
+    search_term = "'Usted'" if not include_ustedes else "'Usted' or 'Ustedes'"
+    print(f"Searching for {search_term} in Guarani translations...")
 
     usted_sentences = []
     clean_rows = []
@@ -320,7 +335,7 @@ def find_usted_sentences(csv_path, output_path=None, remove_from_original=False)
 
         guarani_text = row[1]
 
-        if has_usted_in_guarani(guarani_text):
+        if has_usted_in_guarani(guarani_text, include_ustedes):
             usted_sentences.append(
                 {"index": idx, "spanish": row[0], "guarani": guarani_text}
             )
@@ -336,12 +351,13 @@ def find_usted_sentences(csv_path, output_path=None, remove_from_original=False)
         for item in usted_sentences:
             writer.writerow([item["index"], item["guarani"]])
 
-    print(f"\nFound {len(usted_sentences)} sentences with 'Usted' in Guarani")
+    found_term = "'Usted'" if not include_ustedes else "'Usted'/'Ustedes'"
+    print(f"\nFound {len(usted_sentences)} sentences with {found_term} in Guarani")
     print(f"Results saved to: {output_path}")
 
     # Remove sentences with Usted from original file if requested
     if remove_from_original:
-        print("\nRemoving sentences with 'Usted' from original file...")
+        print(f"\nRemoving sentences with {found_term} from original file...")
         print(f"Original sentence count: {len(rows)}")
         print(f"Clean sentence count: {len(clean_rows)}")
         print(f"Removed: {len(usted_sentences)} sentences")
@@ -424,6 +440,12 @@ Examples:
   
   # Remove sentences with 'Usted' from the original file
   python postprocess_translations.py find-usted translations/total.csv --remove
+  
+  # Also include 'Ustedes' (plural)
+  python postprocess_translations.py find-usted translations/total.csv --include-ustedes
+  
+  # Remove both 'Usted' and 'Ustedes'
+  python postprocess_translations.py find-usted translations/total.csv --remove --include-ustedes
         """,
     )
 
@@ -437,6 +459,12 @@ Examples:
         "--remove",
         action="store_true",
         help="Remove sentences with 'Usted' from the original file (overwrites original file)",
+    )
+
+    find_usted_parser.add_argument(
+        "--include-ustedes",
+        action="store_true",
+        help="Also find/remove sentences with 'Ustedes' (plural form)",
     )
 
     # Parse arguments
@@ -455,7 +483,9 @@ Examples:
             run_diagnostics(args.csv_file, args.output_dir, args.exclude_spanish_words)
 
     elif args.command == "find-usted":
-        find_usted_sentences(args.csv_file, args.output, args.remove)
+        find_usted_sentences(
+            args.csv_file, args.output, args.remove, args.include_ustedes
+        )
 
 
 if __name__ == "__main__":
