@@ -130,11 +130,19 @@ def fix_words_ending_in_t(text, spanish_text=None, exclude_spanish_words=False):
     return "".join(result_parts)
 
 
+def count_polite_pronouns_in_guarani(guarani_text):
+    """Count occurrences of untranslated 'usted' and 'ustedes' in Guarani text."""
+    words = extract_words(guarani_text)
+    words_lower = [word.lower() for word in words]
+    usted_count = sum(word == "usted" for word in words_lower)
+    ustedes_count = sum(word == "ustedes" for word in words_lower)
+    return usted_count, ustedes_count
+
+
 def count_usted_in_guarani(guarani_text):
-    """Count occurrences of 'Usted' (case-insensitive) in Guarani text."""
-    # Match 'Usted' as a whole word
-    matches = re.findall(r"\busted\b", guarani_text, re.IGNORECASE)
-    return len(matches)
+    """Backward-compatible count of 'usted' occurrences."""
+    usted_count, _ = count_polite_pronouns_in_guarani(guarani_text)
+    return usted_count
 
 
 def has_usted_in_guarani(guarani_text, include_ustedes=False):
@@ -176,6 +184,7 @@ def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
     # Collect statistics
     all_words_ending_in_t = []
     total_usted_count = 0
+    total_ustedes_count = 0
 
     for row in rows:
         if len(row) < 2:
@@ -193,9 +202,10 @@ def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
 
         all_words_ending_in_t.extend(words_with_t)
 
-        # Count Usted
-        usted_count = count_usted_in_guarani(guarani_text)
+        # Count untranslated polite pronouns
+        usted_count, ustedes_count = count_polite_pronouns_in_guarani(guarani_text)
         total_usted_count += usted_count
+        total_ustedes_count += ustedes_count
 
     # Get unique words ending in T
     unique_words_ending_in_t = sorted(
@@ -215,8 +225,10 @@ def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
     print(f"Total occurrences: {len(all_words_ending_in_t)}")
     print(f"Unique words: {len(unique_words_ending_in_t)}")
 
-    print("\n--- 'Usted' in Guarani translations ---")
-    print(f"Total occurrences: {total_usted_count}")
+    print("\n--- Untranslated polite pronouns in Guarani translations ---")
+    print(f"'Usted' occurrences: {total_usted_count}")
+    print(f"'Ustedes' occurrences: {total_ustedes_count}")
+    print(f"Total occurrences: {total_usted_count + total_ustedes_count}")
 
     # Save unique words ending in T to CSV
     output_csv = output_dir / f"{csv_path.stem}_words_ending_in_t.csv"
@@ -245,6 +257,7 @@ def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
         "words_ending_in_t_total": len(all_words_ending_in_t),
         "words_ending_in_t_unique": len(unique_words_ending_in_t),
         "usted_count": total_usted_count,
+        "ustedes_count": total_ustedes_count,
         "output_csv": output_csv,
     }
 
@@ -346,10 +359,10 @@ def find_usted_sentences(
     print(f"\nWriting results to: {output_path}")
     with open(output_path, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["Index", "Guarani_Sentence"])
+        writer.writerow(["Index", "Spanish_Sentence", "Guarani_Sentence"])
 
         for item in usted_sentences:
-            writer.writerow([item["index"], item["guarani"]])
+            writer.writerow([item["index"], item["spanish"], item["guarani"]])
 
     found_term = "'Usted'" if not include_ustedes else "'Usted'/'Ustedes'"
     print(f"\nFound {len(usted_sentences)} sentences with {found_term} in Guarani")

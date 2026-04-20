@@ -1,15 +1,19 @@
 class UnificationFailed(Exception):
     pass
 
+
 # Should return None if unification fails
 # Restriction: user cannot try to unify on nested features, only top level features.
 def unify(left_features, right_features, feat):
 
     # Due to the restriction we can do the following:
+    if feat not in left_features or feat not in right_features:
+        return None
+
     left_dict = left_features[feat]
     right_dict = right_features[feat]
 
-    if (isinstance(left_dict, str) and isinstance(right_dict, str)):
+    if isinstance(left_dict, str) and isinstance(right_dict, str):
         if left_dict == right_dict:
             return {feat: left_dict}
         else:
@@ -21,15 +25,16 @@ def unify(left_features, right_features, feat):
         except UnificationFailed as e:
             return None
     else:
-        return None 
+        return None
+
 
 def nested_unify(left, right):
     result = {}
     for key in left.keys():
         if key in right:
-            if (left[key] is dict and right[key] is dict):
-                result[key] =  nested_unify(left[key], right[key])
-            elif (left[key] == right[key]):
+            if isinstance(left[key], dict) and isinstance(right[key], dict):
+                result[key] = nested_unify(left[key], right[key])
+            elif left[key] == right[key]:
                 result[key] = left[key]
             else:
                 raise UnificationFailed("Unification failed")
