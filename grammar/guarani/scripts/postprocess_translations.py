@@ -2,27 +2,22 @@
 """
 Script to diagnose and postprocess Spanish-Guarani translation CSV files.
 
-Current diagnostics:
-1. Find Guarani words ending in 'T' (invalid in Guarani)
-2. Find occurrences of "Usted" in Guarani translations (should be translated)
+Commands:
+    fix-t       - Diagnose and fix words ending in 'T' (invalid in Guarani)
+    find-usted  - Find sentences with 'Usted' in Guarani translations
 
-Postprocessing:
-1. Fix words ending in 'T' by appending 'a' to make them end in 'ta'
+Examples:
+    # Run diagnostics on words ending in 't'
+    python postprocess_translations.py fix-t translations/total.csv
 
-Sample usage:
-    # Run diagnostics only
-    python postprocess_translations.py translations/total.csv
-    # Run diagnostics, excluding words present in Spanish
-    python postprocess_translations.py translations/total.csv --exclude-spanish-words
     # Fix words ending in 't' by appending 'a' (overwrites file)
-    python postprocess_translations.py translations/total.csv --fix
-    # Fix words, but only those not present in Spanish
-    python postprocess_translations.py translations/total.csv --fix --exclude-spanish-words
-    # Run diagnostics with custom output directory
-    python postprocess_translations.py translations/total.csv --output-dir output/
+    python postprocess_translations.py fix-t translations/total.csv --fix
 
-    Total occurrences: 65105
-Unique words: 6139
+    # Fix only words not present in Spanish
+    python postprocess_translations.py fix-t translations/total.csv --fix --exclude-spanish-words
+
+    # Find all sentences with 'Usted' in Guarani
+    python postprocess_translations.py find-usted translations/total.csv
 """
 
 import argparse
@@ -135,11 +130,37 @@ def fix_words_ending_in_t(text, spanish_text=None, exclude_spanish_words=False):
     return "".join(result_parts)
 
 
+def count_polite_pronouns_in_guarani(guarani_text):
+    """Count occurrences of untranslated 'usted' and 'ustedes' in Guarani text."""
+    words = extract_words(guarani_text)
+    words_lower = [word.lower() for word in words]
+    usted_count = sum(word == "usted" for word in words_lower)
+    ustedes_count = sum(word == "ustedes" for word in words_lower)
+    return usted_count, ustedes_count
+
+
 def count_usted_in_guarani(guarani_text):
-    """Count occurrences of 'Usted' (case-insensitive) in Guarani text."""
-    # Match 'Usted' as a whole word
-    matches = re.findall(r"\busted\b", guarani_text, re.IGNORECASE)
-    return len(matches)
+    """Backward-compatible count of 'usted' occurrences."""
+    usted_count, _ = count_polite_pronouns_in_guarani(guarani_text)
+    return usted_count
+
+
+def has_usted_in_guarani(guarani_text, include_ustedes=False):
+    """
+    Check if Guarani text contains 'Usted' (case-insensitive).
+
+    Args:
+        guarani_text: Text to check
+        include_ustedes: If True, also check for 'ustedes'
+    """
+    # Use extract_words to get words, then check for 'usted'
+    words = extract_words(guarani_text)
+    words_lower = [word.lower() for word in words]
+
+    if include_ustedes:
+        return any(word in ["usted", "ustedes"] for word in words_lower)
+    else:
+        return any(word == "usted" for word in words_lower)
 
 
 def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
@@ -163,6 +184,7 @@ def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
     # Collect statistics
     all_words_ending_in_t = []
     total_usted_count = 0
+    total_ustedes_count = 0
 
     for row in rows:
         if len(row) < 2:
@@ -180,9 +202,10 @@ def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
 
         all_words_ending_in_t.extend(words_with_t)
 
-        # Count Usted
-        usted_count = count_usted_in_guarani(guarani_text)
+        # Count untranslated polite pronouns
+        usted_count, ustedes_count = count_polite_pronouns_in_guarani(guarani_text)
         total_usted_count += usted_count
+        total_ustedes_count += ustedes_count
 
     # Get unique words ending in T
     unique_words_ending_in_t = sorted(
@@ -202,8 +225,10 @@ def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
     print(f"Total occurrences: {len(all_words_ending_in_t)}")
     print(f"Unique words: {len(unique_words_ending_in_t)}")
 
-    print("\n--- 'Usted' in Guarani translations ---")
-    print(f"Total occurrences: {total_usted_count}")
+    print("\n--- Untranslated polite pronouns in Guarani translations ---")
+    print(f"'Usted' occurrences: {total_usted_count}")
+    print(f"'Ustedes' occurrences: {total_ustedes_count}")
+    print(f"Total occurrences: {total_usted_count + total_ustedes_count}")
 
     # Save unique words ending in T to CSV
     output_csv = output_dir / f"{csv_path.stem}_words_ending_in_t.csv"
@@ -232,6 +257,7 @@ def run_diagnostics(csv_path, output_dir=None, exclude_spanish_words=False):
         "words_ending_in_t_total": len(all_words_ending_in_t),
         "words_ending_in_t_unique": len(unique_words_ending_in_t),
         "usted_count": total_usted_count,
+        "ustedes_count": total_ustedes_count,
         "output_csv": output_csv,
     }
 
@@ -287,55 +313,192 @@ def fix_csv(csv_path, exclude_spanish_words=False):
     print("Done!")
 
 
+def find_usted_sentences(
+    csv_path, output_path=None, remove_from_original=False, include_ustedes=False
+):
+    """
+    Find all sentences with 'Usted' in the Guarani translation.
+
+    Args:
+        csv_path: Path to the input CSV file
+        output_path: Optional path for output CSV (defaults to <input>_usted.csv)
+        remove_from_original: If True, remove sentences with Usted from the original file
+        include_ustedes: If True, also find sentences with 'ustedes'
+    """
+    csv_path = Path(csv_path)
+
+    if output_path is None:
+        output_path = csv_path.parent / f"{csv_path.stem}_usted.csv"
+    else:
+        output_path = Path(output_path)
+
+    print(f"Reading translations from: {csv_path}")
+    rows = read_translation_csv(csv_path)
+
+    search_term = "'Usted'" if not include_ustedes else "'Usted' or 'Ustedes'"
+    print(f"Searching for {search_term} in Guarani translations...")
+
+    usted_sentences = []
+    clean_rows = []
+
+    for idx, row in enumerate(rows):
+        if len(row) < 2:
+            clean_rows.append(row)
+            continue
+
+        guarani_text = row[1]
+
+        if has_usted_in_guarani(guarani_text, include_ustedes):
+            usted_sentences.append(
+                {"index": idx, "spanish": row[0], "guarani": guarani_text}
+            )
+        else:
+            clean_rows.append(row)
+
+    # Write results to CSV
+    print(f"\nWriting results to: {output_path}")
+    with open(output_path, "w", encoding="utf-8", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Index", "Spanish_Sentence", "Guarani_Sentence"])
+
+        for item in usted_sentences:
+            writer.writerow([item["index"], item["spanish"], item["guarani"]])
+
+    found_term = "'Usted'" if not include_ustedes else "'Usted'/'Ustedes'"
+    print(f"\nFound {len(usted_sentences)} sentences with {found_term} in Guarani")
+    print(f"Results saved to: {output_path}")
+
+    # Remove sentences with Usted from original file if requested
+    if remove_from_original:
+        print(f"\nRemoving sentences with {found_term} from original file...")
+        print(f"Original sentence count: {len(rows)}")
+        print(f"Clean sentence count: {len(clean_rows)}")
+        print(f"Removed: {len(usted_sentences)} sentences")
+
+        with open(csv_path, "w", encoding="utf-8", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerows(clean_rows)
+
+        print(f"Updated file saved to: {csv_path}")
+
+    print("Done!")
+
+    return usted_sentences
+
+
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(
         description="Diagnose and postprocess Spanish-Guarani translation CSV files.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+
+    subparsers = parser.add_subparsers(dest="command", help="Available commands")
+
+    # ========== fix-t command ==========
+    fix_t_parser = subparsers.add_parser(
+        "fix-t",
+        help='Diagnose and fix words ending in "t"',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
   # Run diagnostics only
-  python postprocess_translations.py translations/total.csv
+  python postprocess_translations.py fix-t translations/total.csv
   
   # Run diagnostics, excluding words present in Spanish
-  python postprocess_translations.py translations/total.csv --exclude-spanish-words
+  python postprocess_translations.py fix-t translations/total.csv --exclude-spanish-words
   
   # Fix words ending in 't' by appending 'a' (overwrites file)
-  python postprocess_translations.py translations/total.csv --fix
+  python postprocess_translations.py fix-t translations/total.csv --fix
   
   # Fix words, but only those not present in Spanish
-  python postprocess_translations.py translations/total.csv --fix --exclude-spanish-words
+  python postprocess_translations.py fix-t translations/total.csv --fix --exclude-spanish-words
   
   # Run diagnostics with custom output directory
-  python postprocess_translations.py translations/total.csv --output-dir output/
+  python postprocess_translations.py fix-t translations/total.csv --output-dir output/
         """,
     )
 
-    parser.add_argument("csv_file", help="Path to the CSV file to process")
+    fix_t_parser.add_argument("csv_file", help="Path to the CSV file to process")
 
-    parser.add_argument(
+    fix_t_parser.add_argument(
         "--output-dir",
         help="Directory for diagnostic output files (default: same as input file)",
     )
 
-    parser.add_argument(
+    fix_t_parser.add_argument(
         "--exclude-spanish-words",
         action="store_true",
         help="Only process words that are not present in the Spanish text of the same sentence",
     )
 
-    parser.add_argument(
+    fix_t_parser.add_argument(
         "--fix",
         action="store_true",
         help='Fix words ending in "t" by appending "a" to make them end in "ta" (overwrites original file)',
     )
 
+    # ========== find-usted command ==========
+    find_usted_parser = subparsers.add_parser(
+        "find-usted",
+        help='Find sentences with "Usted" in Guarani translations',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Find all sentences with 'Usted' in Guarani
+  python postprocess_translations.py find-usted translations/total.csv
+  
+  # Specify custom output path
+  python postprocess_translations.py find-usted translations/total.csv --output results/usted.csv
+  
+  # Remove sentences with 'Usted' from the original file
+  python postprocess_translations.py find-usted translations/total.csv --remove
+  
+  # Also include 'Ustedes' (plural)
+  python postprocess_translations.py find-usted translations/total.csv --include-ustedes
+  
+  # Remove both 'Usted' and 'Ustedes'
+  python postprocess_translations.py find-usted translations/total.csv --remove --include-ustedes
+        """,
+    )
+
+    find_usted_parser.add_argument("csv_file", help="Path to the CSV file to process")
+
+    find_usted_parser.add_argument(
+        "--output", help="Path for output CSV file (default: <input>_usted.csv)"
+    )
+
+    find_usted_parser.add_argument(
+        "--remove",
+        action="store_true",
+        help="Remove sentences with 'Usted' from the original file (overwrites original file)",
+    )
+
+    find_usted_parser.add_argument(
+        "--include-ustedes",
+        action="store_true",
+        help="Also find/remove sentences with 'Ustedes' (plural form)",
+    )
+
+    # Parse arguments
     args = parser.parse_args()
 
-    if args.fix:
-        fix_csv(args.csv_file, args.exclude_spanish_words)
-    else:
-        run_diagnostics(args.csv_file, args.output_dir, args.exclude_spanish_words)
+    # Show help if no command specified
+    if args.command is None:
+        parser.print_help()
+        return
+
+    # Execute the appropriate command
+    if args.command == "fix-t":
+        if args.fix:
+            fix_csv(args.csv_file, args.exclude_spanish_words)
+        else:
+            run_diagnostics(args.csv_file, args.output_dir, args.exclude_spanish_words)
+
+    elif args.command == "find-usted":
+        find_usted_sentences(
+            args.csv_file, args.output, args.remove, args.include_ustedes
+        )
 
 
 if __name__ == "__main__":

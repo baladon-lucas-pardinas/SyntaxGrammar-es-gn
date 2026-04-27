@@ -5,3 +5,5 @@ ancoralex-es-2.0.3/ancoralex-2.0.3/LLICENCIA.html
 ancoralex-es-2.0.3/ancoralex-2.0.3/README
 *.pyc
 *.lex.xml
+
+.DS_Store

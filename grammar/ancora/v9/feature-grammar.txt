@@ -14,6 +14,7 @@ S -> N
 S -> A
 S -> PP
 S -> CON
+S -> P
 # VP expansion productions
 VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m]
 VP[AGR=?a, MOOD=?m] -> V[AGR=?a, MOOD=?m] NP
@@ -29,6 +30,7 @@ PPA[AGR=?a] -> AA NP[AGR=?a]
 NP[AGR=?a] -> D[AGR=?a] N[AGR=?a]
 NP[AGR=?a] -> D[AGR=?a] N[AGR=?a] A[AGR=?a]
 NP[AGR=?a] -> D[AGR=?a] A[AGR=?a] N[AGR=?a]
+NP[AGR=?a] -> P[AGR=?a, CASE=?c]
 # Lexical Productions
 AA -> 'a'
 NEG -> 'no'
