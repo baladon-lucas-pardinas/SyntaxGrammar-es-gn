@@ -7,7 +7,7 @@ This project develops a rule-based machine translation system focused on transla
 
 ### Prerequisites
 - Python 3.9 or higher
-- Access to the project's repository containing grammar definitions, translation rules, and the necessary Python scripts.
+- A virtual environment is strongly recommended.
 
 ### Installation
 Clone the repository to your local machine:
@@ -18,8 +18,72 @@ Navigate to the project directory:
 
 `cd SyntaxGrammar-es-gn`
 
+Install the minimum dependencies required for the pipeline wrapper and the core grammar/translation tools:
 
-## Usage Instructions - Creating a new, synthetic parallel corpus
+`python -m pip install -r requirements.txt`
+
+## Quick Start
+
+The recommended way to run the project is through the repo-root wrapper CLI. It avoids manual directory hopping and writes outputs into `runs/` by default.
+
+### Synthetic Corpus Pipeline
+
+Run the full synthetic pipeline:
+
+`python scripts/run_pipeline.py synthetic --run-name demo-synthetic --subject all --candidate-count 500 --max-translations 1`
+
+Useful options:
+
+`--subject` chooses the feature grammar subject profile (`pronoun`, `np`, `adj`, `all`).
+
+`--candidate-count` controls how many CFG candidates are generated before feature-grammar validation.
+
+`--seed` makes generation reproducible.
+
+Outputs will be written to:
+
+`runs/synthetic/<run-name>/`
+
+### Ancora Pipeline
+
+Run the full Ancora pipeline using the default corpus and grammar version:
+
+`python scripts/run_pipeline.py ancora --run-name demo-ancora --grammar-version v9`
+
+Useful options:
+
+`--input` selects a different Ancora source file.
+
+`--grammar-version` selects the grammar directory under `grammar/ancora`.
+
+`--max-sentences` creates a small temporary input for a short test run.
+
+Outputs will be written to:
+
+`runs/ancora/<run-name>/`
+
+## Smoke Tests
+
+These smoke tests run the wrapper on small inputs and verify that the expected artifacts are produced.
+
+Run the synthetic smoke test:
+
+`python scripts/smoke_test_synthetic.py`
+
+Run the Ancora smoke test:
+
+`python scripts/smoke_test_ancora.py`
+
+Run both smoke tests:
+
+`python scripts/smoke_test_all.py`
+
+## Archived Manual Workflow
+
+The original step-by-step commands are preserved below for reference. The wrapper CLI above is the recommended interface for newcomers, but the manual commands remain useful for debugging and research workflows.
+
+
+## Archived Manual Workflow - Creating a new, synthetic parallel corpus
 
 ### 1. Create the Feature Grammar
 Generate a feature grammar based on the specified subject type. This is the first step in preparing the system for sentence generation or translation. Other configurations, such as input and output file paths, are defined in the config file.
@@ -53,7 +117,7 @@ Navigate to `grammar/guarani`, then run:
 
 * `<max-translations>` is the maximum number of translations per Spanish syntax tree, to accommodate multiple interpretations.
 
-## Usage Instructions - Translating an existing monolingual corpus (Ancora)
+## Archived Manual Workflow - Translating an existing monolingual corpus (Ancora)
 
 ### 1. Extract Sentences from Ancora
 

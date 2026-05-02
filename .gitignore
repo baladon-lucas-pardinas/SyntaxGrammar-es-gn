@@ -7,3 +7,5 @@ ancoralex-es-2.0.3/ancoralex-2.0.3/README
 *.lex.xml
 
 .DS_Store
+runs/
+.plans

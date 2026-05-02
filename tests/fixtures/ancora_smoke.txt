@@ -1,0 +1,4 @@
+# text = - Usted me toma por Herodes; guárdese su sucio dinero - contestó orgullosamente.
+# text = Lo cual que yo aprovecho para desearles a ustedes un feliz pelotazo.
+# text = - - Me las enseñó usted.
+# text = - - - Qué le parece a usted que hicieron allí arriba?
