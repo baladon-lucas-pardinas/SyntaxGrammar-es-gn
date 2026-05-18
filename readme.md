@@ -40,17 +40,21 @@ Useful options:
 
 `--candidate-count` controls how many CFG candidates are generated before feature-grammar validation.
 
+`--workers` runs weighted generation and translation in multiple worker processes and then merges the artifacts back into the same run directory.
+
 `--seed` makes generation reproducible.
 
 Outputs will be written to:
 
 `runs/synthetic/<run-name>/`
 
-### Ancora Pipeline
+### Corpus Pipeline
 
-Run the full Ancora pipeline using the default corpus and grammar version:
+Run the full Ancora-style corpus pipeline using the default corpus and grammar version:
 
 `python scripts/run_pipeline.py ancora --run-name demo-ancora --grammar-version v9`
+
+The `corpus` alias is equivalent to `ancora` and makes it explicit that any file containing `# text = ...` lines can be processed the same way.
 
 Useful options:
 
@@ -58,11 +62,25 @@ Useful options:
 
 `--grammar-version` selects the grammar directory under `grammar/ancora`.
 
+`--workers` splits the input corpus across multiple worker processes, then merges `extracted.csv`, `trees.txt`, `indices*.csv`, `translations.csv`, `output.csv`, and the diagnostic text files back into one run directory.
+
 `--max-sentences` creates a small temporary input for a short test run.
 
 Outputs will be written to:
 
 `runs/ancora/<run-name>/`
+
+### Formatting A Raw Corpus
+
+Convert a raw corpus such as `data/cereal.py` into the same `# text = ...` format expected by the corpus pipeline:
+
+`python scripts/run_pipeline.py format-corpus --input data/cereal.py --output data/cereal_formatted.txt`
+
+The formatter is streaming, so it can process large inputs without loading the whole file into memory.
+
+Run the corpus pipeline on the formatted output with multiple workers:
+
+`python scripts/run_pipeline.py corpus --input data/cereal_formatted.txt --grammar-version v10 --workers 8 --run-name cereal-v10`
 
 ### Adverb-Enabled Runs
 
@@ -99,6 +117,31 @@ Run the adverb smoke test:
 Run both smoke tests:
 
 `python scripts/smoke_test_all.py`
+
+## Slurm
+
+Two files are provided for CPU-only cluster runs:
+
+`slurm/submit_pipeline.sh`
+
+`slurm/run_pipeline.sbatch`
+
+Typical workflow on a remote server:
+
+1. Clone the repo.
+2. Create and activate a virtual environment.
+3. Install dependencies with `python -m pip install -r requirements.txt`.
+4. Run `./slurm/submit_pipeline.sh` and answer the prompts.
+
+The submit wrapper validates `PARTITION` and `QOS` using the same values as the example Slurm scripts, asks how many CPUs to request, and passes that same value through to `scripts/run_pipeline.py --workers ...` inside the job.
+
+Examples:
+
+`./slurm/submit_pipeline.sh synthetic`
+
+`./slurm/submit_pipeline.sh corpus`
+
+For raw corpora such as `data/cereal.py`, answer `y` when the wrapper asks whether it should format the input first. The job will run `format-corpus` before launching the main corpus pipeline.
 
 ## Archived Manual Workflow
 

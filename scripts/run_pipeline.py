@@ -7,6 +7,7 @@ import csv
 import shutil
 import subprocess
 import sys
+from concurrent.futures import ProcessPoolExecutor
 from datetime import datetime
 from pathlib import Path
 
@@ -17,6 +18,7 @@ except ImportError as exc:  # pragma: no cover - import error path
         "PyYAML is required for the wrapper CLI. Install dependencies with 'python -m pip install -r requirements.txt'."
     ) from exc
 
+from format_ancora_style_corpus import DEFAULT_SEGMENT_MARKER, format_corpus
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PYTHON = sys.executable
@@ -87,6 +89,123 @@ def csv_row_count(path: Path) -> int:
         return sum(1 for _ in csv.reader(handle))
 
 
+def validate_positive(name: str, value: int) -> None:
+    if value < 1:
+        raise PipelineError(f"{name} must be at least 1, got {value}.")
+
+
+def distribute_integer(total: int, parts: int) -> list[int]:
+    validate_positive("parts", parts)
+    if total < 0:
+        raise PipelineError(f"total must be non-negative, got {total}.")
+
+    base = total // parts
+    remainder = total % parts
+    return [base + (1 if index < remainder else 0) for index in range(parts)]
+
+
+def touch_file(path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("", encoding="utf-8")
+
+
+def append_text_file(source: Path, destination: Path) -> None:
+    if not source.exists() or source.stat().st_size == 0:
+        return
+
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    needs_separator = destination.exists() and destination.stat().st_size > 0
+
+    with (
+        source.open("r", encoding="utf-8") as source_handle,
+        destination.open("a", encoding="utf-8") as destination_handle,
+    ):
+        if needs_separator:
+            destination_handle.write("\n")
+        shutil.copyfileobj(source_handle, destination_handle)
+
+
+def append_csv_file(
+    source: Path,
+    destination: Path,
+    row_transform: callable | None = None,
+) -> None:
+    if not source.exists():
+        return
+
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    with (
+        source.open("r", encoding="utf-8") as source_handle,
+        destination.open("a", newline="", encoding="utf-8") as destination_handle,
+    ):
+        reader = csv.reader(source_handle)
+        writer = csv.writer(destination_handle)
+        for row in reader:
+            if row_transform is not None:
+                row = row_transform(row)
+            writer.writerow(row)
+
+
+def add_sentence_offset(row: list[str], sentence_offset: int) -> list[str]:
+    if not row:
+        return row
+    updated = list(row)
+    updated[0] = str(int(updated[0]) + sentence_offset)
+    return updated
+
+
+def count_ancora_style_lines(input_path: Path) -> int:
+    with input_path.open("r", encoding="utf-8") as handle:
+        return sum(1 for line in handle if line.startswith("# text = "))
+
+
+def split_ancora_style_input(
+    input_path: Path, output_dir: Path, workers: int
+) -> list[dict[str, str | int]]:
+    total_lines = count_ancora_style_lines(input_path)
+    if total_lines == 0:
+        raise PipelineError(f"No '# text = ' lines were found in {input_path}")
+
+    worker_count = min(workers, total_lines)
+    chunk_sizes = distribute_integer(total_lines, worker_count)
+    specs: list[dict[str, str | int]] = []
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    with input_path.open("r", encoding="utf-8") as source_handle:
+        chunk_index = 0
+        remaining_in_chunk = chunk_sizes[chunk_index]
+        chunk_path = output_dir / f"chunk-{chunk_index + 1:03d}.txt"
+        chunk_handle = chunk_path.open("w", encoding="utf-8")
+
+        try:
+            for line in source_handle:
+                if not line.startswith("# text = "):
+                    continue
+
+                chunk_handle.write(line if line.endswith("\n") else f"{line}\n")
+                remaining_in_chunk -= 1
+
+                if remaining_in_chunk == 0:
+                    chunk_handle.close()
+                    specs.append(
+                        {
+                            "chunk_path": str(chunk_path),
+                            "sentence_count": chunk_sizes[chunk_index],
+                        }
+                    )
+                    chunk_index += 1
+                    if chunk_index >= len(chunk_sizes):
+                        break
+                    remaining_in_chunk = chunk_sizes[chunk_index]
+                    chunk_path = output_dir / f"chunk-{chunk_index + 1:03d}.txt"
+                    chunk_handle = chunk_path.open("w", encoding="utf-8")
+        finally:
+            if not chunk_handle.closed:
+                chunk_handle.close()
+
+    return specs
+
+
 def load_yaml(path: Path) -> dict:
     with path.open("r", encoding="utf-8") as handle:
         data = yaml.safe_load(handle)
@@ -147,7 +266,243 @@ def print_run_summary(mode: str, run_dir: Path, artifacts: dict[str, Path]) -> N
         print(f"- {label}: {artifact}")
 
 
+def run_format_corpus_pipeline(args: argparse.Namespace) -> None:
+    input_path = resolve_repo_path(args.input)
+    output_path = resolve_repo_path(args.output)
+    written = format_corpus(
+        input_path=input_path,
+        output_path=output_path,
+        segment_marker=args.segment_marker,
+        min_words=args.min_words,
+        max_records=args.max_records,
+        max_sentences=args.max_sentences,
+    )
+
+    if written == 0:
+        raise PipelineError(
+            f"Formatting {input_path} produced no '# text = ' lines. Adjust the input or formatter options."
+        )
+
+    print_run_summary(
+        "format-corpus",
+        output_path.parent,
+        {
+            "input": input_path,
+            "formatted output": output_path,
+        },
+    )
+
+
+def synthetic_worker_seed(seed: int | None, worker_index: int) -> int | None:
+    if seed is None:
+        return None
+    return seed + worker_index
+
+
+def run_synthetic_worker(
+    worker_dir_str: str,
+    feature_grammar_path_str: str,
+    cfg_grammar_path_str: str,
+    candidate_count: int,
+    max_translations: int,
+    seed: int | None,
+) -> dict[str, str]:
+    worker_dir = Path(worker_dir_str)
+    feature_grammar_path = Path(feature_grammar_path_str)
+    cfg_grammar_path = Path(cfg_grammar_path_str)
+
+    generated_sentences_path = worker_dir / "output.txt"
+    trees_path = worker_dir / "trees.txt"
+    translations_path = worker_dir / "translations.csv"
+
+    worker_dir.mkdir(parents=True, exist_ok=True)
+
+    generation_command = [
+        PYTHON,
+        "weighted-generate-sentences.py",
+        "-n",
+        str(candidate_count),
+        "-o",
+        str(generated_sentences_path),
+        str(cfg_grammar_path),
+        str(feature_grammar_path),
+        "-t",
+        str(trees_path),
+    ]
+    if seed is not None:
+        generation_command += ["--seed", str(seed)]
+
+    run_command(generation_command, cwd=REPO_ROOT / "grammar")
+
+    if line_count(trees_path) == 0:
+        touch_file(translations_path)
+        return {
+            "generated_sentences_path": str(generated_sentences_path),
+            "trees_path": str(trees_path),
+            "translations_path": str(translations_path),
+        }
+
+    run_command(
+        [
+            PYTHON,
+            "-m",
+            "translate.translate_trees",
+            str(trees_path),
+            "rules.json",
+            "-o",
+            str(translations_path),
+            "--max-translations",
+            str(max_translations),
+        ],
+        cwd=REPO_ROOT / "grammar" / "guarani",
+    )
+
+    return {
+        "generated_sentences_path": str(generated_sentences_path),
+        "trees_path": str(trees_path),
+        "translations_path": str(translations_path),
+    }
+
+
+def run_corpus_worker(
+    worker_dir_str: str,
+    input_path_str: str,
+    grammar_version: str,
+) -> dict[str, str]:
+    worker_dir = Path(worker_dir_str)
+    input_path = Path(input_path_str)
+    grammar_dir = REPO_ROOT / "grammar" / "ancora" / grammar_version
+    feature_grammar_path = grammar_dir / "feature-grammar.txt"
+
+    extracted_path = worker_dir / "extracted.csv"
+    trees_path = worker_dir / "trees.txt"
+    indices_path = worker_dir / "indices.csv"
+    indices_out_path = worker_dir / "indices_out.csv"
+    unparsed_path = worker_dir / "unparsed.txt"
+    translations_path = worker_dir / "translations.csv"
+    untranslated_path = worker_dir / "untranslated.csv"
+    output_path = worker_dir / "output.csv"
+
+    worker_dir.mkdir(parents=True, exist_ok=True)
+
+    run_command(
+        [
+            PYTHON,
+            "../parsing-subtrees/extract-ancora-sentences.py",
+            str(input_path),
+            str(extracted_path),
+        ],
+        cwd=REPO_ROOT / "grammar" / "ancora",
+    )
+
+    run_command(
+        [
+            PYTHON,
+            "../../parsing-subtrees/parse-subtrees-3.py",
+            "--grammar",
+            str(feature_grammar_path),
+            "--input",
+            str(extracted_path),
+            "--output",
+            str(trees_path),
+            "--indices",
+            str(indices_path),
+            "--nonparsed",
+            str(unparsed_path),
+        ],
+        cwd=grammar_dir,
+    )
+
+    if not indices_path.exists():
+        touch_file(indices_path)
+    if not unparsed_path.exists():
+        touch_file(unparsed_path)
+
+    if line_count(trees_path) == 0:
+        touch_file(indices_out_path)
+        touch_file(translations_path)
+        touch_file(untranslated_path)
+        touch_file(output_path)
+        return {
+            "extracted_path": str(extracted_path),
+            "trees_path": str(trees_path),
+            "indices_path": str(indices_path),
+            "indices_out_path": str(indices_out_path),
+            "unparsed_path": str(unparsed_path),
+            "translations_path": str(translations_path),
+            "untranslated_path": str(untranslated_path),
+            "output_path": str(output_path),
+        }
+
+    run_command(
+        [
+            PYTHON,
+            "-m",
+            "translate.translate_ancora",
+            str(trees_path),
+            "rules-ancora.json",
+            "-o",
+            str(translations_path),
+            "--indices",
+            str(indices_path),
+        ],
+        cwd=REPO_ROOT / "grammar" / "guarani",
+        stdout_path=untranslated_path,
+    )
+
+    if not indices_out_path.exists():
+        generated_indices_out = indices_path.with_name(indices_path.stem + "_out.csv")
+        if generated_indices_out.exists():
+            generated_indices_out.replace(indices_out_path)
+        else:
+            touch_file(indices_out_path)
+
+    if csv_row_count(translations_path) == 0:
+        touch_file(output_path)
+        return {
+            "extracted_path": str(extracted_path),
+            "trees_path": str(trees_path),
+            "indices_path": str(indices_path),
+            "indices_out_path": str(indices_out_path),
+            "unparsed_path": str(unparsed_path),
+            "translations_path": str(translations_path),
+            "untranslated_path": str(untranslated_path),
+            "output_path": str(output_path),
+        }
+
+    run_command(
+        [
+            PYTHON,
+            "embed-guarani.py",
+            "--indices",
+            str(indices_out_path),
+            "--extracted",
+            str(extracted_path),
+            "--translations",
+            str(translations_path),
+            "--output",
+            str(output_path),
+        ],
+        cwd=REPO_ROOT / "grammar" / "ancora",
+    )
+
+    return {
+        "extracted_path": str(extracted_path),
+        "trees_path": str(trees_path),
+        "indices_path": str(indices_path),
+        "indices_out_path": str(indices_out_path),
+        "unparsed_path": str(unparsed_path),
+        "translations_path": str(translations_path),
+        "untranslated_path": str(untranslated_path),
+        "output_path": str(output_path),
+    }
+
+
 def run_synthetic_pipeline(args: argparse.Namespace) -> None:
+    validate_positive("workers", args.workers)
+    validate_positive("candidate-count", args.candidate_count)
+    validate_positive("max-translations", args.max_translations)
+
     output_dir = resolve_repo_path(args.output_dir)
     run_name = args.run_name or timestamped_name("synthetic")
     run_dir = output_dir / "synthetic" / run_name
@@ -200,45 +555,62 @@ def run_synthetic_pipeline(args: argparse.Namespace) -> None:
         cwd=REPO_ROOT / "grammar",
     )
 
-    generation_command = [
-        PYTHON,
-        "weighted-generate-sentences.py",
-        "-n",
-        str(args.candidate_count),
-        "-o",
-        str(generated_sentences_path),
-        str(cfg_grammar_path),
-        str(feature_grammar_path),
-        "-t",
-        str(trees_path),
-    ]
-    if args.seed is not None:
-        generation_command += ["--seed", str(args.seed)]
-
-    run_command(generation_command, cwd=REPO_ROOT / "grammar")
-
-    if line_count(trees_path) == 0:
-        raise PipelineError(
-            "Synthetic generation produced no parseable trees. Increase --candidate-count or choose a different --subject."
+    if args.workers == 1:
+        run_synthetic_worker(
+            worker_dir_str=str(run_dir),
+            feature_grammar_path_str=str(feature_grammar_path),
+            cfg_grammar_path_str=str(cfg_grammar_path),
+            candidate_count=args.candidate_count,
+            max_translations=args.max_translations,
+            seed=args.seed,
         )
+    else:
+        worker_root = run_dir / "workers"
+        worker_counts = [
+            count
+            for count in distribute_integer(
+                args.candidate_count, min(args.workers, args.candidate_count)
+            )
+            if count > 0
+        ]
+        worker_root.mkdir(parents=True, exist_ok=True)
 
-    run_command(
-        [
-            PYTHON,
-            "-m",
-            "translate.translate_trees",
-            str(trees_path),
-            "rules.json",
-            "-o",
-            str(translations_path),
-            "--max-translations",
-            str(args.max_translations),
-        ],
-        cwd=REPO_ROOT / "grammar" / "guarani",
-    )
+        futures = []
+        with ProcessPoolExecutor(max_workers=len(worker_counts)) as executor:
+            for worker_index, worker_count in enumerate(worker_counts, start=1):
+                worker_dir = worker_root / f"worker-{worker_index:03d}"
+                futures.append(
+                    executor.submit(
+                        run_synthetic_worker,
+                        str(worker_dir),
+                        str(feature_grammar_path),
+                        str(cfg_grammar_path),
+                        worker_count,
+                        args.max_translations,
+                        synthetic_worker_seed(args.seed, worker_index - 1),
+                    )
+                )
+
+        touch_file(generated_sentences_path)
+        touch_file(trees_path)
+        touch_file(translations_path)
+
+        for future in futures:
+            worker_result = future.result()
+            append_text_file(
+                Path(worker_result["generated_sentences_path"]),
+                generated_sentences_path,
+            )
+            append_text_file(Path(worker_result["trees_path"]), trees_path)
+            append_csv_file(Path(worker_result["translations_path"]), translations_path)
 
     if csv_row_count(translations_path) == 0:
         raise PipelineError("Synthetic translation produced an empty CSV output.")
+
+    if line_count(trees_path) == 0:
+        raise PipelineError(
+            "Synthetic generation produced no parseable trees. Increase --candidate-count, raise --workers, or choose a different --subject."
+        )
 
     print_run_summary(
         "synthetic",
@@ -255,6 +627,8 @@ def run_synthetic_pipeline(args: argparse.Namespace) -> None:
 
 
 def run_ancora_pipeline(args: argparse.Namespace) -> None:
+    validate_positive("workers", args.workers)
+
     output_dir = resolve_repo_path(args.output_dir)
     run_name = args.run_name or timestamped_name("ancora")
     run_dir = output_dir / "ancora" / run_name
@@ -283,81 +657,76 @@ def run_ancora_pipeline(args: argparse.Namespace) -> None:
     untranslated_path = run_dir / "untranslated.csv"
     output_path = run_dir / "output.csv"
 
-    run_command(
-        [
-            PYTHON,
-            "../parsing-subtrees/extract-ancora-sentences.py",
-            str(effective_input),
-            str(extracted_path),
-        ],
-        cwd=REPO_ROOT / "grammar" / "ancora",
-    )
+    if args.workers == 1:
+        run_corpus_worker(
+            worker_dir_str=str(run_dir),
+            input_path_str=str(effective_input),
+            grammar_version=args.grammar_version,
+        )
+    else:
+        chunk_specs = split_ancora_style_input(
+            effective_input, run_dir / "chunks", args.workers
+        )
+        worker_root = run_dir / "workers"
+        worker_root.mkdir(parents=True, exist_ok=True)
 
-    run_command(
-        [
-            PYTHON,
-            "../../parsing-subtrees/parse-subtrees-3.py",
-            "--grammar",
-            str(feature_grammar_path),
-            "--input",
-            str(extracted_path),
-            "--output",
-            str(trees_path),
-            "--indices",
-            str(indices_path),
-            "--nonparsed",
-            str(unparsed_path),
-        ],
-        cwd=grammar_dir,
-    )
+        futures = []
+        with ProcessPoolExecutor(max_workers=len(chunk_specs)) as executor:
+            for worker_index, chunk_spec in enumerate(chunk_specs, start=1):
+                worker_dir = worker_root / f"worker-{worker_index:03d}"
+                futures.append(
+                    executor.submit(
+                        run_corpus_worker,
+                        str(worker_dir),
+                        str(chunk_spec["chunk_path"]),
+                        args.grammar_version,
+                    )
+                )
+
+        touch_file(extracted_path)
+        touch_file(trees_path)
+        touch_file(indices_path)
+        touch_file(indices_out_path)
+        touch_file(unparsed_path)
+        touch_file(translations_path)
+        touch_file(untranslated_path)
+        touch_file(output_path)
+
+        sentence_offset = 0
+        for chunk_spec, future in zip(chunk_specs, futures):
+            worker_result = future.result()
+            append_csv_file(Path(worker_result["extracted_path"]), extracted_path)
+            append_text_file(Path(worker_result["trees_path"]), trees_path)
+            append_csv_file(
+                Path(worker_result["indices_path"]),
+                indices_path,
+                row_transform=lambda row, offset=sentence_offset: add_sentence_offset(
+                    row, offset
+                ),
+            )
+            append_csv_file(
+                Path(worker_result["indices_out_path"]),
+                indices_out_path,
+                row_transform=lambda row, offset=sentence_offset: add_sentence_offset(
+                    row, offset
+                ),
+            )
+            append_text_file(Path(worker_result["unparsed_path"]), unparsed_path)
+            append_csv_file(Path(worker_result["translations_path"]), translations_path)
+            append_text_file(
+                Path(worker_result["untranslated_path"]), untranslated_path
+            )
+            append_csv_file(Path(worker_result["output_path"]), output_path)
+            sentence_offset += int(chunk_spec["sentence_count"])
 
     if line_count(trees_path) == 0:
-        raise PipelineError("Ancora parsing produced no trees.")
-
-    run_command(
-        [
-            PYTHON,
-            "-m",
-            "translate.translate_ancora",
-            str(trees_path),
-            "rules-ancora.json",
-            "-o",
-            str(translations_path),
-            "--indices",
-            str(indices_path),
-        ],
-        cwd=REPO_ROOT / "grammar" / "guarani",
-        stdout_path=untranslated_path,
-    )
-
-    if not indices_out_path.exists():
-        generated_indices_out = indices_path.with_name(indices_path.stem + "_out.csv")
-        if generated_indices_out.exists():
-            generated_indices_out.replace(indices_out_path)
-        else:
-            raise PipelineError("Ancora translation did not generate indices_out.csv")
-
-    run_command(
-        [
-            PYTHON,
-            "embed-guarani.py",
-            "--indices",
-            str(indices_out_path),
-            "--extracted",
-            str(extracted_path),
-            "--translations",
-            str(translations_path),
-            "--output",
-            str(output_path),
-        ],
-        cwd=REPO_ROOT / "grammar" / "ancora",
-    )
+        raise PipelineError("Corpus parsing produced no trees.")
 
     if csv_row_count(output_path) == 0:
-        raise PipelineError("Ancora embedding produced an empty CSV output.")
+        raise PipelineError("Corpus embedding produced an empty CSV output.")
 
     print_run_summary(
-        "ancora",
+        getattr(args, "mode_label", "corpus"),
         run_dir,
         {
             "effective input": effective_input,
@@ -379,10 +748,44 @@ def build_parser() -> argparse.ArgumentParser:
     )
     subparsers = parser.add_subparsers(dest="mode", required=True)
 
+    format_corpus_parser = subparsers.add_parser(
+        "format-corpus",
+        help="Convert a raw corpus into the Ancora-style '# text = ...' format",
+    )
+    format_corpus_parser.add_argument("--input", required=True, help="Raw input file")
+    format_corpus_parser.add_argument(
+        "--output", required=True, help="Formatted output file"
+    )
+    format_corpus_parser.add_argument(
+        "--segment-marker",
+        default=DEFAULT_SEGMENT_MARKER,
+        help="Marker used to split logical segments inside each input record",
+    )
+    format_corpus_parser.add_argument(
+        "--min-words",
+        type=int,
+        default=4,
+        help="Minimum token count required for an emitted '# text = ...' line",
+    )
+    format_corpus_parser.add_argument(
+        "--max-records",
+        type=int,
+        default=None,
+        help="Optional limit on raw input records for a quick smoke run",
+    )
+    format_corpus_parser.add_argument(
+        "--max-sentences",
+        type=int,
+        default=None,
+        help="Optional limit on emitted formatted sentences for a quick smoke run",
+    )
+    format_corpus_parser.set_defaults(handler=run_format_corpus_pipeline)
+
     synthetic = subparsers.add_parser(
         "synthetic",
         help="Run the synthetic corpus pipeline",
     )
+    synthetic.set_defaults(handler=run_synthetic_pipeline)
     synthetic.add_argument(
         "--grammar-name",
         default="ninth-grammar",
@@ -432,15 +835,23 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Replace an existing run directory with the same name",
     )
+    synthetic.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Number of worker processes used for weighted generation and translation",
+    )
 
     ancora = subparsers.add_parser(
         "ancora",
-        help="Run the Ancora corpus pipeline",
+        aliases=["corpus"],
+        help="Run the Ancora-style corpus pipeline on any file containing '# text = ...' lines",
     )
+    ancora.set_defaults(handler=run_ancora_pipeline, mode_label="corpus")
     ancora.add_argument(
         "--input",
         default="ancora/ancora-sentences/ancora_all.txt",
-        help="Ancora source file containing '# text = ...' lines",
+        help="Input file containing '# text = ...' lines",
     )
     ancora.add_argument(
         "--grammar-version",
@@ -466,6 +877,12 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Replace an existing run directory with the same name",
     )
+    ancora.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Number of worker processes used to split and process the input corpus",
+    )
 
     return parser
 
@@ -475,12 +892,7 @@ def main() -> int:
     args = parser.parse_args()
 
     try:
-        if args.mode == "synthetic":
-            run_synthetic_pipeline(args)
-        elif args.mode == "ancora":
-            run_ancora_pipeline(args)
-        else:  # pragma: no cover - argparse prevents this path
-            parser.error(f"Unknown mode: {args.mode}")
+        args.handler(args)
     except PipelineError as exc:
         print(f"\nPipeline failed: {exc}", file=sys.stderr)
         return 1
