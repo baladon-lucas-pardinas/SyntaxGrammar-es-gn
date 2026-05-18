@@ -1,0 +1,43 @@
+# Sample Configuration File
+
+# Path to the verb lexicon file.
+# This file should contain a list of verbs.
+verbs: path/to/verb/lexicon.txt
+
+# Path to the noun lexicon file.
+# This file should contain a list of nouns.
+nouns: path/to/noun/lexicon.txt
+
+# Path to the transitivities file.
+# This file should contain transitivities information.
+transitivities: path/to/transitivities/file.txt
+
+# Path to the adverb lexicon file (optional).
+# This file should contain a list of adverbs.
+# If not specified, adverbs will not be used.
+adverbs: path/to/adverb/lexicon.txt
+
+# Path to the adjective lexicon file (optional).
+# This file should contain a list of adjectives.
+# If not specified, adjectives will not be used.
+adjectives: path/to/adjective/lexicon.txt
+
+# Path to the determiner lexicon file (optional).
+# This file should contain a list of determiners.
+# If not specified, determiners will not be used.
+determiners: path/to/determiner/lexicon.txt
+
+# Path to the pronoun lexicon file (optional).
+# This file should contain a list of pronouns.
+# If not specified, pronouns will not be used.
+pronouns: path/to/pronoun/lexicon.txt
+
+# Path to the preposition lexicon file (optional).
+# This file should contain a list of prepositions.
+# If not specified, prepositions will not be used.
+adpositions: path/to/preposition/lexicon.txt
+
+# Path to the output file (optional, default: 'output.txt').
+# This file will store the program's output.
+# If not specified, the default file name 'output.txt' will be used.
+output: path/to/output/file.txt

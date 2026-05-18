@@ -36,6 +36,8 @@ Useful options:
 
 `--subject` chooses the feature grammar subject profile (`pronoun`, `np`, `adj`, `all`).
 
+`--grammar-name` selects the grammar generator under `grammar/grammars`.
+
 `--candidate-count` controls how many CFG candidates are generated before feature-grammar validation.
 
 `--seed` makes generation reproducible.
@@ -62,6 +64,22 @@ Outputs will be written to:
 
 `runs/ancora/<run-name>/`
 
+### Adverb-Enabled Runs
+
+Run the synthetic pipeline with adverb support enabled:
+
+`python scripts/run_pipeline.py synthetic --grammar-name tenth-grammar --run-name demo-synthetic-adverbs --subject pronoun --candidate-count 500 --max-translations 1 --seed 7`
+
+Run the Ancora pipeline with the adverb-enabled grammar:
+
+`python scripts/run_pipeline.py ancora --grammar-version v10 --run-name demo-ancora-adverbs --max-sentences 25`
+
+Regenerate the curated adverb lexicon from `bilingual-dictionaries/dicc_dc.txt` when needed:
+
+`python spanish/freeling-dict-scripts/extract-adverbs.py`
+
+This writes the runtime adverb inventory to `guarani/adverbs/adverbs.csv`.
+
 ## Smoke Tests
 
 These smoke tests run the wrapper on small inputs and verify that the expected artifacts are produced.
@@ -73,6 +91,10 @@ Run the synthetic smoke test:
 Run the Ancora smoke test:
 
 `python scripts/smoke_test_ancora.py`
+
+Run the adverb smoke test:
+
+`python scripts/smoke_test_adverbs.py`
 
 Run both smoke tests:
 

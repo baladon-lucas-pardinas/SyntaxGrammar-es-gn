@@ -153,7 +153,15 @@ def run_synthetic_pipeline(args: argparse.Namespace) -> None:
     run_dir = output_dir / "synthetic" / run_name
     ensure_clean_run_dir(run_dir, args.overwrite)
 
-    base_config_path = resolve_repo_path(args.grammar_config)
+    grammar_dir = REPO_ROOT / "grammar" / "grammars" / args.grammar_name
+    if not grammar_dir.exists():
+        raise PipelineError(f"Synthetic grammar directory not found: {grammar_dir}")
+
+    if args.grammar_config is not None:
+        base_config_path = resolve_repo_path(args.grammar_config)
+    else:
+        base_config_path = grammar_dir / "config.yaml"
+
     word_weights_path = resolve_repo_path(args.word_weights)
 
     feature_grammar_path = run_dir / "feature-grammar.txt"
@@ -171,7 +179,7 @@ def run_synthetic_pipeline(args: argparse.Namespace) -> None:
     run_command(
         [
             PYTHON,
-            "ninth-grammar/create-featgram.py",
+            f"{args.grammar_name}/create-featgram.py",
             "-c",
             str(feature_config_path),
             "-s",
@@ -376,6 +384,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="Run the synthetic corpus pipeline",
     )
     synthetic.add_argument(
+        "--grammar-name",
+        default="ninth-grammar",
+        help="Grammar generator directory under grammar/grammars",
+    )
+    synthetic.add_argument(
         "--subject",
         choices=["pronoun", "np", "adj", "all"],
         default="all",
@@ -395,8 +408,8 @@ def build_parser() -> argparse.ArgumentParser:
     )
     synthetic.add_argument(
         "--grammar-config",
-        default="grammar/grammars/ninth-grammar/config.yaml",
-        help="Base feature grammar config file",
+        default=None,
+        help="Base feature grammar config file; defaults to <grammar-name>/config.yaml",
     )
     synthetic.add_argument(
         "--word-weights",

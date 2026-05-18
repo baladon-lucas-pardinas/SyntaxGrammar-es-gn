@@ -44,11 +44,20 @@
     "VP -> V": [
         "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p']"
     ],
+    "VP -> V R": [
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p'] R"
+    ],
     "VP -> V NP": [
         "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p'] NP"
     ],
+    "VP -> V R NP": [
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p'] R NP"
+    ],
     "VP -> V NP PPA": [
         "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p'] NP PPA"
+    ],
+    "VP -> V R NP PPA": [
+        "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='0', POS='?p'] R NP PPA"
     ],
     "VP -> NEG V": [
         "VP[AGR='?a', POS='?p'] -> V[AGR='?a', NEG='1', POS='?p']"

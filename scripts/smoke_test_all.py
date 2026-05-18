@@ -13,6 +13,7 @@ def main() -> int:
     scripts = [
         REPO_ROOT / "scripts" / "smoke_test_synthetic.py",
         REPO_ROOT / "scripts" / "smoke_test_ancora.py",
+        REPO_ROOT / "scripts" / "smoke_test_adverbs.py",
     ]
 
     for script in scripts:

@@ -1,0 +1,3 @@
+# text = Él abandona solo.
+# text = Él abandona solo la casa.
+# text = Él abandona solo la casa a la mujer.
